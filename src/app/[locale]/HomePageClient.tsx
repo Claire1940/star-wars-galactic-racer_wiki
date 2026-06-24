@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, type ReactNode } from "react";
 import {
   ArrowRight,
   BookOpen,
@@ -28,6 +28,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -56,11 +57,40 @@ const TOOLS_SECTION_IDS = [
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
   locale: string;
+  moduleLinkMap?: ModuleLinkMap;
+}
+
+// 模块 h2 标题：有对应文章链接时渲染为可点击链接，否则渲染纯文本
+function LinkedH2({
+  href,
+  locale,
+  children,
+  className,
+}: {
+  href?: string | null;
+  locale: string;
+  children: ReactNode;
+  className?: string;
+}) {
+  if (!href) return <h2 className={className}>{children}</h2>;
+  // 非 en 语言加 locale 前缀（en 经 CI promote-en 提升到根）
+  const fullHref = locale === "en" ? href : `/${locale}${href}`;
+  return (
+    <h2 className={className}>
+      <Link
+        href={fullHref}
+        className="transition-colors hover:text-[hsl(var(--nav-theme))]"
+      >
+        {children}
+      </Link>
+    </h2>
+  );
 }
 
 export default function HomePageClient({
   latestArticles,
   locale,
+  moduleLinkMap,
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
@@ -291,9 +321,13 @@ export default function HomePageClient({
                 {t.modules.swgrReleaseDatePlatforms.eyebrow}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["swgrReleaseDatePlatforms"]?.url}
+              locale={locale}
+              className="text-3xl md:text-5xl font-bold mb-3 md:mb-4"
+            >
               {t.modules.swgrReleaseDatePlatforms.title}
-            </h2>
+            </LinkedH2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.swgrReleaseDatePlatforms.intro}
             </p>
@@ -343,9 +377,13 @@ export default function HomePageClient({
                 {t.modules.swgrEditionsAndBonuses.eyebrow}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["swgrEditionsAndBonuses"]?.url}
+              locale={locale}
+              className="text-3xl md:text-5xl font-bold mb-4"
+            >
               {t.modules.swgrEditionsAndBonuses.title}
-            </h2>
+            </LinkedH2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.swgrEditionsAndBonuses.intro}
             </p>
@@ -396,9 +434,13 @@ export default function HomePageClient({
                 {t.modules.swgrTrailerAndNewsTimeline.eyebrow}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["swgrTrailerAndNewsTimeline"]?.url}
+              locale={locale}
+              className="text-3xl md:text-5xl font-bold mb-4"
+            >
               {t.modules.swgrTrailerAndNewsTimeline.title}
-            </h2>
+            </LinkedH2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.swgrTrailerAndNewsTimeline.intro}
             </p>
@@ -442,9 +484,13 @@ export default function HomePageClient({
                 {t.modules.swgrGameplayModes.eyebrow}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["swgrGameplayModes"]?.url}
+              locale={locale}
+              className="text-3xl md:text-5xl font-bold mb-4"
+            >
               {t.modules.swgrGameplayModes.title}
-            </h2>
+            </LinkedH2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.swgrGameplayModes.intro}
             </p>
@@ -502,9 +548,13 @@ export default function HomePageClient({
                 {t.modules.swgrBeginnerGuide.eyebrow}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["swgrBeginnerGuide"]?.url}
+              locale={locale}
+              className="text-3xl md:text-5xl font-bold mb-4"
+            >
               {t.modules.swgrBeginnerGuide.title}
-            </h2>
+            </LinkedH2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.swgrBeginnerGuide.intro}
             </p>
@@ -562,9 +612,13 @@ export default function HomePageClient({
                 {t.modules.swgrVehiclesAndCustomization.eyebrow}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["swgrVehiclesAndCustomization"]?.url}
+              locale={locale}
+              className="text-3xl md:text-5xl font-bold mb-4"
+            >
               {t.modules.swgrVehiclesAndCustomization.title}
-            </h2>
+            </LinkedH2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.swgrVehiclesAndCustomization.intro}
             </p>
@@ -615,9 +669,13 @@ export default function HomePageClient({
                 {t.modules.swgrTracksAndPlanets.eyebrow}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["swgrTracksAndPlanets"]?.url}
+              locale={locale}
+              className="text-3xl md:text-5xl font-bold mb-4"
+            >
               {t.modules.swgrTracksAndPlanets.title}
-            </h2>
+            </LinkedH2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.swgrTracksAndPlanets.intro}
             </p>
@@ -664,9 +722,13 @@ export default function HomePageClient({
                 {t.modules.swgrSystemRequirements.eyebrow}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
+            <LinkedH2
+              href={moduleLinkMap?.["swgrSystemRequirements"]?.url}
+              locale={locale}
+              className="text-3xl md:text-5xl font-bold mb-4"
+            >
               {t.modules.swgrSystemRequirements.title}
-            </h2>
+            </LinkedH2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
               {t.modules.swgrSystemRequirements.intro}
             </p>
