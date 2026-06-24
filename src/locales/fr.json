@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "release": "Sortie",
+    "platforms": "Plateformes",
+    "editions": "Éditions",
+    "multiplayer": "Multijoueur",
+    "gameplay": "Gameplay",
+    "guide": "Guide",
+    "vehicles": "Véhicules"
+  }
+}

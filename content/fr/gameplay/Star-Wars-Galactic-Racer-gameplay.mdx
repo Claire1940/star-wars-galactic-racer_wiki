@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gameplay de Star Wars Galactic Racer : Guide de course de la Bordure Extérieure",
+  description: "Maîtrisez le gameplay intense de Star Wars Galactic Racer. Découvrez les classes de véhicules, les voies d'amélioration, la progression de la campagne, les dangers des circuits et la configuration PC requise.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Galactic+Racer+Gameplay+Guide",
+  date: "2026-06-24",
+  author: "L'équipe du Wiki Star Wars Galactic Racer"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Objectif principal du gameplay** : Maîtriser les courses d'engins à répulsion à enjeux élevés et basées sur des sessions à travers les circuits dangereux de la Bordure Extérieure.
+- **Mécanique clé** : Gérer l'équilibre entre la vitesse de la postcombustion (Afterburner), les boosts de risques du statoréacteur (Ramjet) et la surchauffe du véhicule.
+- **Meilleure stratégie** : Prioriser les améliorations de maniabilité dans les virages au début de la campagne pour éviter les collisions dévastatrices contre les murs.
+- **Conseil crucial** : Protégez soigneusement vos jetons d'entrée de ligue (League Entry Tokens), car leur perte réinitialise la progression de votre tournée active.
+- **Meilleur choix** : Commencer avec la classe de châssis Landspeeder pour une maniabilité en dérive fiable et une défense supérieure lors des contacts.
+</Callout>
+
+<Section icon={Map} title="Gameplay de Star Wars Galactic Racer : Mécaniques de base et commandes">
+
+Maîtriser le **gameplay intense de Star Wars Galactic Racer** nécessite une solide compréhension de la physique des engins à répulsion à grande vitesse, des mécaniques de contact agressives et d'une gestion tactique des ressources. Développé par Fuse Games et publié par Secret Mode, ce titre s'éloigne des courses d'arcade traditionnelles en introduisant une boucle de type rogue-lite basée sur des sessions, située dans les confins sans foi ni loi de la Bordure Extérieure. Les joueurs doivent piloter des speeders rapides tout en repoussant des pilotes rivaux prêts à envoyer leurs adversaires dans les parois des canyons.
+
+Le modèle de conduite de base s'articule autour des profils de maniabilité uniques de trois classes de châssis principales. Contrairement aux véhicules standards, les engins à répulsion flottent au-dessus du sol, ce qui signifie que l'inertie, l'inclinaison et les angles de dérive dictent votre succès sur la piste. Comprendre quand glisser dans un virage et quand activer votre impulsion cinétique fait toute la différence entre monter sur le podium et finir à la casse.
+
+| Classe de châssis | Profil de maniabilité | Trait spécial | Meilleur cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| Landspeeder | Lourd, axé sur la dérive | Dérive | Courses avec beaucoup de contacts et pistes étroites et sinueuses |
+| Speeder Bike | Vitesse élevée en ligne droite | Impulsion cinétique | Longues lignes droites et opportunités de dépassement soudaines |
+| Skim Speeder | Inclinaison prononcée et technique | Fil du rasoir | Trajectoires très techniques nécessitant des lignes précises |
+
+<Callout type="tip" title="Conseil de maniabilité">
+Si vous avez du mal avec la sensation de flottement et de légèreté des engins à répulsion, passez vos premières courses à bord d'un Landspeeder. Son profil plus lourd offre une courbe d'apprentissage plus tolérante pour gérer les collisions à grande vitesse.
+</Callout>
+
+Chaque véhicule repose sur deux systèmes de boost distincts : la postcombustion (Afterburner) et le statoréacteur (Ramjet). La postcombustion offre des augmentations de vitesse reproductibles et contrôlées qui puisent dans votre batterie embarquée. Le statoréacteur, en revanche, fournit une violente accélération idéale pour percuter les adversaires ou effectuer des dépassements désespérés à la dernière seconde. Cependant, trop compter sur le statoréacteur présente un risque important de surchauffe qui peut désactiver temporairement vos moteurs.
+
+</Section>
+
+<Section icon={Swords} title="Campagne de la tournée galactique et progression par session">
+
+Le cœur de l'expérience solo est la Tournée Galactique, une campagne basée sur des sessions où vous guidez un pilote prometteur nommé Shade. Votre objectif est de gravir les échelons de la Ligue Galactique et de défier le redoutable rival Kestar Bool. La progression est structurée autour d'événements à embranchements, où chaque choix comporte un risque important.
+
+Au cours d'une tournée, vous devez gérer vos jetons d'entrée de ligue (League Entry Tokens). Ces jetons vous donnent accès aux événements de haut niveau. Ne pas terminer dans les trois premiers ou détruire complètement votre véhicule peut entraîner le retrait de votre jeton, mettant fin à votre session actuelle. Bien qu'une tournée ratée vous oblige à recommencer une nouvelle session, vous conservez les crédits galactiques gagnés et certains déblocages permanents, ce qui vous permet d'acheter de meilleures pièces chez les marchands pour votre prochaine tentative.
+
+<CardGrid cols={3}>
+  <Card title="Tournée de campagne">
+    - **Récit solo**
+    - Structure de session rogue-lite
+    - Conservation permanente des crédits
+  </Card>
+  <Card title="Événements Arcade">
+    - **Modes de défi sélectionnés**
+    - Présentations de personnages emblématiques
+    - Terrains d'entraînement sans risque
+  </Card>
+  <Card title="Matchs de rancune PvP">
+    - **Multijoueur compétitif**
+    - Matchs de réputation à enjeux élevés
+    - Prise en charge des salons en ligne
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Préservation de la session">
+Ne risquez pas votre dernier jeton d'entrée de ligue dans un événement avancé si votre véhicule est lourdement endommagé. Visitez d'abord le vendeur du paddock pour réparer votre coque, même si cela retarde votre calendrier d'améliorations.
+</Callout>
+
+Entre les courses, les joueurs se retirent dans le paddock. Cet espace de repos sert de hub stratégique. Ici, vous pouvez discuter avec d'autres pilotes, analyser les tracés des circuits à venir et négocier avec des marchands louches pour obtenir des pièces de performance de haute qualité. La gestion de vos ressources dans le paddock est tout aussi essentielle que vos performances sur l'asphalte.
+
+| Élément de campagne | Style de mécanique | Niveau de risque | Récompense principale |
+| :--- | :--- | :--- | :--- |
+| Chemins à embranchements | Événements basés sur les choix | Moyen | Crédits variables et plans de pièces |
+| Jetons d'entrée de ligue | Système de mort permanente de la session | Élevé | Accès aux événements de niveau championnat |
+| Temps mort au paddock | Gestion des ressources | Faible | Réparations de véhicules et réglages de performances |
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape pour remporter votre première course">
+
+Réussir votre premier événement de la Ligue Galactique nécessite un état d'esprit agressif et une exécution propre. Suivez ce guide étape par étape pour décrocher un podium et garder votre session active en vie.
+
+<Steps>
+  <Step num="1" title="Perfectionnez le boost de départ">
+    Lorsque le compte à rebours atteint zéro, chronométrez précisément votre accélération. Combinez cela avec une séquence rapide de commandes de moteur et de bouclier pour déclencher un boost de départ, vous propulsant devant le peloton de départ.
+  </Step>
+  <Step num="2" title="Établissez votre trajectoire de course">
+    Utilisez les premières sections de la piste pour comprendre les limites de votre châssis. Initiez des dérives tôt lorsque vous pilotez un Landspeeder, ou inclinez-vous fortement dans les virages en utilisant la capacité Fil du rasoir (Knife Edge) du Skim Speeder pour maintenir la ligne intérieure.
+  </Step>
+  <Step num="3" title="Exécutez des percussions défensives">
+    Les rivaux essaieront de vous serrer de près. Utilisez des percussions latérales pour pousser les adversaires agressifs vers les obstacles de la piste ou les murs. Éliminer un rival clé dès le début réduit la pression sur vos boucliers arrière.
+  </Step>
+  <Step num="4" title="Gérez la température du moteur">
+    Réservez vos boosts de statoréacteur (Ramjet) pour les longues lignes droites. Surveillez de près votre jauge de chaleur ; si votre moteur commence à surchauffer, relâchez l'accélérateur et glissez dans le virage suivant pour refroidir.
+  </Step>
+  <Step num="5" title="Investissez dans les améliorations du paddock">
+    Une fois la course terminée, dirigez-vous immédiatement vers le paddock. Dépensez vos crédits galactiques gagnés dans les améliorations de base de maniabilité et de batterie avant de sélectionner votre prochaine destination sur la carte de la campagne.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Condition de victoire">
+N'oubliez pas que vous n'avez pas besoin de gagner chaque course pour progresser. Dans les premières étapes d'une Tournée Galactique, s'assurer une troisième place en toute sécurité est infiniment préférable à détruire votre speeder en poursuivant la première place.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personnalisation des véhicules et améliorations des performances">
+
+Pour survivre à la vitesse croissante de la Ligue Galactique, votre véhicule doit évoluer. La personnalisation dans le jeu est divisée entre l'identité visuelle et le réglage brut des performances. Les joueurs peuvent appliquer des livrées gagnées, modifier les bannières de joueur et échanger des pièces cosmétiques pour se démarquer dans les salons multijoueurs en ligne.
+
+Les améliorations de performances modifient directement la maniabilité, la défense et la puissance de votre speeder. Les améliorations sont achetées à l'aide de crédits galactiques gagnés lors des classements de course et des défis d'événement. Se concentrer sur une configuration équilibrée est généralement plus sûr, mais se spécialiser dans la vitesse extrême ou le blindage lourd peut donner d'excellents résultats selon votre style de jeu.
+
+| Catégorie d'amélioration | Attributs affectés | Plage de boost de statistiques | Avantage tactique |
+| :--- | :--- | :--- | :--- |
+| Postcombustion | Vitesse de boost, durée | +10% à +35% | Récupération plus rapide après des erreurs de virage |
+| Batterie | Capacité énergétique, recharge | +15% to +40% | Utilisation plus fréquente des boosts standards |
+| Virages | Angle de dérive, niveau d'adhérence | +12% to +30% | Lignes plus serrées sur les pistes techniques |
+| Statoréacteur | Dégâts d'impact, vitesse de pointe | +20% to +50% | Percussions à dégâts élevés et dépassements rapides |
+
+<Callout type="info" title="Priorité d'amélioration">
+Priorisez d'abord l'amélioration de vos statistiques de virage et de batterie. Avoir un contrôle absolu sur la direction de votre véhicule et la disponibilité des boosts vous évitera plus d'échecs de session que d'avoir simplement une vitesse de pointe élevée.
+</Callout>
+
+Pour les joueurs qui achètent l'Édition Deluxe ou la Mise à niveau Deluxe, trois engins à répulsion exclusifs de Kor Sarun sont débloqués : le speeder bike Ciza T, le landspeeder Darc X et le skim speeder Rak S. Ces véhicules sont équipés de profils de maniabilité uniques et de livrées personnalisées, ainsi que de trois événements Arcade exclusifs conçus pour tester leurs capacités.
+
+</Section>
+
+<Section icon={Trophy} title="Circuits de la Bordure Extérieure, planètes et dangers">
+
+La Ligue Galactique s'étend sur plusieurs planètes emblématiques et nouvellement découvertes à travers la Bordure Extérieure. Chaque lieu introduit des dangers environnementaux uniques qui peuvent instantanément mettre fin à une session prometteuse si vous les ignorez. Des plaines poussiéreuses et pleines de débris de Jakku aux ponts de glace gelés et glissants d'Ando Prime, l'adaptabilité est la clé.
+
+Tatooine reste un favori des fans, proposant des événements de course de pods à grande vitesse qui rendent hommage à l'univers classique de Star Wars. Piloter un podracer à toute allure à travers les canyons étroits du circuit de Mos Espa nécessite des réflexes fulgurants et une compréhension approfondie des mécaniques d'inclinaison de votre véhicule.
+
+| Planète / Lieu | Thème du terrain | Dangers environnementaux | Stratégie clé |
+| :--- | :--- | :--- | :--- |
+| Jakku | Décharge du désert | Débris de décharge, tempêtes de poussière aveuglantes | Maintenir une position centrale sur la piste |
+| Tatooine | Canyons arides | Passages étroits dans les cavernes, falaises abruptes | Utiliser des classes de châssis axées sur la dérive |
+| Ando Prime | Glaciers gelés | Plaques de glace glissantes, faible visibilité due au froid | Éviter de surcorriger les commandes de direction |
+| Lantaana | Jungle dense | Végétation suspendue, virages aveugles | Mémoriser les points de freinage tôt |
+| Sentinel I | Surface volcanique | Coulées de lave actives, zones de chaleur extrême | Minimiser l'utilisation du statoréacteur pour éviter la surchauffe |
+
+<Callout type="tip" title="Maîtrise des circuits">
+Portez une attention particulière aux raccourcis spécifiques aux circuits. De nombreux circuits comportent des itinéraires alternatifs dangereux qui nécessitent des boosts précis pour être franchis, mais ils peuvent vous faire gagner des secondes précieuses si vous les exécutez proprement.
+</Callout>
+
+Pour suivre votre progression globale et vous préparer au lancement mondial le 6 octobre 2026, gardez à l'esprit ces étapes essentielles alors que vous vous apprêtez à entrer dans la Ligue Galactique.
+
+<Checklist
+  id="galactic-racer-goals"
+  title="Étapes essentielles de la campagne :"
+  items={[
+    "Terminer la course de qualification d'introduction pour débloquer le paddock",
+    "Acquérir au moins un véhicule de chacune des trois classes de châssis",
+    "Améliorer avec succès une seule statistique de performance à son niveau maximum",
+    "Battre votre premier rival majeur dans un match de rancune PvP en 1v1",
+    "Survivre à une tournée galactique complète en temps que pilote sans perdre de jeton"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions">
+
+Pour vous aider à vous préparer au lancement, nous avons rassemblé les réponses aux questions les plus courantes concernant les mécaniques de jeu, les détails de la sortie et la configuration système requise.
+
+<FAQ items={[
+  {
+    question: "Quelle est la date de sortie et quelles plateformes seront prises en charge ?",
+    answer: "Le jeu devrait sortir le 6 octobre 2026. Il sera disponible sur PlayStation 5, Xbox Series X|S et PC via Steam et l'Epic Games Store."
+  },
+  {
+    question: "Comment fonctionne la structure de campagne basée sur des sessions ?",
+    answer: "La campagne solo propose une structure rogue-lite appelée la Tournée Galactique. Les joueurs utilisent des jetons d'entrée de ligue pour participer à des événements à embranchements. Si vous vous crashez ou ne parvenez pas à vous classer, votre session prend fin, mais vous conservez vos crédits galactiques gagnés pour acheter des améliorations permanentes."
+  },
+  {
+    question: "Le jeu prend-il en charge le multijoueur multiplateforme ?",
+    answer: "Oui, les boutiques de consoles et les fiches PC confirment la prise en charge du multijoueur en ligne pour 2 à 12 joueurs, avec un jeu multiplateforme pour que vous puissiez affronter vos amis sur différents systèmes."
+  },
+  {
+    question: "Quelle est la configuration PC minimale requise ?",
+    answer: "Pour faire tourner le jeu, votre PC aura besoin au minimum de Windows 10, d'un processeur Intel Core i5-8400 ou AMD Ryzen 5 2600, de 12 Go de RAM, d'une carte graphique Nvidia RTX 2060 ou AMD Radeon RX 5600 XT, et de 50 Go d'espace de stockage disponible sur un SSD."
+  }
+]} />
+
+<Callout type="success" title="Prêt à courir">
+Préparez vos moteurs, personnalisez votre engin à répulsion et préparez-vous à dominer la Bordure Extérieure lors du lancement du jeu en octobre 2026 !
+</Callout>
+
+</Section>

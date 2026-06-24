@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu, HardDrive, Languages } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos del Sistema de Star Wars Galactic Racer: Guía de Configuración para PC",
+  description: "Consulta los requisitos oficiales del sistema de Star Wars Galactic Racer para PC. Conoce las especificaciones mínimas, hardware recomendado, necesidad de SSD y características de la plataforma.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/facc15?text=PC+System+Requirements",
+  date: "2026-06-24",
+  author: "Equipo de Wiki de Star Wars Galactic Racer",
+  keywords: "requisitos del sistema, PC, Star Wars Galactic Racer, hardware, SSD"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **requisitos del sistema de Star Wars Galactic Racer** exigen al menos una **RTX 2060** o equivalente para una experiencia básica.
+- El **SSD es obligatorio** para este título para poder manejar la transmisión de activos a alta velocidad en planetas como Jakku y Tatooine.
+- **12 GB de RAM** es el umbral mínimo, aunque se recomiendan encarecidamente 16 GB para un rendimiento multijugador estable.
+- El **soporte para mando** figura oficialmente como el método de entrada principal para obtener la mejor precisión en las carreras.
+- **Denuvo Anti-Tamper** está incluido en la versión de PC, lo que requiere una conexión a Internet para la activación inicial.
+</Callout>
+
+<Section icon={Monitor} title="Requisitos del Sistema de Star Wars Galactic Racer: Mínimos vs Recomendados">
+
+Prepararse para las carreras de vainas de alto octanaje del Borde Exterior requiere algo más que reflejos rápidos; entender los **requisitos del sistema de Star Wars Galactic Racer** es esencial para asegurar que tu hardware pueda manejar la velocidad intensa y los peligros ambientales de planetas como Tatooine y Ando Prime. Desarrollado por Fuse Games, este título empuja los límites de la física de los vehículos de repulsión, necesitando hardware moderno para mantener una tasa de fotogramas fluida durante los choques y derribos a alta velocidad.
+
+**Aspectos Destacados del Vídeo:**
+- Mirada detallada a los entornos de alta fidelidad de Sentinel I y Lantaana.
+- Muestra de diferentes clases de vehículos, incluyendo speeders terrestres y vainas de carreras.
+- Demostración de los efectos "Afterburner" y "Ramjet" que exigen rendimiento de la GPU.
+- Avance del caos multijugador en línea de 12 jugadores.
+
+<YouTubeEmbed videoId="2MtgIoToa7I" title="Star Wars: Galactic Racer Gameplay Trailer" />
+
+La siguiente tabla detalla las especificaciones de hardware confirmadas que se encuentran en tiendas oficiales como Steam y Epic Games Store. Aunque las especificaciones recomendadas aún se están finalizando para un rendimiento óptimo en 4K, la base mínima está clara.
+
+| Componente | Requisito Mínimo | Recomendado (Por confirmar) |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 (64 bits) | Windows 11 (64 bits) |
+| **Procesador** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700K / Ryzen 7 5800X |
+| **Memoria** | **12 GB RAM** | 16 GB RAM |
+| **Gráficos** | **Nvidia RTX 2060** / Intel Arc A580 / RX 5600 XT | Nvidia RTX 3070 / RX 6800 |
+| **DirectX** | Versión 12 | Versión 12 |
+| **Almacenamiento** | 50 GB de espacio disponible | 50 GB (Se prefiere NVMe) |
+| **Otros** | **SSD Obligatorio** | Internet de alta velocidad para PvP |
+
+<Callout type="warning" title="Nota de Hardware">
+Si utilizas un hardware por debajo del umbral de la RTX 2060, podrías experimentar tirones significativos durante las secuencias de impulso "Ramjet" o en áreas con muchos restos como los desguaces de Jakku.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Análisis de Hardware y Objetivos de Rendimiento">
+
+Para lograr el flujo roguelite basado en "runs" que define el Galactic Tour, el motor del juego debe cargar rápidamente rutas de eventos ramificadas y diversas arenas de carreras. Por esto, los **requisitos del sistema de Star Wars Galactic Racer** enfatizan la memoria de la GPU y la velocidad de almacenamiento por encima de las velocidades de reloj del CPU. La inclusión de Denuvo Anti-Tamper también significa que los usuarios deben esperar una ligera carga adicional en el uso del CPU durante el lanzamiento inicial y las comprobaciones periódicas.
+
+<CardGrid cols={3}>
+  <Card title="Prioridades de la GPU">
+    - **Soporte para Ray Tracing**: Mejora los reflejos en la cabina.
+    - **VRAM**: 6GB mínimos requeridos para 1080p.
+    - **Escalamiento**: Soporte para DLSS y FSR confirmado.
+  </Card>
+  <Card title="Escalamiento del CPU">
+    - **Multi-núcleo**: Optimizado para procesadores de 6 núcleos.
+    - **Física**: Manejo de colisiones en tiempo real.
+    - **IA**: Gestiona 11 pilotos rivales simultáneamente.
+  </Card>
+  <Card title="Precisión de Entrada">
+    - **Mando**: Recomendado para dirección analógica.
+    - **Retroalimentación háptica**: Soportado en PS5 DualSense.
+    - **Mapeo personalizado**: Totalmente disponible para usuarios de PC.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Optimización">
+Para jugadores con equipos de gama media, desactivar los "Efectos de Partículas Volcánicas" en Sentinel I puede proporcionar una mejora del 15-20% en la estabilidad de los fotogramas sin sacrificar la claridad visual del juego.
+</Callout>
+
+</Section>
+
+<Section icon={HardDrive} title="Requisitos de Almacenamiento y Necesidad de SSD">
+
+Atrás quedaron los días de los discos duros tradicionales para los títulos modernos de Star Wars. Los **requisitos del sistema de Star Wars Galactic Racer** establecen explícitamente que se **requiere un SSD**. Esto se debe al movimiento de alta velocidad del juego; a velocidades de carreras de vainas, un HDD estándar no puede transmitir texturas y geometría lo suficientemente rápido, lo que provoca "pop-in" o congelamientos del juego.
+
+| Característica | HDD (Mecánico) | SSD (SATA/NVMe) |
+| :--- | :--- | :--- |
+| **Tiempos de carga** | 2-3 minutos | 10-20 segundos |
+| **Pop-in de texturas** | Frecuente a altas velocidades | Mínimo o nulo |
+| **Tirones (Stuttering)** | Probable durante transiciones | Experiencia fluida |
+| **Instalación** | No recomendado | **Obligatorio** |
+
+<Checklist
+  id="pc-readiness"
+  title="Lista de Verificación de Preparación para PC:"
+  items={[
+    "Verificar al menos 50 GB de espacio libre en un SSD",
+    "Actualizar los controladores de Nvidia/AMD a la versión 'Game Ready' de octubre de 2026",
+    "Asegurarse de que Windows 10 esté actualizado a la versión 21H2 o posterior",
+    "Conectar un mando compatible para el control analógico de las carreras",
+    "Comprobar la estabilidad de Internet para la activación de Denuvo y el PvP"
+  ]}
+/>
+
+<Callout type="success" title="Éxito de Almacenamiento">
+El tamaño de 50 GB es relativamente modesto para un título de 2026, lo que facilita mantenerlo instalado junto a otras grandes aventuras de Star Wars.
+</Callout>
+
+</Section>
+
+<Section icon={Languages} title="Soporte de Idiomas y Localización Global">
+
+La Liga Galáctica es un evento a escala de toda la galaxia, y el juego refleja esto con una amplia localización. Mientras que los **requisitos del sistema de Star Wars Galactic Racer** se ocupan del hardware, los jugadores también deben tener en cuenta la carga de almacenamiento para los paquetes de audio de alta calidad. Se incluye audio completo en inglés, con soporte de interfaz y subtítulos para 13 idiomas adicionales.
+
+| Idioma | Interfaz | Subtítulos | Audio Completo |
+| :--- | :---: | :---: | :---: |
+| **Inglés** | Sí | Sí | **Sí** |
+| **Francés** | Sí | Sí | No |
+| **Alemán** | Sí | Sí | No |
+| **Español (España/LATAM)** | Sí | Sí | No |
+| **Chino simplificado** | Sí | Sí | No |
+| **Japonés** | Sí | Sí | No |
+| **Portugués (Brasil)** | Sí | Sí | No |
+
+<Callout type="info" title="Paquetes de Audio">
+Los paquetes de idiomas adicionales se descargan a través de Steam o Epic como DLC, así que asegúrate de tener unos cuantos gigabytes extra si planeas jugar en un idioma que no sea el inglés.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Optimizar para el Galactic Tour">
+
+Si tu PC apenas cumple con los **requisitos del sistema de Star Wars Galactic Racer**, seguir una rutina de configuración específica puede ayudarte a mantener la ventaja competitiva necesaria para derrotar a rivales como Sebulba o Kestar Bool.
+
+<Steps>
+  <Step num="1" title="Ajuste Gráfico Inicial">
+    Comienza con el ajuste global 'Medio'. El juego utiliza un escalador de resolución dinámico por defecto; mantenlo activado para priorizar la tasa de fotogramas sobre el recuento de píxeles brutos.
+  </Step>
+  <Step num="2" title="Gestión de Memoria">
+    Cierra aplicaciones en segundo plano como Chrome o superposiciones pesadas de Discord. Con un mínimo de 12 GB de RAM, el juego es sensible a las fugas de memoria de aplicaciones externas.
+  </Step>
+  <Step num="3" title="V-Sync y Latencia">
+    Desactiva el V-Sync si tienes un monitor G-Sync o FreeSync. Usa 'Nvidia Reflex' si está disponible para reducir el retraso de entrada entre tu mando y el vehículo de repulsión.
+  </Step>
+  <Step num="4" title="Precompilación de Shaders">
+    Permite que el juego termine la compilación de shaders en el menú principal antes de comenzar tu primera partida de la Campaña. Esto evita tirones durante la primera vuelta de una carrera.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Mecánica de Sobrecalentamiento">
+Ten en cuenta que el "Sobrecalentamiento" es una mecánica de juego para tu speeder. No confundas las advertencias del motor en el juego con las temperaturas reales del hardware de tu PC, aunque las carreras de alta velocidad exigirán a tu GPU.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ediciones y Características de la Plataforma">
+
+Elegir dónde jugar depende de tu hardware y tu círculo social. La versión de PC ofrece la mayor flexibilidad en términos de fidelidad gráfica, mientras que las consolas ofrecen una experiencia estandarizada.
+
+| Característica | PC (Steam/Epic) | PlayStation 5 | Xbox Series X|S |
+| :--- | :--- | :--- | :--- |
+| **Jugadores en línea** | 2-12 | 2-12 (PS Plus) | 2-12 (Game Pass) |
+| **Multiplataforma** | **Confirmado** | Confirmado | **Confirmado** |
+| **Resolución** | Hasta 4K Nativo | 4K Dinámico | 4K Dinámico |
+| **Tasa de fotogramas** | Ilimitada | Objetivo 60 FPS | Objetivo 60 FPS |
+| **Anti-manipulación** | Denuvo Incluido | Ninguno | Ninguno |
+
+<CardGrid cols={2}>
+  <Card title="Edición Estándar ($59.99)">
+    - Juego Base
+    - Diseño de reserva
+    - Banner de jugador de reserva
+  </Card>
+  <Card title="Edición Deluxe ($79.99)">
+    - Juego Base + Todos los artículos de reserva
+    - **3 Vehículos de repulsión exclusivos**
+    - Libro de arte digital
+    - 3 Eventos arcade únicos
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Bono Deluxe">
+La Edición Deluxe incluye el conjunto de vehículos 'Kor Sarun', que cuenta con una moto speeder, un landspeeder y un skim speeder con perfiles de manejo únicos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes de Star Wars Galactic Racer">
+
+<FAQ items={[
+  {
+    question: "¿Puedo ejecutar Star Wars Galactic Racer en una Steam Deck?",
+    answer: "Aunque aún no está oficialmente 'Verificado', el requisito de 12 GB de RAM y el mínimo de una RTX 2060 sugieren que requerirá ajustes bajos y FSR para mantener 30-40 FPS en dispositivos portátiles."
+  },
+  {
+    question: "¿Se requiere conexión a Internet para jugar en solitario?",
+    answer: "La activación inicial a través de Denuvo requiere una conexión a Internet. Sin embargo, el modo Campaña se puede jugar sin conexión una vez que el juego ha sido autenticado."
+  },
+  {
+    question: "¿La versión de PC soporta juego cruzado con consolas?",
+    answer: "Sí, Star Wars Galactic Racer soporta multijugador multiplataforma entre PC, PS5 y Xbox Series X|S para sus partidas PvP de 12 jugadores."
+  },
+  {
+    question: "¿Por qué es obligatorio un SSD para Star Wars Galactic Racer?",
+    answer: "El motor del juego depende de la transmisión rápida de activos para renderizar entornos masivos como el Circuito de Mos Espa a altas velocidades sin pantallas de carga ni tirones."
+  }
+]} />
+
+</Section>

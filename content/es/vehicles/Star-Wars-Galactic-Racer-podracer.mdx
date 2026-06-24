@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer podracer: Guía de Construcción y Manejo",
+  description: "Domina las mecánicas de los podracer de Star Wars Galactic Racer con nuestra guía de personalización, rutas de mejora, consejos sobre peligros en pista y estrategias de construcción.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Podracer+Build+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Star Wars Galactic Racer",
+  keywords: "Star Wars Galactic Racer, podracer, guía, construcción, manejo, mejoras"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Star Wars Galactic Racer podracer**: Vehículo repulsor de alta velocidad y alto riesgo diseñado para circuitos competitivos del Borde Exterior.
+- **Mecánica clave**: Gestión de velocidad extrema, ángulos de derrape y sobrecalentamiento del motor mediante los sistemas Afterburner y Ramjet.
+- **Mejor estrategia**: Priorizar las mejoras de Maniobrabilidad (Cornering) y Afterburner al principio de una partida para manejar las curvas cerradas de los cañones.
+- **Consejo crítico**: Evitar el exceso de impulso en secciones estrechas de Tatooine para prevenir choques devastadores del motor.
+- **Mejor opción**: Usar el chasis de Landspeeder para pistas de mucho contacto y transicionar a Podracers para máxima velocidad en línea recta.
+</Callout>
+
+<Section icon={Sparkles} title="Star Wars Galactic Racer podracer: Velocidad y Mecánicas">
+
+Masterizar las mecánicas de alta velocidad de un **Star Wars Galactic Racer podracer** requiere un conocimiento profundo de las líneas de derrape, los riesgos de sobrecalentamiento y el tiempo de impulso. Como un juego de carreras de alto riesgo aún no lanzado que se estrena el 6 de octubre de 2026, el título redefine la competición del Borde Exterior combinando velocidades vertiginosas con una estructura de campaña roguelite basada en partidas. Los jugadores deben guiar a su piloto, Shade, a través de la peligrosa Liga Galáctica mientras mejoran constantemente sus vehículos de alta velocidad.
+
+A diferencia de los juegos de carreras tradicionales, el podracing en este juego introduce un impulso cinético extremo. La configuración de doble motor de un podracer significa que el manejo es altamente sensible a las entradas del acelerador y a los obstáculos ambientales. Los jugadores deben equilibrar el uso de los Afterburners estándar con los impulsos Ramjet de alto riesgo, que proporcionan ráfagas de velocidad masivas a costa de un rápido sobrecalentamiento del motor.
+
+**Videos Destacados:**
+- **Entornos del Borde Exterior**: Vista previa de las pistas de alta velocidad de Tatooine y Jakku.
+- **Interfaz de Personalización**: Un primer vistazo a cómo se intercambian las piezas en el paddock.
+- **Mecánicas de Impulso**: Demostración de las señales visuales para el sobrecalentamiento del motor y los umbrales del Ramjet.
+
+<YouTubeEmbed videoId="2MtgIoToa7I" title="Tráiler de Gameplay de Star Wars: Galactic Racer" />
+
+<Callout type="warning" title="Riesgo de Sobrecalentamiento">
+El uso prolongado del impulso Ramjet causará que tus motores se sobrecalienten, resultando en una pérdida temporal de potencia o un choque total en curvas cerradas.
+</Callout>
+
+Para sobrevivir a los circuitos competitivos, los pilotos deben dominar las distintas fases de una carrera, comenzando con el lanzamiento de la cuenta regresiva. Perfeccionar la secuencia de entrada del motor y el escudo al inicio de una carrera proporciona una ráfaga cinética inmediata, permitiéndote asegurar una ventaja temprana antes de la primera curva.
+
+</Section>
+
+<Section icon={Swords} title="Personalización del Podracer y Rutas de Mejora">
+
+La personalización en el paddock es donde se ganan o pierden las carreras. Entre eventos en la campaña individual, los jugadores visitan vendedores locales para gastar Créditos Galácticos en componentes que mejoran el rendimiento. Estas mejoras son vitales para la supervivencia, especialmente al competir contra rivales agresivos como Kestar Bool o Sebulba.
+
+Las mejoras se dividen en varias categorías principales, cada una de las cuales afecta un aspecto específico del perfil de manejo de tu vehículo. Equilibrar estas estadísticas garantiza que tu podracer pueda manejar tanto las llanuras abiertas de Jakku como los cañones técnicos y estrechos de Tatooine.
+
+| Componente | Prioridad de Mejora | Aumento de Estadística | Beneficio Clave |
+| :--- | :--- | :--- | :--- |
+| Afterburner | Alta | Velocidad Máxima | Aumenta la velocidad de impulso repetible |
+| Batería | Media | Duración del Impulso | Extiende la ventana activa de las ráfagas Ramjet |
+| Maniobrabilidad | Alta | Manejo | Previene derrapes amplios y colisiones con paredes |
+| Ramjet | Alta | Ráfaga Cinética | Ofrece fuerza de derribo de alto riesgo |
+| Chasis | Media | Durabilidad | Reduce el daño recibido por impactos con paredes |
+
+<Callout type="tip" title="Estrategia de Paddock">
+Prioriza siempre las mejoras de Maniobrabilidad (Cornering) durante las primeras etapas de una partida de campaña. La alta velocidad es inútil si no puedes navegar por las curvas cerradas del Circuito de Mos Espa sin chocar.
+</Callout>
+
+Dependiendo de tu estilo de juego preferido, puedes configurar tu vehículo para enfocarte en la velocidad pura, el manejo ágil o la durabilidad defensiva. A continuación se presentan tres arquetipos de construcción optimizados para diferentes condiciones de carrera.
+
+<CardGrid cols={3}>
+  <Card title="Construcción de Demonio de la Velocidad">
+    - **Enfoque principal**: Maximizar las estadísticas de Afterburner y Batería.
+    - **Mejor para**: Pistas abiertas con largas rectas como Jakku.
+    - **Nivel de riesgo**: Alto, debido al control reducido en curvas.
+  </Card>
+  <Card title="Construcción de Ápice Técnico">
+    - **Enfoque principal**: Maximizar las mejoras de Maniobrabilidad y Chasis.
+    - **Mejor para**: Pistas de cañones sinuosos y estrechos en Tatooine.
+    - **Nivel de riesgo**: Bajo, ofreciendo un manejo estable y confiable.
+  </Card>
+  <Card title="Construcción de Ejecutor">
+    - **Enfoque principal**: Maximizar el Ramjet y la Durabilidad.
+    - **Mejor para**: Partidas PvP agresivas y carreras con mucho contacto.
+    - **Nivel de riesgo**: Medio, dependiendo de los derribos de rivales para obtener energía de impulso.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Proceso de Optimización del Podracer Paso a Paso">
+
+Para quedar consistentemente entre los tres primeros y proteger tu Token de Entrada a la Liga, debes seguir un enfoque estructurado para la progresión del vehículo. No mejorar sistemáticamente te dejará en desventaja a medida que aumenta la dificultad de la Liga Galáctica.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Chasis Base">
+    Elige una clase de vehículo inicial que coincida con tu estilo de control. Los principiantes deben comenzar con el chasis más pesado del Landspeeder para aprender las líneas de derrape antes de pasar a la clase Podracer de alta velocidad.
+  </Step>
+  <Step num="2" title="Invierte en Estabilidad de Maniobrabilidad">
+    Gasta tus Créditos Galácticos iniciales en estabilizar tu manejo. Mejorar tu radio de giro evita el deslizamiento cinético, manteniéndote en la línea de carrera óptima.
+  </Step>
+  <Step num="3" title="Optimiza el Umbral del Afterburner">
+    Aumenta la eficiencia de tu impulso estándar. Esto te permite mantener velocidades promedio altas sin depender constantemente del peligroso sistema Ramjet.
+  </Step>
+  <Step num="4" title="Equipa Escudos Defensivos">
+    A medida que las carreras se vuelven más agresivas, instala placas reforzadas. Esto protege tus motores de las embestidas de los rivales y reduce la penalización por roces menores con las paredes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progresión Desbloqueada">
+Completar una campaña completa desbloquea decoraciones cosméticas exclusivas y estandartes de jugador, permitiéndote mostrar tus logros en las salas multijugador.
+</Callout>
+
+Aunque los podracers ofrecen las velocidades máximas más altas del juego, es importante entender cómo se comparan con otras clases de vehículos repulsores disponibles en el juego base.
+
+| Clase | Perfil de Manejo | Rasgo Conocido | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| Landspeeder | Más pesado | Derrape | Aprender carreras con mucho contacto |
+| Speeder Bike | Velocidad en línea recta | Ráfaga Cinética | Adelantamientos en rectas largas |
+| Skim Speeder | Inclinación pronunciada | Filo de Navaja | Navegar por curvas técnicas cerradas |
+| Podracer | Velocidad extrema | Podracing | Eventos de la Liga Galáctica de alto riesgo |
+
+</Section>
+
+<Section icon={Map} title="Pistas del Borde Exterior y Entornos de Podracing">
+
+La Liga Galáctica lleva a los jugadores a través del anárquico Borde Exterior, presentando una variedad de entornos peligrosos que exigen diferentes estrategias de carrera. Desde glaciares congelados hasta campos volcánicos, cada planeta presenta desafíos únicos que pueden terminar una partida instantáneamente.
+
+Comprender los peligros de la pista es crucial para mantener tu posición. Por ejemplo, el polvoriento desierto de Jakku presenta obstáculos de restos masivos, mientras que Ando Prime introduce superficies de hielo resbaladizas que reducen drásticamente tu control de derrape.
+
+| Ubicación | Tipo de Entorno | Peligro Principal | Clase Recomendada |
+| :--- | :--- | :--- | :--- |
+| Tatooine | Cañones del desierto | Brechas estrechas y cuevas | Podracer |
+| Jakku | Dunas de desguace | Escombros y restos | Landspeeder |
+| Ando Prime | Glaciares helados | Hielo y baja tracción | Skim Speeder |
+| Sentinel I | Campos volcánicos | Ríos de lava y calor | Speeder Bike |
+| Lantaana | Jungla tropical | Obstáculos de follaje denso | Skim Speeder |
+
+<Callout type="info" title="Secreto de Pista">
+Busca rutas de atajo marcadas por luces de baliza brillantes. Estas rutas son más estrechas y arriesgadas, pero pueden restar segundos a tu tiempo de vuelta si se navegan correctamente.
+</Callout>
+
+Para asegurar que estés completamente preparado para los desafíos de la Liga Galáctica, utiliza esta lista de verificación para seguir tus objetivos de progresión.
+
+<Checklist
+  id="podracer-goals"
+  title="Hitos de la Campaña:"
+  items={[
+    "Completar la carrera de clasificación de Tatooine entre los tres primeros",
+    "Mejorar el Afterburner de tu podracer al nivel 3",
+    "Sobrevivir a una carrera de alto riesgo sin destrozar completamente tu chasis",
+    "Derrotar al piloto rival Kestar Bool en un duelo de revancha 1v1",
+    "Desbloquear la decoración exclusiva inspirada en el Naboo N-1"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategia de Podracing y Preguntas Frecuentes">
+
+Para dominar las tablas de clasificación, debes combinar la habilidad mecánica con mejoras estratégicas. Enfócate en aprender el diseño de cada pista, gestionar tus medidores de impulso con cuidado y usar embestidas agresivas solo cuando tengas una clara ventaja defensiva.
+
+<Callout type="warning" title="Pérdida de Progreso">
+No quedar entre los tres primeros o quedar fuera de una carrera por accidente puede revocar tu Token de Entrada a la Liga, obligándote a reiniciar el tour de la campaña desde el principio.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo la clase de podracer de Star Wars Galactic Racer?",
+    answer: "La clase podracer se desbloquea naturalmente a medida que avanzas en la campaña para un jugador. Comenzarás con landspeeders y speeder bikes básicos antes de calificar para los eventos de podracing de alta velocidad en la Liga Galáctica."
+  },
+  {
+    question: "¿Cuál es la diferencia entre los impulsos Afterburner y Ramjet?",
+    answer: "Los Afterburners proporcionan un aumento de velocidad seguro y repetible con una generación de calor mínima. Los Ramjets ofrecen una ráfaga de velocidad masiva y de alto riesgo que puede usarse para adelantar a rivales o ejecutar derribos, pero causan que tus motores se sobrecalienten rápidamente."
+  },
+  {
+    question: "¿Puedo personalizar mi podracer para partidas multijugador?",
+    answer: "Sí. Todas las mejoras de rendimiento desbloqueadas durante tus partidas de campaña se pueden aplicar a tus vehículos en el multijugador. Además, puedes personalizar visualmente tu podracer usando decoraciones, calcomanías y estandartes de jugador personalizados obtenidos."
+  },
+  {
+    question: "¿Qué sucede si mi podracer se sobrecalienta durante una carrera?",
+    answer: "Si la temperatura de tu motor alcanza el máximo, tu podracer entrará en un estado de sobrecalentamiento. Esto causa una pérdida temporal de velocidad y desactiva tus sistemas de impulso, dejándote vulnerable a los ataques de los rivales y a ser adelantado."
+  }
+]} />
+
+</Section>

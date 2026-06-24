@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Planets: Outer Rim Circuits & Hazards",
+  description: "Master all confirmed Star Wars Galactic Racer planets, track environments, hazards, and terrain-specific vehicle strategies for the 2026 release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Star+Wars+Galactic+Racer+Planets",
+  date: "2026-06-24",
+  author: "Star Wars Galactic Racer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Star Wars Galactic Racer planets** serve as the foundation of the high-stakes, runs-based Galactic Tour campaign.
+- **Track hazards** vary wildly across environments, ranging from Jakku's industrial scrap debris to Ando Prime's low-friction ice sheets.
+- **Chassis selection** is critical, as landspeeders excel on rocky desert terrain while skim speeders master tight jungle corners.
+- **Risk management** dictates that players must balance speed boosts with overheating thresholds to avoid terminal crashes.
+- **Campaign progression** requires earning League Entry Tokens to unlock higher-tier planetary circuits and advanced vehicle parts.
+</Callout>
+
+<Section icon={Map} title="Introduction to Galactic Tour Environments">
+
+The Galactic League takes drivers across the lawless Outer Rim, testing their reflexes and vehicle builds on highly hostile worlds. In **STAR WARS: Galactic Racer**, planets are not merely cosmetic backdrops; they are dynamic, hazard-filled arenas that directly influence vehicle handling, speed, and survival rates. Each environment demands a specific approach to drifting, boost management, and collision recovery.
+
+Earning your place at the top of the Galactic League requires a deep understanding of these diverse environments. From the scorching dune seas to frozen mountain passes, every race presents unique atmospheric conditions that can overheat your engines or throw your repulsorcraft into a terminal spin.
+
+| Planet | Type | Environment | Primary Hazard |
+|------|------|------|------|
+| **Jakku** | Desert | Battle-scarred scrapyard | Scallop-edged wreckage, industrial debris |
+| **Tatooine** | Desert | Dune seas and rocky canyons | Narrow canyon walls, sudden elevation drops |
+| **Ando Prime** | Ice | Frozen glaciers and snowfields | Slippery surfaces, low-visibility blizzards |
+| **Lantaana** | Jungle | Dense tropical rainforest | Obstructive ancient trees, blind corners |
+| **Sentinel I** | Volcanic | Active magma fields | Molten lava flows, extreme thermal buildup |
+
+<Callout type="info" title="League Rules">
+Every planet in the Galactic Tour requires a League Entry Token to compete. Crashing out of a race too many times or failing to secure a top-three finish will forfeit your token, resetting your current campaign run while preserving your hard-earned Galactic Credits.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Detailed Planet Profiles and Track Hazards">
+
+Navigating the diverse circuits of the Outer Rim requires precise knowledge of local track layouts and environmental dangers. The following profiles detail the unique challenges presented by each confirmed planetary venue in the Galactic League.
+
+<CardGrid cols={3}>
+  <Card title="Tatooine">
+    - **Classic podracing tracks**
+    - High-speed canyon straights
+    - Extreme heat hazards
+    - Iconic Mos Espa Circuit connection
+  </Card>
+  <Card title="Ando Prime">
+    - **Low-friction ice surfaces**
+    - Demanding drift requirements
+    - High-speed glacial runs
+    - Treacherous cliffside drops
+  </Card>
+  <Card title="Lantaana">
+    - **Dense jungle canopy**
+    - Highly technical blind corners
+    - Natural obstacles and roots
+    - Tight overtaking windows
+  </Card>
+</CardGrid>
+
+### Jakku
+Jakku is an unsanctioned, high-risk racing location characterized by its dusty desert terrain and massive fields of fallen military starships. Racers must navigate through the decaying hulls of ancient cruisers, making sharp turns around jagged metal structures. The air is thick with dust, occasionally reducing visibility during intense pack racing.
+
+### Tatooine
+The spiritual home of podracing, Tatooine features wide-open sand flats contrasted with incredibly narrow, winding rocky canyons. The famous Mos Espa Circuit and surrounding canyon routes demand extreme speed but punish minor steering errors with devastating wall collisions. Sand dunes can launch vehicles into unexpected jumps, requiring careful pitch control.
+
+### Ando Prime
+Ando Prime introduces a severe low-friction handling model. The frozen tracks and slippery ice sheets make standard braking highly ineffective. Racers must rely on heavy banking and controlled drifts to maintain speed through sweeping glacial turns. The biting cold helps mitigate engine overheating, allowing for slightly longer boost windows.
+
+### Lantaana
+Lantaana is a lush, tropical jungle world that hosts some of the most technical tracks in the Galactic League. The circuits wind through massive root systems and dense foliage, creating numerous blind corners. Finding the optimal racing line here is difficult, as the natural boundaries of the track are highly irregular and unforgiving to wide drifts.
+
+### Sentinel I
+Sentinel I is a volcanic nightmare where the track itself is a hazard. Active magma streams cross the racing surface, requiring precise jump timing or rapid lane changes. The ambient temperature is exceptionally high, causing vehicle engines to overheat much faster when using Afterburners or Ramjets.
+
+| Circuit | Planet | Key Feature | Difficulty Rating |
+|------|------|------|------|
+| **Mos Espa Circuit** | Tatooine | Iconic podracing canyon flats | Hard |
+| **Outpost Graveyard** | Jakku | Industrial wreckage tunnels | Medium |
+| **Ando Glacial Run** | Ando Prime | High-speed ice-drift corners | Hard |
+| **Lantaana Canopy** | Lantaana | Narrow jungle pathways | Medium |
+| **Derven Acos Arena** | Derven Acos | Closed-circuit spectator arena | Easy |
+| **Sentinel Volcanic** | Sentinel I | Lava flows and vertical drops | Very Hard |
+
+<Callout type="tip" title="Track Mastery Tip">
+On Ando Prime, swap your standard repulsor parts for ice-optimized stabilizers to reduce drift slide. Conversely, when racing on Sentinel I, prioritize cooling system upgrades to combat the rapid thermal buildup caused by the volcanic atmosphere.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Vehicle Adaptation and Chassis Selection">
+
+Choosing the correct vehicle chassis is just as important as knowing the track layout. Repulsorcraft in the Galactic League are divided into distinct classes, each possessing unique handling profiles, weight characteristics, and specialized traits. Matching your chassis to the planetary terrain can mean the difference between a podium finish and a catastrophic crash.
+
+### Chassis Classes and Environmental Compatibility
+The three core chassis types—Landspeeders, Speeder Bikes, and Skim Speeders—perform differently depending on the surface conditions of the active planet. Additionally, high-speed Podracers offer unparalleled straight-line performance but require expert reflexes to control on narrow, winding tracks.
+
+- **Landspeeders**: Weightier handling with a strong drifting identity. These vehicles are highly durable and excel at surviving the contact-heavy, wreckage-filled tracks of Jakku and the rocky canyons of Tatooine.
+- **Speeder Bikes**: Extremely fast in straight lines but highly unstable around tight corners. Their Kinetic Burst ability makes them ideal for the wide-open flats of Tatooine, though they struggle significantly on the winding jungle tracks of Lantaana.
+- **Skim Speeders**: Engineered for hard banking turns using their unique Knife Edge trait. These highly technical craft are perfect for navigating the dense, twisting forest paths of Lantaana and the sharp corners of Sentinel I.
+- **Podracers**: The ultimate speed machines, featuring dual engines linked by energy binders. They dominate high-speed arena events like the Derven Acos Arena but are fragile and highly susceptible to wall collisions.
+
+| Vehicle Class | Primary Trait | Best Planet | Handling Profile | Durability |
+|------|------|------|------|------|
+| **Landspeeder** | Drift | Jakku | Heavy, drift-focused | High |
+| **Speeder Bike** | Kinetic Burst | Tatooine | Light, straight-line speed | Medium |
+| **Skim Speeder** | Knife Edge | Lantaana | Agile, high banking | Medium |
+| **Podracer** | Podracing | Derven Acos | Extreme speed, low traction | Low |
+
+<Callout type="warning" title="Collision Warning">
+Lightweight vehicles like Speeder Bikes can easily be shunted off the track by heavier Landspeeders. If you are racing on narrow tracks like Lantaana or Sentinel I, avoid trading paint with heavier opponents unless you have a clear tactical advantage.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Campaign Progression Strategy">
+
+Succeeding in the runs-based Galactic Tour campaign requires a methodical approach to choosing your routes, managing your resources, and upgrading your repulsorcraft between races. Use this systematic progression guide to navigate your way from an Outer Rim rookie to a Galactic League champion.
+
+<Steps>
+  <Step num="1" title="Select Your Starting Chassis">
+    Begin your campaign by choosing a Landspeeder. Its high durability and forgiving drift mechanics make it the safest choice for learning the basic physics, collision mechanics, and boost timing on early Jakku circuits.
+  </Step>
+  <Step num="2" title="Acquire League Entry Tokens">
+    Compete in qualifying races and lower-tier events to build up your bank of Galactic Credits and secure League Entry Tokens. Treat these tokens as your life pool; losing them all ends your current campaign run.
+  </Step>
+  <Step num="3" title="Optimize Upgrades for the Next Planet">
+    Before entering a new planetary circuit, visit the paddock. Check the environmental profile of the upcoming track and spend your Galactic Credits on targeted parts, such as improved cooling manifolds for Sentinel I or advanced drift stabilizers for Ando Prime.
+  </Step>
+  <Step num="4" title="Execute Risk-Based Boosting">
+    During races, manage your Afterburner and Ramjet systems carefully. Use standard Afterburner boosts on straightaways, and save high-risk Ramjet bursts exclusively for executing takedowns on rivals or recovering from cornering mistakes.
+  </Step>
+  <Step num="5" title="Confront Rival Pilots">
+    As you reach the end of a planetary bracket, you will face rival pilots like Kestar Bool in high-stakes showdowns. Study their racing lines, capitalize on their cornering errors, and use aggressive shunts to force them into track hazards.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progression Milestone">
+Completing a full planetary circuit unlocks exclusive vehicle liveries, player banners, and high-tier vendor parts that carry over to subsequent campaign runs, permanently boosting your competitive edge.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Outer Rim Racing Preparation Checklist">
+
+Before committing your League Entry Token to a high-stakes run, ensure your vehicle and strategy are fully optimized for the planetary challenges ahead.
+
+<Checklist
+  id="pre-race-prep"
+  title="Pre-Race Checklist:"
+  items={[
+    "Verify chassis compatibility with the target planet's surface physics.",
+    "Equip environment-specific parts (e.g., thermal shields or ice stabilizers).",
+    "Ensure your engine cooling systems are fully repaired and upgraded.",
+    "Review the track map to identify major hazards, shortcuts, and jump zones.",
+    "Confirm your active pilot perks align with your chosen racing style."
+  ]}
+/>
+
+<Callout type="info" title="Paddock Services">
+Always talk to local mechanics in the paddock before a race. They often provide valuable insights into hidden shortcuts or incoming environmental hazards, such as localized sandstorms on Tatooine.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+Mastering the planetary circuits of the Outer Rim is a demanding journey. Here are answers to the most common questions regarding environmental mechanics and track strategies in the game.
+
+<FAQ items={[
+  {
+    question: "How do different Star Wars Galactic Racer planets affect vehicle handling?",
+    answer: "Each planet introduces unique environmental modifiers. For example, Ando Prime features low-friction ice surfaces that increase sliding, requiring precise drift control, while Sentinel I features high ambient temperatures that accelerate engine overheating during boosts."
+  },
+  {
+    question: "Can I change my vehicle chassis mid-run during a Galactic Tour?",
+    answer: "No, your chassis selection is locked for the duration of a specific tour run. However, you can extensively customize and upgrade your chosen vehicle's parts, stabilizers, and cooling systems at the paddock between individual races."
+  },
+  {
+    question: "What happens if my vehicle overheats on Sentinel I?",
+    answer: "Overheating causes temporary engine stall and shield depletion, leaving you highly vulnerable to shunts from rival racers. On volcanic tracks, manage your Ramjet usage carefully and invest in high-efficiency cooling manifolds."
+  },
+  {
+    question: "Are there shortcuts on the Mos Espa Circuit on Tatooine?",
+    answer: "Yes, classic canyon routes and cave systems offer high-risk, high-reward shortcuts. These pathways are narrower and contain more hazardous obstacles, but they can shave valuable seconds off your lap time if navigated successfully."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Never underestimate the track environment. The players who consistently win the Galactic League are not just the fastest drivers, but those who best adapt their vehicle builds to the hostile realities of the Outer Rim worlds.
+</Callout>
+
+</Section>

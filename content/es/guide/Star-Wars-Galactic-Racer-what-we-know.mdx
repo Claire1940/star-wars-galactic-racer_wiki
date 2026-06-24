@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "STAR WARS: Galactic Racer: Fecha de lanzamiento, vehículos y modos",
+  description: "Entérate de lo último sobre STAR WARS: Galactic Racer, incluyendo la fecha de lanzamiento en 2026, las clases de vehículos, la campaña basada en recorridos y detalles del multijugador.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/f5a91f?text=Galactic+Racer+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Star Wars Galactic Racer",
+  keywords: "Star Wars, Galactic Racer, fecha de lanzamiento, vehículos, modos de juego, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **STAR WARS: Galactic Racer** se lanza en todo el mundo el **6 de octubre de 2026** para PS5, Xbox Series X|S y PC.
+- El juego presenta una estructura de campaña única llamada **Recorrido Galáctico**, basada en intentos (runs) con rutas de eventos ramificadas.
+- Elige entre **tres clases distintas de vehículos repulsores**: Landspeeder, Speeder Bike y Skim Speeder.
+- El multijugador en línea admite hasta **12 jugadores** con funciones de juego cruzado (cross-platform) en las tiendas compatibles.
+- Domina los **derribos y la gestión de mejoras** en el paddock para sobrevivir a las carreras de alto riesgo del Borde Exterior.
+</Callout>
+
+<Section icon={Target} title="Fecha de lanzamiento y disponibilidad de plataformas">
+
+Fuentes oficiales confirman que **STAR WARS: Galactic Racer** está programado para lanzarse el 6 de octubre de 2026. Desarrollado por Fuse Games y publicado por Secret Mode, el título lleva las carreras de alto riesgo al hardware moderno.
+
+**Puntos destacados del video:**
+- Revelación oficial del entorno de carreras sin ley del Borde Exterior.
+- Vistazo a ubicaciones icónicas como Jakku y Tatooine.
+- Demostración de las mecánicas de carreras de contacto agresivas.
+
+<YouTubeEmbed videoId="RiavNl4qxWY" title="Tráiler de revelación oficial" />
+
+| Característica | Detalles |
+| :--- | :--- |
+| **Fecha de lanzamiento** | 6 de octubre de 2026 |
+| **Plataformas** | PS5, Xbox Series X\|S, PC |
+| **Desarrollador** | Fuse Games |
+| **Editor** | Secret Mode |
+| **Tiendas** | Steam, Epic, PS Store, Xbox Store |
+
+<Callout type="tip" title="Nota sobre la reserva">
+Las ediciones Estándar y Deluxe ya están disponibles para su compra anticipada. Reservar el juego otorga un Banner de Jugador adicional y un diseño (Livery) personalizado, mientras que la Edición Deluxe incluye vehículos exclusivos y Eventos Arcade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Clases de vehículos y personalización">
+
+En **STAR WARS: Galactic Racer**, tu elección de vehículo define tu estilo de carrera. Cada clase de vehículo repulsor ofrece perfiles de manejo, rasgos y rutas de mejora únicos.
+
+<CardGrid cols={3}>
+  <Card title="Landspeeder">
+    - **Rasgo: Derrape**
+    - Gran peso para un giro estable
+    - Excelente para gestionar colisiones
+  </Card>
+  <Card title="Speeder Bike">
+    - **Rasgo: Ráfaga cinética**
+    - Velocidad superior en línea recta
+    - Control exigente en las curvas
+  </Card>
+  <Card title="Skim Speeder">
+    - **Rasgo: Filo de cuchillo**
+    - Optimizado para inclinaciones cerradas
+    - Sensación técnica para jugadores avanzados
+  </Card>
+</CardGrid>
+
+| Categoría de mejora | Función |
+| :--- | :--- |
+| **Postquemador** | Duración y frecuencia del impulso |
+| **Batería** | Capacidad de energía para Ramjets |
+| **Viraje** | Sensibilidad de giro y agarre |
+| **Ramjet** | Velocidad de ráfaga corta para derribos |
+
+<Callout type="success" title="Consejo profesional de personalización">
+Aprovecha el tiempo de inactividad en el paddock entre carreras para gastar Créditos Galácticos en piezas de vendedores. Prioriza las mejoras de Viraje y Postquemador al principio de tu recorrido de campaña para asegurarte de sobrevivir en las pistas más traicioneras.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modos de carrera y estructura de la campaña">
+
+El juego se aleja de la progresión lineal tradicional, optando por un sistema de "Recorrido Galáctico" inspirado en los roguelites. Debes gestionar tus recursos, reputación e integridad del vehículo para llegar al final del circuito.
+
+<Steps>
+  <Step num="1" title="Comenzar un Recorrido Galáctico">
+    Gasta una Ficha de Entrada a la Liga para comenzar un intento. Elige tu camino a través de nodos de eventos ramificados.
+  </Step>
+  <Step num="2" title="Correr y sobrevivir">
+    Compite en carreras estándar, eventos de eliminación o duelos de rivalidad 1v1. Una mala posición o demasiados choques pueden terminar tu recorrido prematuramente.
+  </Step>
+  <Step num="3" title="Mejorar y reparar">
+    Usa el paddock para instalar piezas y reparar tu nave utilizando las recompensas obtenidas durante la carrera.
+  </Step>
+</Steps>
+
+| Modo | Jugadores | Enfoque |
+| :--- | :--- | :--- |
+| **Campaña** | 1 | Progresión del Recorrido Galáctico basada en intentos |
+| **Escenario** | 1 | Desafíos de carrera independientes y enfocados |
+| **Arcade** | 1 | Eventos seleccionados y exhibición de vehículos |
+| **Multijugador** | 2-12 | Duelos competitivos PvP en línea |
+
+<Callout type="warning" title="Mecánica importante">
+La **Ficha de Entrada a la Liga** es el recurso más valioso de tu intento. Si no logras quedar entre los tres primeros o sufres demasiado daño, corres el riesgo de perder la ficha, lo que te obligará a reiniciar tu recorrido actual.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos del sistema para PC">
+
+Para garantizar un rendimiento fluido en el Borde Exterior, verifica que tu sistema cumpla con las siguientes especificaciones.
+
+| Componente | Requisito mínimo |
+| :--- | :--- |
+| **SO** | Windows 10 |
+| **CPU** | Intel Core i5-8400 / AMD Ryzen 5 2600 |
+| **Memoria** | 12 GB de RAM |
+| **Gráficos** | Nvidia RTX 2060 / AMD RX 5600 XT 6GB |
+| **Almacenamiento** | 50 GB SSD (Requerido) |
+
+<Callout type="info" title="Recomendación de hardware">
+Aunque se enumeran los requisitos mínimos, se requiere estrictamente un SSD para la carga óptima de los entornos de carreras de alta velocidad. Se recomienda encarecidamente el uso de un mando para un control preciso durante las maniobras de carreras de pods a alta velocidad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y lista de verificación">
+
+Prepárate para la Liga Galáctica con esta lista de verificación esencial para maximizar tu éxito al principio del juego.
+
+<Checklist
+  id="launch-prep"
+  title="Hoja de ruta del jugador:"
+  items={[
+    "Dominar la secuencia de tiempo del impulso de salida",
+    "Completar el recorrido de campaña introductorio",
+    "Probar los tres tipos de chasis base en el modo Arcade",
+    "Desbloquear tu primer conjunto de piezas de rendimiento",
+    "Participar en un duelo de rivalidad PvP"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es STAR WARS: Galactic Racer un juego de Roblox?",
+    answer: "No, STAR WARS: Galactic Racer es un título de carreras profesional y oficial desarrollado por Fuse Games para PS5, Xbox Series X|S y PC."
+  },
+  {
+    question: "¿El juego admite multijugador multiplataforma?",
+    answer: "Sí, el juego cuenta con soporte para multijugador multiplataforma, como se indica en los listados de Xbox y Epic Games Store."
+  },
+  {
+    question: "¿Qué pasa si pierdo mi Ficha de Entrada a la Liga?",
+    answer: "Perder tu ficha termina tu intento de campaña actual, obligándote a reiniciar tu recorrido, aunque algunos progresos como los Créditos Galácticos pueden conservarse."
+  }
+]} />
+
+</Section>

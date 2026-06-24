@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Modes de course Star Wars Galactic Racer : Guide de la Campagne et du PvP",
+  description: "Maîtrisez chaque mode de course de Star Wars Galactic Racer. Apprenez les stratégies de campagne roguelite, les tactiques PvP en ligne, les configurations de speeder et les circuits de la Bordure Extérieure.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Racing+Modes+Guide",
+  date: "2026-06-24",
+  author: "L'équipe Wiki de Star Wars Galactic Racer",
+  keywords: "Star Wars Galactic Racer, modes de course, guide de campagne, tactiques PvP, speeders, Bordure Extérieure"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Cadre Principal** : Le **mode de course Star Wars Galactic Racer** propose une campagne basée sur des runs, des défis de scénario, des épreuves d'arcade et du PvP à 12 joueurs.
+- **Campagne Roguelite** : Les runs du Tour utilisent une structure de risque et de récompense où les joueurs dépensent des Jetons d'Entrée de Ligue pour participer.
+- **Sélection du Châssis** : Choisissez entre les Landspeeders, les Speeders bikes et les Skim speeders pour correspondre à votre préférence de maniabilité.
+- **Combat à Grande Vitesse** : Utilisez les tamponnages, les éliminations et les boosts de postcombustion bien synchronisés pour dominer les pistes.
+- **Stratégie d'Amélioration** : Dépensez des Crédits Galactiques dans le paddock entre les courses pour améliorer la stabilité en virage et la gestion de la chaleur.
+</Callout>
+
+<Section icon={Map} title="Cadre Principal du Mode de Course Star Wars Galactic Racer">
+
+Préparez-vous à allumer vos moteurs et à tout risquer dans la Bordure Extérieure sans foi ni loi. L'écosystème du **mode de course Star Wars Galactic Racer** offre une expérience de course à enjeux élevés et riche en contacts, mêlant vitesse et survie tactique. Lancé le 6 octobre 2026 sur PlayStation 5, Xbox Series X|S et PC, ce titre de course met les joueurs au défi de maîtriser plusieurs formats. Que vous gravissiez les échelons de la campagne solo ou que vous affrontiez des rivaux en multijoueur en ligne, comprendre les règles de chaque mode est essentiel pour survivre.
+
+Le jeu propose quatre formats de course principaux conçus pour tester vos réflexes et votre gestion de véhicule. Chaque mode met l'accent sur la connaissance des circuits, l'agressivité au combat ou la personnalisation du speeder.
+
+| Mode | Nombre de joueurs | Style de format | Objectif principal |
+|------|-------------------|-----------------|--------------------|
+| **Campagne** | 1 Joueur | Tour Galactique par runs | Vaincre Kestar Bool et gravir la Ligue |
+| **Scénario** | 1 Joueur | Événements de défi organisés | Remplir des objectifs d'épreuve spécifiques |
+| **Arcade** | 1 Joueur | Événements simples personnalisés | Pratiquer les circuits et tester les speeders |
+| **Matchs PvP** | 2-12 Joueurs | Compétition en salon en ligne | Survivre et distancer les adversaires humains |
+
+<Callout type="success" title="Conseil de Progression">
+Les débutants devraient passer leurs premières heures en mode Campagne. La structure basée sur les runs vous permet de gagner des Crédits Galactiques et de débloquer des pièces qui vous aideront à comprendre les profils de maniabilité avant d'entrer dans les salons en ligne compétitifs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="La Campagne Roguelite : Mécaniques du Tour Galactique">
+
+Le cœur de l'expérience solo est le Tour Galactique, un mode de campagne basé sur des runs où vous enfilez la combinaison de vol de Shade. Votre objectif ultime est de gravir les échelons de la Ligue Galactique et de défier le redoutable Kestar Bool. Ce mode n'est pas une simple séquence linéaire de circuits ; il utilise une structure roguelite avec des chemins d'événements ramifiés, des défis croissants et des ressources persistantes.
+
+Pour participer à un tour, vous devez risquer un Jeton d'Entrée de Ligue. Si vous vous crashez trop souvent ou si vous ne parvenez pas à obtenir une place dans le top 3, votre jeton sera révoqué, mettant fin à votre run actuel. Cependant, certains progrès, comme les Crédits Galactiques gagnés et certains déblocages de plans, sont conservés pour faciliter votre prochaine tentative.
+
+<Steps>
+  <Step num="1" title="Sélectionnez votre itinéraire">
+    Consultez la carte ramifiée du Tour Galactique. Choisissez vos chemins en fonction des récompenses, des dangers du circuit et de la difficulté des adversaires. Certains itinéraires offrent un rendement élevé en Crédits Galactiques mais présentent des environnements dangereux.
+  </Step>
+  <Step num="2" title="Gérez le temps d'arrêt au paddock">
+    Entre les courses, visitez le paddock. Utilisez cette zone de sécurité pour parler aux autres coureurs, acheter des pièces de performance auprès des vendeurs locaux et réparer les dommages au châssis subis lors des épreuves précédentes.
+  </Step>
+  <Step num="3" title="Appliquez les améliorations basées sur le run">
+    Investissez vos crédits dans les attributs critiques du speeder. Concentrez-vous sur l'amélioration de votre capacité de postcombustion, de la durée de vie de la batterie et de la stabilité en virage pour survivre aux vitesses croissantes des actes ultérieurs.
+  </Step>
+  <Step num="4" title="Sécurisez la qualification">
+    Atteignez l'événement final de l'acte. Vous devez vous classer dans les trois premiers pour assurer votre transition vers le niveau suivant de la Ligue Galactique et maintenir votre run en vie.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Risque de Jeton">
+Le fait de ne pas se classer dans le top 3 lors d'une qualification met immédiatement fin à votre run et consomme votre Jeton d'Entrée de Ligue. Priorisez toujours une conduite sûre et constante plutôt que des manœuvres d'élimination risquées à l'approche de la ligne d'arrivée.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multijoueur et Matchs de Rancune PvP Compétitifs">
+
+Lorsque vous êtes prêt à tester vos compétences contre de vrais joueurs, les modes multijoueurs en ligne prennent en charge des salons allant jusqu'à 12 joueurs. Dotée d'un jeu multiplateforme complet entre Xbox, PlayStation et PC, l'arène multijoueur est rapide, agressive et hautement compétitive.
+
+Les courses multijoueurs sont connues sous le nom de Matchs de Rancune PvP (PvG Grudge Matches). Dans ces événements, la réputation est tout aussi importante que votre position à l'arrivée. Les joueurs peuvent utiliser des mécaniques de contact lourd pour éjecter physiquement leurs adversaires de la piste. Réussir à tamponner un adversaire contre un mur ou exécuter une élimination à grande vitesse vous récompense par une énergie de boost instantanée, mais rater un tamponnage peut vous laisser vulnérable aux contre-attaques.
+
+<CardGrid cols={3}>
+  <Card title="Tamponnage Défensif">
+    Utilisez des tamponnages latéraux pour protéger votre position. Si un adversaire tente de vous dépasser par aspiration, un coup latéral bien synchronisé peut perturber sa trajectoire et le forcer vers les dangers du circuit.
+  </Card>
+  <Card title="Contrôle de Postcombustion">
+    La postcombustion offre un boost de vitesse fiable et répétable. Gérez votre batterie avec soin ; vider complètement vos réserves vous laisse sans défense dans les longues lignes droites.
+  </Card>
+  <Card title="Risques du Statoréacteur">
+    Le statoréacteur (Ramjet) offre une poussée de vitesse violente, parfaite pour les éliminations. Cependant, il génère une chaleur moteur extrême. En abuser provoquera une surchauffe, désactivant temporairement vos systèmes.
+  </Card>
+</CardGrid>
+
+Pour maintenir l'intérêt du jeu compétitif, les salons multijoueurs proposent plusieurs types de matchs distincts. Ces formats obligent les joueurs à adapter leurs configurations de speeder et leurs styles de conduite pour survivre.
+
+| Type de Match | Nombre de joueurs | Règles de combat | Condition de victoire |
+|---------------|-------------------|------------------|-----------------------|
+| **Course Standard** | 2-12 Joueurs | Tamponnages actifs activés | Franchir la ligne d'arrivée en premier |
+| **Élimination** | 2-12 Joueurs | Dégâts élevés, peu de réparations | Dernier speeder survivant sur la piste |
+| **Rancune 1v1** | 2 Joueurs | Dégâts de collision maximaux | Vaincre votre rival direct dans un match |
+| **Podracing** | 2-12 Joueurs | Vitesse extrême, sans boucliers | Maîtriser des passages étroits à vitesse maximale |
+
+<Callout type="tip" title="Gestion du Boost">
+N'utilisez jamais votre boost de statoréacteur juste avant un virage serré. L'augmentation spectaculaire de la vitesse réduit considérablement votre rayon de braquage, ce qui rend très probable une collision avec le mur extérieur et des dommages massifs au châssis.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Classes de Véhicules et Personnalisation">
+
+Votre choix de véhicule à répulseurs dicte toute votre approche du circuit. Le jeu propose trois classes de châssis de base, ainsi que des Podracers spécialisés et des véhicules exclusifs Deluxe. Chaque classe possède un profil de maniabilité unique et un trait de châssis signature qui peut être amélioré tout au long de votre carrière.
+
+Les Landspeeders offrent un style de jeu lourd, basé sur le drift, parfait pour les débutants qui veulent apprendre les circuits sans partir en tête-à-queue. Les Speeders bikes privilégient la vitesse pure en ligne droite mais nécessitent des réflexes exceptionnels pour négocier les virages serrés. Les Skim speeders sont des engins hautement techniques conçus pour des virages inclinés nets et un contrôle précis de la trajectoire.
+
+| Classe de Véhicule | Style de Maniabilité | Trait Distinctif | Meilleur Cas d'Utilisation |
+|--------------------|----------------------|------------------|----------------------------|
+| **Landspeeder** | Drift lourd et stable | Stabilisation de drift | Courses à fort contact et circuits sinueux |
+| **Speeder Bike** | Accélération rapide, virage rigide | Rafale cinétique | Longues lignes droites et larges parcours désertiques |
+| **Skim Speeder** | Réactif, virages inclinés | Tranchant (Knife Edge) | Circuits techniques avec changements de direction rapides |
+| **Podracer** | Vitesse extrême, châssis fragile | Aspiration de Podracing | Événements de vitesse à haut risque et arènes ouvertes |
+
+Pour garantir que votre véhicule puisse suivre la concurrence, vous devez prioriser judicieusement vos améliorations lors des runs de campagne et des visites au paddock.
+
+<Checklist
+  id="upgrade-priorities"
+  title="Ordre d'Amélioration Recommandé :"
+  items={[
+    "Améliorer la Stabilité en Virage pour maintenir la vitesse dans les sections de drift.",
+    "Augmenter la Capacité de la Batterie pour permettre une activation prolongée de la postcombustion.",
+    "Améliorer la Dissipation Thermique pour réduire le temps de refroidissement après l'usage du statoréacteur.",
+    "Renforcer le Blindage du Châssis pour survivre aux tamponnages agressifs des rivaux.",
+    "Débloquer les Traits Spécifiques à la Classe pour maximiser la capacité signature de votre véhicule."
+  ]}
+/>
+
+<Callout type="info" title="Note sur le Contenu Deluxe">
+Les joueurs qui achètent l'Édition Deluxe ou la Mise à niveau Deluxe débloquent trois véhicules exclusifs Kor Sarun : le speeder bike Ciza T, le landspeeder Darc X et le skim speeder Rak S. Ce pack comprend également trois épreuves Arcade uniques conçues pour mettre en valeur ces véhicules.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Profils de Circuits et Dangers dans la Bordure Extérieure">
+
+La Ligue Galactique emmène les joueurs dans certains des environnements les plus hostiles de la Bordure Extérieure. Des décharges poussiéreuses de Jakku aux plaines gelées et glissantes d'Ando Prime, chaque planète présente des dangers environnementaux uniques qui peuvent instantanément mettre fin à un run prometteur. Le succès nécessite d'adapter votre classe de véhicule au terrain spécifique de la piste.
+
+Par exemple, les circuits désertiques emblématiques de Tatooine, incluant des sections inspirées du classique circuit de Mos Espa, présentent de larges étendues de sable où les Speeders bikes peuvent exploiter leur vitesse de pointe. Cependant, ces pistes comportent également des passages étroits dans des canyons où une seule erreur de calcul peut entraîner une collision fatale.
+
+| Planète / Lieu | Type de Terrain | Dangers Majeurs | Châssis Recommandé |
+|----------------|-----------------|-----------------|--------------------|
+| **Jakku** | Désert poussiéreux, décharges | Débris d'épaves, dunes aveugles | Landspeeder |
+| **Tatooine** | Canyons rocheux, dunes de sable | Arches rocheuses étroites, grottes | Speeder Bike |
+| **Ando Prime** | Glaciers gelés, calottes glaciaires | Surfaces glissantes, faible traction | Skim Speeder |
+| **Lantaana** | Jungle tropicale dense | Racines suspendues, virages serrés | Skim Speeder |
+| **Sentinel I** | Cendres volcaniques, champs de lave | Coulées de lave, chaleur ambiante extrême | Landspeeder |
+
+<Callout type="tip" title="Stratégie de Course sur Glace">
+Sur Ando Prime, les mécaniques de drift standard vous feront perdre le contrôle à cause de la surface glacée à faible traction. Passez à un Skim speeder et utilisez son trait Tranchant pour couper des angles vifs dans les virages gelés sans perdre votre trajectoire.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Quelle est la date de sortie et les plateformes disponibles pour le jeu ?",
+    answer: "Star Wars: Galactic Racer sortira mondialement le 6 octobre 2026. Il sera disponible sur PlayStation 5, Xbox Series X|S et PC via Steam et l'Epic Games Store."
+  },
+  {
+    question: "Le jeu prend-il en charge le multijoueur multiplateforme ?",
+    answer: "Oui, le multijoueur multiplateforme est pris en charge sur toutes les plateformes disponibles, permettant aux joueurs PC, PlayStation 5 et Xbox Series X|S de s'affronter dans les mêmes salons en ligne de 12 joueurs."
+  },
+  {
+    question: "Que se passe-t-il si vous vous crashez ou échouez un run dans la campagne ?",
+    answer: "Chaque run de campagne nécessite un Jeton d'Entrée de Ligue. Si vous vous crashez trop souvent ou si vous ne parvenez pas à vous classer dans le top 3 lors des courses de qualification, vous perdez votre jeton et devez recommencer un nouveau run. Cependant, vous conservez vos Crédits Galactiques gagnés et vos plans débloqués."
+  },
+  {
+    question: "Y a-t-il des bonus de précommande disponibles pour le jeu ?",
+    answer: "Oui, la précommande de n'importe quelle édition du jeu vous offre une livrée de véhicule personnalisée en bonus et une bannière de joueur exclusive pour personnaliser votre profil multijoueur."
+  }
+]} />
+
+<Callout type="info" title="Canaux Officiels">
+Pour les dernières mises à jour, les feuilles de route de développement et les discussions de la communauté, visitez le site officiel de Star Wars Galactic Racer ou rejoignez les développeurs sur leur serveur Discord officiel. Les précommandes sont actuellement ouvertes sur toutes les principales boutiques numériques.
+</Callout>
+
+</Section>

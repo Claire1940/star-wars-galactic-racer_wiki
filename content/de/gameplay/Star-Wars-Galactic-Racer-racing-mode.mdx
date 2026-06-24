@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Rennmodi: Kampagnen- & PvP-Leitfaden",
+  description: "Meistern Sie jeden Star Wars Galactic Racer Rennmodus. Lernen Sie Roguelite-Kampagnenstrategien, Online-PvP-Taktiken, Speeder-Builds und Outer Rim-Strecken kennen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Racing+Modes+Guide",
+  date: "2026-06-24",
+  author: "Star Wars Galactic Racer Wiki-Team",
+  keywords: "Star Wars, Galactic Racer, Rennmodi, Kampagne, PvP, Speeder, Outer Rim, Roguelite"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernstruktur**: Der **Star Wars Galactic Racer Rennmodus** bietet eine laufbasierte Kampagne, Szenario-Herausforderungen, Arcade-Prüfungen und 12-Spieler-PvP.
+- **Roguelite-Kampagne**: Tour-Läufe nutzen eine Risiko-Belohnungs-Struktur, bei der Spieler Liga-Eintrittstoken einsetzen, um anzutreten.
+- **Chassis-Auswahl**: Wählen Sie zwischen Landspeedern, Speeder Bikes und Skim Speedern, um Ihren bevorzugten Fahrstil zu finden.
+- **Hochgeschwindigkeitskampf**: Nutzen Sie Rammstöße (Shunts), Takedowns und präzise getimte Nachbrenner-Boosts, um die Strecken zu dominieren.
+- **Upgrade-Strategie**: Geben Sie Galaktische Credits im Paddock zwischen den Rennen aus, um das Kurvenverhalten und das Hitzemanagement zu verbessern.
+</Callout>
+
+<Section icon={Map} title="Kernstruktur des Star Wars Galactic Racer Rennmodus">
+
+Bereiten Sie sich darauf vor, Ihre Triebwerke zu zünden und im gesetzlosen Outer Rim alles zu riskieren. Das Ökosystem des **Star Wars Galactic Racer Rennmodus** bietet ein hochriskantes, kontaktreiches Rennerlebnis, das Geschwindigkeit mit taktischem Überleben verbindet. Dieser Renntitel, der am 6. Oktober 2026 für PlayStation 5, Xbox Series X|S und PC erscheint, fordert die Spieler heraus, mehrere Formate zu meistern. Egal, ob Sie in der Solo-Kampagne die Ränge erklimmen oder im Online-Multiplayer gegen Rivalen kämpfen – das Verständnis der Regeln jedes Modus ist überlebenswichtig.
+
+Das Spiel bietet vier primäre Rennformate, die darauf ausgelegt sind, Ihre Reflexe und Ihr Fahrzeugmanagement zu testen. Jeder Modus legt einen anderen Schwerpunkt auf Streckenkenntnis, Kampfaggression und Speeder-Anpassung.
+
+| Modus | Spieleranzahl | Format-Stil | Kernziel |
+|------|--------------|--------------|----------------|
+| **Kampagne** | 1 Spieler | Laufbasierte Galaktische Tour | Kestar Bool besiegen und in der Liga aufsteigen |
+| **Szenario** | 1 Spieler | Kuratierte Herausforderungs-Events | Spezifische Prüfungsziele erfüllen |
+| **Arcade** | 1 Spieler | Eigene Einzel-Events | Strecken üben und Speeder präsentieren |
+| **PvP-Matches** | 2-12 Spieler | Online-Lobby-Wettbewerb | Menschliche Gegner überleben und überholen |
+
+<Callout type="success" title="Fortschritts-Tipp">
+Anfänger sollten ihre ersten Stunden im Kampagnenmodus verbringen. Die laufbasierte Struktur ermöglicht es Ihnen, Galaktische Credits zu verdienen und Teile freizuschalten, die Ihnen helfen, die Handling-Profile zu verstehen, bevor Sie in kompetitive Online-Lobbys eintreten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Die Roguelite-Kampagne: Mechaniken der Galaktischen Tour">
+
+Das Herzstück des Einzelspielererlebnisses ist die Galaktische Tour, ein laufbasierter Kampagnenmodus, in dem Sie in den Fluganzug von Shade schlüpfen. Ihr ultimatives Ziel ist es, in den Rängen der Galaktischen Liga aufzusteigen und den gewaltigen Kestar Bool herauszufordern. Dieser Modus ist keine einfache lineare Abfolge von Strecken; stattdessen nutzt er eine Roguelite-Struktur mit verzweigten Event-Pfaden, eskalierenden Herausforderungen und beständigen Ressourcen.
+
+Um an einer Tour teilzunehmen, müssen Sie einen Liga-Eintrittstoken riskieren. Wenn Sie in zu vielen Rennen ausscheiden oder keine Top-3-Platzierung erreichen, wird Ihr Token entzogen und Ihr aktueller Lauf beendet. Bestimmter Fortschritt, wie verdiente Galaktische Credits und spezifische Blaupausen-Freischaltungen, bleibt jedoch erhalten, um Ihren nächsten Versuch zu erleichtern.
+
+<Steps>
+  <Step num="1" title="Wählen Sie Ihre Route">
+    Überprüfen Sie die verzweigte Karte der Galaktischen Tour. Wählen Sie Pfade basierend auf Belohnungen, Streckengefahren und Schwierigkeitsgrad der Gegner. Einige Routen bieten hohe Erträge an Galaktischen Credits, weisen aber gefährliche Umgebungen auf.
+  </Step>
+  <Step num="2" title="Paddock-Ausfallzeiten verwalten">
+    Besuchen Sie zwischen den Rennen das Paddock. Nutzen Sie diese Sicherheitszone, um mit anderen Rennfahrern zu sprechen, Leistungsteile von lokalen Händlern zu kaufen und Chassis-Schäden aus vorherigen Events zu reparieren.
+  </Step>
+  <Step num="3" title="Laufbasierte Upgrades anwenden">
+    Investieren Sie Ihre Credits in kritische Speeder-Attribute. Konzentrieren Sie sich auf die Verbesserung Ihrer Nachbrenner-Kapazität, Batterielebensdauer und Kurvenstabilität, um die eskalierenden Geschwindigkeiten späterer Akte zu überstehen.
+  </Step>
+  <Step num="4" title="Den Qualifier sichern">
+    Erreichen Sie das finale Event des Aktes. Sie müssen sich unter den ersten drei platzieren, um Ihren Übergang in die nächste Stufe der Galaktischen Liga zu sichern und Ihren Lauf am Leben zu erhalten.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Token-Risiko">
+Wenn Sie es in einem Qualifier nicht in die Top 3 schaffen, wird Ihr Lauf sofort beendet und Ihr Liga-Eintrittstoken verbraucht. Priorisieren Sie beim Heranfahren an die Ziellinie immer sicheres, konstantes Fahren gegenüber riskanten Takedown-Manövern.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer und kompetitive PvP-Groll-Matches">
+
+Wenn Sie bereit sind, Ihr Können gegen echte Spieler zu testen, unterstützen die Online-Multiplayer-Modi Lobbys mit bis zu 12 Spielern. Mit voller Cross-Platform-Unterstützung zwischen Xbox, PlayStation und PC-Plattformen ist die Multiplayer-Arena schnell, aggressiv und hochgradig kompetitiv.
+
+Multiplayer-Rennen sind als PvP-Groll-Matches bekannt. In diesen Events ist der Ruf genauso wichtig wie Ihre Platzierung. Spieler können schwere Kontaktmechaniken nutzen, um Gegner physisch von der Strecke zu drängen. Ein erfolgreicher Rammstoß (Shunt) gegen einen Gegner in eine Wand oder das Ausführen eines Hochgeschwindigkeits-Takedowns belohnt Sie mit sofortiger Boost-Energie, aber ein verfehlter Rammstoß kann Sie anfällig für Gegenangriffe machen.
+
+<CardGrid cols={3}>
+  <Card title="Defensives Rammen">
+    Nutzen Sie seitliche Rammstöße, um Ihre Position zu schützen. Wenn ein Gegner versucht, im Windschatten an Ihnen vorbeizuziehen, kann ein gut getimter Seitenhieb seine Flugbahn stören und ihn in Streckengefahren zwingen.
+  </Card>
+  <Card title="Nachbrenner-Kontrolle">
+    Der Nachbrenner bietet einen zuverlässigen, wiederholbaren Geschwindigkeitsschub. Verwalten Sie Ihre Batterie sorgfältig; das vollständige Entleeren Ihrer Reserven macht Sie auf langen Geraden wehrlos.
+  </Card>
+  <Card title="Ramjet-Risiken">
+    Das Ramjet bietet einen heftigen Geschwindigkeitsschub, der perfekt für Takedowns ist. Es erzeugt jedoch extreme Motorhitze. Übermäßiger Gebrauch des Ramjets führt zur Überhitzung Ihres Motors und deaktiviert vorübergehend Ihre Systeme.
+  </Card>
+</CardGrid>
+
+Um das kompetitive Spiel spannend zu halten, bieten Multiplayer-Lobbys verschiedene Match-Typen. Diese Formate zwingen die Spieler, ihre Speeder-Builds und Fahrstile anzupassen, um zu überleben.
+
+| Match-Typ | Spieleranzahl | Kampfregeln | Siegbedingung |
+|------------|--------------|--------------|-------------------|
+| **Standardrennen** | 2-12 Spieler | Aktive Rammstöße aktiviert | Als Erster die Ziellinie überqueren |
+| **Eliminierung** | 2-12 Spieler | Hoher Schaden, wenig Reparatur | Letzter überlebender Speeder auf der Strecke |
+| **1v1-Groll** | 2 Spieler | Maximaler Kollisionsschaden | Besiegen Sie Ihren direkten Rivalen in einem Match |
+| **Podrennen** | 2-12 Spieler | Extreme Geschwindigkeit, keine Schilde | Meistern Sie enge Pfade bei maximalem Tempo |
+
+<Callout type="tip" title="Boost-Management">
+Nutzen Sie Ihren Ramjet-Boost niemals unmittelbar vor einer scharfen Kurve. Die drastische Geschwindigkeitssteigerung reduziert Ihren Kurvenradius massiv, was es sehr wahrscheinlich macht, dass Sie mit der Außenwand kollidieren und schweren Chassis-Schaden erleiden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fahrzeugklassen und Anpassung in den Rennmodi">
+
+Ihre Wahl des Repulsorfahrzeugs bestimmt Ihre gesamte Herangehensweise an die Strecke. Das Spiel bietet im Basisspiel drei Kern-Chassis-Klassen sowie spezialisierte Podrennwagen und exklusive Deluxe-Fahrzeuge. Jede Klasse verfügt über ein einzigartiges Handling-Profil und eine charakteristische Chassis-Eigenschaft, die im Laufe Ihrer Karriere verbessert werden kann.
+
+Landspeeder bieten einen schweren, driftlastigen Spielstil, der perfekt für Anfänger ist, die die Strecken lernen wollen, ohne sich ständig zu drehen. Speeder Bikes bevorzugen reine Geschwindigkeit auf Geraden, erfordern aber außergewöhnliche Reflexe, um enge Kurven zu navigieren. Skim Speeder sind hochtechnische Fahrzeuge, die auf scharfen Neigungskurven und präziser Linienführung basieren.
+
+| Fahrzeugklasse | Handling-Stil | Signatur-Eigenschaft | Bester Anwendungsfall |
+|---------------|----------------|-----------------|---------------|
+| **Landspeeder** | Schwerfälliges, stabiles Driften | Drift-Stabilisierung | Kontaktreiche Rennen und enge, windige Strecken |
+| **Speeder Bike** | Schnelle Beschleunigung, steifes Lenken | Kinetischer Stoß | Lange Geraden und weite Wüstenkurse |
+| **Skim Speeder** | Reaktionsschnelle Neigungskurven | Messerkante | Technische Kurse mit schnellen Richtungswechseln |
+| **Podrennwagen** | Extreme Geschwindigkeit, fragiles Chassis | Podrennen-Windschatten | Hochrisiko-Speed-Events und offene Arenen |
+
+Um sicherzustellen, dass Ihr Fahrzeug mit der Konkurrenz mithalten kann, müssen Sie Ihre Upgrades während der Kampagnenläufe und Paddock-Besuche klug priorisieren.
+
+<Checklist
+  id="upgrade-priorities"
+  title="Empfohlener Upgrade-Pfad:"
+  items={[
+    "Verbessern Sie die Kurvenstabilität, um die Geschwindigkeit in Drift-Abschnitten beizubehalten.",
+    "Erhöhen Sie die Batteriekapazität, um längere Nachbrenner-Aktivierungen zu ermöglichen.",
+    "Verbessern Sie die Hitzeableitung, um die Abkühlzeit nach der Ramjet-Nutzung zu verkürzen.",
+    "Verstärken Sie die Chassis-Panzerung, um aggressive Rammstöße von Rivalen zu überstehen.",
+    "Schalten Sie klassenspezifische Eigenschaften frei, um die Signatur-Fähigkeit Ihres Fahrzeugs zu maximieren."
+  ]}
+/>
+
+<Callout type="info" title="Hinweis zu Deluxe-Inhalten">
+Spieler, die die Deluxe Edition oder das Deluxe Upgrade erwerben, schalten drei exklusive Kor Sarun Fahrzeuge frei: das Ciza T Speeder Bike, den Darc X Landspeeder und den Rak S Skim Speeder. Dieses Paket enthält außerdem drei einzigartige Arcade-Prüfungen, die darauf ausgelegt sind, diese Fahrzeuge zu präsentieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Streckenprofile und Gefahren im Outer Rim">
+
+Die Galaktische Liga führt die Spieler durch einige der feindseligsten Umgebungen im Outer Rim. Von den staubigen Schrotthaufen auf Jakku bis zu den gefrorenen, rutschigen Ebenen von Ando Prime präsentiert jeder Planet einzigartige Umweltgefahren, die einen vielversprechenden Lauf sofort beenden können. Erfolg erfordert die Abstimmung Ihrer Fahrzeugklasse auf das jeweilige Terrain der Strecke.
+
+Zum Beispiel bieten die ikonischen Wüstenstrecken von Tatooine, einschließlich Abschnitten, die vom klassischen Mos Espa Circuit inspiriert sind, weite offene Sandflächen, auf denen Speeder Bikes ihre hohe Höchstgeschwindigkeit ausspielen können. Diese Strecken weisen jedoch auch enge Canyon-Passagen auf, in denen eine einzige Fehlkalkulation zu einer fatalen Kollision führen kann.
+
+| Planet / Ort | Geländetyp | Hauptgefahren | Empfohlenes Chassis |
+|-------------------|--------------|---------------|---------------------|
+| **Jakku** | Staubige Wüste, Schrottplätze | Herabstürzende Trümmer, blinde Dünen | Landspeeder |
+| **Tatooine** | Felsige Canyons, Sanddünen | Enge Felsbögen, Höhlen | Speeder Bike |
+| **Ando Prime** | Gefrorene Gletscher, Eisflächen | Rutschige Oberflächen, geringe Traktion | Skim Speeder |
+| **Lantaana** | Dichter tropischer Dschungel | Überhängende Wurzeln, enge Kurven | Skim Speeder |
+| **Sentinel I** | Vulkanische Asche, Lavafelder | Lavaströme, extreme Umgebungshitze | Landspeeder |
+
+<Callout type="tip" title="Eisrennen-Strategie">
+Auf Ando Prime führen Standard-Driftmechaniken aufgrund der geringen Traktion der Eisoberfläche dazu, dass Sie die Kontrolle verlieren. Wechseln Sie zu einem Skim Speeder und nutzen Sie dessen Eigenschaft „Messerkante“, um scharfe Winkel durch die gefrorenen Kurven zu schneiden, ohne Ihre Ideallinie zu verlieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wann ist das Erscheinungsdatum und auf welchen Plattformen ist das Spiel verfügbar?",
+    answer: "Star Wars: Galactic Racer erscheint weltweit am 6. Oktober 2026. Es wird auf PlayStation 5, Xbox Series X|S und PC über Steam und den Epic Games Store verfügbar sein."
+  },
+  {
+    question: "Unterstützt das Spiel Cross-Platform-Multiplayer?",
+    answer: "Ja, Cross-Platform-Multiplayer wird auf allen verfügbaren Plattformen unterstützt, sodass Spieler auf PC, PlayStation 5 und Xbox Series X|S in denselben 12-Spieler-Online-Lobbys gegeneinander antreten können."
+  },
+  {
+    question: "Was passiert, wenn man in der Kampagne einen Unfall baut oder einen Lauf nicht besteht?",
+    answer: "Jeder Kampagnenlauf erfordert einen Liga-Eintrittstoken. Wenn Sie zu oft verunfallen oder es in Qualifier-Rennen nicht unter die ersten drei schaffen, verlieren Sie Ihren Token und müssen einen neuen Lauf starten. Ihre verdienten Galaktischen Credits und freigeschalteten Blaupausen behalten Sie jedoch."
+  },
+  {
+    question: "Gibt es Vorbestellerboni für das Spiel?",
+    answer: "Ja, die Vorbestellung jeder Edition des Spiels gewährt Ihnen eine exklusive Repulsorfahrzeug-Lackierung und ein exklusives Spielerbanner zur Anpassung Ihres Multiplayer-Profils."
+  }
+]} />
+
+<Callout type="info" title="Offizielle Kanäle">
+Für die neuesten Updates, Entwicklungs-Roadmaps und Community-Diskussionen besuchen Sie die offizielle Star Wars Galactic Racer Website oder schließen Sie sich den Entwicklern auf ihrem offiziellen Discord-Server an. Vorbestellungen sind derzeit in allen großen digitalen Stores möglich.
+</Callout>
+
+</Section>

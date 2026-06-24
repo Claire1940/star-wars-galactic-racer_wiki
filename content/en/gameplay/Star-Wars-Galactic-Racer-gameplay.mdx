@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Gameplay: Outer Rim Racing Guide",
+  description: "Master the high-stakes Star Wars Galactic Racer gameplay. Learn vehicle classes, upgrade paths, campaign progression, track hazards, and PC system specs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Galactic+Racer+Gameplay+Guide",
+  date: "2026-06-24",
+  author: "Star Wars Galactic Racer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Gameplay Focus**: Mastering high-stakes, run-based repulsorcraft racing across dangerous Outer Rim circuits.
+- **Key Mechanic**: Managing the balance between Afterburner speed, Ramjet hazard boosts, and vehicle overheating.
+- **Best Strategy**: Prioritize cornering upgrades early in the campaign to avoid devastating wall collisions.
+- **Critical Tip**: Guard your League Entry Tokens closely, as losing them resets your active tour progress.
+- **Top Choice**: Start with the Landspeeder chassis class for reliable drift handling and superior contact defense.
+</Callout>
+
+<Section icon={Map} title="Star Wars Galactic Racer Gameplay: Core Mechanics & Controls">
+
+Mastering the intense **Star Wars Galactic Racer gameplay** requires a solid grasp of high-speed repulsorcraft physics, aggressive contact mechanics, and tactical resource management. Developed by Fuse Games and published by Secret Mode, this title shifts away from traditional arcade racing by introducing a run-based, rogue-lite loop set in the lawless corners of the Outer Rim. Players must handle rapid speeders while fighting off rival racers who are more than willing to shunt opponents into canyon walls.
+
+The core driving model centers on the unique handling profiles of three primary chassis classes. Unlike standard vehicles, repulsorcraft float above the terrain, meaning momentum, banking, and drift angles dictate your success on the track. Understanding when to slide through a corner and when to activate your kinetic burst is the difference between standing on the podium and ending up as scrap metal.
+
+| Chassis Class | Handling Profile | Special Trait | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| Landspeeder | Weighty, drift-focused | Drift | Contact-heavy races and tight, winding tracks |
+| Speeder Bike | High straight-line velocity | Kinetic Burst | Long straights and sudden overtaking opportunities |
+| Skim Speeder | Sharp, technical banking | Knife Edge | Highly technical routes requiring precise lines |
+
+<Callout type="tip" title="Handling Advice">
+If you are struggling with the loose, floating sensation of the repulsorcraft, spend your first few races in a Landspeeder. Its weightier profile provides a more forgiving learning curve when navigating high-speed collisions.
+</Callout>
+
+Each vehicle relies on two distinct boosting systems: the Afterburner and the Ramjet. The Afterburner offers repeatable, controlled speed increases that draw from your onboard battery. The Ramjet, on the other hand, provides a violent burst of speed ideal for ramming opponents or making desperate, last-second overtakes. However, relying too heavily on the Ramjet introduces a severe overheating risk that can temporarily disable your engines.
+
+</Section>
+
+<Section icon={Swords} title="Galactic Tour Campaign & Run-Based Progression">
+
+The heartbeat of the single-player experience is the Galactic Tour, a runs-based campaign where you guide an up-and-coming racer named Shade. Your goal is to climb the ranks of the Galactic League and challenge the formidable rival Kestar Bool. Progression is structured around branching event paths, where every choice carries significant risk.
+
+During a tour, you must manage your League Entry Tokens. These tokens grant you access to high-tier events. Failing to secure a top-three finish or completely destroying your vehicle can result in your token being revoked, ending your current run. While a failed tour forces you to start a new run, you retain earned Galactic Credits and specific permanent unlocks, allowing you to buy better vendor parts for your next attempt.
+
+<CardGrid cols={3}>
+  <Card title="Campaign Tour">
+    - **Single-player narrative**
+    - Rogue-lite run structure
+    - Permanent credit retention
+  </Card>
+  <Card title="Arcade Events">
+    - **Curated challenge modes**
+    - Iconic character showcases
+    - Risk-free practicing grounds
+  </Card>
+  <Card title="PvP Grudge Matches">
+    - **Competitive multiplayer**
+    - High-stakes reputation matches
+    - Online lobby support
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Run Preservation">
+Do not risk your last League Entry Token on an advanced event if your vehicle is heavily damaged. Visit the paddock vendor first to repair your hull, even if it delays your upgrade schedule.
+</Callout>
+
+Between races, players retreat to the paddock. This downtime serves as your strategic hub. Here, you can converse with fellow racers, analyze upcoming track layouts, and negotiate with shady vendors for high-grade performance parts. Managing your resources in the paddock is just as critical as your performance on the asphalt.
+
+| Campaign Element | Mechanic Style | Risk Level | Primary Reward |
+| :--- | :--- | :--- | :--- |
+| Branching Paths | Choice-driven events | Medium | Variable credits and part blueprints |
+| League Entry Tokens | Run permadeath system | High | Access to championship tier events |
+| Paddock Downtime | Resource management | Low | Vehicle repairs and performance tuning |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Winning Your First Race">
+
+Succeeding in your first Galactic League event requires an aggressive mindset and clean execution. Use this step-by-step walkthrough to secure a podium finish and keep your active run alive.
+
+<Steps>
+  <Step num="1" title="Perfect the Launch Boost">
+    As the countdown timer reaches zero, time your acceleration precisely. Combine this with a quick engine-and-shield input sequence to trigger a launch boost, propelling you ahead of the starting pack.
+  </Step>
+  <Step num="2" title="Establish Your Racing Line">
+    Use the early sections of the track to understand your chassis limits. Initiate drifts early when piloting a Landspeeder, or bank hard into corners using the Skim Speeder's Knife Edge ability to hold the inside line.
+  </Step>
+  <Step num="3" title="Execute Defensive Shunts">
+    Rivals will try to crowd your space. Use side shunts to push aggressive opponents into track hazards or walls. Eliminating a key rival early reduces the pressure on your rear shields.
+  </Step>
+  <Step num="4" title="Manage Engine Temperature">
+    Reserve your Ramjet boosts for long straightaways. Monitor your heat gauge closely; if your engine starts to overheat, ease off the accelerator and glide through the next turn to cool down.
+  </Step>
+  <Step num="5" title="Invest in Paddock Upgrades">
+    Once the race concludes, immediately head to the paddock. Spend your earned Galactic Credits on core handling and battery upgrades before selecting your next destination on the campaign map.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Victory Condition">
+Remember that you do not need to win every single race to progress. In the early stages of a Galactic Tour, securing a safe third-place finish is infinitely better than destroying your speeder while chasing first.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Vehicle Customization & Performance Upgrades">
+
+To survive the escalating speed of the Galactic League, your vehicle must evolve. Customization in the game is split between visual identity and raw performance tuning. Players can apply earned liveries, change player banners, and swap out cosmetic parts to stand out in online multiplayer lobbies.
+
+Performance upgrades directly alter your speeder's handling, defense, and power delivery. Upgrades are purchased using Galactic Credits earned from successful race placements and event challenges. Focusing on a balanced build is generally safer, but specializing in extreme speed or heavy armor can yield excellent results depending on your playstyle.
+
+| Upgrade Category | Affected Attributes | Stat Boost Range | Tactical Benefit |
+| :--- | :--- | :--- | :--- |
+| Afterburner | Boost speed, duration | +10% to +35% | Faster recovery from cornering errors |
+| Battery | Energy capacity, recharge | +15% to +40% | More frequent use of standard boosts |
+| Cornering | Drift angle, grip level | +12% to +30% | Tighter lines on technical tracks |
+| Ramjet | Impact damage, burst speed | +20% to +50% | High-damage shunts and rapid overtaking |
+
+<Callout type="info" title="Upgrade Priority">
+Prioritize upgrading your Cornering and Battery stats first. Having absolute control over your vehicle's steering and boost availability will save you more runs than simply having a high top speed.
+</Callout>
+
+For players who purchase the Deluxe Edition or the Deluxe Upgrade, three exclusive Kor Sarun repulsorcraft are unlocked: the Ciza T speeder bike, the Darc X landspeeder, and the Rak S skim speeder. These vehicles come equipped with unique handling profiles and custom liveries, alongside three exclusive Arcade Events designed to test their capabilities.
+
+</Section>
+
+<Section icon={Trophy} title="Outer Rim Tracks, Planets, and Hazards">
+
+The Galactic League spans several iconic and newly discovered planets across the Outer Rim. Each location introduces unique environmental hazards that can instantly end a promising run if ignored. From the dusty, scrap-heavy plains of Jakku to the frozen, slippery ice bridges of Ando Prime, adaptability is key.
+
+Tatooine remains a fan favorite, featuring high-speed podracing events that pay homage to classic Star Wars lore. Driving a podracer at breakneck speeds through the narrow canyons of the Mos Espa Circuit requires lightning-fast reflexes and a deep understanding of your vehicle's banking mechanics.
+
+| Planet / Location | Terrain Theme | Environmental Hazards | Key Strategy |
+| :--- | :--- | :--- | :--- |
+| Jakku | Desert scrapyard | Scrapyard wreckage, blinding dust storms | Maintain central track positioning |
+| Tatooine | Arid canyons | Narrow cavern passes, sharp cliff drops | Use drift-heavy chassis classes |
+| Ando Prime | Frozen glaciers | Slippery ice sheets, low cold visibility | Avoid over-correcting steering inputs |
+| Lantaana | Dense jungle | Overhanging foliage, blind corners | Memorize braking points early |
+| Sentinel I | Volcanic surface | Active lava flows, extreme heat zones | Minimize Ramjet usage to avoid overheating |
+
+<Callout type="tip" title="Track Mastery">
+Pay close attention to track-specific shortcuts. Many circuits feature hazardous alternative routes that require precise boosts to clear, but they can shave seconds off your lap time if executed cleanly.
+</Callout>
+
+To track your overall progression and prepare for the global launch on October 6, 2026, keep these essential milestones in mind as you prepare to enter the Galactic League.
+
+<Checklist
+  id="galactic-racer-goals"
+  title="Essential Campaign Milestones:"
+  items={[
+    "Complete the introductory Qualifier race to unlock the paddock",
+    "Acquire at least one vehicle from each of the three chassis classes",
+    "Successfully upgrade a single performance stat to its maximum level",
+    "Defeat your first major rival in a 1v1 PvP Grudge Match",
+    "Survive a full five-stage Galactic Tour without losing a token"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+To help you prepare for the launch, we have compiled answers to the most common questions surrounding the gameplay mechanics, release details, and system requirements.
+
+<FAQ items={[
+  {
+    question: "What is the release date and what platforms will it support?",
+    answer: "The game is scheduled to launch on October 6, 2026. It will be available on PlayStation 5, Xbox Series X|S, and PC via Steam and the Epic Games Store."
+  },
+  {
+    question: "How does the run-based campaign structure work?",
+    answer: "The solo campaign features a rogue-lite structure called the Galactic Tour. Players use League Entry Tokens to participate in branching events. If you crash out or fail to place, your run ends, but you keep your earned Galactic Credits to buy permanent upgrades."
+  },
+  {
+    question: "Does the game support cross-platform multiplayer?",
+    answer: "Yes, console storefronts and PC listings confirm online multiplayer support for 2-12 players, featuring cross-platform play so you can compete against friends on different systems."
+  },
+  {
+    question: "What are the minimum PC system requirements?",
+    answer: "To run the game, your PC will need at least Windows 10, an Intel Core i5-8400 or AMD Ryzen 5 2600 CPU, 12 GB of RAM, an Nvidia RTX 2060 or AMD Radeon RX 5600 XT graphics card, and 50 GB of available storage space on an SSD."
+  }
+]} />
+
+<Callout type="success" title="Ready to Race">
+Prepare your engines, customize your repulsorcraft, and get ready to dominate the Outer Rim when the game launches in October 2026!
+</Callout>
+
+</Section>

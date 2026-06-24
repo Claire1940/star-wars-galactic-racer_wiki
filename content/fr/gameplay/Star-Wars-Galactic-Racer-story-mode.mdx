@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mode histoire de Star Wars Galactic Racer : Guide de campagne et de run",
+  description: "Maîtrisez le mode histoire de Star Wars Galactic Racer basé sur des runs. Apprenez les mécaniques de campagne, les améliorations de véhicules et comment conquérir la Ligue Galactique.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/171e2e/f5a91f?text=Story+Mode+Guide",
+  date: "2026-06-24",
+  author: "L'équipe du Wiki de Star Wars Galactic Racer"
+}
+
+<Callout type="info" title="Guide rapide">
+- Le **mode histoire de Star Wars Galactic Racer** propose une campagne roguelite basée sur des runs, suivant l'ascension du pilote Shade.
+- Des **Jetons d'entrée de ligue** sont requis pour participer aux tournées, introduisant des mécaniques de progression à haut risque et haute récompense.
+- Des **chemins d'événements ramifiés** offrent des formats de course uniques, des améliorations de paddock et des rencontres avec des rivaux légendaires.
+- La **sélection du châssis** dicte directement la maniabilité, les styles de dérapage et les voies d'amélioration entre les manches compétitives.
+</Callout>
+
+<Section icon={Map} title="Aperçu du mode histoire de Star Wars Galactic Racer">
+
+Le très attendu **mode histoire de Star Wars Galactic Racer** introduit les joueurs dans une campagne solo basée sur des runs à enjeux élevés, située dans les confins sans foi ni loi de la galaxie. Développé par Fuse Games et édité par Secret Mode, ce mode axé sur la narration s'écarte des jeux de course linéaires traditionnels. Au lieu de cela, il adopte une structure roguelite où les joueurs enfilent la combinaison de pilote de Shade, un pilote en pleine ascension déterminé à gravir les échelons de la Ligue Galactique et à défier le redoutable champion, Kestar Bool.
+
+En incarnant Shade, vous devez naviguer dans un réseau dangereux de tournois clandestins, de pistes planétaires instables et de rivalités intenses. La campagne est structurée autour d'une série de Tournées Galactiques, où chaque décision sur la piste et en dehors a un impact sur votre voyage. L'échec n'est pas seulement un revers mineur ; c'est une mécanique active qui vous oblige à reconstruire, adapter et améliorer votre appareil pour les tentatives suivantes.
+
+**Points forts de la vidéo :**
+- **Le voyage de Shade** : Présentation visuelle du protagoniste et des syndicats de course clandestins.
+- **La Ligue Galactique** : Un aperçu des événements d'arène à enjeux élevés et de la rivalité avec Kestar Bool.
+- **L'évolution du Podracing** : Séquences de course à grande vitesse démontrant l'immensité des environnements.
+
+<YouTubeEmbed videoId="Je9SLyqRtc0" title="Star Wars: Galactic Racer - Bande-annonce officielle de l'histoire" />
+
+<Callout type="success" title="Informations de sortie">
+La sortie du jeu est prévue pour le 6 octobre 2026 sur PlayStation 5, Xbox Series X|S et PC. Les précommandes sont actuellement ouvertes sur la boutique [Steam Store](https://store.steampowered.com/app/4078430/STAR_WARS_Galactic_Racer/).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="La boucle roguelite : Règles des Tournées Galactiques">
+
+Le cœur de la campagne narrative est la Tournée Galactique, un système de progression basé sur des runs qui exige des performances constantes et une gestion stratégique des ressources. Pour participer à une tournée, les joueurs doivent risquer un Jeton d'entrée de ligue. Ce jeton fait office de ticket pour le tournoi ; le perdre vous oblige à retourner aux qualifications et à recommencer un nouveau run.
+
+Au cours d'une tournée, vous naviguerez sur une carte d'événements ramifiée à travers différentes planètes de la Bordure Extérieure. Chaque nœud de la carte présente différents types de courses, récompenses et dangers potentiels. Maintenir une position dans le top 3 est crucial ; prendre du retard ou détruire complètement votre véhicule peut entraîner l'échec de la tournée. Cependant, certaines ressources, comme les Crédits Galactiques, sont conservées d'un run à l'autre, vous permettant d'acheter des améliorations permanentes et des pièces auprès des vendeurs du paddock.
+
+| Phase de la tournée | Objectif | Condition d'échec | Ressource clé |
+| :--- | :--- | :--- | :--- |
+| Qualifications | Sécuriser l'entrée dans la ligue | Perte du jeton d'entrée | Crédits Galactiques |
+| Tournée ramifiée | Sélection de l'itinéraire et manches | Destruction du véhicule | Pièces d'amélioration |
+| Championnat | Défier Kestar Bool | Perte du titre | Gloire Galactique |
+
+<Callout type="warning" title="Gestion des risques">
+Ne dépensez pas tous vos Crédits Galactiques dans des boosts temporaires. Conservez toujours un fond de réserve pour pouvoir acheter des pièces de rechange si votre véhicule subit des dégâts critiques lors d'une manche à haut risque.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sélection de votre châssis de départ">
+
+Avant d'entreprendre votre première Tournée Galactique, vous devez choisir une classe de véhicule de départ. L'aperçu pratique a mis en évidence trois types de châssis de départ distincts, chacun s'adaptant à une philosophie de conduite et un style de contrôle spécifiques. Choisir le bon châssis est la base pour survivre aux courses de contact agressives de la Bordure Extérieure.
+
+<CardGrid cols={3}>
+  <Card title="Landspeeder">
+    - **Maniabilité plus lourde**
+    - Mécaniques axées sur le dérapage
+    - Grande durabilité pour les courses de contact
+  </Card>
+  <Card title="Speeder Bike">
+    - **Vitesse de pointe élevée en ligne droite**
+    - Capacité de Rafale Kinétique
+    - Faible durabilité, risque élevé
+  </Card>
+  <Card title="Skim Speeder">
+    - **Virages inclinés techniques**
+    - Précision extrême sur le fil du rasoir
+    - Vitesse modérée, grande agilité
+  </Card>
+</CardGrid>
+
+Le choix de votre véhicule dicte la manière dont vous gérez les dangers et interagissez avec vos rivaux. Alors que le Landspeeder est indulgent pour les débutants grâce à ses statistiques défensives élevées, le Speeder Bike récompense les pilotes expérimentés capables de naviguer dans des couloirs étroits sans entrer en contact avec l'environnement.
+
+| Classe de châssis | Indice de durabilité | Profil de maniabilité | Caractéristique de performance clé |
+| :--- | :--- | :--- | :--- |
+| Landspeeder | Élevé (4/5) | Lourd, axé dérapage | Glissade contrôlée en virage |
+| Speeder Bike | Faible (2/5) | Agile, vitesse en ligne droite | Accélération par rafale kinétique |
+| Skim Speeder | Moyen (3/5) | Technique, inclinaison | Virage d'une précision extrême |
+| Podracer | Faible (1/5) | Vitesse extrême, instable | Vitesse ultime à haut risque |
+
+<Callout type="tip" title="Recommandation pour les débutants">
+Commencez votre campagne avec le Landspeeder. Son châssis plus lourd vous permet d'apprendre les trajectoires de dérapage sur des pistes inconnues tout en survivant aux collisions agressives des pilotes rivaux.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide étape par étape de votre premier run de Tournée Galactique">
+
+Réussir votre premier run de campagne nécessite un équilibre entre conduite agressive, planification minutieuse de l'itinéraire et améliorations mécaniques opportunes. Suivez ce chemin de progression étape par étape pour optimiser vos performances en début de partie.
+
+<Steps>
+  <Step num="1" title="Initialisez votre tournée">
+    Acquérez votre premier Jeton d'entrée de ligue et sélectionnez votre châssis de départ. Les débutants devraient opter pour le Landspeeder afin de maximiser leurs chances de survie lors des premières courses riches en contacts.
+  </Step>
+  <Step num="2" title="Planifiez votre itinéraire stratégiquement">
+    Analysez la carte ramifiée de la tournée. Recherchez les nœuds qui offrent des gains élevés en Crédits Galactiques ou des pièces d'amélioration spécifiques plutôt que de simplement emprunter le chemin le plus court vers la finale.
+  </Step>
+  <Step num="3" title="Maîtrisez les mécaniques de surchauffe et de boost">
+    Utilisez votre Postcombustion (Afterburner) pour des augmentations de vitesse répétables et sûres. Réservez le boost Ramjet à haut risque pour dépasser vos rivaux dans les lignes droites ou exécuter des percussions tactiques agressives.
+  </Step>
+  <Step num="4" title="Dépensez vos crédits dans le paddock">
+    Entre les courses, visitez la zone du paddock. Interagissez avec d'autres pilotes, achetez des pièces de rechange auprès des vendeurs et donnez la priorité à l'amélioration des statistiques de Virage (Cornering) et de Batterie (Battery) de votre véhicule.
+  </Step>
+  <Step num="5" title="Assurez une place dans le top 3">
+    Évitez les risques inutiles dans les derniers tours. Conserver une place sur le podium est vital pour conserver votre Jeton d'entrée de ligue et maintenir le run en vie.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Interactions dans le paddock">
+Prenez le temps de parler aux pilotes PNJ dans le paddock. Certains personnages proposent des objectifs secondaires uniques ou échangent des composants de véhicule rares qui ne peuvent pas être achetés chez les vendeurs standards.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pistes et étapes clés de la Ligue Galactique">
+
+La Ligue Galactique s'étend sur plusieurs planètes emblématiques et nouvellement introduites à travers la Bordure Extérieure. Chaque lieu présente des dangers environnementaux distincts, des tracés de piste uniques et des conditions de course spécifiques qui mettront à l'épreuve la configuration de votre véhicule.
+
+| Planète | Type d'environnement | Principaux dangers de la piste | Rôle dans la campagne |
+| :--- | :--- | :--- | :--- |
+| Jakku | Désert marqué par les combats | Débris d'épaves, tempêtes de poussière | Qualifications de début de partie |
+| Tatooine | Canyons désertiques classiques | Parois de canyon, Pillards Tusken | Tournois de milieu de partie |
+| Ando Prime | Glaciers gelés | Glace glissante, faible visibilité | Épreuves de vitesse avancées |
+| Lantaana | Forêts de jungle luxuriante | Feuillage dense, sentiers étroits | Tests de maniabilité technique |
+| Sentinel I | Terres dévastées volcaniques | Coulées de lave, chaleur extrême | Championnats de fin de partie |
+
+Pour terminer avec succès le mode histoire, les joueurs doivent accomplir plusieurs étapes clés afin de préparer le véhicule de Shade pour l'affrontement ultime contre Kestar Bool dans l'arène Derven Acos.
+
+<Checklist
+  id="campaign-milestones"
+  title="Objectifs de progression de la campagne :"
+  items={[
+    "Sécuriser l'entrée dans la Ligue Galactique en terminant les qualifications",
+    "Débloquer les trois classes de châssis de départ standard",
+    "Acheter une amélioration de moteur de niveau 3 auprès d'un vendeur du paddock",
+    "Vaincre le rival régional sur Ando Prime sans détruire votre véhicule",
+    "Décrocher un podium sur l'historique circuit de Mos Espa"
+  ]}
+/>
+
+<Callout type="success" title="Préparation du championnat">
+Avant d'accéder au tableau final du championnat sur Sentinel I, assurez-vous que les statistiques de dissipation thermique de votre véhicule sont entièrement améliorées. L'environnement volcanique augmente considérablement le taux de surchauffe du moteur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Que se temps s'il se passe si je perds mon Jeton d'entrée de ligue dans le mode histoire ?",
+    answer: "Perdre votre jeton met fin à votre run actuel de Tournée Galactique. Vous conserverez vos Crédits Galactiques accumulés ainsi que certains plans débloqués, mais vous devrez recommencer un nouveau run depuis la phase de qualification."
+  },
+  {
+    question: "Puis-je changer de châssis de véhicule en milieu de run ?",
+    answer: "Non. Une fois que vous sélectionnez un châssis au début d'une Tournée Galactique, vous êtes bloqué dans cette classe de véhicule pour toute la durée du run. Vous ne pouvez changer de châssis qu'au moment de commencer une nouvelle tournée."
+  },
+  {
+    question: "Y a-t-il des podracers dans le mode histoire de Star Wars Galactic Racer ?",
+    answer: "Oui, les podracers sont présents en tant que classe de véhicule spécialisée à grande vitesse. Ils apparaissent lors d'événements de démonstration dédiés, y compris sur des circuits légendaires comme le circuit de Mos Espa sur Tatooine."
+  },
+  {
+    question: "La campagne prend-elle en charge la progression multiplateforme ?",
+    answer: "Bien que le mode multijoueur propose le jeu multiplateforme sur PS5, Xbox Series X|S et PC, la progression du mode histoire solo est liée au compte de votre plateforme locale."
+  }
+]} />
+
+<Callout type="tip" title="Plus de guides">
+Pour plus de détails sur les spécifications des véhicules, la configuration système requise et les stratégies multijoueurs, consultez nos guides complets sur les boutiques officielles des plateformes.
+</Callout>
+
+</Section>

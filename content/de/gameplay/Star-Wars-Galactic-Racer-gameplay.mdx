@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Gameplay: Leitfaden für Rennen im Outer Rim",
+  description: "Meistern Sie das riskante Gameplay von Star Wars Galactic Racer. Erfahren Sie mehr über Fahrzeugklassen, Upgrade-Pfade, Kampagnenfortschritt, Streckengefahren und PC-Systemanforderungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Galactic+Racer+Gameplay+Guide",
+  date: "2026-06-24",
+  author: "Star Wars Galactic Racer Wiki-Team",
+  keywords: "Star Wars, Galactic Racer, Gameplay, Leitfaden, Outer Rim, Rennspiel, Repulsorcraft"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptfokus des Gameplays**: Meistern von riskanten, laufbasierten Repulsorcraft-Rennen auf gefährlichen Kursen im Outer Rim.
+- **Schlüsselmechanik**: Die Balance zwischen Afterburner-Geschwindigkeit, Ramjet-Gefahrenboosts und Fahrzeugüberhitzung finden.
+- **Beste Strategie**: Priorisieren Sie Kurven-Upgrades früh in der Kampagne, um verheerende Wandkollisionen zu vermeiden.
+- **Kritischer Tipp**: Schützen Sie Ihre Liga-Eintritts-Token sorgfältig, da deren Verlust Ihren aktiven Tour-Fortschritt zurücksetzt.
+- **Top-Empfehlung**: Beginnen Sie mit der Landspeeder-Chassis-Klasse für zuverlässiges Drift-Handling und überlegene Kontaktverteidigung.
+</Callout>
+
+<Section icon={Map} title="Star Wars Galactic Racer Gameplay: Kernmechaniken & Steuerung">
+
+Das Meistern des intensiven **Star Wars Galactic Racer Gameplays** erfordert ein solides Verständnis der Hochgeschwindigkeits-Repulsorcraft-Physik, aggressiver Kontaktmechaniken und taktischem Ressourcenmanagement. Entwickelt von Fuse Games und veröffentlicht von Secret Mode, weicht dieser Titel vom traditionellen Arcade-Racing ab und führt eine laufbasierte Rogue-lite-Schleife ein, die in den gesetzlosen Ecken des Outer Rim spielt. Die Spieler müssen rasante Speeder steuern, während sie rivalisierende Rennfahrer abwehren, die mehr als bereit sind, ihre Gegner in Canyonwände zu rammen.
+
+Das zentrale Fahrmodell konzentriert sich auf die einzigartigen Handling-Profile von drei primären Chassis-Klassen. Im Gegensatz zu Standardfahrzeugen schweben Repulsorcraft über dem Gelände, was bedeutet, dass Impuls, Neigung und Driftwinkel über Ihren Erfolg auf der Strecke entscheiden. Zu verstehen, wann man durch eine Kurve gleitet und wann man seinen kinetischen Burst aktiviert, macht den Unterschied zwischen einem Platz auf dem Podium und dem Ende als Schrotthaufen aus.
+
+| Chassis-Klasse | Handling-Profil | Spezialfähigkeit | Bester Anwendungsfall |
+| :--- | :--- | :--- | :--- |
+| Landspeeder | Schwerfällig, drift-fokussiert | Drift | Kontaktintensive Rennen und enge, kurvenreiche Strecken |
+| Speeder Bike | Hohe Geschwindigkeit auf Geraden | Kinetic Burst | Lange Geraden und plötzliche Überholmöglichkeiten |
+| Skim Speeder | Scharfes, technisches Neigen | Knife Edge | Hochtechnische Routen, die präzise Linien erfordern |
+
+<Callout type="tip" title="Handling-Hinweis">
+Wenn Sie mit dem lockeren, schwebenden Gefühl der Repulsorcraft kämpfen, verbringen Sie Ihre ersten Rennen in einem Landspeeder. Sein schwereres Profil bietet eine fehlerverzeihendere Lernkurve bei Hochgeschwindigkeitskollisionen.
+</Callout>
+
+Jedes Fahrzeug verlässt sich auf zwei verschiedene Boost-Systeme: den Afterburner und den Ramjet. Der Afterburner bietet wiederholbare, kontrollierte Geschwindigkeitssteigerungen, die aus Ihrer Bordbatterie gespeist werden. Der Ramjet hingegen liefert einen heftigen Geschwindigkeitsschub, der ideal zum Rammen von Gegnern oder für verzweifelte Überholmanöver in letzter Sekunde ist. Eine zu starke Abhängigkeit vom Ramjet birgt jedoch ein schweres Überhitzungsrisiko, das Ihre Motoren vorübergehend deaktivieren kann.
+
+</Section>
+
+<Section icon={Swords} title="Galaktische Tour-Kampagne & Laufbasierter Fortschritt">
+
+Das Herzstück der Einzelspieler-Erfahrung ist die Galaktische Tour, eine laufbasierte Kampagne, in der Sie einen aufstrebenden Rennfahrer namens Shade führen. Ihr Ziel ist es, in den Rängen der Galaktischen Liga aufzusteigen und den furchterregenden Rivalen Kestar Bool herauszufordern. Der Fortschritt ist um verzweigte Event-Pfade strukturiert, wobei jede Wahl ein erhebliches Risiko birgt.
+
+Während einer Tour müssen Sie Ihre Liga-Eintritts-Token verwalten. Diese Token gewähren Ihnen Zugang zu hochrangigen Events. Wenn Sie keine Top-3-Platzierung erreichen oder Ihr Fahrzeug vollständig zerstören, kann Ihr Token entzogen werden, was Ihren aktuellen Lauf beendet. Während eine gescheiterte Tour Sie zwingt, einen neuen Lauf zu starten, behalten Sie verdiente Galaktische Credits und spezifische permanente Freischaltungen, was es Ihnen ermöglicht, bessere Händlerteile für Ihren nächsten Versuch zu kaufen.
+
+<CardGrid cols={3}>
+  <Card title="Kampagnen-Tour">
+    - **Einzelspieler-Narrativ**
+    - Rogue-lite-Laufstruktur
+    - Permanenter Erhalt von Credits
+  </Card>
+  <Card title="Arcade-Events">
+    - **Kuratierte Herausforderungsmodi**
+    - Präsentation ikonischer Charaktere
+    - Risikofreie Übungsplätze
+  </Card>
+  <Card title="PvP-Groll-Matches">
+    - **Wettbewerbsfähiger Mehrspieler**
+    - High-Stakes-Reputationsmatches
+    - Online-Lobby-Unterstützung
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Erhalt des Laufs">
+Riskieren Sie nicht Ihren letzten Liga-Eintritts-Token für ein fortgeschrittenes Event, wenn Ihr Fahrzeug schwer beschädigt ist. Besuchen Sie zuerst den Paddock-Händler, um Ihre Hülle zu reparieren, auch wenn dies Ihren Upgrade-Zeitplan verzögert.
+</Callout>
+
+Zwischen den Rennen ziehen sich die Spieler in das Paddock zurück. Diese Auszeit dient als Ihr strategisches Zentrum. Hier können Sie sich mit Mitstreitern unterhalten, kommende Streckenlayouts analysieren und mit zwielichtigen Händlern über hochwertige Leistungsteile verhandeln. Das Ressourcenmanagement im Paddock ist genauso entscheidend wie Ihre Leistung auf dem Asphalt.
+
+| Kampagnen-Element | Mechanik-Stil | Risikostufe | Primäre Belohnung |
+| :--- | :--- | :--- | :--- |
+| Verzweigte Pfade | Entscheidungsgesteuerte Events | Mittel | Variable Credits und Teile-Baupläne |
+| Liga-Eintritts-Token | Lauf-Permadeath-System | Hoch | Zugang zu Meisterschafts-Events |
+| Paddock-Auszeit | Ressourcenmanagement | Niedrig | Fahrzeugreparaturen und Leistungs-Tuning |
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zum Gewinn Ihres ersten Rennens">
+
+Um bei Ihrem ersten Event der Galaktischen Liga erfolgreich zu sein, sind eine aggressive Einstellung und eine saubere Ausführung erforderlich. Nutzen Sie diese Schritt-für-Schritt-Anleitung, um sich einen Podestplatz zu sichern und Ihren aktiven Lauf am Leben zu erhalten.
+
+<Steps>
+  <Step num="1" title="Perfektionieren Sie den Start-Boost">
+    Wenn der Countdown-Timer Null erreicht, müssen Sie Ihre Beschleunigung präzise timen. Kombinieren Sie dies mit einer schnellen Motor-und-Schild-Eingabesequenz, um einen Start-Boost auszulösen, der Sie vor das Startfeld katapultiert.
+  </Step>
+  <Step num="2" title="Legen Sie Ihre Rennlinie fest">
+    Nutzen Sie die frühen Abschnitte der Strecke, um die Grenzen Ihres Chassis zu verstehen. Leiten Sie Drifts frühzeitig ein, wenn Sie einen Landspeeder steuern, oder neigen Sie sich mit der Knife-Edge-Fähigkeit des Skim Speeders hart in die Kurven, um die Innenlinie zu halten.
+  </Step>
+  <Step num="3" title="Führen Sie defensive Rempler aus">
+    Rivalen werden versuchen, Sie abzudrängen. Nutzen Sie seitliche Rempler, um aggressive Gegner in Streckengefahren oder Wände zu drücken. Das frühzeitige Ausschalten eines wichtigen Rivalen verringert den Druck auf Ihre Heckschilde.
+  </Step>
+  <Step num="4" title="Verwalten Sie die Motortemperatur">
+    Reservieren Sie Ihre Ramjet-Boosts für lange Geraden. Überwachen Sie Ihre Temperaturanzeige genau; wenn Ihr Motor zu überhitzen beginnt, gehen Sie vom Gas und gleiten Sie durch die nächste Kurve, um abzukühlen.
+  </Step>
+  <Step num="5" title="Investieren Sie in Paddock-Upgrades">
+    Begeben Sie sich nach dem Rennen sofort in das Paddock. Geben Sie Ihre verdienten Galaktischen Credits für Kern-Handling- und Batterie-Upgrades aus, bevor Sie Ihr nächstes Ziel auf der Kampagnenkarte wählen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Siegbedingung">
+Denken Sie daran, dass Sie nicht jedes einzelne Rennen gewinnen müssen, um voranzukommen. In den frühen Phasen einer Galaktischen Tour ist ein sicherer dritter Platz unendlich viel besser, als Ihren Speeder bei der Jagd nach dem ersten Platz zu zerstören.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fahrzeuganpassung & Leistungs-Upgrades">
+
+Um die eskalierende Geschwindigkeit der Galaktischen Liga zu überleben, muss sich Ihr Fahrzeug weiterentwickeln. Die Anpassung im Spiel ist unterteilt in visuelle Identität und reines Leistungs-Tuning. Spieler können verdiente Lackierungen anwenden, Spielerbanner ändern und kosmetische Teile austauschen, um in Online-Multiplayer-Lobbys aufzufallen.
+
+Leistungs-Upgrades verändern direkt das Handling, die Verteidigung und die Kraftentfaltung Ihres Speeders. Upgrades werden mit Galaktischen Credits gekauft, die durch erfolgreiche Rennplatzierungen und Event-Herausforderungen verdient wurden. Ein ausgewogener Build ist im Allgemeinen sicherer, aber eine Spezialisierung auf extreme Geschwindigkeit oder schwere Panzerung kann je nach Spielstil exzellente Ergebnisse liefern.
+
+| Upgrade-Kategorie | Betroffene Attribute | Wertsteigerungsbereich | Taktischer Vorteil |
+| :--- | :--- | :--- | :--- |
+| Afterburner | Boost-Geschwindigkeit, Dauer | +10 % bis +35 % | Schnellere Erholung nach Kurvenfehlern |
+| Battery | Energiekapazität, Aufladung | +15 % bis +40 % | Häufigere Nutzung von Standard-Boosts |
+| Cornering | Driftwinkel, Grip-Niveau | +12 % bis +30 % | Engere Linien auf technischen Strecken |
+| Ramjet | Aufprallschaden, Burst-Geschwindigkeit | +20 % bis +50 % | Rempler mit hohem Schaden und schnelles Überholen |
+
+<Callout type="info" title="Upgrade-Priorität">
+Priorisieren Sie zuerst die Verbesserung Ihrer Kurvenfahrt- und Batteriewerte. Die absolute Kontrolle über die Lenkung und die Verfügbarkeit von Boosts wird Ihnen mehr Läufe retten als eine reine Höchstgeschwindigkeit.
+</Callout>
+
+Für Spieler, welche die Deluxe Edition oder das Deluxe Upgrade erwerben, werden drei exklusive Kor Sarun Repulsorcraft freigeschaltet: das Ciza T Speeder Bike, der Darc X Landspeeder und der Rak S Skim Speeder. Diese Fahrzeuge sind mit einzigartigen Handling-Profilen und individuellen Lackierungen ausgestattet, zusammen mit drei exklusiven Arcade-Events, die ihre Fähigkeiten testen.
+
+</Section>
+
+<Section icon={Trophy} title="Outer-Rim-Strecken, Planeten und Gefahren">
+
+Die Galaktische Liga erstreckt sich über mehrere ikonische und neu entdeckte Planeten im gesamten Outer Rim. Jeder Ort führt einzigartige Umgebungsgefahren ein, die einen vielversprechenden Lauf sofort beenden können, wenn sie ignoriert werden. Von den staubigen, schrottreichen Ebenen von Jakku bis zu den gefrorenen, rutschigen Eisbrücken von Ando Prime ist Anpassungsfähigkeit der Schlüssel.
+
+Tatooine bleibt ein Fan-Favorit und bietet Hochgeschwindigkeits-Podracing-Events, die eine Hommage an die klassische Star Wars Lore darstellen. Einen Podrenner mit halsbrecherischer Geschwindigkeit durch die engen Canyons des Mos Espa Circuits zu steuern, erfordert blitzschnelle Reflexe und ein tiefes Verständnis der Neigungsmechanik Ihres Fahrzeugs.
+
+| Planet / Ort | Geländethema | Umgebungsgefahren | Schlüsselstrategie |
+| :--- | :--- | :--- | :--- |
+| Jakku | Wüstenschrottplatz | Schrottplatz-Trümmer, blendende Staubstürme | Zentrale Streckenpositionierung beibehalten |
+| Tatooine | Aride Canyons | Enge Höhlenpassagen, steile Klippenabfälle | Drift-lastige Chassis-Klassen nutzen |
+| Ando Prime | Gefrorene Gletscher | Rutschige Eisflächen, geringe Sicht durch Kälte | Überkorrekturen der Lenkung vermeiden |
+| Lantaana | Dichter Dschungel | Überhängendes Laub, unübersichtliche Kurven | Bremspunkte frühzeitig einprägen |
+| Sentinel I | Vulkanische Oberfläche | Aktive Lavaströme, extreme Hitzezonen | Ramjet-Nutzung minimieren, um Überhitzung zu vermeiden |
+
+<Callout type="tip" title="Streckenbeherrschung">
+Achten Sie genau auf streckenspezifische Abkürzungen. Viele Kurse verfügen über gefährliche Alternativrouten, die präzise Boosts erfordern, aber Ihre Rundenzeit um Sekunden verkürzen können, wenn sie sauber ausgeführt werden.
+</Callout>
+
+Um Ihren Gesamtfortschritt zu verfolgen und sich auf den weltweiten Start am 6. Oktober 2026 vorzubereiten, behalten Sie diese wesentlichen Meilensteine im Hinterkopf, während Sie sich auf den Eintritt in die Galaktische Liga vorbereiten.
+
+<Checklist
+  id="galactic-racer-goals"
+  title="Wesentliche Kampagnen-Meilensteine:"
+  items={[
+    "Schließen Sie das einleitende Qualifikationsrennen ab, um das Paddock freizuschalten",
+    "Erwerben Sie mindestens ein Fahrzeug aus jeder der drei Chassis-Klassen",
+    "Verbessern Sie erfolgreich einen einzelnen Leistungswert auf seine maximale Stufe",
+    "Besiegen Sie Ihren ersten großen Rivalen in einem 1v1 PvP-Groll-Match",
+    "Überstehen Sie eine vollständige fünfstufige Galaktische Tour, ohne einen Token zu verlieren"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+Um Ihnen bei der Vorbereitung auf den Start zu helfen, haben wir Antworten auf die häufigsten Fragen zu den Gameplay-Mechaniken, Veröffentlichungsdetails und Systemanforderungen zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Wann ist das Veröffentlichungsdatum und welche Plattformen werden unterstützt?",
+    answer: "Das Spiel soll am 6. Oktober 2026 erscheinen. Es wird für PlayStation 5, Xbox Series X|S und PC über Steam und den Epic Games Store erhältlich sein."
+  },
+  {
+    question: "Wie funktioniert die laufbasierte Kampagnenstruktur?",
+    answer: "Die Solo-Kampagne bietet eine Rogue-lite-Struktur namens Galaktische Tour. Spieler nutzen Liga-Eintritts-Token, um an verzweigten Events teilzunehmen. Wenn Sie ausscheiden oder keine Platzierung erreichen, endet Ihr Lauf, aber Sie behalten Ihre verdienten Galaktischen Credits, um permanente Upgrades zu kaufen."
+  },
+  {
+    question: "Unterstützt das Spiel plattformübergreifenden Multiplayer?",
+    answer: "Ja, Konsolen-Stores und PC-Einträge bestätigen die Unterstützung für Online-Multiplayer für 2-12 Spieler mit Cross-Platform-Play, sodass Sie gegen Freunde auf verschiedenen Systemen antreten können."
+  },
+  {
+    question: "Was sind die Mindestanforderungen für den PC?",
+    answer: "Um das Spiel auszuführen, benötigt Ihr PC mindestens Windows 10, eine Intel Core i5-8400 oder AMD Ryzen 5 2600 CPU, 12 GB RAM, eine Nvidia RTX 2060 oder AMD Radeon RX 5600 XT Grafikkarte und 50 GB verfügbaren Speicherplatz auf einer SSD."
+  }
+]} />
+
+<Callout type="success" title="Bereit für das Rennen">
+Bereiten Sie Ihre Motoren vor, passen Sie Ihr Repulsorcraft an und machen Sie sich bereit, den Outer Rim zu dominieren, wenn das Spiel im Oktober 2026 erscheint!
+</Callout>
+
+</Section>

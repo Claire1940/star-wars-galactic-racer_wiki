@@ -1,1 +1,706 @@
-{}
+{
+  "de": {
+    "editions": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-collectors-edition",
+        "file": "Star-Wars-Galactic-Racer-collectors-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-deluxe-edition",
+        "file": "Star-Wars-Galactic-Racer-deluxe-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-physical-edition",
+        "file": "Star-Wars-Galactic-Racer-physical-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-preorder",
+        "file": "Star-Wars-Galactic-Racer-preorder"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-price",
+        "file": "Star-Wars-Galactic-Racer-price"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steelbook",
+        "file": "Star-Wars-Galactic-Racer-steelbook"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-demo",
+        "file": "Star-Wars-Galactic-Racer-demo"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-gameplay",
+        "file": "Star-Wars-Galactic-Racer-gameplay"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-planets",
+        "file": "Star-Wars-Galactic-Racer-planets"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-racing-mode",
+        "file": "Star-Wars-Galactic-Racer-racing-mode"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-story-mode",
+        "file": "Star-Wars-Galactic-Racer-story-mode"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-tracks",
+        "file": "Star-Wars-Galactic-Racer-tracks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-beginner-guide",
+        "file": "Star-Wars-Galactic-Racer-beginner-guide"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-how-many-players",
+        "file": "Star-Wars-Galactic-Racer-how-many-players"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steam-deck",
+        "file": "Star-Wars-Galactic-Racer-steam-deck"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-system-requirements",
+        "file": "Star-Wars-Galactic-Racer-system-requirements"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-what-we-know",
+        "file": "Star-Wars-Galactic-Racer-what-we-know"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-wheel-support",
+        "file": "Star-Wars-Galactic-Racer-wheel-support"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-couch-co-op",
+        "file": "Star-Wars-Galactic-Racer-couch-co-op"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-crossplay",
+        "file": "Star-Wars-Galactic-Racer-crossplay"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-local-co-op",
+        "file": "Star-Wars-Galactic-Racer-local-co-op"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-multiplayer",
+        "file": "Star-Wars-Galactic-Racer-multiplayer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-online-multiplayer",
+        "file": "Star-Wars-Galactic-Racer-online-multiplayer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-split-screen",
+        "file": "Star-Wars-Galactic-Racer-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-epic-games",
+        "file": "Star-Wars-Galactic-Racer-epic-games"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-game-pass",
+        "file": "Star-Wars-Galactic-Racer-game-pass"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-geforce-now",
+        "file": "Star-Wars-Galactic-Racer-geforce-now"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-pc",
+        "file": "Star-Wars-Galactic-Racer-pc"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-ps5",
+        "file": "Star-Wars-Galactic-Racer-ps5"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steam",
+        "file": "Star-Wars-Galactic-Racer-steam"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-switch-2",
+        "file": "Star-Wars-Galactic-Racer-switch-2"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-xbox",
+        "file": "Star-Wars-Galactic-Racer-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-2026",
+        "file": "Star-Wars-Galactic-Racer-2026"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-launch-date",
+        "file": "Star-Wars-Galactic-Racer-launch-date"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-out-yet",
+        "file": "Star-Wars-Galactic-Racer-out-yet"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-release-date",
+        "file": "Star-Wars-Galactic-Racer-release-date"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-release",
+        "file": "Star-Wars-Galactic-Racer-release"
+      }
+    ],
+    "vehicles": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-podracer",
+        "file": "Star-Wars-Galactic-Racer-podracer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-vehicle-customization",
+        "file": "Star-Wars-Galactic-Racer-vehicle-customization"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-vehicles",
+        "file": "Star-Wars-Galactic-Racer-vehicles"
+      }
+    ]
+  },
+  "en": {
+    "editions": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-collectors-edition",
+        "file": "Star-Wars-Galactic-Racer-collectors-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-deluxe-edition",
+        "file": "Star-Wars-Galactic-Racer-deluxe-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-physical-edition",
+        "file": "Star-Wars-Galactic-Racer-physical-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-preorder",
+        "file": "Star-Wars-Galactic-Racer-preorder"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-price",
+        "file": "Star-Wars-Galactic-Racer-price"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steelbook",
+        "file": "Star-Wars-Galactic-Racer-steelbook"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-demo",
+        "file": "Star-Wars-Galactic-Racer-demo"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-gameplay",
+        "file": "Star-Wars-Galactic-Racer-gameplay"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-planets",
+        "file": "Star-Wars-Galactic-Racer-planets"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-racing-mode",
+        "file": "Star-Wars-Galactic-Racer-racing-mode"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-story-mode",
+        "file": "Star-Wars-Galactic-Racer-story-mode"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-tracks",
+        "file": "Star-Wars-Galactic-Racer-tracks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-beginner-guide",
+        "file": "Star-Wars-Galactic-Racer-beginner-guide"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-how-many-players",
+        "file": "Star-Wars-Galactic-Racer-how-many-players"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steam-deck",
+        "file": "Star-Wars-Galactic-Racer-steam-deck"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-system-requirements",
+        "file": "Star-Wars-Galactic-Racer-system-requirements"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-what-we-know",
+        "file": "Star-Wars-Galactic-Racer-what-we-know"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-wheel-support",
+        "file": "Star-Wars-Galactic-Racer-wheel-support"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-couch-co-op",
+        "file": "Star-Wars-Galactic-Racer-couch-co-op"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-crossplay",
+        "file": "Star-Wars-Galactic-Racer-crossplay"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-local-co-op",
+        "file": "Star-Wars-Galactic-Racer-local-co-op"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-multiplayer",
+        "file": "Star-Wars-Galactic-Racer-multiplayer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-online-multiplayer",
+        "file": "Star-Wars-Galactic-Racer-online-multiplayer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-split-screen",
+        "file": "Star-Wars-Galactic-Racer-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-epic-games",
+        "file": "Star-Wars-Galactic-Racer-epic-games"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-game-pass",
+        "file": "Star-Wars-Galactic-Racer-game-pass"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-geforce-now",
+        "file": "Star-Wars-Galactic-Racer-geforce-now"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-pc",
+        "file": "Star-Wars-Galactic-Racer-pc"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-ps5",
+        "file": "Star-Wars-Galactic-Racer-ps5"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steam",
+        "file": "Star-Wars-Galactic-Racer-steam"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-switch-2",
+        "file": "Star-Wars-Galactic-Racer-switch-2"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-xbox",
+        "file": "Star-Wars-Galactic-Racer-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-2026",
+        "file": "Star-Wars-Galactic-Racer-2026"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-launch-date",
+        "file": "Star-Wars-Galactic-Racer-launch-date"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-out-yet",
+        "file": "Star-Wars-Galactic-Racer-out-yet"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-release-date",
+        "file": "Star-Wars-Galactic-Racer-release-date"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-release",
+        "file": "Star-Wars-Galactic-Racer-release"
+      }
+    ],
+    "vehicles": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-podracer",
+        "file": "Star-Wars-Galactic-Racer-podracer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-vehicle-customization",
+        "file": "Star-Wars-Galactic-Racer-vehicle-customization"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-vehicles",
+        "file": "Star-Wars-Galactic-Racer-vehicles"
+      }
+    ]
+  },
+  "es": {
+    "editions": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-collectors-edition",
+        "file": "Star-Wars-Galactic-Racer-collectors-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-deluxe-edition",
+        "file": "Star-Wars-Galactic-Racer-deluxe-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-physical-edition",
+        "file": "Star-Wars-Galactic-Racer-physical-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-preorder",
+        "file": "Star-Wars-Galactic-Racer-preorder"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-price",
+        "file": "Star-Wars-Galactic-Racer-price"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steelbook",
+        "file": "Star-Wars-Galactic-Racer-steelbook"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-demo",
+        "file": "Star-Wars-Galactic-Racer-demo"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-gameplay",
+        "file": "Star-Wars-Galactic-Racer-gameplay"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-planets",
+        "file": "Star-Wars-Galactic-Racer-planets"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-racing-mode",
+        "file": "Star-Wars-Galactic-Racer-racing-mode"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-story-mode",
+        "file": "Star-Wars-Galactic-Racer-story-mode"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-tracks",
+        "file": "Star-Wars-Galactic-Racer-tracks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-beginner-guide",
+        "file": "Star-Wars-Galactic-Racer-beginner-guide"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-how-many-players",
+        "file": "Star-Wars-Galactic-Racer-how-many-players"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steam-deck",
+        "file": "Star-Wars-Galactic-Racer-steam-deck"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-system-requirements",
+        "file": "Star-Wars-Galactic-Racer-system-requirements"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-what-we-know",
+        "file": "Star-Wars-Galactic-Racer-what-we-know"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-wheel-support",
+        "file": "Star-Wars-Galactic-Racer-wheel-support"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-couch-co-op",
+        "file": "Star-Wars-Galactic-Racer-couch-co-op"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-crossplay",
+        "file": "Star-Wars-Galactic-Racer-crossplay"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-local-co-op",
+        "file": "Star-Wars-Galactic-Racer-local-co-op"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-multiplayer",
+        "file": "Star-Wars-Galactic-Racer-multiplayer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-online-multiplayer",
+        "file": "Star-Wars-Galactic-Racer-online-multiplayer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-split-screen",
+        "file": "Star-Wars-Galactic-Racer-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-epic-games",
+        "file": "Star-Wars-Galactic-Racer-epic-games"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-game-pass",
+        "file": "Star-Wars-Galactic-Racer-game-pass"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-geforce-now",
+        "file": "Star-Wars-Galactic-Racer-geforce-now"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-pc",
+        "file": "Star-Wars-Galactic-Racer-pc"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-ps5",
+        "file": "Star-Wars-Galactic-Racer-ps5"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steam",
+        "file": "Star-Wars-Galactic-Racer-steam"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-switch-2",
+        "file": "Star-Wars-Galactic-Racer-switch-2"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-xbox",
+        "file": "Star-Wars-Galactic-Racer-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-2026",
+        "file": "Star-Wars-Galactic-Racer-2026"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-launch-date",
+        "file": "Star-Wars-Galactic-Racer-launch-date"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-out-yet",
+        "file": "Star-Wars-Galactic-Racer-out-yet"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-release-date",
+        "file": "Star-Wars-Galactic-Racer-release-date"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-release",
+        "file": "Star-Wars-Galactic-Racer-release"
+      }
+    ],
+    "vehicles": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-podracer",
+        "file": "Star-Wars-Galactic-Racer-podracer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-vehicle-customization",
+        "file": "Star-Wars-Galactic-Racer-vehicle-customization"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-vehicles",
+        "file": "Star-Wars-Galactic-Racer-vehicles"
+      }
+    ]
+  },
+  "fr": {
+    "editions": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-collectors-edition",
+        "file": "Star-Wars-Galactic-Racer-collectors-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-deluxe-edition",
+        "file": "Star-Wars-Galactic-Racer-deluxe-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-physical-edition",
+        "file": "Star-Wars-Galactic-Racer-physical-edition"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-preorder",
+        "file": "Star-Wars-Galactic-Racer-preorder"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-price",
+        "file": "Star-Wars-Galactic-Racer-price"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steelbook",
+        "file": "Star-Wars-Galactic-Racer-steelbook"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-demo",
+        "file": "Star-Wars-Galactic-Racer-demo"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-gameplay",
+        "file": "Star-Wars-Galactic-Racer-gameplay"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-planets",
+        "file": "Star-Wars-Galactic-Racer-planets"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-racing-mode",
+        "file": "Star-Wars-Galactic-Racer-racing-mode"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-story-mode",
+        "file": "Star-Wars-Galactic-Racer-story-mode"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-tracks",
+        "file": "Star-Wars-Galactic-Racer-tracks"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-beginner-guide",
+        "file": "Star-Wars-Galactic-Racer-beginner-guide"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-how-many-players",
+        "file": "Star-Wars-Galactic-Racer-how-many-players"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steam-deck",
+        "file": "Star-Wars-Galactic-Racer-steam-deck"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-system-requirements",
+        "file": "Star-Wars-Galactic-Racer-system-requirements"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-what-we-know",
+        "file": "Star-Wars-Galactic-Racer-what-we-know"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-wheel-support",
+        "file": "Star-Wars-Galactic-Racer-wheel-support"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-couch-co-op",
+        "file": "Star-Wars-Galactic-Racer-couch-co-op"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-crossplay",
+        "file": "Star-Wars-Galactic-Racer-crossplay"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-local-co-op",
+        "file": "Star-Wars-Galactic-Racer-local-co-op"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-multiplayer",
+        "file": "Star-Wars-Galactic-Racer-multiplayer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-online-multiplayer",
+        "file": "Star-Wars-Galactic-Racer-online-multiplayer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-split-screen",
+        "file": "Star-Wars-Galactic-Racer-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-epic-games",
+        "file": "Star-Wars-Galactic-Racer-epic-games"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-game-pass",
+        "file": "Star-Wars-Galactic-Racer-game-pass"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-geforce-now",
+        "file": "Star-Wars-Galactic-Racer-geforce-now"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-pc",
+        "file": "Star-Wars-Galactic-Racer-pc"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-ps5",
+        "file": "Star-Wars-Galactic-Racer-ps5"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-steam",
+        "file": "Star-Wars-Galactic-Racer-steam"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-switch-2",
+        "file": "Star-Wars-Galactic-Racer-switch-2"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-xbox",
+        "file": "Star-Wars-Galactic-Racer-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-2026",
+        "file": "Star-Wars-Galactic-Racer-2026"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-launch-date",
+        "file": "Star-Wars-Galactic-Racer-launch-date"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-out-yet",
+        "file": "Star-Wars-Galactic-Racer-out-yet"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-release-date",
+        "file": "Star-Wars-Galactic-Racer-release-date"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-release",
+        "file": "Star-Wars-Galactic-Racer-release"
+      }
+    ],
+    "vehicles": [
+      {
+        "slug": "Star-Wars-Galactic-Racer-podracer",
+        "file": "Star-Wars-Galactic-Racer-podracer"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-vehicle-customization",
+        "file": "Star-Wars-Galactic-Racer-vehicle-customization"
+      },
+      {
+        "slug": "Star-Wars-Galactic-Racer-vehicles",
+        "file": "Star-Wars-Galactic-Racer-vehicles"
+      }
+    ]
+  }
+}

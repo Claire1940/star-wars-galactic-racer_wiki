@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Gamepad } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "STAR WARS: Galactic Racer en Steam Deck: Guía de configuración y consejos de rendimiento",
+  description: "Optimiza STAR WARS: Galactic Racer en Steam Deck con requisitos del sistema confirmados, la mejor configuración gráfica y esquemas de controles para el lanzamiento de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a202c/fbbf24?text=Steam+Deck+Setup+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de STAR WARS: Galactic Racer"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Disponibilidad en Steam Deck**: STAR WARS: Galactic Racer se lanza el **6 de octubre de 2026** en Steam y Epic Games Store.
+- **Requisitos mínimos**: Las especificaciones de PC requieren **12 GB de RAM** y un **SSD**, lo que hace que la gestión del almacenamiento sea crucial para los usuarios de consolas portátiles.
+- **Estrategia óptima**: Apunta a **30-40 FPS** con FSR activado para mantener la estabilidad durante las secuencias de carreras de vainas a alta velocidad.
+- **Consejo clave de control**: Usa los **botones traseros de la Steam Deck** para los impulsos del Ramjet y evitar el sobrecalentamiento al navegar por curvas cerradas.
+- **Nota de almacenamiento**: El juego requiere **50 GB de espacio disponible**; la instalación en un SSD NVMe interno es obligatoria para la transmisión de elementos.
+</Callout>
+
+<Section icon={Monitor} title="Compatibilidad con Steam Deck y requisitos del sistema">
+
+STAR WARS: Galactic Racer es una aventura de carreras de alto riesgo basada en intentos (runs) y ambientada en el sin ley Borde Exterior. A medida que el juego se prepara para su lanzamiento mundial el 6 de octubre de 2026, los jugadores de PC (específicamente aquellos que usan la Steam Deck) deben prepararse para su exigente perfil técnico. Desarrollado por Fuse Games, el título utiliza una física avanzada de vehículos repulsores que requiere un rendimiento de hardware constante.
+
+**Puntos destacados del video:**
+- Vista detallada de las mecánicas de **carreras de vainas a alta velocidad** en Tatooine.
+- Muestra del **viaje de Shade** a través de la Liga Galáctica.
+- Vista previa del **paddock de personalización** donde los jugadores mejoran sus vehículos.
+
+<YouTubeEmbed videoId="2MtgIoToa7I" title="Tráiler oficial de jugabilidad de STAR WARS: Galactic Racer" />
+
+Aunque Valve aún no ha emitido una clasificación oficial de "Verificado", la presencia del juego en la tienda de Steam asegura que será un objetivo principal para la optimización en portátiles. A continuación se presentan las especificaciones mínimas confirmadas para la versión de PC, que sirven como base para el rendimiento en Steam Deck.
+
+| Componente | Requisito mínimo | Contexto de Steam Deck |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 | Compatibilidad con SteamOS / Proton |
+| **CPU** | Intel i5-8400 / Ryzen 5 2600 | Zen 2 de 4 núcleos / 8 hilos |
+| **Memoria** | 12 GB de RAM | 16 GB LPDDR5 (Compartida) |
+| **Gráficos** | RTX 2060 / RX 5600 XT | Gráficos integrados RDNA 2 |
+| **Almacenamiento** | 50 GB de espacio disponible | **Se requiere SSD** |
+| **DirectX** | Versión 12 | Soportado a través de Proton |
+
+<Callout type="success" title="Lanzamiento oficial confirmado">
+La fecha de lanzamiento oficial está confirmada para el **6 de octubre de 2026**. Las reservas ya están disponibles en la tienda de Steam para las ediciones Estándar y Deluxe.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración gráfica óptima para Steam Deck">
+
+Para lograr una experiencia jugable en STAR WARS: Galactic Racer en Steam Deck, los jugadores deben enfocarse en equilibrar la fidelidad visual con el movimiento a alta velocidad del juego. La naturaleza basada en intentos del Tour Galáctico significa que una caída de fotogramas durante una maniobra de embestida (shunting) crítica puede poner fin a toda tu partida.
+
+Recomendamos la siguiente configuración para mantener un objetivo estable de 30-40 FPS:
+
+| Ajuste | Valor recomendado | Impacto |
+| :--- | :--- | :--- |
+| **Resolución** | 1280x800 | Relación de aspecto nativa de la Deck |
+| **Escalado (Upscaling)** | FSR 2.1 (Equilibrado) | Aumento significativo de FPS |
+| **Calidad de texturas** | Medio | Se ajusta a los límites de VRAM |
+| **Calidad de sombras** | Bajo | Reduce la carga de la CPU |
+| **Desenfoque de movimiento** | Bajo / Desactivado | Mejora la claridad a altas velocidades |
+| **Anti-Aliasing** | TAA | Suaviza los bordes dentados |
+| **V-Sync** | Desactivado | Reduce la latencia de entrada |
+
+<CardGrid cols={2}>
+  <Card title="Modo Rendimiento">
+    - **Objetivo**: 40 FPS / 40 Hz
+    - **Escalado**: FSR Rendimiento
+    - **Ideal para**: Partidas de revancha competitivas PvP
+  </Card>
+  <Card title="Modo Visual">
+    - **Objetivo**: 30 FPS / 60 Hz
+    - **Escalado**: FSR Calidad
+    - **Ideal para**: Inmersión en la historia de la campaña
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimización de la duración de la batería">
+Limita el TDP a **10-12 W** en el menú de acceso rápido de la Steam Deck para prolongar el tiempo de juego durante las largas sesiones del Tour Galáctico sin sacrificar demasiado rendimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad} title="Controles y configuración de entrada">
+
+STAR WARS: Galactic Racer cuenta con un modelo de vuelo complejo que incluye postquemadores (Afterburners), Ramjets y rasgos de chasis únicos como "Knife Edge" (Filo de cuchillo) y "Kinetic Burst" (Ráfaga cinética). Configurar correctamente los controles de tu Steam Deck es vital para sobrevivir a los peligros de Jakku y Ando Prime.
+
+<Steps>
+  <Step num="1" title="Activar dirección por giroscopio">
+    Navega a los ajustes de Steam Input y configura el giroscopio como "Como joystick". Esto permite maniobras de inclinación más precisas en los Skim Speeders.
+  </Step>
+  <Step num="2" title="Asignar los botones traseros">
+    Asigna L4/R4 al postquemador y L5/R5 al Ramjet. Esto mantiene tus pulgares en los sticks para la dirección y el control de la cámara.
+  </Step>
+  <Step num="3" title="Ajustar las zonas muertas de los gatillos">
+    Establece la zona muerta del acelerador (R2) al 5% para garantizar un tiempo de impulso de salida inmediato durante la cuenta regresiva de la carrera.
+  </Step>
+</Steps>
+
+| Acción | Entrada predeterminada | Asignación recomendada en la Deck |
+| :--- | :--- | :--- |
+| **Acelerar** | R2 | R2 / Gatillo derecho |
+| **Frenar / Derrapar** | L2 | L2 / Gatillo izquierdo |
+| **Postquemador** | A / Cruz | R4 (Botón trasero) |
+| **Ramjet (Impulso)** | B / Círculo | R5 (Botón trasero) |
+| **Embestir Izquierda/Derecha** | LB / RB | L1 / R1 |
+| **Derribo (Takedown)** | Y / Triángulo | Y / Botón superior |
+
+<Callout type="warning" title="Advertencia de retraso de entrada (Input Lag)">
+Evita usar mandos Bluetooth mientras la Steam Deck está en la base (docked) para este juego. La naturaleza de alta velocidad de las carreras de vainas hace que incluso una latencia de entrada mínima sea una desventaja grave.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modos de juego y progresión en portátiles">
+
+El núcleo del juego es el **Tour Galáctico**, una campaña basada en intentos donde los jugadores controlan a Shade. Cada tour requiere una **Ficha de entrada a la liga**. Si chocas o no logras quedar entre los tres primeros, el tour se reinicia, aunque conservas los Créditos Galácticos y ciertos desbloqueos.
+
+<CardGrid cols={3}>
+  <Card title="Campaña">
+    - Estructura basada en intentos
+    - Progresión impulsada por la historia
+    - Rutas de eventos ramificadas
+  </Card>
+  <Card title="Arcade">
+    - Eventos de carrera seleccionados
+    - Practica en pistas específicas
+    - Sin riesgo para las Fichas de entrada
+  </Card>
+  <Card title="Revancha PvP">
+    - Multijugador en línea
+    - Hasta 12 jugadores
+    - Soporte multiplataforma
+  </Card>
+</CardGrid>
+
+**Guía de peligros en pista:**
+| Planeta | Entorno | Peligro clave |
+| :--- | :--- | :--- |
+| **Tatooine** | Desierto | Cañones estrechos, restos de vainas de carreras |
+| **Ando Prime** | Helado | Hielo resbaladizo, baja visibilidad |
+| **Jakku** | Desguace | Restos afilados, tormentas de polvo |
+| **Sentinel I** | Volcánico | Flujos de lava, calor extremo (Sobrecalentamiento) |
+
+<Callout type="info" title="Estrategia de personalización">
+En el Paddock entre carreras, prioriza las mejoras de **Giro** y **Batería**. La alta velocidad no sirve de nada en la Steam Deck si no puedes navegar por los estrechos túneles del Circuito de Mos Espa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ediciones de reserva y preparación para Steam Deck">
+
+Antes del lanzamiento en octubre de 2026, asegúrate de haber seleccionado la edición correcta. Todas las versiones de Steam incluyen el juego base, pero la Edición Deluxe ofrece vehículos exclusivos que pueden proporcionar una curva de aprendizaje más suave para los jugadores en portátiles.
+
+<Checklist
+  id="steam-deck-prep"
+  title="Lista de verificación de preparación para Steam Deck:"
+  items={[
+    "Verificar 50 GB de espacio libre en el SSD interno",
+    "Actualizar SteamOS a la última versión estable",
+    "Reservar para obtener el diseño (Livery) y el banner de jugador de bonificación",
+    "Configurar los botones traseros para el Ramjet y el postquemador",
+    "Configurar un perfil de energía de '30 FPS' para una máxima estabilidad"
+  ]}
+/>
+
+| Característica | Edición Estándar | Edición Deluxe | Edición de coleccionista |
+| :--- | :--- | :--- | :--- |
+| **Juego base** | Incluido | Incluido | Incluido |
+| **Bono de reserva** | Diseño y Banner | Diseño y Banner | Diseño y Banner |
+| **Vehículos exclusivos** | Ninguno | 3 vehículos repulsores Kor Sarun | 3 vehículos repulsores Kor Sarun |
+| **Libro de arte digital** | No | Incluido | Incluido |
+| **Artículos físicos** | Ninguno | Ninguno | Maqueta, Steelbook, Parches |
+| **Precio (USD)** | $59.99 | $79.99 | $159.99 |
+
+<Callout type="tip" title="Ventaja de la Edición Deluxe">
+Los vehículos Kor Sarun incluidos en la Edición Deluxe vienen con perfiles de manejo únicos que pueden ser más fáciles de controlar con los sticks analógicos en comparación con algunos de los speeders más técnicos del juego base.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a STAR WARS: Galactic Racer sin conexión en Steam Deck?",
+    answer: "Sí, los modos Campaña y Arcade están disponibles sin conexión. Sin embargo, se requiere una activación en línea única a través de Denuvo Anti-Tamper, y las partidas de revancha PvP requieren una conexión a internet activa."
+  },
+  {
+    question: "¿El juego admite guardado cruzado entre plataformas?",
+    answer: "Aunque se ha confirmado el multijugador multiplataforma para hasta 12 jugadores, Secret Mode aún no ha detallado explícitamente la progresión cruzada entre Steam y consolas (PS5/Xbox)."
+  },
+  {
+    question: "¿Qué es el sistema de 'Fichas de entrada a la liga'?",
+    answer: "Es una mecánica de la Campaña basada en intentos. Necesitas una ficha para comenzar un Tour Galáctico. Si fallas demasiadas carreras o chocas, pierdes la ficha y debes reiniciar el tour, aunque conservas tus Créditos Galácticos."
+  },
+  {
+    question: "¿Hay alguna ventaja al usar un SSD en Steam Deck?",
+    answer: "Sí, los desarrolladores han indicado que se requiere un SSD. En Steam Deck, instalar el juego en una tarjeta microSD de alta velocidad puede provocar tirones (stuttering) durante las transiciones rápidas entre zonas de carrera."
+  }
+]} />
+
+</Section>

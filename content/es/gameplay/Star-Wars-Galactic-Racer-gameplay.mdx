@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jugabilidad de Star Wars Galactic Racer: Guía de Carreras del Borde Exterior",
+  description: "Domina la jugabilidad de alto riesgo de Star Wars Galactic Racer. Conoce las clases de vehículos, rutas de mejora, progresión de la campaña, peligros de las pistas y requisitos del sistema para PC.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Galactic+Racer+Gameplay+Guide",
+  date: "2026-06-24",
+  author: "Equipo de la Wiki de Star Wars Galactic Racer",
+  keywords: "Star Wars, Galactic Racer, jugabilidad, guía, Borde Exterior, carreras"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal de la Jugabilidad**: Dominar carreras de vehículos de repulsión de alto riesgo basadas en "runs" a través de peligrosos circuitos del Borde Exterior.
+- **Mecánica Clave**: Gestionar el equilibrio entre la velocidad del Postquemador (Afterburner), los impulsos de riesgo del Ramjet y el sobrecalentamiento del vehículo.
+- **Mejor Estrategia**: Prioriza las mejoras de viraje al principio de la campaña para evitar colisiones devastadoras contra los muros.
+- **Consejo Crítico**: Protege bien tus Fichas de Entrada a la Liga, ya que perderlas reinicia el progreso de tu tour activo.
+- **Mejor Opción**: Comienza con la clase de chasis Landspeeder para un manejo de derrape fiable y una defensa superior en contactos.
+</Callout>
+
+<Section icon={Map} title="Jugabilidad de Star Wars Galactic Racer: Mecánicas Principales y Controles">
+
+Dominar la intensa **jugabilidad de Star Wars Galactic Racer** requiere una comprensión sólida de la física de los vehículos de repulsión de alta velocidad, mecánicas de contacto agresivas y gestión táctica de recursos. Desarrollado por Fuse Games y publicado por Secret Mode, este título se aleja de las carreras arcade tradicionales al introducir un ciclo de juego tipo rogue-lite basado en intentos, ambientado en los rincones sin ley del Borde Exterior. Los jugadores deben manejar speeders rápidos mientras luchan contra corredores rivales que no dudarán en embestir a sus oponentes contra las paredes de los cañones.
+
+El modelo de conducción principal se centra en los perfiles de manejo únicos de tres clases de chasis primarias. A diferencia de los vehículos estándar, los vehículos de repulsión flotan sobre el terreno, lo que significa que el impulso, la inclinación y los ángulos de derrape dictan tu éxito en la pista. Entender cuándo deslizarse en una curva y cuándo activar tu ráfaga cinética es la diferencia entre subir al podio o terminar como chatarra.
+
+| Clase de Chasis | Perfil de Manejo | Rasgo Especial | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| Landspeeder | Pesado, centrado en derrape | Derrape | Carreras con mucho contacto y pistas estrechas y sinuosas |
+| Speeder Bike | Alta velocidad en línea recta | Ráfaga Cinética | Rectas largas y oportunidades de adelantamiento repentinas |
+| Skim Speeder | Inclinación técnica y cerrada | Filo de Navaja | Rutas altamente técnicas que requieren trazadas precisas |
+
+<Callout type="tip" title="Consejo de Manejo">
+Si tienes dificultades con la sensación de flotabilidad de los vehículos de repulsión, pasa tus primeras carreras en un Landspeeder. Su perfil más pesado ofrece una curva de aprendizaje más permisiva al navegar por colisiones a alta velocidad.
+</Callout>
+
+Cada vehículo depende de dos sistemas de impulso distintos: el Postquemador (Afterburner) y el Ramjet. El Postquemador ofrece aumentos de velocidad repetibles y controlados que consumen la batería de a bordo. El Ramjet, por otro lado, proporciona una ráfaga violenta de velocidad ideal para embestir oponentes o realizar adelantamientos desesperados de último segundo. Sin embargo, confiar demasiado en el Ramjet introduce un riesgo severo de sobrecalentamiento que puede desactivar temporalmente tus motores.
+
+</Section>
+
+<Section icon={Swords} title="Campaña del Tour Galáctico y Progresión por Intentos">
+
+El corazón de la experiencia para un jugador es el Tour Galáctico, una campaña basada en intentos (runs) donde guías a un corredor emergente llamado Shade. Tu objetivo es escalar en los rangos de la Liga Galáctica y desafiar al formidable rival Kestar Bool. La progresión se estructura en torno a rutas de eventos ramificadas, donde cada elección conlleva un riesgo significativo.
+
+Durante un tour, debes gestionar tus Fichas de Entrada a la Liga. Estas fichas te otorgan acceso a eventos de alto nivel. No lograr un puesto entre los tres primeros o destruir completamente tu vehículo puede resultar en la revocación de tu ficha, terminando tu intento actual. Aunque un tour fallido te obliga a comenzar una nueva "run", conservas los Créditos Galácticos obtenidos y desbloqueos permanentes específicos, lo que te permite comprar mejores piezas en los vendedores para tu próximo intento.
+
+<CardGrid cols={3}>
+  <Card title="Tour de Campaña">
+    - **Narrativa para un jugador**
+    - Estructura de "run" rogue-lite
+    - Retención permanente de créditos
+  </Card>
+  <Card title="Eventos Arcade">
+    - **Modos de desafío curados**
+    - Exhibiciones de personajes icónicos
+    - Terrenos de práctica sin riesgo
+  </Card>
+  <Card title="Duelos PvP">
+    - **Multijugador competitivo**
+    - Partidas de reputación de alto riesgo
+    - Soporte para salas en línea
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Preservación del Intento">
+No arriesgues tu última Ficha de Entrada a la Liga en un evento avanzado si tu vehículo está muy dañado. Visita primero al vendedor del paddock para reparar tu casco, incluso si eso retrasa tu calendario de mejoras.
+</Callout>
+
+Entre carreras, los jugadores se retiran al paddock. Este tiempo de inactividad sirve como tu centro estratégico. Aquí puedes conversar con otros corredores, analizar los trazados de las próximas pistas y negociar con vendedores sospechosos para obtener piezas de alto rendimiento. Gestionar tus recursos en el paddock es tan crítico como tu desempeño en el asfalto.
+
+| Elemento de Campaña | Estilo de Mecánica | Nivel de Riesgo | Recompensa Principal |
+| :--- | :--- | :--- | :--- |
+| Rutas Ramificadas | Eventos basados en elecciones | Medio | Créditos variables y planos de piezas |
+| Fichas de Entrada | Sistema de muerte permanente | Alto | Acceso a eventos de nivel de campeonato |
+| Tiempo en el Paddock | Gestión de recursos | Bajo | Reparaciones y ajuste de rendimiento |
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Ganar tu Primera Carrera">
+
+Tener éxito en tu primer evento de la Liga Galáctica requiere una mentalidad agresiva y una ejecución limpia. Usa esta guía paso a paso para asegurar un podio y mantener vivo tu intento activo.
+
+<Steps>
+  <Step num="1" title="Perfecciona el Impulso de Salida">
+    Cuando el temporizador de cuenta regresiva llegue a cero, sincroniza tu aceleración con precisión. Combina esto con una secuencia rápida de comandos de motor y escudo para activar un impulso de salida, propulsándote por delante del grupo inicial.
+  </Step>
+  <Step num="2" title="Establece tu Línea de Carrera">
+    Usa las primeras secciones de la pista para entender los límites de tu chasis. Inicia los derrapes temprano si pilotas un Landspeeder, o inclínate con fuerza en las curvas usando la habilidad Filo de Navaja del Skim Speeder para mantener la línea interior.
+  </Step>
+  <Step num="3" title="Ejecuta Embestidas Defensivas">
+    Los rivales intentarán invadir tu espacio. Usa embestidas laterales para empujar a los oponentes agresivos hacia peligros de la pista o muros. Eliminar a un rival clave temprano reduce la presión sobre tus escudos traseros.
+  </Step>
+  <Step num="4" title="Gestiona la Temperatura del Motor">
+    Reserva tus impulsos Ramjet para las rectas largas. Vigila de cerca tu indicador de calor; si tu motor comienza a sobrecalentarse, suelta el acelerador y deslízate en la siguiente curva para enfriarlo.
+  </Step>
+  <Step num="5" title="Invierte en Mejoras del Paddock">
+    Una vez que concluya la carrera, dirígete de inmediato al paddock. Gasta tus Créditos Galácticos obtenidos en mejoras de manejo básico y batería antes de seleccionar tu próximo destino en el mapa de la campaña.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Condición de Victoria">
+Recuerda que no necesitas ganar cada carrera para progresar. En las etapas iniciales de un Tour Galáctico, asegurar un tercer puesto seguro es infinitamente mejor que destruir tu speeder intentando alcanzar el primero.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personalización de Vehículos y Mejoras de Rendimiento">
+
+Para sobrevivir a la velocidad creciente de la Liga Galáctica, tu vehículo debe evolucionar. La personalización en el juego se divide entre la identidad visual y el ajuste de rendimiento bruto. Los jugadores pueden aplicar diseños obtenidos, cambiar banners de jugador y sustituir piezas cosméticas para destacar en las salas multijugador en línea.
+
+Las mejoras de rendimiento alteran directamente el manejo, la defensa y la entrega de potencia de tu speeder. Las mejoras se compran con Créditos Galácticos ganados en carreras y desafíos. Centrarse en una configuración equilibrada es generalmente más seguro, pero especializarse en velocidad extrema o armadura pesada puede dar excelentes resultados según tu estilo de juego.
+
+| Categoría de Mejora | Atributos Afectados | Rango de Mejora | Beneficio Táctico |
+| :--- | :--- | :--- | :--- |
+| Postquemador | Velocidad de impulso, duración | +10% a +35% | Recuperación más rápida de errores en curvas |
+| Batería | Capacidad de energía, recarga | +15% a +40% | Uso más frecuente de impulsos estándar |
+| Viraje | Ángulo de derrape, nivel de agarre | +12% to +30% | Trazadas más cerradas en pistas técnicas |
+| Ramjet | Daño de impacto, velocidad ráfaga | +20% a +50% | Embestidas de gran daño y adelantamientos rápidos |
+
+<Callout type="info" title="Prioridad de Mejora">
+Prioriza mejorar tus estadísticas de Viraje y Batería primero. Tener un control absoluto sobre la dirección de tu vehículo y la disponibilidad de impulsos te salvará más intentos que simplemente tener una velocidad punta alta.
+</Callout>
+
+Para los jugadores que adquieran la Deluxe Edition o la Mejora Deluxe, se desbloquean tres vehículos de repulsión exclusivos de Kor Sarun: la moto speeder Ciza T, el landspeeder Darc X y el skim speeder Rak S. Estos vehículos vienen equipados con perfiles de manejo únicos y diseños personalizados, junto con tres Eventos Arcade exclusivos diseñados para probar sus capacidades.
+
+</Section>
+
+<Section icon={Trophy} title="Pistas del Borde Exterior, Planetas y Peligros">
+
+La Liga Galáctica abarca varios planetas icónicos y recién descubiertos en todo el Borde Exterior. Cada ubicación introduce peligros ambientales únicos que pueden terminar instantáneamente con un intento prometedor si se ignoran. Desde las llanuras polvorientas llenas de chatarra de Jakku hasta los puentes de hielo congelados y resbaladizos de Ando Prime, la adaptabilidad es clave.
+
+Tatooine sigue siendo uno de los favoritos de los fans, con eventos de carreras de vainas (podracing) de alta velocidad que rinden homenaje a la historia clásica de Star Wars. Conducir un podracer a velocidades de vértigo a través de los estrechos cañones del Circuito de Mos Espa requiere reflejos de rayo y una comprensión profunda de las mecánicas de inclinación de tu vehículo.
+
+| Planeta / Ubicación | Tema del Terreno | Peligros Ambientales | Estrategia Clave |
+| :--- | :--- | :--- | :--- |
+| Jakku | Chatarrería del desierto | Restos de chatarra, tormentas de polvo | Mantener posición central en la pista |
+| Tatooine | Cañones áridos | Pasos de cavernas estrechos, desfiladeros | Usar clases de chasis aptas para derrape |
+| Ando Prime | Glaciares helados | Placas de hielo resbaladizas, baja visibilidad | Evitar correcciones excesivas en la dirección |
+| Lantaana | Selva densa | Follaje colgante, curvas ciegas | Memorizar puntos de frenado temprano |
+| Sentinel I | Superficie volcánica | Flujos de lava activos, calor extremo | Minimizar uso de Ramjet para evitar calor |
+
+<Callout type="tip" title="Maestría en la Pista">
+Presta mucha atención a los atajos específicos de cada pista. Muchos circuitos cuentan con rutas alternativas peligrosas que requieren impulsos precisos para superarse, pero pueden restar segundos a tu tiempo de vuelta si se ejecutan limpiamente.
+</Callout>
+
+Para seguir tu progresión general y prepararte para el lanzamiento global el 6 de octubre de 2026, ten en cuenta estos hitos esenciales mientras te preparas para entrar en la Liga Galáctica.
+
+<Checklist
+  id="galactic-racer-goals"
+  title="Hitos Esenciales de la Campaña:"
+  items={[
+    "Completa la carrera clasificatoria introductoria para desbloquear el paddock",
+    "Adquiere al menos un vehículo de cada una de las tres clases de chasis",
+    "Mejora con éxito una sola estadística de rendimiento a su nivel máximo",
+    "Derrota a tu primer gran rival en un Duelo PvP 1v1",
+    "Sobrevive a un Tour Galáctico completo de cinco etapas sin perder una ficha"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+Para ayudarte a prepararte para el lanzamiento, hemos recopilado respuestas a las preguntas más comunes sobre las mecánicas de juego, detalles de lanzamiento y requisitos del sistema.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la fecha de lanzamiento y qué plataformas soportará?",
+    answer: "El lanzamiento del juego está programado para el 6 de octubre de 2026. Estará disponible en PlayStation 5, Xbox Series X|S y PC a través de Steam y Epic Games Store."
+  },
+  {
+    question: "¿Cómo funciona la estructura de campaña basada en intentos?",
+    answer: "La campaña en solitario presenta una estructura rogue-lite llamada Tour Galáctico. Los jugadores usan Fichas de Entrada a la Liga para participar en eventos ramificados. Si chocas o no logras clasificar, tu intento termina, pero conservas los Créditos Galácticos ganados para comprar mejoras permanentes."
+  },
+  {
+    question: "¿El juego soporta multijugador multiplataforma?",
+    answer: "Sí, las tiendas de consolas y los listados de PC confirman soporte para multijugador en línea de 2 a 12 jugadores, con juego multiplataforma para que puedas competir contra amigos en diferentes sistemas."
+  },
+  {
+    question: "¿Cuáles son los requisitos mínimos del sistema para PC?",
+    answer: "Para ejecutar el juego, tu PC necesitará al menos Windows 10, una CPU Intel Core i5-8400 o AMD Ryzen 5 2600, 12 GB de RAM, una tarjeta gráfica Nvidia RTX 2060 o AMD Radeon RX 5600 XT, y 50 GB de espacio de almacenamiento disponible en un SSD."
+  }
+]} />
+
+<Callout type="success" title="Listo para Correr">
+¡Prepara tus motores, personaliza tu vehículo de repulsión y prepárate para dominar el Borde Exterior cuando el juego se lance en octubre de 2026!
+</Callout>
+
+</Section>

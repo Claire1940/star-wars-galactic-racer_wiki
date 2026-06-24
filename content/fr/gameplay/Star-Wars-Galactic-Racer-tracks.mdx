@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Circuits de Star Wars Galactic Racer : Guide 2026 des planètes et circuits",
+  description: "Explorez tous les circuits confirmés de Star Wars Galactic Racer, y compris Tatooine, Jakku et Ando Prime. Découvrez les dangers, les détails de l'environnement et des conseils de course.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Galactic+Racer+Tracks+Guide",
+  date: "2026-06-24",
+  author: "L'équipe du Wiki Star Wars Galactic Racer"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **circuits de Star Wars Galactic Racer** s'étendent sur des lieux emblématiques comme **Tatooine** et de nouvelles arènes comme **Derven Acos**.
+- Les **dangers environnementaux** varient selon la planète, allant de la glace glissante sur **Ando Prime** à la chaleur volcanique sur **Sentinel I**.
+- Le **choix du châssis** est crucial ; utilisez des **Landspeeders** pour les circuits axés sur le dérapage et des **Speeder Bikes** pour la vitesse en ligne droite.
+- Le **Podracing** est un mode haute vitesse vedette spécifiquement lié au **circuit de Mos Espa** et aux événements de Ligue avancés.
+- La **progression** dans la campagne solo nécessite de maîtriser des choix d'itinéraires spécifiques à travers le **Tour Galactique**.
+</Callout>
+
+<Section icon={Map} title="Aperçu des circuits et planètes de Star Wars Galactic Racer">
+
+La liste des **circuits de Star Wars Galactic Racer** propose un voyage diversifié à travers la Bordure Extérieure, mêlant des lieux nostalgiques de Star Wars à de nouveaux environnements de course éprouvants. Lancé le 6 octobre 2026, le jeu propose un Tour Galactique basé sur des runs qui oblige les joueurs à s'adapter à des terrains changeants, des dunes brûlantes de Jakku aux jungles luxuriantes et traîtresses de Lantaana. Chaque planète sert de « monde » distinct au sein de la campagne, contenant plusieurs circuits et des événements d'arène spécialisés conçus pour tester la durabilité et la vitesse de votre véhicule à répulsion.
+
+**Points forts de la vidéo :**
+- Visite visuelle des mondes de course confirmés, y compris **Ando Prime** et **Jakku**.
+- Présentation des mécaniques de podracing du **circuit de Mos Espa**.
+- Aperçu du spectacle de l'**arène de Derven Acos**.
+- Démonstration des dangers environnementaux comme les tempêtes de poussière et les plaques de glace.
+
+<YouTubeEmbed videoId="2MtgIoToa7I" title="Bande-annonce de gameplay de Star Wars: Galactic Racer" />
+
+Comprendre le paysage est la première étape pour gravir les échelons de la Ligue Galactique. Voici un aperçu des principaux centres de course confirmés pour le lancement de 2026.
+
+<CardGrid cols={3}>
+  <Card title="Mondes désertiques">
+    - **Tatooine** : Foyer du podracing classique et du circuit de Mos Espa.
+    - **Jakku** : Une décharge sans foi ni loi remplie de débris dangereux.
+    - **Environnement** : Haute visibilité mais fortes interférences de poussière.
+  </Card>
+  <Card title="Terrains extrêmes">
+    - **Ando Prime** : Cols de montagne gelés avec des pistes de glace à faible adhérence.
+    - **Sentinel I** : Surfaces volcaniques menaçant de surchauffer le moteur.
+    - **Environnement** : Faible traction et risques de températures élevées.
+  </Card>
+  <Card title="Arènes spécialisées">
+    - **Lantaana** : Circuits sur le thème de la jungle avec un feuillage dense et des sentiers étroits.
+    - **Derven Acos** : Une nouvelle arène massive construite pour le spectacle de la Ligue.
+    - **Environnement** : Virages techniques et dépassements à haut risque.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conseil de pro">
+Lorsque vous courez sur Jakku, donnez la priorité aux **améliorations de postcombustion (Afterburner)** pour traverser les sections de sable mou qui peuvent freiner votre élan entre les portes de débris.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Dangers environnementaux et mécaniques de piste">
+
+Le succès sur les différents **circuits de Star Wars Galactic Racer** dépend de votre capacité à gérer le stress environnemental. Contrairement aux jeux de course traditionnels, la nature basée sur des runs du Tour Galactique signifie qu'un seul crash peut compromettre toute votre progression. Les dangers ne sont pas seulement visuels ; ils interagissent directement avec les caractéristiques du châssis de votre véhicule, telles que le **Drift**, l'**Kinetic Burst** et le **Knife Edge**.
+
+| Planète | Danger principal | Impact sur la course | Stratégie recommandée |
+| :--- | :--- | :--- | :--- |
+| **Tatooine** | Grottes étroites | Risque de collision élevé | Utilisez des **Skim Speeders** pour négocier les virages relevés |
+| **Ando Prime** | Verglas | Perte de traction sévère | Dosez l'accélérateur ; évitez les collisions violentes |
+| **Sentinel I** | Coulées de magma | Surchauffe rapide du moteur | Économisez les boosts **Ramjet** pour les sections plus fraîches |
+| **Jakku** | Débris de décharge | Obstacles imprévisibles | Maintenez une trajectoire centrale ; surveillez les chutes de carcasses |
+| **Lantaana** | Canopée de la jungle | Visibilité limitée | Mémorisez la mini-carte ; utilisez les traits **Knife Edge** |
+
+L'interaction entre le système de refroidissement de votre véhicule et la température de la piste est une mécanique essentielle. Sur les circuits volcaniques comme **Sentinel I**, votre boost **Ramjet** fera surchauffer le moteur beaucoup plus rapidement que sur les plaines gelées d'**Ando Prime**. Gérer ce « budget thermique » fait toute la différence entre un podium et une panne moteur catastrophique dans le dernier tour.
+
+<Callout type="warning" title="Alerte de danger">
+Percuter des débris sur Jakku ne fait pas que vous ralentir ; cela peut endommager définitivement la capacité de votre **Batterie** pour le reste de votre session du Tour Galactique.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Maîtriser le circuit de Mos Espa et le Podracing">
+
+Le **circuit de Mos Espa** sur Tatooine reste le joyau de la couronne des **circuits de Star Wars Galactic Racer**. Bien que le jeu comprenne diverses classes de véhicules à répulsion, le Podracing est traité comme un mode fantastique à enjeux élevés. Ces événements présentent des vitesses plus élevées, des fenêtres de danger plus serrées et des rivaux emblématiques comme Sebulba et Ben Quadinaros. Maîtriser ce circuit nécessite une approche différente de celle des événements de landspeeder standard.
+
+<Steps>
+  <Step num="1" title="Perfectionnez le départ au compte à rebours">
+    Synchronisez votre accélération avec la séquence du moteur et des boucliers pour déclencher un boost de départ. C'est essentiel pour éviter les embouteillages de début de course dans les canyons étroits de Mos Espa.
+  </Step>
+  <Step num="2" title="Naviguez dans les passages du canyon">
+    Les circuits de Tatooine comportent des grottes servant de « raccourcis ». Ce sont des itinéraires à haut risque et haute récompense qui nécessitent un maniement précis de type **Knife Edge** pour naviguer sans heurter les parois.
+  </Step>
+  <Step num="3" title="Gérez les couplages du Podracer">
+    Contrairement aux landspeeders, les podracers ont des couplages énergétiques fragiles. Évitez les collisions agressives au premier tour pour vous assurer que vos moteurs ne se détachent pas pendant les tronçons à haute vitesse.
+  </Step>
+  <Step num="4" title="Exécutez le boost final en ligne droite">
+    Économisez la charge complète de votre **Batterie** pour la dernière ligne droite à travers les dunes. Utilisez la **postcombustion** en continu tout en surveillant les tentatives d'élimination de vos rivaux.
+  </Step>
+</Steps>
+
+Les événements de podracing dans la **Ligue Galactique** sont souvent de type élimination. Si vous tombez à l'arrière du peloton, le risque lié au jeton d'entrée de la Ligue augmente, car ne pas se classer dans le top trois peut mettre fin à votre session de campagne en cours.
+
+<Callout type="success" title="Conseil de victoire">
+Gagner un événement de podracing sur Tatooine débloque souvent des bonus de **Crédits Galactiques** qui peuvent être utilisés au Paddock pour acheter des **pièces de rechange pour véhicule à répulsion**.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personnalisation du véhicule pour des terrains spécifiques">
+
+Vos performances sur les **circuits de Star Wars Galactic Racer** sont fortement influencées par la façon dont vous dépensez vos améliorations entre les courses. Le Paddock sert de hub pour le réglage des performances. Bien qu'une configuration équilibrée soit sûre, se spécialiser pour la prochaine planète de votre **Tour Galactique** est souvent la stratégie la plus efficace pour le jeu de haut niveau.
+
+| Catégorie d'amélioration | Avantage principal | Meilleur type de circuit | Trait de synergie |
+| :--- | :--- | :--- | :--- |
+| **Virages** | Rayon de braquage amélioré | Lantaana / Derven Acos | **Knife Edge** |
+| **Postcombustion** | Vitesse de pointe soutenue | Tatooine / Jakku | **Kinetic Burst** |
+| **Batterie** | Fréquence de boost accrue | Tous les circuits | Tous les traits |
+| **Ramjet** | Boost de haute puissance | Lignes droites | **Kinetic Burst** |
+| **Blindage du châssis** | Résistance aux collisions | Jakku / Sentinel I | **Drift** |
+
+Pour les circuits techniques comme l'**arène de Derven Acos**, concentrez-vous sur les **Virages** et la **Batterie**. Les boucles serrées de l'arène signifient que vous atteignez rarement la vitesse de pointe, ce qui rend l'accélération et l'inclinaison beaucoup plus précieuses que la vitesse pure. Inversement, les grandes étendues du désert nécessitent un investissement important dans les systèmes de **postcombustion** et de **Ramjet**.
+
+<Callout type="info" title="Note de personnalisation">
+L'**Édition Deluxe** comprend l'ensemble de véhicules **Kor Sarun**, qui présente des spécifications pré-réglées particulièrement efficaces pour les circuits de début de jeu sur Jakku et Tatooine.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression de la campagne et déverrouillage des circuits">
+
+La structure du **Tour Galactique** signifie que vous ne verrez pas tous les circuits en une seule session. La campagne propose des chemins d'événements ramifiés, permettant aux joueurs de choisir leur destin. Vous pouvez opter pour un itinéraire à haut risque à travers **Sentinel I** pour obtenir des pièces rares, ou un chemin plus sûr à travers **Lantaana** pour préserver la santé de votre véhicule.
+
+<Checklist
+  id="track-milestones"
+  title="Objectifs de maîtrise des circuits :"
+  items={[
+    "Terminer un Tour Galactique complet sans crash total du véhicule",
+    "Déverrouiller le circuit de Mos Espa pour l'entraînement en mode Arcade",
+    "Gagner un duel 1v1 dans l'arène de Derven Acos",
+    "Atteindre le top 3 sur le circuit gelé d'Ando Prime",
+    "Découvrir tous les raccourcis cachés dans la décharge de Jakku"
+  ]}
+/>
+
+Chaque planète que vous « conquerez » dans la campagne devient disponible pour le **mode Arcade** et le **multijoueur en ligne**. Le multijoueur prend en charge jusqu'à 12 joueurs et propose le jeu multiplateforme sur PS5, Xbox et PC, rendant la maîtrise de ces circuits essentielle pour le succès en JcJ compétitif.
+
+<Callout type="tip" title="Choix stratégique">
+Si votre châssis actuel a un faible **blindage du châssis**, évitez la branche Jakku du tour. Les circuits chargés de débris sont beaucoup plus punitifs pour les speeder bikes fragiles que pour les landspeeders plus lourds.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur les circuits de Star Wars Galactic Racer">
+
+<FAQ items={[
+  {
+    question: "Combien de planètes sont présentes dans Star Wars Galactic Racer ?",
+    answer: "Au lancement, le jeu propose plusieurs mondes de course confirmés, dont Tatooine, Jakku, Ando Prime, Lantaana et Sentinel I, ainsi que des lieux spécialisés comme l'arène de Derven Acos."
+  },
+  {
+    question: "Puis-je jouer aux circuits de Star Wars Galactic Racer en écran scindé ?",
+    answer: "Les fiches officielles des boutiques se concentrent actuellement sur le jeu local à 1 joueur et le multijoueur en ligne de 2 à 12 joueurs. Le support de l'écran scindé n'a pas été confirmé pour le lancement d'octobre 2026."
+  },
+  {
+    question: "Les pistes de podracing sont-elles différentes des pistes de landspeeder ?",
+    answer: "Bien que certains endroits comme Tatooine accueillent les deux, les événements spécifiques au podracing présentent souvent des tracés modifiés avec des exigences de vitesse plus élevées et des placements de dangers différents de ceux des courses de véhicules à répulsion standard."
+  },
+  {
+    question: "Dois-je déverrouiller les circuits pour le mode multijoueur ?",
+    answer: "En règle générale, les circuits sont déverrouillés pour les modes Arcade et Multijoueur en les terminant au moins une fois au cours du Tour Galactique de la campagne solo."
+  }
+]} />
+
+</Section>

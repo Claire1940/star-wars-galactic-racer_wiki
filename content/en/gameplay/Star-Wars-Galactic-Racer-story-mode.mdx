@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer story mode: Campaign & Run Guide",
+  description: "Master the runs-based Star Wars Galactic Racer story mode. Learn campaign mechanics, vehicle upgrades, and how to conquer the Galactic League.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/171e2e/f5a91f?text=Story+Mode+Guide",
+  date: "2026-06-24",
+  author: "Star Wars Galactic Racer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Star Wars Galactic Racer story mode** features a runs-based roguelite campaign following the rising pilot Shade.
+- **League Entry Tokens** are required to enter tours, presenting high-risk, high-reward progression mechanics.
+- **Branching event paths** offer unique race formats, paddock upgrades, and encounters with legendary rivals.
+- **Chassis selection** directly dictates handling, drifting styles, and upgrade paths between competitive heats.
+</Callout>
+
+<Section icon={Map} title="Star Wars Galactic Racer Story Mode Overview">
+
+The highly anticipated **Star Wars Galactic Racer story mode** introduces players to a high-stakes, runs-based single-player campaign set in the lawless outer reaches of the galaxy. Developed by Fuse Games and published by Secret Mode, this narrative-driven mode departs from traditional linear racing games. Instead, it embraces a roguelite structure where players step into the pilot suit of Shade, an aspiring racer determined to climb the ranks of the Galactic League and challenge the formidable champion, Kestar Bool. 
+
+As Shade, you must navigate a dangerous web of underground tournaments, volatile planetary tracks, and intense rivalries. The campaign is structured around a series of Galactic Tours, where every decision on and off the track impacts your journey. Failure is not just a minor setback; it is an active mechanic that forces you to rebuild, adapt, and upgrade your craft for subsequent attempts.
+
+**Video Highlights:**
+- **Shade's Journey**: Visual introduction to the protagonist and the underground racing syndicates.
+- **The Galactic League**: A glimpse into the high-stakes arena events and the rivalry with Kestar Bool.
+- **Podracing Evolution**: High-speed racing footage demonstrating the scale of the environments.
+
+<YouTubeEmbed videoId="Je9SLyqRtc0" title="Star Wars: Galactic Racer Official Story Trailer" />
+
+<Callout type="success" title="Release Information">
+The game is scheduled to launch on October 6, 2026, for PlayStation 5, Xbox Series X|S, and PC. Pre-purchases are currently live on the [Steam Store](https://store.steampowered.com/app/4078430/STAR_WARS_Galactic_Racer/).
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="The Roguelite Loop: Galactic Tour Rules">
+
+The core of the story campaign is the Galactic Tour, a runs-based progression system that demands consistent performance and strategic resource management. To participate in a tour, players must risk a League Entry Token. This token acts as your ticket to the tournament; losing it forces you to return to the qualifiers and begin a fresh run.
+
+During a tour, you will navigate a branching map of events across various Outer Rim planets. Each node on the map presents different race types, rewards, and potential hazards. Maintaining a top-three placement is crucial; falling behind or completely wrecking your vehicle can result in tour failure. However, some resources, such as Galactic Credits, carry over between runs, allowing you to purchase permanent upgrades and parts from paddock vendors.
+
+| Tour Phase | Focus | Failure State | Key Resource |
+| :--- | :--- | :--- | :--- |
+| Qualifier | Secure entry into the league | Lose entry token | Galactic Credits |
+| Branching Tour | Route selection and heats | Vehicle destruction | Upgrade parts |
+| Championship | Challenge Kestar Bool | Title loss | Galactic Glory |
+
+<Callout type="warning" title="Risk Management">
+Do not spend all your Galactic Credits on temporary boosts. Always retain a baseline fund to ensure you can purchase replacement parts if your vehicle suffers critical damage during a high-risk heat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Selecting Your Starter Chassis">
+
+Before embarking on your first Galactic Tour, you must choose a starting vehicle class. The hands-on preview highlighted three distinct starter chassis types, each tailoring to a specific driving philosophy and control style. Selecting the right chassis is the foundation of surviving the aggressive contact racing found throughout the Outer Rim.
+
+<CardGrid cols={3}>
+  <Card title="Landspeeder">
+    - **Weightier handling**
+    - Drift-focused mechanics
+    - High durability for contact racing
+  </Card>
+  <Card title="Speeder Bike">
+    - **High straight-line speed**
+    - Kinetic Burst capability
+    - Low durability, high risk
+  </Card>
+  <Card title="Skim Speeder">
+    - **Technical banking turns**
+    - Knife Edge precision
+    - Moderate speed, high agility
+  </Card>
+</CardGrid>
+
+Your vehicle choice dictates how you handle hazards and interact with rivals. While the Landspeeder is forgiving for beginners due to its high defensive stats, the Speeder Bike rewards experienced pilots who can navigate narrow corridors without making contact with the environment.
+
+| Chassis Class | Durability Rating | Handling Profile | Core Performance Trait |
+| :--- | :--- | :--- | :--- |
+| Landspeeder | High (4/5) | Weighty, drift-heavy | Controlled corner sliding |
+| Speeder Bike | Low (2/5) | Agile, straight-line speed | Kinetic burst acceleration |
+| Skim Speeder | Medium (3/5) | Technical, banking | Knife-edge precision turning |
+| Podracer | Low (1/5) | Extreme speed, unstable | Ultimate high-risk velocity |
+
+<Callout type="tip" title="Beginner Recommendation">
+Start your campaign with the Landspeeder. Its weightier chassis allows you to learn the drifting lines of unfamiliar tracks while surviving aggressive shunts from rival racers.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide to Your First Galactic Tour Run">
+
+Succeeding in your initial campaign run requires a balance of aggressive driving, careful route planning, and timely mechanical upgrades. Follow this step-by-step progression path to optimize your early-game performance.
+
+<Steps>
+  <Step num="1" title="Initialize Your Tour">
+    Acquire your first League Entry Token and select your starting chassis. Beginners should opt for the Landspeeder to maximize survival rates during early contact-heavy races.
+  </Step>
+  <Step num="2" title="Map Your Route Strategically">
+    Analyze the branching tour map. Look for nodes that offer high Galactic Credit payouts or specific upgrade parts rather than simply taking the shortest path to the finals.
+  </Step>
+  <Step num="3" title="Master Heat and Boost Mechanics">
+    Use your Afterburner for repeatable, safe speed increases. Reserve the high-risk Ramjet boost for overtaking rivals on straightaways or executing aggressive tactical shunts.
+  </Step>
+  <Step num="4" title="Spend Credits in the Paddock">
+    Between races, visit the paddock area. Interact with other pilots, buy performance parts from vendors, and prioritize upgrading your vehicle's Cornering and Battery stats.
+  </Step>
+  <Step num="5" title="Secure a Top-Three Finish">
+    Avoid unnecessary risks in the final laps. Maintaining a podium finish is vital to retaining your League Entry Token and keeping the run alive.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Paddock Interactions">
+Take the time to talk to NPC pilots in the paddock. Some characters offer unique side objectives or trade rare vehicle components that cannot be bought from standard vendors.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Galactic League Tracks and Milestones">
+
+The Galactic League spans several iconic and newly introduced planets across the Outer Rim. Each location features distinct environmental hazards, track layouts, and specific racing conditions that will test your vehicle's build.
+
+| Planet | Environment Type | Primary Track Hazards | Campaign Role |
+| :--- | :--- | :--- | :--- |
+| Jakku | Battle-scarred desert | Wreckage debris, dust storms | Early-stage qualifiers |
+| Tatooine | Classic desert canyons | Canyon walls, Tusken Raiders | Mid-stage tournaments |
+| Ando Prime | Frozen glaciers | Slippery ice, low visibility | Advanced speed trials |
+| Lantaana | Lush jungle forests | Dense foliage, narrow paths | Technical handling tests |
+| Sentinel I | Volcanic wasteland | Lava flows, extreme heat | Late-stage championships |
+
+To successfully complete the story mode, players must check off several milestones to prepare Shade's vehicle for the ultimate showdown against Kestar Bool in the Derven Acos Arena.
+
+<Checklist
+  id="campaign-milestones"
+  title="Campaign Progression Goals:"
+  items={[
+    "Secure entry into the Galactic League by completing qualifiers",
+    "Unlock all three standard starter chassis classes",
+    "Purchase a Tier 3 engine upgrade from a paddock vendor",
+    "Defeat the regional rival on Ando Prime without wrecking",
+    "Earn a podium finish at the historic Mos Espa Circuit"
+  ]}
+/>
+
+<Callout type="success" title="Championship Prep">
+Before entering the final championship bracket on Sentinel I, ensure your vehicle's heat dissipation stats are fully upgraded. The volcanic environment increases engine overheating rates significantly.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What happens if I lose my League Entry Token in the story mode?",
+    answer: "Losing your token ends your current Galactic Tour run. You will retain your accumulated Galactic Credits and certain unlocked blueprints, but you must start a new run from the qualifying phase."
+  },
+  {
+    question: "Can I switch my vehicle chassis mid-run?",
+    answer: "No. Once you select a chassis at the start of a Galactic Tour, you are locked into that vehicle class for the duration of the run. You can only switch chassis when starting a fresh tour."
+  },
+  {
+    question: "Are there podracers in the Star Wars Galactic Racer story mode?",
+    answer: "Yes, podracers are featured as a specialized high-speed vehicle class. They appear in dedicated showcase events, including legendary circuits like Tatooine's Mos Espa Circuit."
+  },
+  {
+    question: "Does the campaign support cross-platform progression?",
+    answer: "While multiplayer features cross-platform play across PS5, Xbox Series X|S, and PC, single-player story mode progression is tied to your local platform account."
+  }
+]} />
+
+<Callout type="tip" title="More Guides">
+For more details on vehicle specifications, system requirements, and multiplayer strategies, check our comprehensive guides on the official platform stores.
+</Callout>
+
+</Section>

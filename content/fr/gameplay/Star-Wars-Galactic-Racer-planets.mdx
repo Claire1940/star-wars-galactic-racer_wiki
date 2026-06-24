@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Planètes de Star Wars Galactic Racer : Circuits et dangers de la Bordure Extérieure",
+  description: "Maîtrisez toutes les planètes confirmées de Star Wars Galactic Racer, les environnements de piste, les dangers et les stratégies de véhicule spécifiques au terrain pour la sortie de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Star+Wars+Galactic+Racer+Planets",
+  date: "2026-06-24",
+  author: "L'équipe du Wiki Star Wars Galactic Racer"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **planètes de Star Wars Galactic Racer** servent de base à la campagne à enjeux élevés du Tour Galactique, basée sur des sessions.
+- Les **dangers de la piste** varient considérablement d'un environnement à l'autre, allant des débris d'épaves industrielles de Jakku aux plaques de glace à faible adhérence d'Ando Prime.
+- Le **choix du châssis** est crucial, car les landspeeders excellent sur les terrains désertiques rocailleux tandis que les skim speeders maîtrisent les virages serrés de la jungle.
+- La **gestion des risques** impose aux joueurs d'équilibrer les boosts de vitesse avec les seuils de surchauffe pour éviter les crashs éliminatoires.
+- La **progression de la campagne** nécessite de gagner des Jetons d'Entrée de Ligue pour débloquer des circuits planétaires de niveau supérieur et des pièces de véhicule avancées.
+</Callout>
+
+<Section icon={Map} title="Introduction aux environnements du Tour Galactique">
+
+La Ligue Galactique emmène les pilotes à travers la Bordure Extérieure non autorisée, testant leurs réflexes et la configuration de leurs véhicules sur des mondes extrêmement hostiles. Dans **STAR WARS: Galactic Racer**, les planètes ne sont pas de simples décors cosmétiques ; ce sont des arènes dynamiques et truffées de dangers qui influencent directement la maniabilité, la vitesse et le taux de survie des véhicules. Chaque environnement exige une approche spécifique du dérapage, de la gestion du boost et de la récupération après collision.
+
+Gagner votre place au sommet de la Ligue Galactique nécessite une compréhension approfondie de ces divers environnements. Des mers de dunes brûlantes aux cols de montagne gelés, chaque course présente des conditions atmosphériques uniques qui peuvent surchauffer vos moteurs ou envoyer votre véhicule à répulsion dans une vrille fatale.
+
+| Planète | Type | Environnement | Danger principal |
+|------|------|------|------|
+| **Jakku** | Désert | Cimetière d'épaves marqué par les combats | Débris tranchants, détritus industriels |
+| **Tatooine** | Désert | Mers de dunes et canyons rocheux | Parois de canyon étroites, chutes de dénivelé soudaines |
+| **Ando Prime** | Glace | Glaciers gelés et champs de neige | Surfaces glissantes, blizzards à faible visibilité |
+| **Lantaana** | Jungle | Forêt tropicale dense | Arbres anciens obstruant le passage, virages aveugles |
+| **Sentinel I** | Volcanique | Champs de magma actifs | Coulées de lave en fusion, accumulation thermique extrême |
+
+<Callout type="info" title="Règles de la Ligue">
+Chaque planète du Tour Galactique nécessite un Jeton d'Entrée de Ligue pour participer. S'écraser trop souvent lors d'une course ou ne pas réussir à décrocher une place dans le top 3 vous fera perdre votre jeton, réinitialisant votre session de campagne actuelle tout en préservant vos Crédits Galactiques durement gagnés.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Profils détaillés des planètes et dangers des pistes">
+
+Naviguer sur les divers circuits de la Bordure Extérieure nécessite une connaissance précise des tracés locaux et des dangers environnementaux. Les profils suivants détaillent les défis uniques présentés par chaque lieu planétaire confirmé de la Ligue Galactique.
+
+<CardGrid cols={3}>
+  <Card title="Tatooine">
+    - **Pistes de podracing classiques**
+    - Lignes droites de canyon à haute vitesse
+    - Dangers de chaleur extrême
+    - Connexion avec l'iconique Circuit de Mos Espa
+  </Card>
+  <Card title="Ando Prime">
+    - **Surfaces de glace à faible adhérence**
+    - Exigences de dérapage élevées
+    - Descentes glaciaires à haute vitesse
+    - Chutes de falaise traîtresses
+  </Card>
+  <Card title="Lantaana">
+    - **Canopée de jungle dense**
+    - Virages aveugles très techniques
+    - Obstacles naturels et racines
+    - Zones de dépassement étroites
+  </Card>
+</CardGrid>
+
+### Jakku
+Jakku est un lieu de course non autorisé et à haut risque, caractérisé par son terrain désertique poussiéreux et ses immenses champs de vaisseaux militaires écrasés. Les pilotes doivent naviguer à travers les coques en décomposition d'anciens croiseurs, en effectuant des virages serrés autour de structures métalliques dentelées. L'air est chargé de poussière, ce qui réduit parfois la visibilité lors des courses en peloton serré.
+
+### Tatooine
+Berceau spirituel du podracing, Tatooine présente de vastes plaines de sable contrastant avec des canyons rocheux incroyablement étroits et sinueux. Le célèbre Circuit de Mos Espa et les routes de canyon environnantes exigent une vitesse extrême mais punissent la moindre erreur de pilotage par des collisions dévastatrices contre les parois. Les dunes de sable peuvent projeter les véhicules dans des sauts inattendus, nécessitant un contrôle précis de l'inclinaison.
+
+### Ando Prime
+Ando Prime introduit un modèle de maniabilité à très faible adhérence. Les pistes gelées et les plaques de glace glissantes rendent le freinage standard très inefficace. Les pilotes doivent s'appuyer sur des inclinaisons prononcées et des dérapages contrôlés pour maintenir leur vitesse dans les virages glaciaires sinueux. Le froid glacial aide à atténuer la surchauffe du moteur, permettant des fenêtres de boost légèrement plus longues.
+
+### Lantaana
+Lantaana is a lush, tropical jungle world that hosts some of the most technical tracks in the Galactic League. The circuits wind through massive root systems and dense foliage, creating numerous blind corners. Finding the optimal racing line here is difficult, as the natural boundaries of the track are highly irregular and unforgiving to wide drifts.
+
+### Sentinel I
+Sentinel I est un cauchemar volcanique où la piste elle-même est un danger. Des flux de magma actif traversent la surface de course, nécessitant un timing de saut précis ou des changements de voie rapides. La température ambiante est exceptionnellement élevée, ce qui provoque une surchauffe des moteurs de véhicules beaucoup plus rapide lors de l'utilisation de postcombustions (Afterburners) ou de statoréacteurs (Ramjets).
+
+| Circuit | Planète | Caractéristique clé | Difficulté |
+|------|------|------|------|
+| **Circuit de Mos Espa** | Tatooine | Plaines de canyon de podracing iconiques | Difficile |
+| **Cimetière de l'Avant-poste** | Jakku | Tunnels de débris industriels | Moyenne |
+| **Descente Glaciaire d'Ando** | Ando Prime | Virages en dérapage sur glace à haute vitesse | Difficile |
+| **Canopée de Lantaana** | Lantaana | Sentiers de jungle étroits | Moyenne |
+| **Arène de Derven Acos** | Derven Acos | Arène de spectateurs en circuit fermé | Facile |
+| **Volcan de Sentinel** | Sentinel I | Coulées de lave et chutes verticales | Très difficile |
+
+<Callout type="tip" title="Conseil de maîtrise de la piste">
+Sur Ando Prime, remplacez vos pièces de répulsion standard par des stabilisateurs optimisés pour la glace afin de réduire le glissement en dérapage. À l'inverse, lorsque vous courez sur Sentinel I, donnez la priorité aux améliorations du système de refroidissement pour lutter contre l'accumulation thermique rapide causée par l'atmosphère volcanique.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Adaptation du véhicule et choix du châssis">
+
+Choisir le bon châssis de véhicule est tout aussi important que de connaître le tracé de la piste. Les véhicules à répulsion de la Ligue Galactique sont divisés en classes distinctes, chacune possédant des profils de maniabilité, des caractéristiques de poids et des traits spécialisés uniques. Adapter votre châssis au terrain planétaire peut faire la différence entre un podium et un crash catastrophique.
+
+### Classes de châssis et compatibilité environnementale
+Les trois types de châssis principaux — Landspeeders, Speeder Bikes et Skim Speeders — se comportent différemment selon les conditions de surface de la planète active. De plus, les Podracers à haute vitesse offrent des performances inégalées en ligne droite mais nécessitent des réflexes d'expert pour être contrôlés sur des pistes étroites et sinueuses.
+
+- **Landspeeders** : Une maniabilité plus lourde avec une forte identité de dérapage. Ces véhicules sont très durables et excellent pour survivre sur les pistes encombrées de débris de Jakku et dans les canyons rocheux de Tatooine.
+- **Speeder Bikes** : Extrêmement rapides en ligne droite mais très instables dans les virages serrés. Leur capacité Impulsion Cinétique (Kinetic Burst) les rend idéaux pour les grandes plaines de Tatooine, bien qu'ils éprouvent de grandes difficultés sur les pistes de jungle sinueuses de Lantaana.
+- **Skim Speeders** : Conçus pour les virages à forte inclinaison grâce à leur trait unique Tranchant (Knife Edge). Ces engins très techniques sont parfaits pour naviguer sur les sentiers forestiers denses et sinueux de Lantaana et dans les virages serrés de Sentinel I.
+- **Podracers** : Les machines de vitesse ultimes, équipées de deux moteurs reliés par des coupleurs d'énergie. Ils dominent les événements en arène à haute vitesse comme l'Arène de Derven Acos, mais sont fragiles et très sensibles aux collisions avec les parois.
+
+| Classe de véhicule | Trait principal | Meilleure planète | Profil de maniabilité | Durability |
+|------|------|------|------|------|
+| **Landspeeder** | Dérapage | Jakku | Lourd, axé sur le dérapage | Élevée |
+| **Speeder Bike** | Impulsion Cinétique | Tatooine | Léger, vitesse en ligne droite | Moyenne |
+| **Skim Speeder** | Tranchant | Lantaana | Agile, forte inclinaison | Moyenne |
+| **Podracer** | Podracing | Derven Acos | Vitesse extrême, faible traction | Faible |
+
+<Callout type="warning" title="Avertissement de collision">
+Les véhicules légers comme les Speeder Bikes peuvent facilement être éjectés de la piste par des Landspeeders plus lourds. Si vous courez sur des pistes étroites comme Lantaana ou Sentinel I, évitez de frotter la carrosserie avec des adversaires plus lourds à moins d'avoir un net avantage tactique.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Stratégie de progression pas à pas de la campagne">
+
+Réussir dans la campagne du Tour Galactique basée sur des sessions nécessite une approche méthodique pour choisir vos itinéraires, gérer vos ressources et améliorer votre véhicule à répulsion entre les courses. Utilisez ce guide de progression systématique pour passer du statut de rookie de la Bordure Extérieure à celui de champion de la Ligue Galactique.
+
+<Steps>
+  <Step num="1" title="Sélectionnez votre châssis de départ">
+    Commencez votre campagne en choisissant un Landspeeder. Sa grande durabilité et ses mécanismes de dérapage indulgents en font le choix le plus sûr pour apprendre la physique de base, les mécanismes de collision et le timing de boost sur les premiers circuits de Jakku.
+  </Step>
+  <Step num="2" title="Acquérez des Jetons d'Entrée de Ligue">
+    Participez à des courses de qualification et à des événements de niveau inférieur pour accumuler vos Crédits Galactiques et obtenir des Jetons d'Entrée de Ligue. Considérez ces jetons comme votre réserve de vie ; les perdre tous met fin à votre session de campagne actuelle.
+  </Step>
+  <Step num="3" title="Optimisez les améliorations pour la prochaine planète">
+    Avant d'entrer sur un nouveau circuit planétaire, visitez les stands (paddock). Vérifiez le profil environnemental de la piste à venir et dépensez vos Crédits Galactiques dans des pièces ciblées, comme des collecteurs de refroidissement améliorés pour Sentinel I ou des stabilisateurs de dérapage avancés pour Ando Prime.
+  </Step>
+  <Step num="4" title="Exécutez des boosts basés sur le risque">
+    Pendant les courses, gérez soigneusement vos systèmes de postcombustion (Afterburner) et de statoréacteur (Ramjets). Utilisez les boosts de postcombustion standard dans les lignes droites, et réservez les rafales de statoréacteur à haut risque exclusivement pour éliminer des rivaux ou vous rattraper après une erreur de trajectoire.
+  </Step>
+  <Step num="5" title="Affrontez les pilotes rivaux">
+    Lorsque vous atteignez la fin d'un groupe planétaire, vous affronterez des pilotes rivaux comme Kestar Bool dans des duels à enjeux élevés. Étudiez leurs trajectoires de course, capitalisez sur leurs erreurs de virage et utilisez des charges agressives pour les pousser vers les dangers de la piste.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Étape de progression">
+Terminer un circuit planétaire complet débloque des livrées de véhicule exclusives, des bannières de joueur et des pièces de vendeur de haut niveau qui se transmettent aux sessions de campagne suivantes, renforçant ainsi de manière permanente votre avantage compétitif.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Liste de préparation pour les courses de la Bordure Extérieure">
+
+Avant d'engager votre Jeton d'Entrée de Ligue dans une course à enjeux élevés, assurez-vous que votre véhicule et votre stratégie sont entièrement optimisés pour les défis planétaires qui vous attendent.
+
+<Checklist
+  id="pre-race-prep"
+  title="Liste de contrôle avant-course :"
+  items={[
+    "Vérifiez la compatibilité du châssis avec la physique de surface de la planète cible.",
+    "Équipez des pièces spécifiques à l'environnement (ex. boucliers thermiques ou stabilisateurs pour la glace).",
+    "Assurez-vous que les systèmes de refroidissement de votre moteur sont entièrement réparés et améliorés.",
+    "Passez en revue la carte de la piste pour identifier les dangers majeurs, les raccourcis et les zones de saut.",
+    "Confirmez que vos atouts de pilote actifs correspondent à votre style de conduite."
+  ]}
+/>
+
+<Callout type="info" title="Services des stands">
+Parlez toujours aux mécaniciens locaux dans les stands avant une course. Ils fournissent souvent des informations précieuses sur les raccourcis cachés ou les dangers environnementaux à venir, comme les tempêtes de sable localisées sur Tatooine.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire Aux Questions">
+
+Maîtriser les circuits planétaires de la Bordure Extérieure est un voyage exigeant. Voici les réponses aux questions les plus courantes concernant les mécanismes environnementaux et les stratégies de piste dans le jeu.
+
+<FAQ items={[
+  {
+    question: "Comment les différentes planètes de Star Wars Galactic Racer affectent-elles la maniabilité des véhicules ?",
+    answer: "Chaque planète introduit des modificateurs environnementaux uniques. Par exemple, Ando Prime présente des surfaces de glace à faible adhérence qui augmentent les glissades, nécessitant un contrôle précis du dérapage, tandis que Sentinel I présente des températures ambiantes élevées qui accélèrent la surchauffe du moteur pendant les boosts."
+  },
+  {
+    question: "Puis-je changer le châssis de mon véhicule au milieu d'un Tour Galactique ?",
+    answer: "Non, le choix de votre châssis est verrouillé pour la durée d'une session de tour spécifique. Cependant, vous pouvez personnaliser et améliorer largement les pièces, les stabilisateurs et les systèmes de refroidissement de votre véhicule dans les stands entre chaque course."
+  },
+  {
+    question: "Que se passe-t-il si mon véhicule surchauffe sur Sentinel I ?",
+    answer: "La surchauffe provoque un calage temporaire du moteur et l'épuisement des boucliers, vous laissant très vulnérable aux charges des pilotes rivaux. Sur les pistes volcaniques, gérez soigneusement votre utilisation du statoréacteur et investissez dans des collecteurs de refroidissement à haute efficacité."
+  },
+  {
+    question: "Y a-t-il des raccourcis sur le Circuit de Mos Espa sur Tatooine ?",
+    answer: "Oui, les tracés classiques de canyons et les systèmes de grottes offrent des raccourcis à haut risque et à haute récompense. Ces passages sont plus étroits et contiennent des obstacles plus dangereux, mais ils peuvent vous faire gagner de précieuses secondes sur votre temps au tour s'ils sont franchis avec succès."
+  }
+]} />
+
+<Callout type="tip" title="Conseil final">
+Ne sous-estimez jamais l'environnement de la piste. Les joueurs qui remportent régulièrement la Ligue Galactique ne sont pas seulement les pilotes les plus rapides, mais ceux qui adaptent le mieux la configuration de leur véhicule aux réalités hostiles des mondes de la Bordure Extérieure.
+</Callout>
+
+</Section>

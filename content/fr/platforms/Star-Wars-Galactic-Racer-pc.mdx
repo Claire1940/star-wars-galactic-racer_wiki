@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer PC : Guide de Configuration et Configuration Requise",
+  description: "Préparez-vous pour le lancement de Star Wars Galactic Racer PC le 6 octobre 2026 avec ce guide couvrant la configuration requise, les éditions et les modes de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/e2e8f0?text=PC+Setup+Guide",
+  date: "2026-06-24",
+  author: "L'équipe du Wiki Star Wars Galactic Racer",
+  keywords: "Star Wars Galactic Racer, PC, configuration requise, guide, podracing, jeu de course"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Date de Lancement** : Star Wars Galactic Racer PC est officiellement prévu pour le **6 octobre 2026**.
+- **Disponibilité des Plateformes** : Le jeu sera disponible sur **Steam** et l'**Epic Games Store** pour les utilisateurs PC.
+- **Nécessité du Système** : Un minimum de **12 Go de RAM** et un **SSD** sont strictement requis pour des performances optimales.
+- **Gameplay Principal** : Découvrez un **Tour Galactique basé sur des runs** proposant des courses de podracers à enjeux élevés et la personnalisation des véhicules.
+- **Support Multijoueur** : Le jeu en ligne multiplateforme prend en charge jusqu'à **12 joueurs** dans des matchs PvP compétitifs.
+</Callout>
+
+<Section icon={Monitor} title="Présentation du Lancement de Star Wars Galactic Racer PC">
+
+La version tant attendue de **Star Wars Galactic Racer PC** apporte l'intensité de la scène des courses clandestines de la Bordure Extérieure sur le matériel haut de gamme. Développé par Fuse Games et publié par Secret Mode, ce titre s'éloigne des jeux de course d'arcade traditionnels en introduisant une structure roguelite "basée sur des runs". Les joueurs incarnent Shade, une étoile montante de la Ligue Galactique, alors qu'ils naviguent sur des circuits dangereux à travers des planètes emblématiques et nouvelles.
+
+**Points Forts en Vidéo :**
+- Courses à haute vitesse sur **Jakku** et **Tatooine**.
+- Aperçu détaillé du **paddock de personnalisation** et des systèmes d'amélioration.
+- Démonstration des **mécaniques d'élimination** et des poussées cinétiques.
+- Aperçu de l'intrigue de la campagne **Shade contre Kestar Bool**.
+
+<YouTubeEmbed videoId="2MtgIoToa7I" title="Trailer Officiel de Gameplay de Star Wars: Galactic Racer" />
+
+| Caractéristique | Spécification Officielle |
+| :--- | :--- |
+| **Date de Sortie** | 6 octobre 2026 |
+| **Développeur** | Fuse Games |
+| **Éditeur** | Secret Mode |
+| **Boutiques PC** | Steam, Epic Games Store |
+| **Prix de Base** | 59,99 $ (Édition Standard) |
+| **DRM** | Denuvo Anti-Tamper (limite de 5 machines) |
+
+<Callout type="tip" title="Statut de la Précommande">
+L'achat anticipé du jeu sur Steam ou Epic permet d'accéder immédiatement à la **Livrée de précommande** et à une **Bannière de joueur** exclusive lors du lancement en octobre 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Configuration Requise PC et Performances">
+
+Pour vous assurer que votre machine est prête pour les exigences de haute vitesse de la Ligue Galactique, vous devez répondre aux critères matériels suivants. Le jeu utilise une physique avancée de véhicules à répulseurs et des environnements de haute fidélité, rendant un SSD essentiel pour un chargement fluide des textures pendant les courses à plus de 600 mph.
+
+| Composant | Configuration Minimale | Recommandée (À confirmer) |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 11 |
+| **CPU** | Intel i5-8400 / AMD Ryzen 5 2600 | Intel i7-10700K / Ryzen 7 5800X |
+| **Mémoire** | 12 Go RAM | 16 Go RAM |
+| **Graphismes** | RTX 2060 / Arc A580 / RX 5600 XT | RTX 3070 / RX 6800 |
+| **Stockage** | 50 Go d'espace disponible | 50 Go (SSD NVMe) |
+| **DirectX** | Version 12 | Version 12 |
+
+<Callout type="warning" title="Exigence SSD">
+Les fiches officielles des boutiques confirment qu'un **SSD est requis**. Faire tourner le jeu sur un HDD traditionnel peut provoquer des saccades importantes et des problèmes d'affichage de textures lors des segments de podracing à haute vélocité.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Modes de Jeu et Structure">
+
+Star Wars Galactic Racer PC est construit autour du **Tour Galactique**, un mode campagne qui mélange progression narrative et éléments roguelite. Contrairement aux jeux de course traditionnels où vous répétez simplement des circuits, chaque "run" dans la Ligue Galactique présente des chemins embranchés et des risques différents.
+
+<CardGrid cols={2}>
+  <Card title="Campagne (Solo)">
+    - Suivez **Shade** dans une histoire en trois actes.
+    - Naviguez à travers des **Tours Galactiques** embranchés.
+    - Risquez des **Jetons d'Entrée de Ligue** à chaque run.
+    - Améliorez votre engin entre les événements de course.
+  </Card>
+  <Card title="Arcade & Scénario">
+    - Entraînez-vous sur des circuits spécifiques comme **Mos Espa**.
+    - Incarnez des pilotes emblématiques comme **Sebulba**.
+    - Terminez des **Événements Arcade** sélectionnés.
+    - Perfectionnez vos trajectoires sans risque d'échec définitif.
+  </Card>
+  <Card title="Matchs de Rancune PvP">
+    - Course en ligne compétitive pour **2 à 12 joueurs**.
+    - Système de **réputation** à enjeux élevés.
+    - Support complet du **cross-platform** confirmé.
+    - Nécessite une utilisation stratégique des poussées et des boosts.
+  </Card>
+  <Card title="Spéciaux de Podracing">
+    - Événements focalisés sur la très haute vitesse.
+    - Fenêtres de danger plus étroites et vitesses accrues.
+    - Mécaniques nostalgiques emblématiques de **Star Wars**.
+    - Profils de maniabilité uniques pour les pods à double moteur.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Jeu Cross-Platform">
+Les versions Steam et Epic Games Store supportent le cross-play complet avec les utilisateurs PlayStation 5 et Xbox Series X|S, assurant un matchmaking dynamique dès le lancement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classes de Véhicules et Personnalisation">
+
+Le jeu propose quatre classes distinctes de véhicules à répulseurs, chacune exigeant une maîtrise différente de la physique. La personnalisation n'est pas seulement cosmétique ; elle implique un réglage précis des performances qui peut faire la différence entre un podium et un crash total.
+
+| Classe | Trait Principal | Profil de Maniabilité | Meilleur Cas d'Utilisation |
+| :--- | :--- | :--- | :--- |
+| **Landspeeder** | Dérapage | Lourd et stable | Courses avec beaucoup de contacts / Apprentissage |
+| **Speeder Bike** | Explosion Cinétique | Vitesse de pointe élevée | Dépassements rapides / Circuits ouverts |
+| **Skim Speeder** | Tranchant | Virages techniques inclinés | Changements de direction brusques / Circuits techniques |
+| **Podracer** | Vitesse Extrême | Risque élevé, récompense élevée | Événements de Ligue Élite / Circuits de Tatooine |
+
+### Catégories de Réglage des Performances
+Entre les courses dans le Paddock, les joueurs peuvent dépenser des **Crédits Galactiques** pour les améliorations suivantes :
+- **Postcombustion** : Augmente la durée et la puissance des boosts standards.
+- **Batterie** : Améliore la régénération d'énergie pour les explosions Ramjet.
+- **Virage** : Améliore la réactivité de l'inclinaison et du dérapage.
+- **Ramjet** : Augmente la force d'impact des poussées et la vitesse de pointe maximale.
+- **Traits de Châssis** : Débloque des capacités spécifiques comme l'**Explosion Cinétique** ou les stabilisateurs de **Dérapage**.
+
+<Callout type="info" title="Le Paddock">
+Le Paddock sert de hub social où vous pouvez interagir avec d'autres pilotes, visiter des vendeurs de pièces, et appliquer des **Livrées** ou des **Bannières de joueur** à votre profil.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guide du Débutant pour la Ligue Galactique">
+
+Commencer votre carrière dans la Bordure Extérieure peut être intimidant. Suivez ces étapes pour vous assurer que votre premier Tour Galactique ne se termine pas à la décharge.
+
+<Steps>
+  <Step num="1" title="Sélectionnez votre Châssis de Départ">
+    Commencez avec un **Landspeeder**. Sa maniabilité plus lourde et son trait de **Dérapage** le rendent beaucoup plus indulgent lorsque vous entrez inévitablement en collision avec les murs ou les rivaux lors de vos premiers runs.
+  </Step>
+  <Step num="2" title="Maîtrisez le Boost de Départ">
+    Le timing est primordial. Surveillez le compte à rebours et entrez la séquence **Moteur et Bouclier** parfaitement pour déclencher un boost de départ. Cela vous évite d'être englouti par le peloton au premier virage.
+  </Step>
+  <Step num="3" title="Gérez la Chaleur et l'Énergie">
+    Votre **Postcombustion** est destinée à un usage régulier, mais le **Ramjet** doit être réservé aux lignes droites ou aux poussées offensives. Une utilisation excessive du Ramjet fera surchauffer vos moteurs, vous laissant vulnérable pendant plusieurs secondes.
+  </Step>
+  <Step num="4" title="Naviguez sur la Carte du Tour">
+    En mode Campagne, choisissez votre itinéraire avec soin. Certains chemins offrent de meilleures récompenses en **Crédits Galactiques**, tandis que d'autres fournissent des **Pièces de Vendeur** rares. Vérifiez toujours le "Niveau de Risque" avant de vous engager.
+  </Step>
+  <Step num="5" title="Priorisez la Survie à la Vitesse">
+    Dans un système basé sur des runs, finir 3ème est préférable à un crash en tentant de prendre la 1ère place. Vous n'avez qu'un nombre limité de **Jetons d'Entrée de Ligue** ; ne les gaspillez pas dans des manœuvres imprudentes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Échec du Tour">
+Si vous vous écrasez trop souvent ou si vous ne remplissez pas les conditions de placement minimales, votre tour se termine. Bien que vous gardiez vos **Crédits Galactiques**, vous devrez recommencer une nouvelle qualification pour obtenir un nouveau jeton d'entrée.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Éditions et Récompenses de Précommande">
+
+Choisir la bonne version de **Star Wars Galactic Racer PC** dépend de l'importance que vous accordez aux véhicules exclusifs et aux objets de collection physiques.
+
+| Édition | Prix | Contenu Clé |
+| :--- | :--- | :--- |
+| **Standard** | 59,99 $ | Jeu de base, Livrée de précommande, Bannière de joueur |
+| **Deluxe** | 79,99 $ | 3 véhicules exclusifs Kor Sarun, Artbook numérique, 3 épreuves Arcade |
+| **Collector** | 159,99 $ | Modèle physique de Landspeeder, Steelbook, Écussons de pilote, Tout le contenu Deluxe |
+
+<Checklist
+  id="preorder-goals"
+  title="Liste de contrôle des étapes de précommande :"
+  items={[
+    "Vérifier la configuration requise PC (surtout les 12 Go de RAM)",
+    "Choisir entre Steam ou Epic Games Store",
+    "Sécuriser le bonus de Livrée de précommande",
+    "Examiner les statistiques des véhicules Deluxe Kor Sarun",
+    "Planifier votre premier itinéraire de Tour Galactique"
+  ]}
+/>
+
+<Callout type="tip" title="Mise à niveau Deluxe">
+Si vous achetez l'Édition Standard et décidez plus tard que vous voulez les véhicules exclusifs **Kor Sarun**, une **Mise à niveau Deluxe** numérique sera disponible à l'achat séparément sur toutes les boutiques.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Star Wars Galactic Racer PC est-il un jeu Roblox ?",
+    answer: "Non. Il s'agit d'un titre indépendant de haute fidélité pour PC, PS5 et Xbox Series X|S. Il n'est pas affilié à la plateforme Roblox."
+  },
+  {
+    question: "Le jeu supporte-t-il les manettes sur PC ?",
+    answer: "Oui, une manette est fortement recommandée. Les versions Epic Games Store et Steam proposent toutes deux un support complet des manettes pour une expérience de course optimale."
+  },
+  {
+    question: "Existe-t-il des codes actifs pour des objets gratuits ?",
+    answer: "Actuellement, il n'y a pas de codes actifs. Le jeu est en phase de précommande, et tous les objets promotionnels sont liés à des éditions spécifiques du jeu ou à des bonus de précommande."
+  },
+  {
+    question: "Puis-je jouer à la campagne hors ligne ?",
+    answer: "Oui, les modes Campagne solo, Scénario et Arcade peuvent être joués hors ligne. La connectivité en ligne n'est requise que pour le multijoueur PvP et l'activation initiale du DRM."
+  }
+]} />
+
+</Section>

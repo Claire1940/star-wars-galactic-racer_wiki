@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide du débutant Star Wars Galactic Racer : Conseils de pro et configurations",
+  description: "Maîtrisez la Bordure Extérieure avec notre guide du débutant Star Wars Galactic Racer. Découvrez les dates de sortie, les configurations de véhicules, le déroulement de la campagne et les mécaniques de course.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Star+Wars+Galactic+Racer+Guide",
+  date: "2026-06-24",
+  author: "L'équipe du Wiki Star Wars Galactic Racer"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Star Wars Galactic Racer** est une aventure de course à enjeux élevés basée sur des sessions (runs), qui sortira le **6 octobre 2026**.
+- Le **gameplay principal** s'articule autour de la Ligue Galactique, proposant une campagne de style roguelite avec des embranchements.
+- La **sélection de véhicules** propose trois types de châssis principaux : Landspeeders, Speeder Bikes et Skim Speeders.
+- La **gestion des risques** est essentielle, car la perte de votre Jeton d'Entrée de Ligue peut réinitialiser votre progression dans la tournée en cours.
+- Le **support multijoueur** permet d'accueillir jusqu'à 12 joueurs avec un jeu multiplateforme confirmé sur PC et Xbox.
+</Callout>
+
+<Section icon={Map} title="Essentiels du lancement et disponibilité sur les plateformes">
+
+Star Wars Galactic Racer est le dernier opus à haute vitesse de l'univers de jeux Star Wars, développé par Fuse Games et publié par Secret Mode. Contrairement aux jeux de course d'arcade précédents, ce titre introduit une structure basée sur des « runs », où chaque course de la Ligue Galactique comporte des risques importants. Les joueurs incarnent Shade, un pilote émergent qui cherche à détrôner le légendaire Kestar Bool. La sortie mondiale du jeu est prévue pour la fin de l'année 2026 sur PC et consoles de nouvelle génération.
+
+**Points forts de la vidéo :**
+- Aperçu détaillé des mécaniques de **course à grande vitesse** à travers différentes planètes de la Bordure Extérieure.
+- Présentation de la **structure de campagne roguelite**, y compris le Paddock et les systèmes d'amélioration.
+- Premier aperçu du retour des **courses de modules emblématiques** (podracing) sur le circuit de Mos Espa sur Tatooine.
+
+<YouTubeEmbed videoId="2MtgIoToa7I" title="Bande-annonce officielle de gameplay de Star Wars Galactic Racer" />
+
+Avant de sauter dans le cockpit, il est essentiel de comprendre les modèles de distribution et de tarification. Le jeu est disponible en trois versions distinctes : Standard, Deluxe et une Édition Collector physique. Chaque version offre différents bonus numériques, tels que des livrées exclusives pour les véhicules à répulsion et des événements d'Arcade uniques.
+
+| Fonctionnalité | Édition Standard | Édition Deluxe | Édition Collector |
+| :--- | :--- | :--- | :--- |
+| **Prix** | 59,99 $ | 79,99 $ | 159,99 $ |
+| **Format** | Numérique | Numérique | Boîte physique |
+| **Bonus de précommande** | Livrée & Bannière | Livrée & Bannière | Livrée & Bannière |
+| **Véhicules exclusifs** | Aucun | 3 véhicules Kor Sarun | 3 véhicules Kor Sarun |
+| **Objets physiques** | Aucun | Aucun | Maquette de Landspeeder |
+| **Contenu artistique** | Aucun | Livre d'art numérique | Livre d'art physique |
+
+<Callout type="success" title="Confirmation de la date de sortie">
+La date de sortie officielle de **Star Wars Galactic Racer** est fixée au 6 octobre 2026. Le jeu sera disponible sur PlayStation 5, Xbox Series X|S et PC via Steam et l'Epic Games Store.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide du débutant Star Wars Galactic Racer : Déroulement de la campagne">
+
+Le cœur de l'expérience est la campagne solo, qui prend la forme d'une « Tournée Galactique ». Ce mode n'est pas une série linéaire de circuits ; il s'agit plutôt d'un chemin ramifié où vous devez choisir entre différents événements, risques et récompenses. Chaque tournée nécessite un Jeton d'Entrée de Ligue. Si vous vous crashez ou si vous ne parvenez pas à atteindre les critères de classement requis trop souvent, votre jeton est révoqué et vous devez recommencer une nouvelle tournée à partir des qualifications.
+
+<CardGrid cols={3}>
+  <Card title="Landspeeder">
+    - **Maniabilité** : Lourde et stable
+    - **Spécialité** : Dérapage dans les virages
+    - **Idéal pour** : Les débutants qui apprennent les circuits
+  </Card>
+  <Card title="Speeder Bike">
+    - **Maniabilité** : Grande vitesse, faible stabilité
+    - **Spécialité** : Accélération par impulsion cinétique
+    - **Idéal pour** : Les pointes de vitesse en ligne droite
+  </Card>
+  <Card title="Skim Speeder">
+    - **Maniabilité** : Inclinaison technique
+    - **Spécialité** : Virages serrés sur le fil du rasoir
+    - **Idéal pour** : Les pilotes techniques expérimentés
+  </Card>
+</CardGrid>
+
+Votre progression est mesurée par votre ascension dans la Ligue Galactique. Entre les courses, vous visitez le Paddock, un hub social et fonctionnel où vous pouvez interagir avec d'autres pilotes, acheter de nouvelles pièces auprès de marchands et améliorer les performances de votre véhicule. Conserver des Crédits Galactiques entre les runs vous permet d'acheter à terme des améliorations permanentes qui rendront les tournées futures plus faciles à gérer.
+
+| Type de châssis | Profil de maniabilité | Caractéristique principale | Difficulté |
+| :--- | :--- | :--- | :--- |
+| **Landspeeder** | Lourd / Dérapage | Dérapage | Faible |
+| **Speeder Bike** | Rapide / Fragile | Impulsion cinétique | Moyenne |
+| **Skim Speeder** | Technique / Agile | Sur le fil | Élevée |
+| **Podracer** | Vitesse extrême | Course de modules | Très élevée |
+
+<Callout type="tip" title="Stratégie de début de partie">
+Pour vos premiers runs en suivant ce **guide du débutant Star Wars Galactic Racer**, privilégiez le Landspeeder. Sa maniabilité plus lourde le rend beaucoup plus tolérant lors des collisions avec les rivaux ou des frottements contre les parois dans les sections étroites de Jakku.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtriser les mécaniques de course à enjeux élevés">
+
+Réussir dans la Ligue Galactique demande plus que de simplement maintenir l'accélérateur enfoncé. Vous devez maîtriser l'équilibre entre la vitesse et la santé du véhicule. Le jeu repose sur une philosophie de « course de contact », où pousser et éliminer vos rivaux est encouragé. Cependant, chaque collision risque d'endommager votre véhicule à répulsion, ce qui peut entraîner une panne de moteur ou un crash total.
+
+<Steps>
+  <Step num="1" title="Le départ parfait">
+    Synchronisez votre accélération avec le compte à rebours. Saisissez la séquence spécifique de moteur et de bouclier affichée à l'écran pour déclencher un boost de départ, vous donnant ainsi une avance immédiate sur le peloton.
+  </Step>
+  <Step num="2" title="Gérer les propulseurs">
+    Utilisez la postcombustion pour des augmentations de vitesse régulières. Gardez le statoréacteur (Ramjet) pour dépasser ou pousser les rivaux, mais surveillez attentivement la jauge de chaleur pour éviter une surchauffe catastrophique.
+  </Step>
+  <Step num="3" title="Éliminations tactiques">
+    Lorsqu'un rival est à vos côtés, donnez-lui un coup de côté pour le pousser vers les obstacles de la piste. Une élimination réussie dégage la voie et vous récompense souvent par un boost temporaire ou des ressources.
+  </Step>
+  <Step num="4" title="Gestion des ressources">
+    Entre les courses, décidez si vous préférez dépenser vos Crédits Galactiques pour des réparations immédiates ou pour des améliorations de performance à long terme, comme la capacité de la batterie ou l'efficacité dans les virages.
+  </Step>
+</Steps>
+
+Le système de gestion de la chaleur est la mécanique la plus critique pour le jeu avancé. Pousser votre engin à ses limites avec le statoréacteur offre une vitesse incroyable mais remplit votre barre de surchauffe. Si vous atteignez la limite, votre moteur calera, vous laissant vulnérable aux dépassements ou aux attaques de pilotes IA agressifs comme Sebulba.
+
+| Manœuvre | Description | Niveau de risque |
+| :--- | :--- | :--- |
+| **Postcombustion** | Boost de vitesse répétable | Faible |
+| **Statoréacteur** | Impulsion cinétique à haut risque | Élevé (Surchauffe) |
+| **Coup latéral** | Pousser un rival sur le côté | Moyen |
+| **Dérapage** | Glissade contrôlée pour les virages | Faible |
+| **Sur le fil** | Inclinaison prononcée sur les skims | Moyen |
+
+<Callout type="warning" title="Danger de surchauffe">
+N'utilisez pas le statoréacteur dans les virages, sauf si vous disposez d'améliorations significatives dans la catégorie Virage. L'accélération soudaine entraîne souvent la perte de votre trajectoire de course et une collision avec la paroi de canyon la plus proche.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personnalisation et priorité des améliorations">
+
+Au fur et à mesure de votre progression dans la campagne, vous débloquerez la possibilité de régler votre véhicule. La personnalisation est divisée entre les livrées visuelles et les pièces de performance. Les améliorations de performance sont essentielles pour survivre aux derniers actes de la Tournée Galactique, où les pistes deviennent plus dangereuses et l'IA nettement plus agressive.
+
+<Checklist
+  id="upgrade-checklist"
+  title="Améliorations de début de partie essentielles :"
+  items={[
+    "Améliorer la postcombustion pour une durée de boost prolongée",
+    "Augmenter la capacité de la batterie pour utiliser le statoréacteur plus fréquemment",
+    "Améliorer la prise de virage pour réduire la perte de vitesse lors des dérapages",
+    "Installer des caractéristiques de châssis renforcées pour survivre aux coups latéraux",
+    "Débloquer le premier niveau de pièces de marchands dans le Paddock"
+  ]}
+/>
+
+Bien que la personnalisation visuelle, comme la livrée inspirée du chasseur Naboo N-1 (disponible dans l'Édition Deluxe), n'affecte pas les statistiques, elle vous permet de vous démarquer lors des matchs PvP multijoueurs. Les pièces de performance, en revanche, font toute la différence entre finir premier et perdre votre Jeton d'Entrée de Ligue.
+
+| Catégorie d'amélioration | Bénéfice principal | Recommandé pour |
+| :--- | :--- | :--- |
+| **Postcombustion** | Vitesse de boost accrue | Tous les châssis |
+| **Batterie** | Recharge d'énergie plus rapide | Speeder Bikes |
+| **Virage** | Meilleure adhérence/virage | Skim Speeders |
+| **Statoréacteur** | Puissance d'élimination supérieure | Landspeeders |
+| **Châssis** | Durabilité accrue | Pilotes débutants |
+
+<Callout type="info" title="Marchands du Paddock">
+Visitez les marchands du Paddock toutes les deux courses. Ils proposent souvent des pièces en « édition limitée » qui offrent d'énormes gains de statistiques, mais ne sont disponibles que pendant une courte période lors de votre tournée actuelle.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Configuration requise pour PC et installation">
+
+Pour garantir une expérience de course fluide, les joueurs sur PC doivent vérifier que leur matériel correspond à la configuration requise officielle. Star Wars Galactic Racer utilise un moteur haute fidélité pour restituer les plaines poussiéreuses de Jakku et les étendues glacées d'Ando Prime, faisant d'un SSD une exigence obligatoire pour toutes les configurations afin de gérer le streaming des textures à grande vitesse.
+
+| Composant | Configuration minimale | Recommandée (estimée) |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 11 |
+| **CPU** | Intel i5-8400 / Ryzen 5 2600 | Intel i7-10700K / Ryzen 7 5800X |
+| **RAM** | 12 Go | 16 Go |
+| **GPU** | RTX 2060 / RX 5600 XT | RTX 3070 / RX 6800 |
+| **Stockage** | 50 Go SSD | 50 Go SSD NVMe |
+| **DirectX** | Version 12 | Version 12 |
+
+Le jeu prend également en charge une large gamme de manettes. Bien que le clavier et la souris soient compatibles, les développeurs recommandent vivement d'utiliser une manette pour mieux gérer les entrées analogiques requises pour les manœuvres précises de dérapage et d'inclinaison.
+
+<Callout type="tip" title="Configuration de la manette">
+Si vous jouez sur PC, activez « Steam Input » pour une compatibilité optimale avec les manettes PlayStation et Xbox. Le retour haptique de la DualSense PS5 fournit des vibrations uniques pour la surchauffe du moteur et la friction de surface.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Que se passe-t-il si je perds mon Jeton d'Entrée de Ligue ?",
+    answer: "La perte de votre jeton met fin à votre Tournée Galactique en cours. Vous conserverez vos Crédits Galactiques et vos déblocages permanents, mais vous devrez recommencer une nouvelle tournée à partir des manches de qualification."
+  },
+  {
+    question: "Star Wars Galactic Racer propose-t-il un écran partagé en local ?",
+    answer: "Les spécifications officielles actuelles font état d'un mode multijoueur en ligne pour 2 à 12 joueurs, mais l'écran partagé en local n'a pas été confirmé pour la version de lancement."
+  },
+  {
+    question: "Puis-je incarner Sebulba dans la campagne ?",
+    answer: "La campagne principale se concentre sur l'histoire de Shade. Cependant, Sebulba et d'autres pilotes emblématiques sont présents dans le mode Arcade et en tant que rivaux au sein de la Ligue Galactique."
+  },
+  {
+    question: "Y a-t-il du cross-play entre la PS5 et le PC ?",
+    answer: "Oui, le multijoueur cross-plateforme est répertorié comme une fonctionnalité sur les pages Xbox et Epic Games Store, permettant aux joueurs de différents systèmes de s'affronter dans des matchs de rivalité en PvP."
+  }
+]} />
+
+<Callout type="success" title="Verdict final">
+Que vous soyez un vétéran des jeux de course classiques Star Wars ou un nouveau venu, ce **guide du débutant Star Wars Galactic Racer** fournit les bases nécessaires pour survivre dans la Bordure Extérieure. Concentrez-vous d'abord sur la stabilité du châssis, gérez votre chaleur et gardez toujours un œil sur votre Jeton d'Entrée de Ligue.
+</Callout>
+
+</Section>

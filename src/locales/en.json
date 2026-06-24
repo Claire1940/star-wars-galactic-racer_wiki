@@ -10,7 +10,15 @@
       "twitterDescription": "STAR WARS: Galactic Racer Wiki: release date, platforms, vehicles, builds, multiplayer, and PC system requirements."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "editions": "Editions",
+    "multiplayer": "Multiplayer",
+    "gameplay": "Gameplay",
+    "guide": "Guide",
+    "vehicles": "Vehicles"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -613,125 +621,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Star Wars Galactic Racer Guides",
-      "description": "Complete Star Wars Galactic Racer guides from beginner basics to advanced racing strategies across the Outer Rim.",
-      "metaTitle": "Star Wars Galactic Racer Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Star Wars Galactic Racer guides covering beginner tips, vehicles, builds, racing strategies, and expert tactics for the Outer Rim racing adventure.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering racing mechanics, vehicle builds, and track strategies for Star Wars Galactic Racer. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Star Wars Galactic Racer Release Date and Launch Info",
+      "description": "Official Star Wars Galactic Racer release date, platforms, pre-order status, and launch details for the Outer Rim racing game.",
+      "metaTitle": "Star Wars Galactic Racer Release Date - October 2026 Launch",
+      "metaDescription": "Star Wars Galactic Racer launches October 6, 2026 on PS5, Xbox Series X|S, and PC. Get the official release date, platforms, and pre-order details.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release Date?",
+      "whatIsDescription": "Star Wars Galactic Racer officially launches worldwide on October 6, 2026 for PlayStation 5, Xbox Series X|S, and PC. Developed by Fuse Games and published by Secret Mode, the game is open for pre-order across Steam, Epic Games Store, PlayStation Store, and Xbox Store.",
+      "why": "Why track the release?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand runs-based Galactic Tours and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven chassis, upgrade, and racing paths to climb the Galactic League",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for contact racing, takedowns, and multiplayer"
+        "step1Title": "Confirmed Launch Date",
+        "step1Description": "October 6, 2026 worldwide release for PS5, Xbox Series X|S, and PC.",
+        "step2Title": "Pre-Order Availability",
+        "step2Description": "Standard and Deluxe editions are live on Steam, Epic, PlayStation, and Xbox stores.",
+        "step3Title": "Official News and Trailers",
+        "step3Description": "Follow reveal, gameplay, and story trailers from official Star Wars and Xbox Wire coverage."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "platforms": {
+      "title": "Star Wars Galactic Racer Platforms and Store Availability",
+      "description": "Every confirmed platform and storefront for Star Wars Galactic Racer, including PS5, Xbox Series X|S, PC, Steam, and Epic Games Store.",
+      "metaTitle": "Star Wars Galactic Racer Platforms - PS5, Xbox, PC & Stores",
+      "metaDescription": "Star Wars Galactic Racer is available on PS5, Xbox Series X|S, and PC via Steam and Epic Games Store. Compare platforms, storefronts, and crossplay support.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What Platforms Is It On?",
+      "whatIsDescription": "Star Wars Galactic Racer is confirmed for PlayStation 5, Xbox Series X|S, and PC. PC players can choose between Steam and the Epic Games Store, and online multiplayer supports cross-platform play on Xbox and Epic.",
+      "why": "Why compare platforms?",
+      "whySteps": {
+        "step1Title": "Choose Your Storefront",
+        "step1Description": "Compare Steam, Epic, PlayStation, and Xbox editions, features, and pricing.",
+        "step2Title": "Cross-Platform Play",
+        "step2Description": "Online multiplayer supports crossplay on Xbox and the Epic Games Store.",
+        "step3Title": "Cloud and Subscription Status",
+        "step3Description": "Check current availability for cloud streaming, Game Pass, and additional platforms."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platforms Articles"
+    },
+    "editions": {
+      "title": "Star Wars Galactic Racer Editions, Prices, and Pre-Order Bonuses",
+      "description": "Compare Star Wars Galactic Racer Standard, Deluxe, and Collector's Edition bundles, prices, and pre-order bonus content.",
+      "metaTitle": "Star Wars Galactic Racer Editions - Standard, Deluxe & Collector's",
+      "metaDescription": "Compare Star Wars Galactic Racer editions: Standard at $59.99, Deluxe at $79.99, and Collector's Edition at $159.99 with pre-order bonuses and Deluxe content.",
+      "categoryLabel": "EDITIONS",
+      "whatIs": "What Editions Are Available?",
+      "whatIsDescription": "Star Wars Galactic Racer offers three editions: the Standard Edition at $59.99, the Deluxe Edition at $79.99 with exclusive Kor Sarun vehicles and Arcade events, and the Collector's Edition at $159.99 with physical collectibles. Every pre-order includes a bonus Livery and Player Banner.",
+      "why": "Why compare editions?",
+      "whySteps": {
+        "step1Title": "Match Your Budget",
+        "step1Description": "Standard, Deluxe, and Collector's Editions cover every price tier.",
+        "step2Title": "Pre-Order Bonuses",
+        "step2Description": "Every pre-order includes a bonus repulsorcraft Livery and Player Banner.",
+        "step3Title": "Deluxe and Collector's Extras",
+        "step3Description": "Deluxe adds three exclusive vehicles and Arcade trials; Collector's adds physical collectibles."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Editions"
+    },
+    "multiplayer": {
+      "title": "Star Wars Galactic Racer Multiplayer and Crossplay",
+      "description": "Star Wars Galactic Racer online multiplayer, crossplay, local co-op, split screen, and PvP grudge match details.",
+      "metaTitle": "Star Wars Galactic Racer Multiplayer - Online, Crossplay & Co-op",
+      "metaDescription": "Star Wars Galactic Racer supports online multiplayer for up to 12 players with crossplay on Xbox and Epic. Learn about local co-op, split screen, and PvP modes.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "Does It Have Multiplayer?",
+      "whatIsDescription": "Star Wars Galactic Racer supports online multiplayer for up to 12 players on PS5 (with PS Plus) and 2-12 on Xbox. Cross-platform multiplayer is shown on Xbox and the Epic Games Store, alongside PvP grudge matches and competitive racing.",
+      "why": "Why play multiplayer?",
+      "whySteps": {
+        "step1Title": "Online Racing",
+        "step1Description": "Race with up to 12 players online across PS5, Xbox, and PC.",
+        "step2Title": "Crossplay Support",
+        "step2Description": "Cross-platform play is available on Xbox and the Epic Games Store.",
+        "step3Title": "PvP Grudge Matches",
+        "step3Description": "Battle rivals in competitive races where reputation and takedowns drive the stakes."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Multiplayer Articles"
+    },
+    "gameplay": {
+      "title": "Star Wars Galactic Racer Gameplay, Tracks, and Modes",
+      "description": "Star Wars Galactic Racer gameplay mechanics, racing modes, tracks, planets, story mode, and demo details.",
+      "metaTitle": "Star Wars Galactic Racer Gameplay - Modes, Tracks & Planets",
+      "metaDescription": "Explore Star Wars Galactic Racer gameplay: runs-based Galactic Tours, Campaign, Arcade, PvP modes, and racing locations like Jakku, Tatooine, and Ando Prime.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "What Is the Gameplay Like?",
+      "whatIsDescription": "Star Wars Galactic Racer is a runs-based Outer Rim racing game. The Campaign uses Galactic Tours with branching event paths, while Arcade, Scenario, and PvP modes add variety. Race across planets like Jakku, Tatooine, Ando Prime, Lantaana, and Sentinel I.",
+      "why": "Why explore gameplay?",
+      "whySteps": {
+        "step1Title": "Runs-Based Tours",
+        "step1Description": "Galactic Tours combine branching event paths, upgrades, and League Entry Token risk.",
+        "step2Title": "Race Modes",
+        "step2Description": "Campaign, Scenario, Arcade, time trials, elimination, and 1v1 events.",
+        "step3Title": "Tracks and Planets",
+        "step3Description": "Race across Jakku, Tatooine, Ando Prime, Lantaana, Sentinel I, and the Derven Acos arena."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay Articles"
+    },
+    "guide": {
+      "title": "Star Wars Galactic Racer Guides and Beginner Tips",
+      "description": "Star Wars Galactic Racer beginner guides, PC system requirements, controller and wheel support, Steam Deck status, and everything we know.",
+      "metaTitle": "Star Wars Galactic Racer Guides - Beginner Tips & PC Specs",
+      "metaDescription": "Complete Star Wars Galactic Racer guides: beginner racing tips, PC system requirements, wheel and Steam Deck support, player counts, and a full game overview.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What Are the Guides?",
+      "whatIsDescription": "Star Wars Galactic Racer guides cover the beginner racing flow, chassis and upgrade choices, PC system requirements, controller and wheel support, Steam Deck compatibility, and a complete overview of everything we know about the game.",
+      "why": "Why read the guides?",
+      "whySteps": {
+        "step1Title": "Start Strong",
+        "step1Description": "Beginner guides walk through first-play flow, chassis picks, boosts, and upgrades.",
+        "step2Title": "Check PC Specs",
+        "step2Description": "Confirm Windows 10, CPU, 12 GB RAM, RTX 2060-class GPU, and 50 GB SSD before you play.",
+        "step3Title": "Controller and Wheel Support",
+        "step3Description": "Learn about gamepad, racing wheel, and Steam Deck support across platforms."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Star Wars Galactic Racer Vehicles and Builds",
-      "description": "Master repulsorcraft classes, handling traits, parts, and upgrade paths for powerful Star Wars Galactic Racer builds.",
-      "metaTitle": "Star Wars Galactic Racer Vehicles and Builds - Classes & Upgrades",
-      "metaDescription": "Master Star Wars Galactic Racer vehicles with repulsorcraft classes, handling traits, parts, and upgrade strategies for landspeeders, speeder bikes, skim speeders, and podracers.",
-      "categoryLabel": "VEHICLES & BUILDS",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "Vehicle builds cover repulsorcraft classes, chassis traits, and upgrade paths that tune cornering, boosts, and takedown power for each racing situation.",
-      "why": "Why plan builds?",
+    "vehicles": {
+      "title": "Star Wars Galactic Racer Vehicles and Customization",
+      "description": "Star Wars Galactic Racer vehicle classes, podracing, repulsorcraft handling, parts, liveries, and Deluxe vehicles.",
+      "metaTitle": "Star Wars Galactic Racer Vehicles - Classes, Podracers & Builds",
+      "metaDescription": "Master Star Wars Galactic Racer vehicles: landspeeders, speeder bikes, skim speeders, podracers, chassis traits, parts, upgrades, and Deluxe vehicles.",
+      "categoryLabel": "VEHICLES",
+      "whatIs": "What Vehicles Can You Race?",
+      "whatIsDescription": "Star Wars Galactic Racer features repulsorcraft classes including landspeeders, speeder bikes, skim speeders, and podracers. Each class has unique handling traits and accepts Cornering, Afterburner, Battery, and Ramjet upgrades, plus cosmetic liveries.",
+      "why": "Why compare vehicles?",
       "whySteps": {
-        "step1Title": "Pick the Right Class",
-        "step1Description": "Match landspeeder, speeder bike, skim speeder, or podracer to your control style",
-        "step2Title": "Prioritize Upgrades",
-        "step2Description": "Focus on Cornering, Afterburner, Battery, and Ramjet for reliable gains",
-        "step3Title": "Survive Longer Tours",
-        "step3Description": "Use class traits to keep your League Entry Token alive across a Galactic Tour"
+        "step1Title": "Pick a Class",
+        "step1Description": "Match landspeeder, speeder bike, skim speeder, or podracer to your control style.",
+        "step2Title": "Tune Upgrades",
+        "step2Description": "Focus on Cornering, Afterburner, Battery, and Ramjet for reliable gains.",
+        "step3Title": "Customize and Stand Out",
+        "step3Description": "Apply liveries, Player Banners, and Deluxe vehicles to personalize your craft."
       },
       "featured": "Featured & Essential",
       "all": "All Vehicle Guides"
-    },
-    "items": {
-      "title": "Star Wars Galactic Racer Vehicles and Parts",
-      "description": "Detailed vehicle and part guides covering repulsorcraft classes, chassis traits, liveries, and Deluxe vehicles.",
-      "metaTitle": "Star Wars Galactic Racer Vehicles and Parts - Classes & Traits Guide",
-      "metaDescription": "Complete vehicle database for Star Wars Galactic Racer including repulsorcraft classes, chassis traits, liveries, and Deluxe Edition vehicles.",
-      "categoryLabel": "VEHICLES & PARTS",
-      "whatIs": "What are Vehicles and Parts?",
-      "whatIsDescription": "Comprehensive guides for repulsorcraft classes, chassis traits, cosmetic liveries, and performance parts. Learn how each vehicle handles and which upgrades matter.",
-      "why": "Why check vehicle guides?",
-      "whySteps": {
-        "step1Title": "Compare Classes",
-        "step1Description": "Understand landspeeder, speeder bike, skim speeder, and podracer differences",
-        "step2Title": "Optimize Builds",
-        "step2Description": "Choose the best vehicle and parts for your racing style and stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Use the right handling and upgrades to survive contact-heavy races"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Vehicles"
-    },
-    "biomes": {
-      "title": "Star Wars Galactic Racer Tracks and Planets",
-      "description": "Explore confirmed planets, circuits, arenas, terrain themes, and track hazards for each Star Wars Galactic Racer location.",
-      "metaTitle": "Star Wars Galactic Racer Tracks and Planets - Locations & Hazards",
-      "metaDescription": "Explore Star Wars Galactic Racer tracks and planets including Jakku, Tatooine, Ando Prime, Lantaana, Sentinel I, and the Derven Acos arena.",
-      "categoryLabel": "TRACKS & PLANETS",
-      "whatIs": "What are Tracks and Planets?",
-      "whatIsDescription": "Guides to confirmed racing locations, terrain features, track layouts, and danger zones. Learn what to expect and how to prepare for each planet.",
-      "why": "Why explore tracks?",
-      "whySteps": {
-        "step1Title": "Learn Layouts",
-        "step1Description": "Memorize corners, shortcuts, and racing lines on each circuit",
-        "step2Title": "Avoid Hazards",
-        "step2Description": "Understand terrain-specific dangers from ice to volcanic rock",
-        "step3Title": "Plan Your Line",
-        "step3Description": "Choose the right chassis and upgrades for each planet's terrain"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Tracks"
-    },
-    "building": {
-      "title": "Star Wars Galactic Racer Campaign and Tours",
-      "description": "Master the runs-based Galactic Tour structure, branching event paths, upgrades, and tour recovery in Star Wars Galactic Racer.",
-      "metaTitle": "Star Wars Galactic Racer Campaign and Tours - Galactic League Guide",
-      "metaDescription": "Master Star Wars Galactic Racer campaign runs with Galactic Tour structure, branching paths, upgrade planning, and League Entry Token recovery.",
-      "categoryLabel": "CAMPAIGN & TOURS",
-      "whatIs": "What is the Campaign?",
-      "whatIsDescription": "Guides to the story-driven campaign, runs-based Galactic Tours, branching event choices, upgrade timing, and League Entry Token risk and recovery.",
-      "why": "Why learn the campaign?",
-      "whySteps": {
-        "step1Title": "Understand Runs",
-        "step1Description": "Learn how Galactic Tours, branching paths, and rewards connect",
-        "step2Title": "Manage Risk",
-        "step2Description": "Protect your League Entry Token and recover after a tour reset",
-        "step3Title": "Climb the League",
-        "step3Description": "Build a reliable path to the top of the Galactic League"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Campaign Guides"
-    },
-    "support": {
-      "title": "Star Wars Galactic Racer PC Specs and Support",
-      "description": "Technical support, PC system requirements, platform compatibility, and troubleshooting for Star Wars Galactic Racer.",
-      "metaTitle": "Star Wars Galactic Racer PC Specs and Support - Technical Help",
-      "metaDescription": "Get technical support for Star Wars Galactic Racer including PC system requirements, platform compatibility, controller setup, and storefront features.",
-      "categoryLabel": "PC SPECS & SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering PC system requirements, platform features, controller support, and storefront differences for Star Wars Galactic Racer.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Check Requirements",
-        "step1Description": "Confirm your PC meets the minimum specs and SSD requirement",
-        "step2Title": "Pick a Storefront",
-        "step2Description": "Compare Steam, Epic, PlayStation, and Xbox features and editions",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about controller support, languages, and online multiplayer"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
     }
   }
 }

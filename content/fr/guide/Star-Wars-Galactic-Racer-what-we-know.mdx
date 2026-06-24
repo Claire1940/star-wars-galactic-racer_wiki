@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "STAR WARS: Galactic Racer : Date de sortie, véhicules & modes",
+  description: "Découvrez les dernières infos sur STAR WARS: Galactic Racer, y compris la date de sortie en 2026, les classes de véhicules, la campagne basée sur des runs et les détails du multijoueur.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/f5a91f?text=Galactic+Racer+Guide",
+  date: "2026-06-24",
+  author: "L'équipe du Wiki Star Wars Galactic Racer"
+}
+
+<Callout type="info" title="Guide rapide">
+- **STAR WARS: Galactic Racer** sortira dans le monde entier le **6 octobre 2026** sur PS5, Xbox Series X|S et PC.
+- Le jeu propose une structure de campagne unique, le **Galactic Tour**, basée sur des runs avec des embranchements d'événements.
+- Choisissez parmi **trois classes distinctes de répulseurs** : Landspeeder, Speeder Bike et Skim Speeder.
+- Le multijoueur en ligne prend en charge jusqu'à **12 joueurs** avec des fonctionnalités cross-plateforme sur les boutiques compatibles.
+- Maîtrisez les **takedowns et la gestion des améliorations** dans le paddock pour survivre aux courses à haut risque de la Bordure Extérieure.
+</Callout>
+
+<Section icon={Target} title="Date de sortie et plateformes disponibles">
+
+Les sources officielles confirment que **STAR WARS: Galactic Racer** sortira le 6 octobre 2026. Développé par Fuse Games et édité par Secret Mode, le titre apporte des courses à haut risque sur les consoles modernes.
+
+**Points forts de la vidéo :**
+- Révélation officielle de l'environnement de course sans foi ni loi de la Bordure Extérieure.
+- Aperçu de lieux emblématiques comme Jakku et Tatooine.
+- Démonstration des mécaniques de course de contact agressives.
+
+<YouTubeEmbed videoId="RiavNl4qxWY" title="Official Reveal Trailer" />
+
+| Caractéristique | Détails |
+| :--- | :--- |
+| **Date de lancement** | 6 octobre 2026 |
+| **Plateformes** | PS5, Xbox Series X\|S, PC |
+| **Développeur** | Fuse Games |
+| **Éditeur** | Secret Mode |
+| **Boutiques** | Steam, Epic, PS Store, Xbox Store |
+
+<Callout type="tip" title="Note sur les précommandes">
+Les éditions Standard et Deluxe sont actuellement disponibles en préachat. La précommande offre en bonus une bannière de joueur et une livrée personnalisée, tandis que l'édition Deluxe comprend des véhicules exclusifs et des événements d'arcade.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Classes de véhicules et personnalisation">
+
+Dans **STAR WARS: Galactic Racer**, votre choix de véhicule définit votre style de course. Chaque classe de répulseur offre des profils de maniabilité, des caractéristiques et des voies d'amélioration uniques.
+
+<CardGrid cols={3}>
+  <Card title="Landspeeder">
+    - **Caractéristique : Dérapage**
+    - Poids élevé pour des virages stables
+    - Excellent pour gérer les collisions
+  </Card>
+  <Card title="Speeder Bike">
+    - **Caractéristique : Décharge cinétique**
+    - Vitesse de pointe supérieure en ligne droite
+    - Contrôle exigeant dans les virages
+  </Card>
+  <Card title="Skim Speeder">
+    - **Caractéristique : Inclinaison extrême**
+    - Optimisé pour les virages serrés
+    - Sensation technique pour les joueurs avancés
+  </Card>
+</CardGrid>
+
+| Catégorie d'amélioration | Fonction |
+| :--- | :--- |
+| **Postcombustion** | Durée et fréquence du boost |
+| **Batterie** | Capacité d'énergie pour les Ramjets |
+| **Virages** | Sensibilité de rotation et adhérence |
+| **Ramjet** | Vitesse de pointe de courte durée pour les takedowns |
+
+<Callout type="success" title="Conseil de pro pour la personnalisation">
+Profitez du temps d'arrêt dans le paddock entre les courses pour dépenser vos Crédits Galactiques en pièces détachées chez le vendeur. Donnez la priorité aux améliorations de Virages et de Postcombustion au début de votre campagne pour vous assurer de survivre aux circuits les plus dangereux.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modes de course et structure de la campagne">
+
+Le jeu s'éloigne de la progression linéaire traditionnelle pour adopter un système de « Galactic Tour » inspiré du genre roguelite. Vous devez gérer vos ressources, votre réputation et l'intégrité de votre véhicule pour atteindre la fin du circuit.
+
+<Steps>
+  <Step num="1" title="Commencer un Galactic Tour">
+    Dépensez un jeton d'entrée de ligue pour commencer un run. Choisissez votre chemin à travers des nœuds d'événements ramifiés.
+  </Step>
+  <Step num="2" title="Courir et survivre">
+    Participez à des courses standard, des événements d'élimination ou des duels 1v1. Un mauvais classement ou des crashs excessifs peuvent mettre fin prématurément à votre tour.
+  </Step>
+  <Step num="3" title="Améliorer et réparer">
+    Utilisez le paddock pour installer des pièces et réparer votre appareil à l'aide des récompenses obtenues pendant la course.
+  </Step>
+</Steps>
+
+| Mode | Joueurs | Objectif |
+| :--- | :--- | :--- |
+| **Campagne** | 1 | Progression de type run dans le Galactic Tour |
+| **Scénario** | 1 | Défis de course ciblés et indépendants |
+| **Arcade** | 1 | Événements sélectionnés et vitrines de véhicules |
+| **Multijoueur** | 2-12 | Matchs PvP en ligne compétitifs |
+
+<Callout type="warning" title="Mécanique importante">
+Le **jeton d'entrée de ligue** est la ressource la plus précieuse de votre run. Si vous ne parvenez pas à vous classer dans les trois premiers ou si vous subissez trop de dégâts, vous risquez de perdre le jeton, ce qui vous obligera à réinitialiser votre tour actuel.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuration système requise sur PC">
+
+Pour garantir des performances fluides dans la Bordure Extérieure, vérifiez que votre système répond aux spécifications suivantes.
+
+| Composant | Configuration minimale |
+| :--- | :--- |
+| **Système d'exploitation** | Windows 10 |
+| **Processeur** | Intel Core i5-8400 / AMD Ryzen 5 2600 |
+| **Mémoire** | 12 Go de RAM |
+| **Carte graphique** | Nvidia RTX 2060 / AMD RX 5600 XT 6 Go |
+| **Stockage** | 50 Go sur SSD (Requis) |
+
+<Callout type="info" title="Recommandation matérielle">
+Bien que la configuration minimale soit indiquée, un SSD est strictement requis pour un chargement optimal des environnements de course à grande vitesse. L'utilisation d'une manette est fortement recommandée pour un contrôle précis lors des manœuvres de course de pods à grande vitesse.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objectifs et liste de contrôle">
+
+Préparez-vous pour la Ligue Galactique avec cette liste de contrôle essentielle pour maximiser votre succès en début de partie.
+
+<Checklist
+  id="launch-prep"
+  title="Feuille de route du joueur :"
+  items={[
+    "Maîtriser le timing du boost de départ",
+    "Terminer le tour de campagne d'introduction",
+    "Tester les trois types de châssis de base en mode Arcade",
+    "Débloquer votre premier ensemble de pièces de performance",
+    "Participer à un match PvP"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que STAR WARS: Galactic Racer est un jeu Roblox ?",
+    answer: "Non, STAR WARS: Galactic Racer est un titre de course officiel et professionnel développé par Fuse Games pour PS5, Xbox Series X|S et PC."
+  },
+  {
+    question: "Le jeu prend-il en charge le multijoueur cross-plateforme ?",
+    answer: "Oui, le jeu propose une prise en charge du multijoueur cross-plateforme, comme indiqué sur les fiches des boutiques Xbox et Epic Games Store."
+  },
+  {
+    question: "Que se passe-t-il si je perds mon jeton d'entrée de ligue ?",
+    answer: "Perdre votre jeton met fin à votre run de campagne en cours, vous obligeant à recommencer votre tour, bien que certains progrès comme les Crédits Galactiques puissent être conservés."
+  }
+]} />
+
+</Section>
