@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Star Wars Galactic Racer Wiki - Release, Vehicles & Builds",
+  "short_name": "Galactic Racer",
+  "description": "Star Wars Galactic Racer Wiki covers release date, platforms, vehicles, builds, multiplayer, editions, trailers, and PC system requirements for the runs-based Outer Rim racing adventure.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#f5a91f",
+  "background_color": "#0c0f16",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
