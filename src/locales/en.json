@@ -10,14 +10,7 @@
       "twitterDescription": "STAR WARS: Galactic Racer Wiki: release date, platforms, vehicles, builds, multiplayer, and PC system requirements."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
