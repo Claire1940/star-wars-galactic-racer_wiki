@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki STAR WARS: Galactic Racer - Sortie, véhicules et configurations",
+      "description": "Le Wiki STAR WARS: Galactic Racer couvre la date de sortie, les plateformes (PS5, Xbox, PC), les véhicules, les configurations, les modes, les circuits, les éditions et la configuration PC requise pour l'aventure de course dans la Bordure Extérieure.",
+      "keywords": "STAR WARS: Galactic Racer, wiki Galactic Racer, date de sortie, véhicules, configurations, multijoueur, PS5, Xbox, PC",
+      "ogTitle": "Wiki STAR WARS: Galactic Racer - Sortie, véhicules et configurations",
+      "ogDescription": "Wiki complet de STAR WARS: Galactic Racer : date de sortie, plateformes, véhicules, configurations, circuits, modes, éditions et configuration PC requise.",
+      "twitterTitle": "Wiki STAR WARS: Galactic Racer - Sortie, véhicules et configurations",
+      "twitterDescription": "Wiki STAR WARS: Galactic Racer : date de sortie, plateformes, véhicules, configurations, multijoueur et configuration PC requise."
+    }
+  },
   "nav": {
     "release": "Sortie",
     "platforms": "Plateformes",
@@ -7,5 +18,748 @@
     "gameplay": "Gameplay",
     "guide": "Guide",
     "vehicles": "Véhicules"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Steam",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles connexes",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles à venir"
+  },
+  "hero": {
+    "badge": "Aventure de course Star Wars basée sur des runs",
+    "title": "Wiki STAR WARS: Galactic Racer",
+    "description": "Foncez à travers la Bordure Extérieure dans une aventure de course Star Wars à haut risque avec des podracers, des landspeeders, des speeder bikes, des configurations personnalisées, une campagne solo, des événements arcade et du multijoueur multiplateforme.",
+    "getFreeCodesCTA": "Recevoir les actualités sur la sortie",
+    "playOnSteamCTA": "Précommander sur Steam",
+    "stats": {
+      "stat1": {
+        "value": "6 oct. 2026",
+        "label": "Date de sortie"
+      },
+      "stat2": {
+        "value": "PS5, Xbox, PC",
+        "label": "Plateformes"
+      },
+      "stat3": {
+        "value": "2-12",
+        "label": "Joueurs en ligne"
+      },
+      "stat4": {
+        "value": "14",
+        "label": "Langues Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "---",
+    "description": "Gameplay de Star Wars Galactic Racer"
+  },
+  "tools": {
+    "title": "Parcourez la Bordure Extérieure avec des Tours Galactiques basés sur des runs, des embranchements d'événements, des courses de contact, des améliorations de véhicules à répulsion et un mode multijoueur en ligne de 2 à 12 joueurs sur PS5, Xbox Series X|S et PC.",
+    "titleHighlight": "Star Wars Galactic Racer",
+    "subtitle": "Centre de ressources",
+    "cards": [
+      {
+        "icon": "Tout ce qu'il faut savoir sur Star Wars Galactic Racer : infos de sortie, véhicules, builds, circuits, modes et configurations PC",
+        "title": "Rocket",
+        "description": "Sortie et plateformes"
+      },
+      {
+        "icon": "Date de lancement, PS5, Xbox, PC et disponibilité en boutique",
+        "title": "Gift",
+        "description": "Éditions et bonus"
+      },
+      {
+        "icon": "Éditions Standard, Deluxe, Collector et contenu de précommande",
+        "title": "Clapperboard",
+        "description": "Bandes-annonces et actualités"
+      },
+      {
+        "icon": "Révélation officielle, gameplay, bandes-annonces de l'histoire et chronologie",
+        "title": "Users",
+        "description": "Modes et multijoueur"
+      },
+      {
+        "icon": "Campagne, Arcade, JcJ et multijoueur en ligne",
+        "title": "BookOpen",
+        "description": "Guide du débutant"
+      },
+      {
+        "icon": "Premiers pas, châssis, boosts et améliorations",
+        "title": "Wrench",
+        "description": "Véhicules et builds"
+      },
+      {
+        "icon": "Classes de véhicules à répulsion, maniabilité et pièces",
+        "title": "Map",
+        "description": "Circuits et planètes"
+      },
+      {
+        "icon": "Jakku, Tatooine, Ando Prime et lieux de course",
+        "title": "Monitor",
+        "description": "Configuration PC requise"
+      }
+    ]
+  },
+  "modules": {
+    "swgrReleaseDatePlatforms": {
+      "title": "Configuration minimale, stockage, SSD et langues",
+      "eyebrow": "Date de sortie, plateformes et disponibilité en boutique de Star Wars Galactic Racer",
+      "intro": "Infos de lancement",
+      "items": [
+        {
+          "label": "Star Wars Galactic Racer sortira mondialement le 6 octobre 2026 sur PlayStation 5, Xbox Series X|S et PC, développé par Fuse Games et édité par Secret Mode.",
+          "value": "Date de lancement",
+          "detail": "6 octobre 2026"
+        },
+        {
+          "label": "Lancement mondial sur PlayStation 5, Xbox Series X|S et PC.",
+          "value": "Plateformes",
+          "detail": "PS5, Xbox Series X|S, PC"
+        },
+        {
+          "label": "Les pages PC sont disponibles sur Steam et l'Epic Games Store.",
+          "value": "Développeur",
+          "detail": "Fuse Games est répertorié comme le développeur sur les principales boutiques en ligne."
+        },
+        {
+          "label": "Éditeur",
+          "value": "Secret Mode",
+          "detail": "Secret Mode est répertorié comme l'éditeur sur toutes les boutiques en ligne."
+        },
+        {
+          "label": "Disponibilité en boutique",
+          "value": "Précommandes ouvertes",
+          "detail": "Les éditions numériques Standard et Deluxe sont répertoriées sur Steam, PlayStation Store, Xbox Store et Epic Games Store."
+        },
+        {
+          "label": "Prix de l'Édition Standard",
+          "value": "59,99 $",
+          "detail": "L'Édition Standard est affichée à 59,99 $ sur toutes les boutiques en ligne."
+        }
+      ]
+    },
+    "swgrEditionsAndBonuses": {
+      "title": "Éditions et bonus de précommande de Star Wars Galactic Racer",
+      "eyebrow": "Éditions",
+      "intro": "Comparez les packs des éditions Standard, Deluxe et Collector. Chaque précommande inclut en bonus la livrée de véhicule à répulsion et la bannière de joueur, tandis que les éditions Deluxe et Collector ajoutent des véhicules, des événements Arcade et du contenu artistique.",
+      "editions": [
+        {
+          "edition": "Édition Standard",
+          "price": "59,99 $",
+          "format": "Édition numérique sur Steam, PlayStation Store, Xbox Store et Epic Games Store",
+          "platforms": "PS5, Xbox Series X|S, PC",
+          "includes": [
+            "Jeu de base",
+            "Bannière de joueur de précommande",
+            "Livrée de précommande"
+          ],
+          "contentFocus": "Jeu de base plus les éléments cosmétiques de précommande de lancement"
+        },
+        {
+          "edition": "Édition Deluxe",
+          "price": "79,99 $",
+          "format": "Édition numérique sur Steam, Xbox Store et Epic Games Store ; le contenu Deluxe est également disponible en tant qu'extension de mise à niveau Deluxe",
+          "platforms": "PS5, Xbox Series X|S, PC",
+          "includes": [
+            "Jeu de base",
+            "Bannière de joueur de précommande",
+            "Livrée de précommande",
+            "Artbook numérique",
+            "3 véhicules à répulsion exclusifs",
+            "Livrée Deluxe",
+            "3 événements Arcade uniques",
+            "Bannière de joueur Deluxe"
+          ],
+          "contentFocus": "Bonus numériques, véhicules exclusifs, épreuves Arcade et contenu artistique"
+        },
+        {
+          "edition": "Édition Collector",
+          "price": "159,99 $",
+          "format": "Édition physique sur le site officiel",
+          "platforms": "PS5, Xbox Series X|S, PC",
+          "includes": [
+            "Jeu de base",
+            "Tout le contenu de l'Édition Deluxe",
+            "Boîtier SteelBook avec fourreau",
+            "Boîte de l'Édition Collector",
+            "Maquette de landspeeder",
+            "Artbook physique",
+            "Écussons de pilote",
+            "Bannière de Kestar"
+          ],
+          "contentFocus": "Tout le contenu Deluxe plus des objets de collection physiques"
+        }
+      ]
+    },
+    "swgrTrailerAndNewsTimeline": {
+      "title": "Chronologie des bandes-annonces et des actualités officielles de Star Wars Galactic Racer",
+      "eyebrow": "Chronologie des actualités",
+      "intro": "Suivez l'annonce, le gameplay, la date de sortie, la bande-annonce de l'histoire et les étapes de l'aperçu manette en main dans une chronologie claire, basée sur les couvertures officielles de Star Wars, des vidéos officielles et de Xbox Wire.",
+      "entries": [
+        {
+          "date": "Décembre 2025",
+          "event": "Bande-annonce d'annonce officielle",
+          "type": "Annonce",
+          "summary": "L'annonce a présenté Star Wars Galactic Racer comme un nouveau jeu de course à enjeux élevés se déroulant dans la Bordure Extérieure sans foi ni loi, centré sur Shade, la Ligue Galactique, Jakku, avec les premières images de course."
+        },
+        {
+          "date": "12 février 2026",
+          "event": "Bande-annonce de gameplay officielle",
+          "type": "Gameplay",
+          "summary": "La bande-annonce de gameplay a montré des courses à travers Sentinel One, Jakku, Ando Prime et Lantaana, avec des landspeeders, des skim speeders, des speeder bikes, des podracers, des pilotes rivaux, des pièces, des outils et des améliorations."
+        },
+        {
+          "date": "30 avril 2026",
+          "event": "Annonce de la date de sortie et des précommandes",
+          "type": "Date de sortie",
+          "summary": "La mise à jour de la date de sortie a confirmé le lancement le 6 octobre 2026 sur PS5, Xbox Series X|S et PC, avec l'ouverture des précommandes pour les éditions Standard, Deluxe et Collector."
+        },
+        {
+          "date": "5 juin 2026",
+          "event": "Bande-annonce officielle de l'histoire",
+          "type": "Histoire",
+          "summary": "La bande-annonce de l'histoire du Summer Game Fest s'est concentrée sur Shade, Kestar Bool, Hibi, Sebulba, l'arène Derven Acos, la progression en solo et les courses de podracers en multijoueur au-delà du circuit de Mos Espa."
+        },
+        {
+          "date": "23 juin 2026",
+          "event": "Aperçu manette en main de Xbox Wire",
+          "type": "Aperçu",
+          "summary": "Xbox Wire a détaillé la structure du Galactic Tour basée sur des runs, trois choix de châssis, les catégories d'amélioration, les risques liés aux jetons d'entrée de la Ligue, le mode Arcade, les temps d'arrêt au paddock et plusieurs mondes de course."
+        }
+      ]
+    },
+    "swgrGameplayModes": {
+      "title": "Modes de jeu, campagne et multijoueur de Star Wars Galactic Racer",
+      "eyebrow": "Modes de jeu",
+      "intro": "Star Wars Galactic Racer mélange une campagne solo basée sur des runs avec des modes Scénario et Arcade, des matchs PvP et du multijoueur en ligne. Les boutiques indiquent un support en ligne jusqu'à 12 joueurs, avec un support multiplateforme sur Xbox et Epic.",
+      "modes": [
+        {
+          "mode": "Campagne",
+          "players": "1 joueur",
+          "description": "Une campagne solo narrative où Shade grimpe dans la Ligue Galactique à travers un Galactic Tour basé sur des runs avec des embranchements, des événements de plus en plus intenses, des récompenses et des améliorations.",
+          "keyFeatures": [
+            "Galactic Tour basé sur des runs",
+            "Structure de campagne en trois actes",
+            "Parcours d'événements à embranchements",
+            "Fabriquez des améliorations entre les courses",
+            "Risque lié aux jetons d'entrée en Ligue",
+            "Intrigue : Shade contre Kestar Bool"
+          ]
+        },
+        {
+          "mode": "Scénario",
+          "players": "1 joueur",
+          "description": "Le mode Scénario est répertorié comme l'un des modes principaux aux côtés de Campagne et Arcade, offrant un format de défi ciblé en dehors de la structure du tour principal.",
+          "keyFeatures": [
+            "Mode principal confirmé",
+            "Format de course axé sur les défis",
+            "Distinct des modes Campagne et Arcade"
+          ]
+        },
+        {
+          "mode": "Arcade",
+          "players": "1 joueur",
+          "description": "Le mode Arcade propose des événements sélectionnés utilisant des pilotes, des speeders et des lieux spécifiques à travers la Galactic League. Le contenu Deluxe ajoute également trois épreuves Arcade conçues pour le véhicule à répulsion Kor Sarun.",
+          "keyFeatures": [
+            "Événements de course sélectionnés",
+            "Présentations de pilotes emblématiques",
+            "Circuit de Tatooine présenté dans l'aperçu pratique",
+            "Trois épreuves Arcade Deluxe"
+          ]
+        },
+        {
+          "mode": "Matchs de rancune JcJ",
+          "players": "Multijoueur en ligne",
+          "description": "Les matchs de rancune JcJ sont des courses compétitives où les joueurs affrontent des rivaux et où la réputation fait partie des enjeux, présentés comme une compétition multijoueur stratégique.",
+          "keyFeatures": [
+            "Courses JcJ compétitives",
+            "Éliminations de rivaux",
+            "Enjeux basés sur la réputation",
+            "Positionnement de course à haut risque"
+          ]
+        },
+        {
+          "mode": "Multijoueur en ligne",
+          "players": "2-12 joueurs",
+          "description": "Le multijoueur en ligne est répertorié sur les boutiques de consoles, avec le multijoueur multiplateforme Xbox et le support multiplateforme Epic Games Store indiqués dans les fonctionnalités de la boutique.",
+          "keyFeatures": [
+            "Jeu en ligne",
+            "Support multiplateforme sur les boutiques indiquées",
+            "PS Plus requis pour le jeu en ligne sur PS5",
+            "Mode solo inclus"
+          ]
+        }
+      ]
+    },
+    "swgrBeginnerGuide": {
+      "title": "Guide du débutant Star Wars Galactic Racer",
+      "eyebrow": "Guide du débutant",
+      "intro": "Découvrez le déroulement des premières parties pour les sessions de Campagne de Star Wars Galactic Racer, les premiers choix de châssis, les crashs, les éliminations, les améliorations et les types de courses principaux.",
+      "steps": [
+        {
+          "title": "Commencez par le mode Campagne",
+          "summary": "Le mode Campagne suit Shade, un pilote rejoignant la Galactic League pour défier Kestar Bool. La campagne solo utilise des Galactic Tours avec des embranchements d'événements, des courses de plus en plus difficiles, des récompenses et des moments de reconstruction entre les tentatives.",
+          "mechanics": [
+            "Campagne scénarisée",
+            "Galactic Tour basé sur des sessions",
+            "Choix d'événements à embranchements",
+            "Déblocages uniques",
+            "Défis croissants"
+          ],
+          "tip": "Considérez la campagne comme le parcours d'apprentissage principal avant de vous lancer dans les épreuves arcade plus difficiles ou les matchs de rancune JcJ."
+        },
+        {
+          "title": "Choisissez un châssis de départ adapté à votre style de pilotage",
+          "summary": "Les aperçus manette en main mettent en avant trois choix de châssis de départ : le landspeeder, le speeder bike et le skim speeder. Chaque châssis modifie la maniabilité, la vitesse, la prise de virage et l'impact des améliorations lors d'un run.",
+          "mechanics": [
+            "Landspeeder : axé sur des dérapages plus lourds",
+            "Speeder Bike : rapide en ligne droite",
+            "Skim Speeder : virages avec forte inclinaison",
+            "Caractéristiques spécifiques à la classe",
+            "Réglages basés sur les améliorations"
+          ],
+          "tip": "Utilisez d'abord le landspeeder pour vous familiariser avec les collisions, les dérapages et le timing des améliorations, puis passez au speeder bike ou au skim speeder une fois que vous maîtrisez les virages."
+        },
+        {
+          "title": "Maîtrisez les départs, les boosts et la surchauffe",
+          "summary": "Les départs de course nécessitent de doser l'accélérateur et d'exécuter une séquence rapide de touches moteur et bouclier pour obtenir un boost de départ. Pendant les courses, chaque speeder utilise un Afterburner pour des boosts répétables et un Ramjet pour des accélérations fulgurantes et risquées, utiles pour les takedowns mais pouvant provoquer une surchauffe.",
+          "mechanics": [
+            "Timing du départ lors du compte à rebours",
+            "Séquence de démarrage moteur et bouclier",
+            "Boost Afterburner",
+            "Boost Ramjet",
+            "Risque de surchauffe"
+          ],
+          "tip": "Réservez l'utilisation du Ramjet pour les lignes droites ou les tentatives de takedown, plutôt que de l'activer dans les virages."
+        },
+        {
+          "title": "Pilotez de manière agressive, mais évitez le crash",
+          "summary": "Star Wars Galactic Racer récompense le pilotage de contact. Les joueurs peuvent percuter, pousser et éliminer leurs rivaux sur les circuits, mais les crashs et les mauvais classements peuvent mettre fin à un tour.",
+          "mechanics": [
+            "Shunts",
+            "Takedowns",
+            "Course axée sur le risque et la récompense",
+            "Limite de crashs",
+            "Pression pour finir dans le top 3"
+          ],
+          "tip": "Utilisez les takedowns pour vous faire de la place, et non pour remplacer les trajectoires de course."
+        },
+        {
+          "title": "Dépensez vos améliorations entre les courses",
+          "summary": "Entre les événements, les joueurs peuvent améliorer les performances de leur speeder et appliquer les récompenses obtenues selon leurs choix d'itinéraires. Les catégories d'amélioration connues comprennent l'Afterburner, la batterie, la prise de virage, le Ramjet, ainsi que des caractéristiques de châssis comme le dérapage, l'impulsion cinétique et le Knife Edge.",
+          "mechanics": [
+            "Améliorations de l'Afterburner",
+            "Améliorations de la batterie",
+            "Améliorations de la prise de virage",
+            "Améliorations du Ramjet",
+            "Améliorations des caractéristiques du châssis",
+            "Crédits galactiques et pièces de vendeur"
+          ],
+          "tip": "Donnez la priorité à la prise de virage et à l'Afterburner durant votre apprentissage ; la vitesse de pointe pure importe moins qu'une sortie de virage propre."
+        },
+        {
+          "title": "Comprendre l'échec et la récupération d'un tour",
+          "summary": "Un jeton d'entrée de ligue est requis pour participer à un tour. Un nombre trop élevé de crashs ou l'échec à atteindre le top 3 peut entraîner le retrait du jeton et mettre fin au tour, vous obligeant à recommencer, bien que certains progrès comme les crédits galactiques soient conservés.",
+          "mechanics": [
+            "Jeton d'entrée de ligue",
+            "Réinitialisation du tour",
+            "Retour aux qualifications",
+            "Conservation de certaines ressources",
+            "Récupération du run"
+          ],
+          "tip": "Terminez en toute sécurité avant de chercher à enchaîner les éliminations parfaites ; survivre au championnat importe plus qu'un virage spectaculaire."
+        },
+        {
+          "title": "Utilisez le mode Arcade et les autres types de course pour vous entraîner.",
+          "summary": "Le jeu comprend les modes Campagne, Scénario et Arcade. Les formats de course présentés incluent les courses standards, les contre-la-montre, les épreuves d'élimination, les face-à-face et les épreuves de podracing axées sur une vitesse plus élevée et des marges de danger plus réduites.",
+          "mechanics": [
+            "Mode Campagne",
+            "Mode Scénario",
+            "Mode Arcade",
+            "Contre-la-montre et épreuves d'élimination",
+            "Épreuves en face-à-face",
+            "Podracing"
+          ],
+          "tip": "Utilisez le mode Arcade pour vous entraîner avec des véhicules et sur des circuits spécifiques avant d'utiliser un jeton d'accès à la Ligue dans la campagne."
+        }
+      ]
+    },
+    "swgrVehiclesAndCustomization": {
+      "title": "Véhicules et personnalisation de Star Wars Galactic Racer",
+      "eyebrow": "Véhicules",
+      "intro": "Comparez les classes de véhicules à répulseurs confirmées, les styles de pilotage, les améliorations, les livrées, les véhicules Deluxe et les capacités de véhicule connues dans les modes solo et multijoueur de Star Wars Galactic Racer.",
+      "vehicles": [
+        {
+          "vehicle": "Landspeeder",
+          "availability": "Classe de véhicule du jeu de base",
+          "handling": "Pilotage plus lourd avec une forte identité de dérapage.",
+          "trait": "Dérapage",
+          "customization": "Accepte les améliorations de virage, de postcombustion, de batterie et de statoréacteur, en plus des améliorations spécifiques à la classe.",
+          "useCase": "Apprentissage des trajectoires, gestion des contacts et survie dans les courses agressives."
+        },
+        {
+          "vehicle": "Moto-jet",
+          "availability": "Classe de véhicule du jeu de base",
+          "handling": "Grande vitesse en ligne droite avec un contrôle plus exigeant dans les virages.",
+          "trait": "Impulsion cinétique",
+          "customization": "Ajusté grâce aux améliorations de run, aux pièces, aux outils et aux livrées cosmétiques.",
+          "useCase": "Sections rapides, dépassements risqués et pilotes capables de maîtriser leur vitesse maximale dans les virages."
+        },
+        {
+          "vehicle": "Skim Speeder",
+          "availability": "Classe de véhicule du jeu de base",
+          "handling": "Conçu pour des virages serrés inclinés et des sensations plus techniques.",
+          "trait": "Tranchant",
+          "customization": "Amélioré pour les performances d'une course à l'autre et personnalisé avec des livrées visuelles.",
+          "useCase": "Pilotage technique, changements de direction brusques et contrôle de trajectoire avancé."
+        },
+        {
+          "vehicle": "Podracer",
+          "availability": "Classe de véhicule du jeu de base",
+          "handling": "Axé sur les courses à grande vitesse, le podracing y étant présenté comme un mode phare.",
+          "trait": "Podracing",
+          "customization": "Présenté dans les bandes-annonces et aperçus officiels avec des pilotes connus tels que Sebulba et Ben Quadinaros.",
+          "useCase": "Épreuves à grande vitesse, moments de course emblématiques de Star Wars et maîtrise de pistes de style Tatooine."
+        },
+        {
+          "vehicle": "Véhicules Deluxe Kor Sarun",
+          "availability": "Édition Deluxe et Mise à niveau Deluxe",
+          "handling": "Trois véhicules à répulseurs Kor Sarun exclusifs liés au contenu Deluxe.",
+          "trait": "Ensemble de véhicules Deluxe",
+          "customization": "Ajoute la moto-jet Ciza T, le landspeeder Darc X et le skim speeder Rak S, ainsi que trois événements Arcade exclusifs.",
+          "useCase": "Pour les joueurs qui veulent des véhicules supplémentaires, des épreuves Arcade à thème et du contenu cosmétique Deluxe."
+        },
+        {
+          "vehicle": "Livrées et personnalisation visuelle",
+          "availability": "Jeu de base, bonus de précommande et contenu Deluxe",
+          "handling": "Identité cosmétique pour les véhicules à répulsion et présentation du profil multijoueur.",
+          "trait": "Livrée et bannière de joueur",
+          "customization": "La précommande déverrouille une livrée et une bannière de joueur en bonus ; l'édition Deluxe ajoute une livrée inspirée du N-1 de Naboo et une bannière de joueur Deluxe.",
+          "useCase": "Personnalisez vos véhicules et votre identité multijoueur sans modifier la classe de pilotage."
+        },
+        {
+          "vehicle": "Pièces de performance et améliorations",
+          "availability": "Progression de la campagne et des runs",
+          "handling": "Réglage des performances d'une course à l'autre lié aux récompenses d'événement et à la progression.",
+          "trait": "Postcombustion, Batterie, Virage, Statoréacteur",
+          "customization": "De meilleurs classements déverrouillent plus d'améliorations ; les paddocks vous permettent de parler aux pilotes, d'améliorer vos engins et d'acheter des pièces avec des crédits galactiques.",
+          "useCase": "Construisez un véhicule pour des virages plus sûrs, des boosts plus puissants, des éliminations plus brutales ou des forces spécifiques à chaque classe."
+        }
+      ]
+    },
+    "swgrTracksAndPlanets": {
+      "title": "Pistes et planètes de Star Wars Galactic Racer",
+      "eyebrow": "Pistes",
+      "intro": "Explorez les planètes, circuits, arènes, thèmes de terrain et lieux de course présentés dans les bandes-annonces de la Galactic League de Star Wars Galactic Racer.",
+      "locations": [
+        {
+          "name": "Jakku",
+          "type": "Planète",
+          "environment": "Désert poussiéreux et paysage marqué par les combats",
+          "notes": "Jakku est présentée comme un lieu de course clandestine et un monde vitrine clé des débuts de la Galactic League.",
+          "hazards": "Poussière, décors chargés de débris et ambiance de casse de la Bordure Extérieure."
+        },
+        {
+          "name": "Tatooine",
+          "type": "Planète",
+          "environment": "Monde de course désertique lié aux classiques courses de modules de Star Wars",
+          "notes": "Tatooine propose des courses de modules et une connexion avec le circuit de Mos Espa, avec Sebulba présent dans les aperçus du mode Arcade.",
+          "hazards": "Courses de modules à grande vitesse, raccourcis, voies étroites, grottes et risques élevés de crash."
+        },
+        {
+          "name": "Circuit de Mos Espa",
+          "type": "Circuit officiel",
+          "environment": "Circuit de course de modules de Tatooine",
+          "notes": "Un célèbre circuit de Tatooine inspiré de Star Wars : Épisode I - La Menace fantôme, mis en avant dans les premiers essais du jeu.",
+          "hazards": "Vitesse de course de modules, contrôle précis de la trajectoire et nostalgie cinématographique des courses de Star Wars."
+        },
+        {
+          "name": "Ando Prime",
+          "type": "Planète",
+          "environment": "Monde gelé et glace traîtresse",
+          "notes": "Ando Prime apparaît comme l'un des mondes de course distincts, les aperçus mettant l'accent sur son terrain gelé.",
+          "hazards": "Glace, pression du pilotage sur sol glissant et visibilité réduite par le froid extrême."
+        },
+        {
+          "name": "Lantaana",
+          "type": "Planète",
+          "environment": "---",
+          "notes": "Jungle luxuriante et forêt tropicale",
+          "hazards": "Lantaana est présentée comme une planète verdoyante et l'un des mondes de course de la campagne."
+        },
+        {
+          "name": "Paysages de jungle dense et atmosphère de circuit tropical.",
+          "type": "Sentinel I",
+          "environment": "Planète",
+          "notes": "Surface de course volcanique",
+          "hazards": "Sentinel I apparaît dans les documents officiels comme une planète de course distincte de la Galactic League."
+        },
+        {
+          "name": "Terrain volcanique et décors de circuits hostiles.",
+          "type": "Arène Derven Acos",
+          "environment": "Arène",
+          "notes": "Nouvel emplacement d'arène",
+          "hazards": "La bande-annonce de l'histoire révèle l'arène Derven Acos comme un nouveau lieu lié aux séquences solo et à la couverture du podracing multijoueur."
+        }
+      ]
+    },
+    "swgrSystemRequirements": {
+      "title": "Présentation de course en arène et spectacle de la League.",
+      "eyebrow": "Configuration requise PC pour Star Wars Galactic Racer",
+      "intro": "Caractéristiques PC",
+      "specs": [
+        {
+          "component": "La configuration PC pour Star Wars Galactic Racer indique Windows 10, un processeur de milieu de gamme, 12 Go de RAM, un GPU de classe RTX 2060, 50 Go de stockage SSD et la prise en charge des manettes.",
+          "minimum": "Système d'exploitation",
+          "notes": "Windows 10"
+        },
+        {
+          "component": "Répertorié sur Steam et l'Epic Games Store.",
+          "minimum": "Processeur",
+          "notes": "Intel Core i5-8400 / AMD Ryzen 5 2600"
+        },
+        {
+          "component": "Processeur minimum requis pour PC.",
+          "minimum": "Mémoire",
+          "notes": "12 Go de RAM"
+        },
+        {
+          "component": "Mémoire vive minimale requise pour PC.",
+          "minimum": "Graphismes",
+          "notes": "Nvidia RTX 2060 / Intel Arc A580 / AMD Radeon RX 5600 XT 6GB"
+        },
+        {
+          "component": "Classe de GPU minimale répertoriée par Steam et Epic.",
+          "minimum": "Stockage",
+          "notes": "50 Go d'espace disponible (SSD requis)"
+        },
+        {
+          "component": "Un SSD est requis pour l'installation.",
+          "minimum": "Entrée",
+          "notes": "Manette"
+        },
+        {
+          "component": "Epic répertorie la manette comme un périphérique d'entrée supplémentaire.",
+          "minimum": "Fonctionnalités PC Steam",
+          "notes": "Solo, JcJ en ligne, Multijoueur multiplateforme, Partage familial"
+        },
+        {
+          "component": "Steam mentionne également Denuvo Anti-Tamper avec une limite d'activation sur 5 machines.",
+          "minimum": "Langues",
+          "notes": "Audio complet en anglais plus 14 langues pour l'interface et les sous-titres"
+        },
+        {
+          "component": "Contexte console",
+          "minimum": "PS5 et Xbox Series X|S disponibles",
+          "notes": "Le PS Store indique 1 joueur, mode en ligne facultatif jusqu'à 12 avec le PS Plus, et Lecture à distance. Le Xbox Store indique solo, multijoueur en ligne de 2 à 12 joueurs, et multijoueur multiplateforme."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Foire aux",
+    "titleHighlight": "Questions",
+    "subtitle": "Tout ce que vous devez savoir sur Star Wars Galactic Racer",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Star Wars Galactic Racer ?",
+        "answer": "Star Wars Galactic Racer est un jeu de course de type \"runs\" dans la Bordure Extérieure avec une campagne scénarisée, des événements Arcade, des duels PvP et du multijoueur en ligne sur PS5, Xbox Series X|S et PC."
+      },
+      {
+        "question": "Quand sort Star Wars Galactic Racer ?",
+        "answer": "Star Wars Galactic Racer sortira mondialement le 6 octobre 2026 sur PlayStation 5, Xbox Series X|S et PC."
+      },
+      {
+        "question": "Sur quelles plateformes Star Wars Galactic Racer est-il disponible ?",
+        "answer": "Star Wars Galactic Racer est disponible sur PS5, Xbox Series X|S et PC via Steam et l'Epic Games Store."
+      },
+      {
+        "question": "Quels véhicules peut-on piloter dans Star Wars Galactic Racer ?",
+        "answer": "Star Wars Galactic Racer inclut des landspeeders, des speeder bikes, des skim speeders et des podracers, l'Édition Deluxe ajoutant trois véhicules à répulsion Kor Sarun exclusifs."
+      },
+      {
+        "question": "Star Wars Galactic Racer propose-t-il un mode multijoueur ?",
+        "answer": "Oui. Star Wars Galactic Racer annonce du multijoueur en ligne jusqu'à 12 joueurs sur PS5 et de 2 à 12 sur Xbox, avec une prise en charge multiplateforme indiquée sur Xbox et l'Epic Games Store."
+      },
+      {
+        "question": "Quelle est la configuration PC requise pour Star Wars Galactic Racer ?",
+        "answer": "Star Wars Galactic Racer requiert Windows 10, un processeur Intel Core i5-8400 ou AMD Ryzen 5 2600, 12 Go de RAM, une carte graphique de type RTX 2060 et 50 Go de stockage SSD."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à courir dans la Bordure Extérieure ?",
+    "description": "Rejoignez la communauté STAR WARS: Galactic Racer sur Discord pour des guides de builds, des astuces de circuit, les actus sur la sortie et des discussions multijoueur !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Précommander sur Steam"
+  },
+  "footer": {
+    "title": "Wiki STAR WARS: Galactic Racer",
+    "description": "Votre hub de ressources complet pour les dates de sortie, plateformes, véhicules, builds, circuits, modes, éditions et configurations système de STAR WARS: Galactic Racer.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Communauté Steam",
+    "steamStore": "Magasin Steam",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 STAR WARS: Galactic Racer Wiki. Non affilié à Lucasfilm ou aux développeurs de STAR WARS: Galactic Racer.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Date de sortie et infos de lancement de Star Wars Galactic Racer",
+      "description": "Date de sortie officielle de Star Wars Galactic Racer, plateformes, état des précommandes et détails de lancement pour le jeu de course de la Bordure Extérieure.",
+      "metaTitle": "Date de sortie de Star Wars Galactic Racer - Lancement en octobre 2026",
+      "metaDescription": "Star Wars Galactic Racer sort le 6 octobre 2026 sur PS5, Xbox Series X|S et PC. Découvrez la date de sortie officielle, les plateformes et les détails de précommande.",
+      "categoryLabel": "INFOS DE SORTIE",
+      "whatIs": "Quelle est la date de sortie ?",
+      "whatIsDescription": "Star Wars Galactic Racer sortira officiellement dans le monde entier le 6 octobre 2026 sur PlayStation 5, Xbox Series X|S et PC. Développé par Fuse Games et édité par Secret Mode, le jeu est disponible en précommande sur Steam, Epic Games Store, PlayStation Store et Xbox Store.",
+      "why": "Pourquoi suivre la sortie ?",
+      "whySteps": {
+        "step1Title": "Date de sortie confirmée",
+        "step1Description": "Sortie mondiale le 6 octobre 2026 sur PS5, Xbox Series X|S et PC.",
+        "step2Title": "Disponibilité des précommandes",
+        "step2Description": "Les éditions Standard et Deluxe sont disponibles sur les boutiques Steam, Epic, PlayStation et Xbox.",
+        "step3Title": "Actualités et bandes-annonces officielles",
+        "step3Description": "Suivez les bandes-annonces de révélation, de gameplay et de l'histoire issues des couvertures officielles de Star Wars et Xbox Wire."
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles sur la sortie"
+    },
+    "platforms": {
+      "title": "Plateformes de Star Wars Galactic Racer et disponibilité en boutique",
+      "description": "Toutes les plateformes et boutiques confirmées pour Star Wars Galactic Racer, y compris la PS5, la Xbox Series X|S, le PC, Steam et l'Epic Games Store.",
+      "metaTitle": "Plateformes de Star Wars Galactic Racer - PS5, Xbox, PC et boutiques",
+      "metaDescription": "Star Wars Galactic Racer est disponible sur PS5, Xbox Series X|S et PC via Steam et Epic Games Store. Comparez les plateformes, les boutiques et la prise en charge du crossplay.",
+      "categoryLabel": "PLATEFORMES",
+      "whatIs": "Sur quelles plateformes est-il disponible ?",
+      "whatIsDescription": "Star Wars Galactic Racer est confirmé sur PlayStation 5, Xbox Series X|S et PC. Les joueurs PC peuvent choisir entre Steam et l'Epic Games Store, et le mode multijoueur en ligne prend en charge le jeu multiplateforme sur Xbox et Epic.",
+      "why": "Pourquoi comparer les plateformes ?",
+      "whySteps": {
+        "step1Title": "Choisissez votre boutique",
+        "step1Description": "Comparez les éditions, les fonctionnalités et les prix sur Steam, Epic, PlayStation et Xbox.",
+        "step2Title": "Jeu multiplateforme",
+        "step2Description": "Le multijoueur en ligne prend en charge le crossplay sur Xbox et l'Epic Games Store.",
+        "step3Title": "Statut du cloud et des abonnements",
+        "step3Description": "Vérifiez la disponibilité actuelle pour le cloud gaming, le Game Pass et d'autres plateformes."
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les articles sur les plateformes"
+    },
+    "editions": {
+      "title": "Éditions, prix et bonus de précommande de Star Wars Galactic Racer",
+      "description": "Comparez les packs, les prix et le contenu bonus de précommande des éditions Standard, Deluxe et Collector de Star Wars Galactic Racer.",
+      "metaTitle": "Éditions de Star Wars Galactic Racer - Standard, Deluxe et Collector",
+      "metaDescription": "Comparez les éditions de Star Wars Galactic Racer : Standard à 59,99 $, Deluxe à 79,99 $ et l'Édition Collector à 159,99 $ avec les bonus de précommande et le contenu Deluxe.",
+      "categoryLabel": "ÉDITIONS",
+      "whatIs": "Quelles éditions sont disponibles ?",
+      "whatIsDescription": "Star Wars Galactic Racer propose trois éditions : l'Édition Standard à 59,99 $, l'Édition Deluxe à 79,99 $ avec des véhicules Kor Sarun et des événements Arcade exclusifs, et l'Édition Collector à 159,99 $ avec des objets de collection physiques. Chaque précommande comprend une livrée et une bannière de joueur en bonus.",
+      "why": "Pourquoi comparer les éditions ?",
+      "whySteps": {
+        "step1Title": "Adaptez à votre budget",
+        "step1Description": "Bonus de précommande",
+        "step2Title": "Pre-Order Bonuses",
+        "step2Description": "Chaque précommande inclut en bonus une livrée de véhicule à répulseurs et une bannière de joueur.",
+        "step3Title": "Bonus des éditions Deluxe et Collector",
+        "step3Description": "L'édition Deluxe ajoute trois véhicules exclusifs et des épreuves Arcade ; l'édition Collector ajoute des objets de collection physiques."
+      },
+      "featured": "À la une et Essentiels",
+      "all": "Toutes les éditions"
+    },
+    "multiplayer": {
+      "title": "Multijoueur et Crossplay de Star Wars Galactic Racer",
+      "description": "Détails sur le multijoueur en ligne, le crossplay, la coop locale, l'écran scindé et les matchs de rivalité PvP de Star Wars Galactic Racer.",
+      "metaTitle": "Multijoueur Star Wars Galactic Racer - En ligne, Crossplay et Coop",
+      "metaDescription": "Star Wars Galactic Racer prend en charge le multijoueur en ligne jusqu'à 12 joueurs avec le crossplay sur Xbox et Epic. Découvrez la coop locale, l'écran scindé et les modes PvP.",
+      "categoryLabel": "MULTIJOUEUR",
+      "whatIs": "Y a-t-il un mode multijoueur ?",
+      "whatIsDescription": "Star Wars Galactic Racer prend en charge le multijoueur en ligne jusqu'à 12 joueurs sur PS5 (avec le PS Plus) et de 2 à 12 sur Xbox. Le multijoueur cross-platform est disponible sur Xbox et l'Epic Games Store, avec des matchs de rivalité PvP et des courses compétitives.",
+      "why": "Pourquoi jouer en multijoueur ?",
+      "whySteps": {
+        "step1Title": "Courses en ligne",
+        "step1Description": "Affrontez jusqu'à 12 joueurs en ligne sur PS5, Xbox et PC.",
+        "step2Title": "Prise en charge du Crossplay",
+        "step2Description": "Le jeu cross-platform est disponible sur Xbox et l'Epic Games Store.",
+        "step3Title": "Matchs de rivalité PvP",
+        "step3Description": "Affrontez vos rivaux dans des courses compétitives où la réputation et les éliminations font grimper les enjeux."
+      },
+      "featured": "À la une et Essentiels",
+      "all": "Tous les articles sur le multijoueur"
+    },
+    "gameplay": {
+      "title": "Gameplay, circuits et modes de Star Wars Galactic Racer",
+      "description": "Mécaniques de gameplay, modes de course, circuits, planètes, mode histoire et détails de la démo de Star Wars Galactic Racer.",
+      "metaTitle": "Gameplay de Star Wars Galactic Racer - Modes, circuits et planètes",
+      "metaDescription": "Explorez le gameplay de Star Wars Galactic Racer : Tours Galactiques basés sur des sessions, Campagne, Arcade, modes PvP et des lieux de course comme Jakku, Tatooine et Ando Prime.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "À quoi ressemble le gameplay ?",
+      "whatIsDescription": "Star Wars Galactic Racer est un jeu de course dans la Bordure Extérieure basé sur des sessions. La Campagne propose des Tours Galactiques avec des embranchements d'événements, tandis que les modes Arcade, Scénario et PvP apportent de la variété. Pilotez sur des planètes comme Jakku, Tatooine, Ando Prime, Lantaana et Sentinel I.",
+      "why": "Pourquoi explorer le gameplay ?",
+      "whySteps": {
+        "step1Title": "Tours basés sur des sessions",
+        "step1Description": "Les Tours Galactiques combinent des embranchements d'événements, des améliorations et les risques liés aux jetons d'entrée de la Ligue.",
+        "step2Title": "Modes de course",
+        "step2Description": "Campagne, Scénario, Arcade, contre-la-montre, élimination et événements 1v1.",
+        "step3Title": "Circuits et planètes",
+        "step3Description": "Faites la course sur Jakku, Tatooine, Ando Prime, Lantaana, Sentinel I et dans l'arène Derven Acos."
+      },
+      "featured": "À la une et Essentiels",
+      "all": "Tous les articles sur le gameplay"
+    },
+    "guide": {
+      "title": "Guides et conseils pour débutants de Star Wars Galactic Racer",
+      "description": "Guides pour débutants, configuration PC requise, prise en charge des manettes et volants, statut Steam Deck et tout ce que nous savons sur Star Wars Galactic Racer.",
+      "metaTitle": "Guides Star Wars Galactic Racer - Conseils pour débutants et specs PC",
+      "metaDescription": "Guides complets pour Star Wars Galactic Racer : conseils de course pour débutants, configurations requises sur PC, compatibilité avec les volants et le Steam Deck, nombre de joueurs et aperçu complet du jeu.",
+      "categoryLabel": "GUIDES DE JEU",
+      "whatIs": "Que contiennent ces guides ?",
+      "whatIsDescription": "Les guides de Star Wars Galactic Racer couvrent le déroulement des courses pour débutants, les choix de châssis et d'améliorations, la configuration requise sur PC, la compatibilité avec les manettes et les volants, la prise en charge du Steam Deck, ainsi qu'un aperçu complet de tout ce que nous savons sur le jeu.",
+      "why": "Pourquoi lire les guides ?",
+      "whySteps": {
+        "step1Title": "Prendre un bon départ",
+        "step1Description": "Les guides pour débutants détaillent le déroulement des premières parties, le choix des châssis, les boosts et les améliorations.",
+        "step2Title": "Vérifier la configuration PC",
+        "step2Description": "Confirmez Windows 10, le CPU, 12 Go de RAM, un GPU de classe RTX 2060 et 50 Go de SSD avant de jouer.",
+        "step3Title": "Compatibilité manettes et volants",
+        "step3Description": "Découvrez la compatibilité avec les manettes, les volants de course et le Steam Deck sur toutes les plateformes."
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides"
+    },
+    "vehicles": {
+      "title": "Véhicules et personnalisation de Star Wars Galactic Racer",
+      "description": "Classes de véhicules de Star Wars Galactic Racer, course de podracers, maniabilité des véhicules à répulseurs, pièces, livrées et véhicules Deluxe.",
+      "metaTitle": "Véhicules de Star Wars Galactic Racer - Classes, Podracers et Builds",
+      "metaDescription": "Maîtrisez les véhicules de Star Wars Galactic Racer : landspeeders, speeder bikes, skim speeders, podracers, caractéristiques de châssis, pièces, améliorations et véhicules Deluxe.",
+      "categoryLabel": "VÉHICULES",
+      "whatIs": "Quels véhicules pouvez-vous piloter ?",
+      "whatIsDescription": "Star Wars Galactic Racer propose des classes de véhicules à répulseurs, notamment des landspeeders, des speeder bikes, des skim speeders et des podracers. Chaque classe possède des caractéristiques de maniabilité uniques et accepte les améliorations Cornering, Afterburner, Battery et Ramjet, ainsi que des livrées cosmétiques.",
+      "why": "Pourquoi comparer les véhicules ?",
+      "whySteps": {
+        "step1Title": "Choisir une classe",
+        "step1Description": "Associez un landspeeder, un speeder bike, un skim speeder ou un podracer à votre style de pilotage.",
+        "step2Title": "Ajuster les améliorations",
+        "step2Description": "Concentrez-vous sur les améliorations Cornering, Afterburner, Battery et Ramjet pour obtenir des gains fiables.",
+        "step3Title": "Personnaliser et se démarquer",
+        "step3Description": "Appliquez des livrées, des bannières de joueur et utilisez des véhicules Deluxe pour personnaliser votre engin."
+      },
+      "featured": "À la une et essentiels",
+      "all": "Tous les guides de véhicules"
+    }
   }
 }

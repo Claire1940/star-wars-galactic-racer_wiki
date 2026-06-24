@@ -7,28 +7,26 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.star-wars-galactic-racer.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（对齐 navigation.ts 实际内容类型）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'release': 0.9,
+	'vehicles': 0.9,
+	'gameplay': 0.9,
+	'guide': 0.9,
+	'platforms': 0.8,
+	'editions': 0.8,
+	'multiplayer': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'release': 'weekly',
+	'vehicles': 'weekly',
+	'gameplay': 'weekly',
+	'guide': 'weekly',
+	'platforms': 'weekly',
+	'editions': 'weekly',
+	'multiplayer': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
