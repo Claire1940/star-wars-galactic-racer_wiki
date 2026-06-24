@@ -38,6 +38,24 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Star Wars Galactic Racer 模块图标
+  Rocket: LucideIcons.Rocket,
+  Gift: LucideIcons.Gift,
+  Clapperboard: LucideIcons.Clapperboard,
+  Wrench: LucideIcons.Wrench,
+  Map: LucideIcons.Map,
+  Monitor: LucideIcons.Monitor,
+  Calendar: LucideIcons.Calendar,
+  Fuel: LucideIcons.Fuel,
+  Trophy: LucideIcons.Trophy,
+  Gauge: LucideIcons.Gauge,
+  Flag: LucideIcons.Flag,
+  Cpu: LucideIcons.Cpu,
+  Globe: LucideIcons.Globe,
+  Newspaper: LucideIcons.Newspaper,
+  Layers: LucideIcons.Layers,
+  SlidersHorizontal: LucideIcons.SlidersHorizontal,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
