@@ -591,6 +591,10 @@ export default function HomePageClient({
                     <span className="text-muted-foreground">Availability: </span>
                     {vehicle.availability}
                   </p>
+                  <p className="text-sm mb-2">
+                    <span className="text-muted-foreground">Customization: </span>
+                    {vehicle.customization}
+                  </p>
                   <p className="text-sm text-muted-foreground border-t border-border pt-2 mt-2">
                     {vehicle.useCase}
                   </p>

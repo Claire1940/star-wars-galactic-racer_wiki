@@ -396,6 +396,7 @@
           "availability": "Base game vehicle class",
           "handling": "Weightier handling with a strong drifting identity.",
           "trait": "Drift",
+          "customization": "Accepts Cornering, Afterburner, Battery, and Ramjet upgrades plus class-specific improvements.",
           "useCase": "Learning racing lines, managing contact, and surviving aggressive races."
         },
         {
@@ -403,6 +404,7 @@
           "availability": "Base game vehicle class",
           "handling": "Strong straight-line speed with more demanding corner control.",
           "trait": "Kinetic Burst",
+          "customization": "Tuned through run upgrades, parts, tools, and cosmetic liveries.",
           "useCase": "Fast sections, risky overtakes, and players who can control top speed into corners."
         },
         {
@@ -410,6 +412,7 @@
           "availability": "Base game vehicle class",
           "handling": "Built around hard banking turns and a more technical feel.",
           "trait": "Knife Edge",
+          "customization": "Upgraded for race-to-race performance and styled with visual liveries.",
           "useCase": "Technical handling, sharp direction changes, and advanced route control."
         },
         {
@@ -417,6 +420,7 @@
           "availability": "Base game vehicle class",
           "handling": "High-speed racing focus, with podracing positioned as a major showcase mode.",
           "trait": "Podracing",
+          "customization": "Featured across official trailers and previews with known racers like Sebulba and Ben Quadinaros.",
           "useCase": "High-speed events, iconic Star Wars racing moments, and Tatooine-style track mastery."
         },
         {
@@ -424,6 +428,7 @@
           "availability": "Deluxe Edition and Deluxe Upgrade",
           "handling": "Three exclusive Kor Sarun repulsorcraft tied to Deluxe content.",
           "trait": "Deluxe vehicle set",
+          "customization": "Adds the Ciza T speeder bike, Darc X landspeeder, and Rak S skim speeder, plus three exclusive Arcade Events.",
           "useCase": "Players who want extra vehicles, themed Arcade trials, and Deluxe cosmetic content."
         },
         {
@@ -431,6 +436,7 @@
           "availability": "Base game, pre-order bonuses, and Deluxe content",
           "handling": "Cosmetic identity for repulsorcraft and multiplayer profile presentation.",
           "trait": "Livery and Player Banner",
+          "customization": "Pre-order unlocks a bonus Livery and Player Banner; Deluxe adds a Naboo N-1-inspired Livery and a Deluxe Player Banner.",
           "useCase": "Personalize vehicles and multiplayer identity without changing the driving class."
         },
         {
@@ -438,6 +444,7 @@
           "availability": "Campaign and run progression",
           "handling": "Race-to-race performance tuning tied to event rewards and progression.",
           "trait": "Afterburner, Battery, Cornering, Ramjet",
+          "customization": "Stronger placements unlock more upgrades; paddocks let you talk to racers, upgrade craft, and buy parts with Galactic Credits.",
           "useCase": "Build a vehicle for safer cornering, stronger boosts, harder takedowns, or class-specific strengths."
         }
       ]
