@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Rocket, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Deslizador de Star Wars Galactic Racer: Guía de manejo y equipamiento",
+  description: "Domina el deslizador (skim speeder) de Star Wars Galactic Racer con nuestra guía experta. Conoce las especificaciones técnicas, rutas de personalización y estrategias de carrera específicas de cada planeta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Skim+Speeder+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Star Wars Galactic Racer",
+  keywords: "Star Wars Galactic Racer, deslizador, guía, equipamiento, manejo"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Rol del deslizador**: El **deslizador de Star Wars Galactic Racer** se define por su agilidad de élite y sus capacidades de derrape a baja altitud, lo que lo convierte en el rey de los circuitos técnicos.
+- **Mecánica clave**: Utiliza el sistema de **freno repulsor** (Repulsor-Brake) para mantener una alta velocidad en giros de 90 grados en planetas como Ando Prime.
+- **Mejor estrategia**: Prioriza las mejoras de **reducción de peso** y **empuje lateral** para superar a los podracers más pesados en corredores estrechos.
+- **Consejo crítico**: Evita colisiones directas con los landspeeders; el ligero chasis del deslizador sufre daños significativos por embestidas.
+- **Mejor opción**: El **Kestar-Pattern Skimmer** es la opción óptima al inicio del juego para la progresión de la campaña de Shade.
+</Callout>
+
+<Section icon={Rocket} title="La clase deslizador de Star Wars Galactic Racer">
+
+En el indómito Borde Exterior, el **deslizador de Star Wars Galactic Racer** representa la cumbre de la ingeniería de precisión. Nacidos del caos posterior a la caída del Imperio, estos vehículos de repulsión están diseñados para los circuitos más exigentes de la Liga Galáctica. A diferencia de la potencia bruta de un podracer o la robusta durabilidad de un landspeeder, el deslizador depende de la destreza, la habilidad del piloto y el posicionamiento estratégico para alzarse con la victoria.
+
+Al ponerte en las botas de Shade, un corredor solitario que busca tanto venganza como gloria, es fundamental comprender los matices de la física del deslizador. Estas naves operan con un campo repulsor más ajustado, lo que les permite \"deslizarse\" más cerca de la superficie que otros vehículos, proporcionando una ventaja única en entornos de techo bajo y desfiladeros estrechos como los que se encuentran en planetas como Jakku.
+
+<Callout type="tip" title="Perspectiva del piloto">
+El deslizador es la única clase capaz de ejecutar la maniobra \"Surface-Hug\" (Adherencia a la superficie), que aumenta temporalmente la tracción a costa del calor del motor. Utilízala en curvas de alta velocidad para evitar derrapar hacia los peligros de la pista.
+</Callout>
+
+| Métrica de rendimiento | Calificación del deslizador | Comparación con Podracer | Comparación con Landspeeder |
+| :--- | :--- | :--- | :--- |
+| **Velocidad máxima** | Alta | Menor | Mayor |
+| **Aceleración** | Excelente | Promedio | Alta |
+| **Manejo** | De élite | Bajo | Moderado |
+| **Durabilidad** | Baja | Muy baja | Alta |
+| **Radio de derrape** | Cerrado | Amplio | Moderado |
+
+</Section>
+
+<Section icon={Settings} title="Personalización y especificaciones técnicas">
+
+Personalizar tu **deslizador de Star Wars Galactic Racer** no es solo una cuestión de estética; es una necesidad para sobrevivir en la Liga Galáctica. El profundo sistema de mejoras del juego permite a los pilotos ajustar su nave para condiciones planetarias específicas. Ya sea que estés compitiendo en los páramos helados de Ando Prime o en las dunas llenas de chatarra de Jakku, tu equipamiento debe reflejar los desafíos del entorno.
+
+<CardGrid cols={3}>
+  <Card title="Ajuste del motor">
+    - **Enfoque**: Velocidad pura
+    - **Desventaja**: Mayor generación de calor
+    - **Ideal para**: Rectas largas en Tatooine
+  </Card>
+  <Card title="Bobinas repulsoras">
+    - **Enfoque**: Agilidad y sustentación
+    - **Desventaja**: Estabilidad reducida
+    - **Ideal para**: Pistas técnicas en Sentinel I
+  </Card>
+  <Card title="Refuerzo del casco">
+    - **Enfoque**: Resistencia a embestidas
+    - **Desventaja**: Mayor peso
+    - **Ideal para**: Partidas PvP agresivas
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión del calor">
+Los deslizadores son propensos a sobrecalentarse durante el uso prolongado de los propulsores laterales. Asegúrate de equilibrar tus bonificaciones de \"Pre-order Livery\" (Diseño de reserva) con rejillas de ventilación funcionales para evitar paradas del motor a mitad de la carrera.
+</Callout>
+
+| Componente de mejora | Efecto de nivel 1 | Efecto de nivel 2 | Efecto de nivel 3 |
+| :--- | :--- | :--- | :--- |
+| **Inyectores de iones** | +5% Vel. máxima | +12% Vel. máxima | +20% Vel. máxima |
+| **Estabilizadores de aletas** | +10% Giro | +25% Giro | +40% Giro |
+| **Condensadores de flujo** | +1s de impulso | +3s de impulso | +6s de impulso |
+| **Placas de cerámica** | +10% Blindaje | +20% Blindaje | +35% Blindaje |
+
+</Section>
+
+<Section icon={Map} title="Estrategias de carrera específicas de cada planeta">
+
+La Liga Galáctica abarca cinco planetas principales, cada uno con peligros ambientales distintos que afectan el manejo del **deslizador de Star Wars Galactic Racer**. Dominar estas pistas requiere una combinación de memorización y pilotaje reactivo.
+
+<Steps>
+  <Step num="1" title="Preparación para Ando Prime">
+    Concéntrate en las mejoras de **control de tracción**. Las superficies heladas reducen la efectividad de los campos repulsores estándar, lo que provoca deslizamientos impredecibles.
+  </Step>
+  <Step num="2" title="Navegación en Tatooine">
+    Cuidado con las tormentas de arena que dificultan la visibilidad. Los deslizadores pueden usar su bajo perfil para mantenerse por debajo de las nubes de polvo más densas cerca del fondo de los cañones.
+  </Step>
+  <Step num="3" title="Recolección en Jakku">
+    Las pistas de Jakku, repletas de escombros, requieren una gran **agilidad**. Utiliza los propulsores verticales de tu deslizador para saltar sobre montones de chatarra más pequeños que detendrían a un landspeeder.
+  </Step>
+  <Step num="4" title="Estrategia para Sentinel I">
+    Este circuito urbano cuenta con muchos giros de 90 grados. Practica la técnica de **freno repulsor** para pivotar alrededor de los edificios sin perder tu impulso.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventaja ambiental">
+En Lantaana, la alta humedad aumenta la sustentación de los repulsores. Los deslizadores obtienen un impulso del 15% en su altura de salto aquí, lo que permite atajos únicos sobre obstáculos de agua.
+</Callout>
+
+| Planeta | Tipo de superficie | Peligro principal | Equipamiento recomendado |
+| :--- | :--- | :--- | :--- |
+| **Ando Prime** | Hielo / Nieve | Baja fricción | Alta tracción |
+| **Tatooine** | Arena / Roca | Calor / Polvo | Enfriamiento avanzado |
+| **Jakku** | Metal / Arena | Escombros | Alta durabilidad |
+| **Lantaana** | Agua / Selva | Humedad | Aerodinámico |
+| **Sentinel I** | Duracero | Curvas cerradas | Agilidad máxima |
+
+</Section>
+
+<Section icon={Swords} title="Maniobras de combate y defensivas">
+
+En la Liga Galáctica, las carreras son un deporte de contacto. Aunque el **deslizador de Star Wars Galactic Racer** no está construido para el combate pesado, posee la velocidad para ejecutar maniobras de embestida y choque de manera efectiva si se calcula bien el tiempo. La supervivencia depende de tu capacidad para usar el peso de tus rivales contra ellos.
+
+<Checklist
+  id="combat-tactics"
+  title="Lista de verificación de combate del deslizador:"
+  items={[
+    "Domina la embestida lateral para lanzar a tus rivales contra los obstáculos de la pista",
+    "Usa el rebufo de los podracers más pesados para ahorrar energía de impulso",
+    "Despliega el 'Pulso repulsor' para alejar a los atacantes agresivos",
+    "Equipa el 'Estandarte de jugador de reserva' para dominar psicológicamente",
+    "Apunta a los motores de los podracers en secciones de corredores estrechos"
+  ]}
+/>
+
+<Callout type="info" title="Nota táctica">
+Tu reputación viaja contigo. Ganar mediante carreras limpias te otorga el favor de la Nueva República, mientras que los derribos agresivos podrían atraer patrocinios lucrativos (pero peligrosos) de sindicatos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ediciones del juego y contenido exclusivo">
+
+A la venta el **6 de octubre de 2026**, Star Wars: Galactic Racer ofrece varias ediciones para los aspirantes a piloto. Si te enfocas en la clase **deslizador de Star Wars Galactic Racer**, las ediciones de nivel superior ofrecen importantes ventajas al principio del juego.
+
+| Característica | Edición Estándar | Edición Deluxe | Edición de Coleccionista |
+| :--- | :--- | :--- | :--- |
+| **Juego base** | Incluido | Incluido | Incluido |
+| **Estandarte de jugador** | Solo con reserva | Solo con reserva | Solo con reserva |
+| **Vehículo de repulsión exclusivo** | No | 3 incluidos | 3 incluidos |
+| **Libro de arte digital** | No | Incluido | Incluido |
+| **Modelo físico** | No | No | Modelo de Landspeeder |
+| **Eventos arcade** | No | 3 eventos únicos | 3 eventos únicos |
+
+<Callout type="tip" title="Mejor relación calidad-precio">
+La **Edición Deluxe** es muy recomendada para los entusiastas de los deslizadores, ya que incluye tres vehículos de repulsión exclusivos ajustados específicamente para estilos de juego de alta agilidad desde el primer día.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿En qué se diferencia el deslizador de Star Wars Galactic Racer de una moto deslizadora (Speeder Bike)?",
+    answer: "El deslizador cuenta con una base de repulsión más amplia y una mayor estabilidad a velocidades máximas en comparación con la moto deslizadora, que es más propensa a volcar durante giros de alta gravedad."
+  },
+  {
+    question: "¿Puedo usar el deslizador en la campaña de la historia como Shade?",
+    answer: "Sí, el deslizador es una de las clases principales disponibles para Shade. Puedes completar toda la campaña basada en la historia de alianzas cambiantes usando únicamente esta clase."
+  },
+  {
+    question: "¿Es el deslizador de Star Wars Galactic Racer bueno para PvP?",
+    answer: "Es excelente para el PvP estratégico. Aunque carece de la salud bruta de un landspeeder, su capacidad para tomar trayectorias cerradas y evitar trampas lo convierte en una opción de primer nivel para jugadores experimentados."
+  },
+  {
+    question: "¿Qué plataformas admitirán la jugabilidad del deslizador?",
+    answer: "El juego y todas sus clases de vehículos estarán disponibles en PlayStation 5, Xbox Series X|S y PC (Steam y Epic Games Store) el 6 de octubre de 2026."
+  }
+]} />
+
+</Section>

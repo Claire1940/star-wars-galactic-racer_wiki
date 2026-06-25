@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Landspeeder de Star Wars Galactic Racer: Guía de Clase y Estadísticas",
+  description: "Domina la clase landspeeder en Star Wars Galactic Racer. Conoce estadísticas detalladas, rutas de mejora, tácticas de circuito y configuraciones de personalización.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Landspeeder+Class+Guide",
+  date: "2026-06-25",
+  author: "Equipo de la Wiki de Star Wars Galactic Racer",
+  keywords: "Star Wars Galactic Racer, landspeeder, guía de clase, estadísticas, personalización, Outer Rim"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **landspeeder de Star Wars Galactic Racer** es la clase de vehículo repulsor más equilibrada, duradera y versátil de la Liga Galáctica.
+- Sus **estadísticas equilibradas** lo hacen ideal tanto para pistas cerradas con muchos derrapes como Ando Prime, como para rectas abiertas en Tatooine.
+- Las **mecánicas de golpe y embestida** permiten a los landspeeders derribar fácilmente a las motos speeder y skim speeders más ligeros en carreras de alto riesgo.
+- La **Edición de Coleccionista** incluye un modelo físico del landspeeder junto con vehículos digitales exclusivos y eventos arcade.
+</Callout>
+
+<Section icon={Sparkles} title="Clases de Vehículos Repulsores y Descripción General del Landspeeder">
+
+La Liga Galáctica es un circuito de carreras clandestino y de alto riesgo nacido en el anárquico Borde Exterior de la galaxia de Star Wars [55]. Tras la caída del Imperio, la velocidad se ha convertido en la obsesión definitiva [55]. En este mundo de carreras subterráneas, los sindicatos patrocinan a pilotos audaces que lo arriesgan todo por fortuna y gloria [55]. Al ponerte en las botas de Shade, un corredor solitario en busca de venganza, deberás dominar la física y los estilos de juego de varias clases de vehículos distintos para sobrevivir a la brutal competencia [55, 56, 85].
+
+Entre las diversas opciones de vehículos, el **landspeeder de Star Wars Galactic Racer** destaca como el referente de fiabilidad, capacidad defensiva y versatilidad táctica [58, 85]. Mientras que otras clases ofrecen especializaciones extremas, la clase landspeeder proporciona una plataforma de alta resistencia capaz de absorber un castigo masivo manteniendo velocidades de carrera competitivas [58, 85].
+
+| Clase | Velocidad Base | Manejo | Durabilidad | Ideal Para |
+| :--- | :--- | :--- | :--- | :--- |
+| Landspeeder | Equilibrada | Moderado | Alta | Combate y carreras constantes |
+| Moto Speeder | Alta | Excelente | Baja | Curvas cerradas y contrarreloj |
+| Skim Speeder | Moderada | Alto | Moderada | Pistas técnicas y derrapes |
+| Podracer | Extrema | Bajo | Muy Baja | Rectas y velocidad de alto riesgo |
+
+Elegir el vehículo adecuado depende en gran medida de tu estilo de juego personal y de los diseños específicos de las pistas [85]. Las motos speeder ligeras destacan al serpentear por huecos estrechos, pero una sola colisión con un vehículo más pesado puede terminar su carrera al instante [58, 85]. Los podracers dominan las líneas rectas, pero sufren significativamente en corredores industriales estrechos [85]. El landspeeder representa el punto medio perfecto, ofreciendo la integridad estructural necesaria para participar en combates físicos agresivos sin sacrificar las capacidades de maniobra requeridas para asegurar un lugar en el podio [58, 85].
+
+<Callout type="info" title="Identidad de Clase">
+La clase landspeeder está diseñada específicamente para jugadores que prefieren el posicionamiento táctico, la seguridad defensiva y el combate físico sobre la velocidad frágil y de alto riesgo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rendimiento y Personalización del Landspeeder en Star Wars Galactic Racer">
+
+Para dominar la Liga Galáctica, debes entender cómo el motor de física gobierna el comportamiento de tu **landspeeder de Star Wars Galactic Racer**. Los landspeeders utilizan motores de repulsión de alta resistencia que interactúan dinámicamente con el terreno [85]. Esta construcción más pesada les otorga una ventaja clara al ejecutar maniobras ofensivas. Utilizando las mecánicas de golpe y embestida (slam and shunt) distintivas del juego, un impacto lateral bien sincronizado de un landspeeder puede obligar fácilmente a los pilotos rivales a chocar contra peligros de la pista o a salirse completamente de los límites [58].
+
+| Atributo | Valor Base | Mejora Máxima | Impacto en el Juego |
+| :--- | :--- | :--- | :--- |
+| Velocidad Máxima | **75 / 100** | **92 / 100** | Determina la velocidad máxima en pistas rectas |
+| Aceleración | **60 / 100** | **85 / 100** | Qué tan rápido se recupera el vehículo tras una colisión |
+| Integridad del Blindaje | **85 / 100** | **100 / 100** | Daño total absorbido antes de un fallo crítico del motor |
+| Potencia de Embestida | **80 / 100** | **95 / 100** | Daño y retroceso infligidos durante golpes laterales |
+| Estabilidad de Derrape | **70 / 100** | **88 / 100** | Control mantenido durante curvas a alta velocidad |
+
+La personalización es clave para refinar el rendimiento de tu vehículo [85]. Al intercambiar componentes centrales, puedes inclinar el equilibrio natural del landspeeder hacia arquetipos tácticos específicos [85]. Ya sea que quieras construir un ariete imparable o una máquina de derrape sorprendentemente ágil, el garaje de personalización te permite adaptar tu vehículo a tu estilo de conducción exacto [85].
+
+<CardGrid cols={3}>
+  <Card title="Configuración Ejecutora">
+    - **Integridad del Blindaje**: Máxima
+    - **Potencia de Embestida**: Máxima
+    - **Estilo de Juego**: Muy agresivo, centrado en derribar rivales para obtener bonificaciones de reputación.
+  </Card>
+  <Card title="Configuración Apex Drifter">
+    - **Estabilidad de Derrape**: Alta
+    - **Aceleración**: Alta
+    - **Estilo de Juego**: Técnico y preciso, diseñado para mantener el impulso en curvas cerradas.
+  </Card>
+  <Card title="Configuración Hyper-Cruiser">
+    - **Velocidad Máxima**: Alta
+    - **Potencia de Propulsores**: Alta
+    - **Estilo de Juego**: Centrado puramente en la velocidad, diseñado para dominar largas rectas desérticas.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Sincronización de Embestida">
+Realiza una embestida lateral justo cuando un oponente intente adelantarte por el interior de una curva. Esto los obligará a chocar contra el muro exterior, causando el máximo daño y asegurando tu liderazgo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Desbloquear y Mejorar tu Landspeeder">
+
+La progresión en la Liga Galáctica se basa en ganar créditos y obtener reputación con los sindicatos locales del Borde Exterior [55]. A medida que completes eventos de la campaña y ganes duelos estratégicos PvP, desbloquearás el acceso a piezas especializadas [56, 85]. Mejorar tu landspeeder no es un camino lineal; debes priorizar los componentes que aborden tus debilidades mecánicas actuales [85].
+
+<Steps>
+  <Step num="1" title="Desbloquea el Chasis Base">
+    Completa los capítulos introductorios de la campaña de la historia como Shade para asegurar tu primer chasis de landspeeder estándar [56].
+  </Step>
+  <Step num="2" title="Gana Reputación con Sindicatos">
+    Compite en carreras de recompensas específicas de facciones y apuestas de alto riesgo para ganar el favor de los mercaderes de chatarra del Borde Exterior [55, 56].
+  </Step>
+  <Step num="3" title="Adquiere Piezas de Mejora Centrales">
+    Gasta tus créditos ganados con esfuerzo en garajes locales para comprar placas de blindaje reforzadas y ensamblajes de propulsores de alta potencia [85].
+  </Step>
+  <Step num="4" title="Calibra y Prueba">
+    Lleva tu landspeeder personalizado a partidas PvP locales para probar su manejo antes de participar en eventos de las grandes ligas [56, 85].
+  </Step>
+</Steps>
+
+Mejorar tu vehículo requiere un equilibrio calculado de tus recursos disponibles. Generalmente se recomienda centrarse primero en la supervivencia y la recuperación, seguido de mejoras en la velocidad máxima una vez que hayas dominado la física del manejo [85].
+
+| Componente | Prioridad de Mejora | Coste de Recursos | Beneficio de Rendimiento |
+| :--- | :--- | :--- | :--- |
+| Bobinas Repulsoras | Alta | Créditos Medios | Aumenta el control de derrape y la recuperación de altitud |
+| Blindaje Pesado | Alta | Créditos Bajos | Mejora la resistencia a colisiones y la fuerza de embestida |
+| Propulsores de Iones | Media | Créditos Altos | Mejora directamente la velocidad máxima y duración del turbo |
+| Inyectores de Combustible | Baja | Créditos Altos | Acelera la recarga del turbo en las rectas |
+
+<Callout type="success" title="Bonificaciones de Sindicato">
+Aliarte con sindicatos específicos del Borde Exterior desbloquea piezas exclusivas de fabricantes que otorgan a tu landspeeder diseños visuales únicos y mejoras estadísticas pasivas [55, 85].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Tácticas de Circuito en los Planetas del Borde Exterior">
+
+La Liga Galáctica cuenta con circuitos situados en varios planetas icónicos y peligrosos, incluidos Ando Prime, Tatooine, Lantaana, Sentinel I y Jakku [95]. Cada entorno presenta peligros ambientales únicos, superficies de pista y desafíos de diseño que requieren que adaptes tu estilo de conducción [58].
+
+| Planeta | Dificultad de Pista | Idoneidad del Landspeeder | Estrategia Táctica Clave |
+| :--- | :--- | :--- | :--- |
+| Ando Prime | Difícil | Buena | Equipa estabilizadores repulsores para manejar curvas heladas y resbaladizas |
+| Tatooine | Media | Excelente | Utiliza configuraciones hyper-cruiser para dominar carriles desérticos abiertos |
+| Lantaana | Difícil | Moderada | Usa embestidas pesadas para empujar a rivales ligeros por acantilados estrechos |
+| Sentinel I | Media | Buena | Confía en la alta integridad del blindaje para sobrevivir a zonas industriales peligrosas |
+| Jakku | Fácil | Excelente | Maximiza la velocidad máxima en las llanuras abiertas de chatarra industrial |
+
+En mundos desérticos como Tatooine y Jakku, las pistas anchas ofrecen un amplio espacio para adelantamientos a alta velocidad [97, 100]. Aquí, el landspeeder puede mantener velocidades altas sin preocuparse por colisiones constantes con las paredes [97, 100]. Por el contrario, en las superficies heladas de Ando Prime, mantener la tracción es increíblemente difícil [96]. El peso robusto del landspeeder juega a su favor aquí, evitando que el vehículo se deslice tan fácilmente como las motos speeder más ligeras [96].
+
+<Callout type="warning" title="Aviso de Peligro">
+En Ando Prime, la superficie helada reduce el agarre general [96]. Asegúrate de que tu landspeeder esté equipado con estabilizadores repulsores localizados para evitar trompos durante los derrapes a alta velocidad [85, 96].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ediciones de Reserva y Modelo de Coleccionista">
+
+El lanzamiento oficial de Star Wars: Galactic Racer está programado para el **6 de octubre de 2026** [49]. El juego estará disponible en PlayStation 5, Xbox Series X|S y PC a través de Steam y Epic Games Store [49, 52]. Los jugadores que deseen saltar a la cabina desde el primer día pueden elegir entre tres ediciones de reserva distintas [17, 22, 27].
+
+Para los fans dedicados del **landspeeder de Star Wars Galactic Racer**, se recomienda encarecidamente la Edición de Coleccionista [27]. Cuenta con un modelo físico altamente detallado del Landspeeder junto con otros artículos de colección premium, lo que lo convierte en la pieza de exhibición definitiva para tu equipo [27].
+
+| Característica | Edición Estándar | Edición Deluxe | Edición de Coleccionista |
+| :--- | :--- | :--- | :--- |
+| Juego Base | Incluido | Incluido | Incluido |
+| Banner y Diseño de Reserva | Incluido | Incluido | Incluido |
+| Vehículos Repulsores Exclusivos | Ninguno | 3 x Incluidos | 3 x Incluidos |
+| Caja de Acero y Funda | Ninguna | Solo Físico | Solo Físico |
+| Modelo Físico del Landspeeder | Ninguno | Ninguno | Incluido |
+| Libro de Arte y Parches Físicos | Ninguno | Ninguno | Incluido |
+
+<Callout type="tip" title="Bonificaciones de Reserva">
+Reservar cualquier edición antes del 6 de octubre de 2026 asegura el banner de jugador exclusivo y un diseño de reserva único para personalizar tu vehículo inicial [17, 22, 27, 49].
+</Callout>
+
+<Checklist
+  id="preorder-checklist"
+  title="Lista de Verificación de Reserva:"
+  items={[
+    "Selecciona tu plataforma de destino (PS5, Xbox o Steam/PC)",
+    "Elige entre la Edición Estándar, Deluxe o de Coleccionista",
+    "Verifica la disponibilidad en tiendas locales para ediciones físicas",
+    "Asegura el diseño de reserva y las bonificaciones de banner de jugador"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué diferencia al landspeeder de Star Wars Galactic Racer de otras clases de vehículos?",
+    answer: "El landspeeder ofrece un perfil muy equilibrado con una durabilidad superior y fuertes capacidades de embestida, lo que lo hace mucho más resistente en combate físico en comparación con las frágiles motos speeder o los volátiles podracers."
+  },
+  {
+    question: "¿Puedo personalizar la apariencia visual de mi landspeeder?",
+    answer: "Sí. Los jugadores pueden aplicar varios diseños, calcomanías personalizadas y mejoras visuales desbloqueadas a través de la progresión de la campaña, la reputación con sindicatos o ediciones especiales como la Deluxe y la de Coleccionista."
+  },
+  {
+    question: "¿Cuándo se lanza Star Wars: Galactic Racer?",
+    answer: "El lanzamiento oficial del juego está programado para el 6 de octubre de 2026 en PlayStation 5, Xbox Series X|S y PC."
+  },
+  {
+    question: "¿Incluye la Edición de Coleccionista un modelo físico del landspeeder?",
+    answer: "Sí, la Edición de Coleccionista incluye un modelo físico altamente detallado del Landspeeder junto con otros artículos físicos como libros de arte, parches y una caja de acero."
+  }
+]} />
+
+<Callout type="success" title="Listo para la Liga">
+La Liga Galáctica te espera. ¡Prepara tu landspeeder, alíate con los sindicatos y domina las pistas del Borde Exterior el 6 de octubre de 2026!
+</Callout>
+
+</Section>

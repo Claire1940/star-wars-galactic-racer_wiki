@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Rocket, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Skim Speeder: Handhabungs- & Build-Leitfaden",
+  description: "Meistern Sie den Star Wars Galactic Racer Skim Speeder mit unserem Experten-Leitfaden. Erfahren Sie alles über technische Daten, Anpassungspfade und planetenspezifische Rennstrategien.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Skim+Speeder+Guide",
+  date: "2026-06-25",
+  author: "Star Wars Galactic Racer Wiki-Team",
+  keywords: "Star Wars Galactic Racer, Skim Speeder, Guide, Handling, Build, Strategie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Rolle des Skim Speeders**: Der **Star Wars Galactic Racer Skim Speeder** zeichnet sich durch seine überragende Agilität und Drift-Fähigkeiten in geringer Höhe aus, was ihn zum König technischer Rennstrecken macht.
+- **Schlüsselmechanik**: Nutzen Sie das **Repulsor-Brems-System**, um hohe Geschwindigkeiten in 90-Grad-Kurven auf Planeten wie Ando Prime beizubehalten.
+- **Beste Strategie**: Priorisieren Sie Upgrades für **Gewichtsreduzierung** und **Seitenschub**, um schwerere Podracer in engen Korridoren auszumanövrieren.
+- **Wichtiger Tipp**: Vermeiden Sie direkte Kollisionen mit Landspeedern; der leichte Rahmen des Skim Speeders erleidet erheblichen Schaden durch Rammmanöver.
+- **Beste Wahl**: Der **Kestar-Pattern Skimmer** ist die optimale Wahl für den frühen Spielverlauf in Shades Kampagne.
+</Callout>
+
+<Section icon={Rocket} title="Die Star Wars Galactic Racer Skim Speeder Klasse">
+
+Im gesetzlosen Outer Rim stellt der **Star Wars Galactic Racer Skim Speeder** den Gipfel der Präzisionstechnik dar. Geboren aus dem Chaos nach dem Fall des Imperiums, sind diese Repulsorfahrzeuge für die anspruchsvollsten Strecken der Galaktischen Liga konzipiert. Im Gegensatz zur rohen Kraft eines Podracers oder der robusten Haltbarkeit eines Landspeeders setzt der Skim Speeder auf Finesse, Pilotengeschick und strategische Positionierung, um den Sieg zu erringen.
+
+Wenn Sie in die Stiefel von Shade schlüpfen, einem einsamen Rennfahrer auf der Suche nach Rache und Ruhm, ist das Verständnis der Nuancen der Physik des Skim Speeders unerlässlich. Diese Fahrzeuge operieren auf einem engeren Repulsorfeld, was es ihnen ermöglicht, näher an der Oberfläche zu "gleiten" als andere Fahrzeuge. Dies bietet einen einzigartigen Vorteil in Umgebungen mit niedrigen Decken und engen Canyon-Passagen, wie man sie auf Planeten wie Jakku findet.
+
+<Callout type="tip" title="Piloteneinblick">
+Der Skim Speeder ist die einzige Klasse, die ein "Surface-Hug"-Manöver ausführen kann, das vorübergehend die Traktion auf Kosten der Motorhitze erhöht. Nutzen Sie dies in Hochgeschwindigkeitskurven, um nicht in Streckenhindernisse zu driften.
+</Callout>
+
+| Leistungskennzahl | Skim Speeder Bewertung | Vergleich zum Podracer | Vergleich zum Landspeeder |
+| :--- | :--- | :--- | :--- |
+| **Höchstgeschwindigkeit** | Hoch | Niedriger | Höher |
+| **Beschleunigung** | Exzellent | Durchschnittlich | Hoch |
+| **Handhabung** | Elite | Niedrig | Moderat |
+| **Haltbarkeit** | Niedrig | Sehr niedrig | Hoch |
+| **Driftradius** | Eng | Weit | Moderat |
+
+</Section>
+
+<Section icon={Settings} title="Anpassung und technische Spezifikationen">
+
+Die Anpassung Ihres **Star Wars Galactic Racer Skim Speeders** ist nicht nur eine Frage der Ästhetik; sie ist eine Notwendigkeit für das Überleben in der Galaktischen Liga. Das tiefgreifende Upgrade-System des Spiels ermöglicht es Piloten, ihr Fahrzeug fein auf spezifische planetare Bedingungen abzustimmen. Egal, ob Sie durch die gefrorenen Einöden von Ando Prime oder die schrottübersäten Dünen von Jakku rasen, Ihr Build muss die Herausforderungen der Umgebung widerspiegeln.
+
+<CardGrid cols={3}>
+  <Card title="Motortuning">
+    - **Fokus**: Reine Geschwindigkeit
+    - **Nachteil**: Höhere Hitzeentwicklung
+    - **Ideal für**: Lange Geraden auf Tatooine
+  </Card>
+  <Card title="Repulsorspulen">
+    - **Fokus**: Agilität & Auftrieb
+    - **Nachteil**: Reduzierte Stabilität
+    - **Ideal für**: Technische Strecken in Sentinel I
+  </Card>
+  <Card title="Hüllenverstärkung">
+    - **Fokus**: Rammwiderstand
+    - **Nachteil**: Erhöhtes Gewicht
+    - **Ideal für**: Aggressive PvP-Matches
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Hitzemanagement">
+Skim Speeder neigen bei längerem Einsatz der Seitenschubdüsen zur Überhitzung. Stellen Sie sicher, dass Sie Ihre "Vorbesteller-Lackierung"-Boni mit funktionalen Kühlschlitzen ausbalancieren, um Motoraussetzer während des Rennens zu vermeiden.
+</Callout>
+
+| Upgrade-Komponente | Tier 1 Effekt | Tier 2 Effekt | Tier 3 Effekt |
+| :--- | :--- | :--- | :--- |
+| **Ionen-Injektoren** | +5% Höchstgeschw. | +12% Höchstgeschw. | +20% Höchstgeschw. |
+| **Flügel-Stabilisatoren** | +10% Wendigkeit | +25% Wendigkeit | +40% Wendigkeit |
+| **Flux-Kondensatoren** | +1s Boost | +3s Boost | +6s Boost |
+| **Keramik-Beschichtung** | +10% Panzerung | +20% Panzerung | +35% Panzerung |
+
+</Section>
+
+<Section icon={Map} title="Planetenspezifische Rennstrategien">
+
+Die Galaktische Liga erstreckt sich über fünf primäre Planeten, die jeweils unterschiedliche Umweltgefahren bieten, welche die Handhabung des **Star Wars Galactic Racer Skim Speeders** beeinflussen. Das Meistern dieser Strecken erfordert eine Kombination aus Auswendiglernen und reaktivem Fliegen.
+
+<Steps>
+  <Step num="1" title="Vorbereitung auf Ando Prime">
+    Konzentrieren Sie sich auf Upgrades für die **Traktionskontrolle**. Die eisigen Oberflächen verringern die Wirksamkeit von Standard-Repulsorfeldern, was zu unvorhersehbarem Rutschen führt.
+  </Step>
+  <Step num="2" title="Navigation auf Tatooine">
+    Achten Sie auf Sandstürme, die die Sicht behindern. Skim Speeder können ihr niedriges Profil nutzen, um unter den dichtesten Staubwolken in Bodennähe der Canyons zu bleiben.
+  </Step>
+  <Step num="3" title="Bergung auf Jakku">
+    Die trümmerreichen Strecken von Jakku erfordern hohe **Agilität**. Nutzen Sie die vertikalen Schubdüsen Ihres Skim Speeders, um über kleinere Wrackteile zu springen, die einen Landspeeder stoppen würden.
+  </Step>
+  <Step num="4" title="Strategie für Sentinel I">
+    Dieser Stadtkurs bietet viele 90-Grad-Kurven. Üben Sie die **Repulsor-Brems-Technik**, um um Gebäude zu schwenken, ohne Ihren Schwung zu verlieren.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Umgebungsvorteil">
+Auf Lantaana erhöht die hohe Luftfeuchtigkeit den Repulsor-Auftrieb. Skim Speeder erhalten hier einen 15%-Bonus auf ihre Sprunghöhe, was einzigartige Abkürzungen über Wasserhindernisse ermöglicht.
+</Callout>
+
+| Planet | Oberflächentyp | Primäre Gefahr | Empfohlener Build |
+| :--- | :--- | :--- | :--- |
+| **Ando Prime** | Eis / Schnee | Geringe Reibung | Hohe Traktion |
+| **Tatooine** | Sand / Gestein | Hitze / Staub | Fortschrittliche Kühlung |
+| **Jakku** | Metall / Sand | Trümmer | Hohe Haltbarkeit |
+| **Lantaana** | Wasser / Dschungel | Luftfeuchtigkeit | Aerodynamisch |
+| **Sentinel I** | Durastahl | Enge Kurven | Maximale Agilität |
+
+</Section>
+
+<Section icon={Swords} title="Kampf- und Verteidigungsmanöver">
+
+In der Galaktischen Liga ist Rennsport ein Kontaktsport. Obwohl der **Star Wars Galactic Racer Skim Speeder** nicht für schwere Kämpfe gebaut ist, besitzt er die Geschwindigkeit, um "Slam and Shunt"-Manöver bei korrektem Timing effektiv auszuführen. Das Überleben hängt von Ihrer Fähigkeit ab, das Gewicht Ihrer Rivalen gegen sie einzusetzen.
+
+<Checklist
+  id="combat-tactics"
+  title="Skim Speeder Kampf-Checkliste:"
+  items={[
+    "Meistern Sie den Seitenschub, um Rivalen in Streckenhindernisse zu stoßen",
+    "Nutzen Sie den Windschatten schwererer Podracer, um Boost-Energie zu sparen",
+    "Setzen Sie den 'Repulsor-Puls' ein, um aggressive Angreifer wegzudrücken",
+    "Rüsten Sie das 'Vorbesteller-Spielerbanner' für psychologische Dominanz aus",
+    "Zielen Sie in engen Korridoren auf die Motoren von Podracern"
+  ]}
+/>
+
+<Callout type="info" title="Taktischer Hinweis">
+Ihr Ruf fährt immer mit. Siege durch faires Rennen bringen Ihnen die Gunst der Neuen Republik ein, während aggressive Takedowns lukrative (aber gefährliche) Sponsorenverträge von Syndikaten anziehen könnten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Spielversionen und exklusive Inhalte">
+
+Star Wars: Galactic Racer erscheint am **6. Oktober 2026** und bietet verschiedene Editionen für angehende Piloten an. Wenn Sie sich auf die **Star Wars Galactic Racer Skim Speeder** Klasse konzentrieren, bieten die höherstufigen Editionen erhebliche Vorteile für den Spielbeginn.
+
+| Feature | Standard Edition | Deluxe Edition | Collector's Edition |
+| :--- | :--- | :--- | :--- |
+| **Basisspiel** | Enthalten | Enthalten | Enthalten |
+| **Spielerbanner** | Nur Vorbestellung | Nur Vorbestellung | Nur Vorbestellung |
+| **Exklusive Repulsorfahrzeuge** | Nein | 3 Enthalten | 3 Enthalten |
+| **Digitales Artbook** | Nein | Enthalten | Enthalten |
+| **Physisches Modell** | Nein | Nein | Landspeeder-Modell |
+| **Arcade-Events** | Nein | 3 Einzigartige Events | 3 Einzigartige Events |
+
+<Callout type="tip" title="Bester Wert">
+Die **Deluxe Edition** wird Skim-Speeder-Enthusiasten wärmstens empfohlen, da sie drei exklusive Repulsorfahrzeuge enthält, die vom ersten Tag an speziell auf agilitätsbetonte Spielstile abgestimmt sind.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie unterscheidet sich der Star Wars Galactic Racer Skim Speeder von einem Speeder Bike?",
+    answer: "Der Skim Speeder verfügt über eine breitere Repulsorbasis und höhere Stabilität bei Höchstgeschwindigkeiten im Vergleich zum Speeder Bike, das bei Kurven mit hohen G-Kräften eher zum Umkippen neigt."
+  },
+  {
+    question: "Kann ich den Skim Speeder in der Story-Kampagne als Shade benutzen?",
+    answer: "Ja, der Skim Speeder ist eine der Kernklassen, die Shade zur Verfügung stehen. Sie können die gesamte storygetriebene Kampagne der wechselnden Allianzen ausschließlich mit dieser Klasse abschließen."
+  },
+  {
+    question: "Ist der Star Wars Galactic Racer Skim Speeder gut für PvP?",
+    answer: "Er ist exzellent für strategisches PvP. Obwohl ihm die rohe Gesundheit eines Landspeeders fehlt, macht ihn seine Fähigkeit, enge Linien zu fahren und Fallen auszuweichen, zu einer erstklassigen Wahl für geschickte Spieler."
+  },
+  {
+    question: "Welche Plattformen unterstützen das Gameplay mit dem Skim Speeder?",
+    answer: "Das Spiel und alle seine Fahrzeugklassen werden am 6. Oktober 2026 auf PlayStation 5, Xbox Series X|S und PC (Steam und Epic Games Store) verfügbar sein."
+  }
+]} />
+
+</Section>
