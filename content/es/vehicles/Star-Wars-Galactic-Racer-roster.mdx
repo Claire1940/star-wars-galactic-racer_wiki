@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Bike } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Plantel de Star Wars Galactic Racer: Todos los personajes y vehículos",
+  description: "Explora el plantel completo de Star Wars Galactic Racer, incluyendo pilotos confirmados como Shade y Sebulba, además de todas las clases de vehículos de repulsión y vehículos Deluxe.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fbbf24?text=Galactic+Racer+Roster",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Star Wars Galactic Racer",
+  keywords: "Star Wars Galactic Racer, personajes, vehículos, pilotos, guía, naves"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El plantel de Star Wars Galactic Racer** presenta una mezcla de nuevos protagonistas como Shade y leyendas icónicas de las carreras de vainas como Sebulba.
+- **Las clases de vehículos** se categorizan en Landspeeders, Speeder Bikes, Skim Speeders y Podracers de alta velocidad con rasgos únicos.
+- **Los sistemas de personalización** permiten a los jugadores construir planteles únicos de piezas, incluyendo Postquemadores, Baterías y mejoras de chasis especializadas.
+- **Los vehículos exclusivos** están bloqueados tras las ediciones Deluxe y de Coleccionista, contando con la prestigiosa línea de fabricación Kor Sarun.
+- **Los desbloqueos progresivos** ocurren a través del Tour Galáctico basado en intentos, donde el rendimiento determina el acceso a pilotos y piezas de mayor nivel.
+</Callout>
+
+<Section icon={User} title="Plantel de Personajes: Pilotos del Borde Exterior">
+
+El **plantel de Star Wars Galactic Racer** introduce una alineación convincente de pilotos, mezclando caras nuevas con leyendas establecidas del universo de Star Wars. En el corazón de la campaña para un jugador está **Shade**, un aspirante a corredor decidido a escalar posiciones en la anárquica Liga Galáctica. La narrativa se centra en la rivalidad de Shade con **Kestar Bool**, la fuerza dominante actual del circuito, creando una atmósfera de alto riesgo donde cada carrera se siente como una confrontación personal.
+
+Más allá de los rivales principales, el plantel incluye pilotos especializados como **Hibi**, quien brinda apoyo técnico y profundidad narrativa durante el Tour Galáctico. Para los fans de la era de las precuelas, la inclusión de **Sebulba** y **Ben Quadinaros** aporta una sensación de nostalgia y una dificultad extrema a los eventos de carreras de vainas. Estos personajes no son solo apariencias cosméticas; representan diferentes facciones y filosofías de carrera dentro del Borde Exterior, influyendo en los tipos de desafíos que enfrentarás en la arena.
+
+| Personaje | Rol | Facción | Tipo de Vehículo Principal |
+| :--- | :--- | :--- | :--- |
+| **Shade** | Protagonista | Independiente | Vehículo de repulsión equilibrado |
+| **Kestar Bool** | Rival Principal | Liga Galáctica | Skim Speeder de gama alta |
+| **Sebulba** | Piloto Leyenda | Sindicato Dug | Podracer pesado |
+| **Ben Quadinaros** | Piloto Veterano | Alianza Toong | Podracer de cuatro motores |
+| **Hibi** | Apoyo/Piloto | Submundo Tecnológico | Speeder Bike |
+
+<Callout type="tip" title="Perspectiva del Editor">
+Aunque Shade es tu piloto inicial en la campaña, presta mucha atención a las trazadas de Kestar Bool durante los primeros encuentros. La IA utiliza maniobras de inclinación avanzadas que puedes replicar una vez que desbloquees Skim Speeders de mayor nivel.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Pilotos Héroes">
+    - **Shade**: Enfocado en la versatilidad y la progresión.
+    - **Hibi**: Experto en maniobras técnicas y mantenimiento de speeders.
+    - **Pilotos Personalizados**: El multijugador en línea permite avatares personalizados.
+  </Card>
+  <Card title="Pilotos Villanos y Rivales">
+    - **Kestar Bool**: El despiadado campeón de la Liga Galáctica.
+    - **Sebulba**: Conocido por sus embestidas agresivas y modificaciones de motor ilegales.
+    - **Ben Quadinaros**: Un especialista en carreras de vainas de alto riesgo y gran recompensa.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Bike} title="Plantel de Vehículos: Clases de Vehículos de Repulsión">
+
+La verdadera variedad en el **plantel de Star Wars Galactic Racer** proviene de los propios vehículos de repulsión. A diferencia de los juegos de carreras tradicionales, Galactic Racer utiliza un sistema basado en intentos donde tu elección de chasis altera fundamentalmente tu enfoque táctico en una pista. Hay cuatro clases principales disponibles en el lanzamiento, cada una diseñada para terrenos y estilos de carrera específicos.
+
+Los **Landspeeders** sirven como los "tanques" del mundo de las carreras, ofreciendo un manejo más pesado y un enfoque en el derrape. Son ideales para sobrevivir en carreras con mucho contacto donde es necesario embestir a los rivales. Las **Speeder Bikes** ofrecen una velocidad increíble en línea recta pero requieren una sincronización precisa de las Ráfagas Cinéticas para navegar por las curvas. Los **Skim Speeders** son la opción técnica, utilizando el rasgo "Filo de Cuchillo" para giros cerrados con inclinación. Finalmente, los **Podracers** representan la cima de la velocidad, reservados para eventos de alto riesgo en planetas como Tatooine.
+
+| Clase de Vehículo | Rasgo Clave | Perfil de Manejo | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Landspeeder** | Derrape | Pesado / Estable | Carreras de contacto y aprendizaje de trazadas |
+| **Speeder Bike** | Ráfaga Cinética | Frágil / Rápido | Rectas abiertas y adelantamientos arriesgados |
+| **Skim Speeder** | Filo de Cuchillo | Técnico / Preciso | Pistas sinuosas y circuitos urbanos |
+| **Podracer** | Empuje Extremo | Gran Habilidad / Rápido | Eventos icónicos en arenas y pruebas de velocidad |
+
+<Callout type="warning" title="Advertencia Crítica">
+Las Speeder Bikes tienen la durabilidad más baja del plantel. Aunque son tentadoras por su velocidad, una sola embestida mal calculada de un Landspeeder puede terminar prematuramente tu intento en el Tour Galáctico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Plantel Exclusivo: Ediciones Deluxe y de Coleccionista">
+
+Para los jugadores que buscan expandir su **plantel de Star Wars Galactic Racer** inmediatamente tras el lanzamiento el 6 de octubre de 2026, las ediciones Deluxe y de Coleccionista ofrecen vehículos de repulsión exclusivos. Estos vehículos son fabricados por la prestigiosa marca **Kor Sarun** y presentan perfiles de manejo únicos que no se encuentran en las versiones base de sus respectivas clases.
+
+La línea Kor Sarun está diseñada para dar a los jugadores una ligera ventaja en los niveles iniciales de la Liga Galáctica, específicamente a través de la inclusión de tres eventos de Arcade únicos adaptados a estos vehículos. Además, estas ediciones proporcionan diseños cosméticos, como la apariencia inspirada en el caza estelar N-1 de Naboo, que se puede aplicar a múltiples tipos de vehículos para unificar la estética de tu plantel.
+
+| Edición | Vehículo Exclusivo | Clase | Contenido Adicional |
+| :--- | :--- | :--- | :--- |
+| **Edición Deluxe** | Kor Sarun: Ciza T | Speeder Bike | 3 Pruebas de Arcade, Libro de Arte Digital |
+| **Edición Deluxe** | Kor Sarun: Darc X | Landspeeder | Diseño Deluxe, Banner de Jugador |
+| **Edición Deluxe** | Kor Sarun: Rak S | Skim Speed | Insignia Exclusiva |
+| **Edición de Coleccionista** | Todos los vehículos Deluxe | Todas las clases | Modelo físico de Landspeeder, Parches |
+
+<Callout type="success" title="Bono de Reserva">
+Todas las reservas, independientemente de la edición, incluyen el "Diseño de Reserva" y un Banner de Jugador único. Estos son esenciales para identificarte en las salas multijugador multiplataforma de 12 jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Ampliar tu Plantel: Guía de Progresión">
+
+Desbloquear el **plantel completo de Star Wars Galactic Racer** requiere navegar por el "Tour Galáctico", una estructura de campaña basada en intentos. No empiezas con todos los pilotos o vehículos; en su lugar, debes ganar Fichas de Entrada a la Liga y Créditos Galácticos para comprar nuevos chasis y reclutar rivales para tu causa.
+
+<Steps>
+  <Step num="1" title="Completa las Clasificatorias Iniciales">
+    Comienza la campaña como Shade. Se te dará un Landspeeder básico para aprender las mecánicas de embestida y derrape en Jakku.
+  </Step>
+  <Step num="2" title="Gana Créditos Galácticos">
+    Participa en carreras estándar y duelos 1v1. Los puestos altos y los derribos exitosos te recompensan con moneda utilizada en los vendedores del paddock.
+  </Step>
+  <Step num="3" title="Desbloquea Nuevos Chasis">
+    Visita a los vendedores entre las etapas del tour para comprar Speeder Bikes o Skim Speeders. Cada nuevo chasis añadido a tu plantel abre diferentes caminos ramificados en el mapa.
+  </Step>
+  <Step num="4" title="Derrota a Pilotos Rivales">
+    Derrotar a leyendas como Sebulba en el modo Escenario o en eventos específicos de la Campaña a menudo desbloqueará sus diseños de vehículos característicos o piezas especializadas para tu propia nave.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mecánicas Roguelite">
+Recuerda que Star Wars: Galactic Racer se basa en intentos. Si te estrellas y pierdes tu Ficha de Entrada a la Liga, podrías perder algunas mejoras temporales, pero tus clases de vehículos desbloqueadas y los Créditos Galácticos suelen persistir entre intentos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Plantel de Pistas: Donde Ocurre la Acción">
+
+Un plantel de carreras es tan bueno como las pistas en las que compite. La Liga Galáctica abarca el Borde Exterior, presentando una diversa gama de planetas que ponen a prueba diferentes clases de vehículos. Por ejemplo, los desiertos abiertos de **Tatooine** son perfectos para los Podracers, mientras que las densas junglas de **Lantaana** favorecen la inclinación técnica de los Skim Speeders.
+
+| Planeta | Entorno | Peligro Principal | Clase Recomendada |
+| :--- | :--- | :--- | :--- |
+| **Jakku** | Desierto de Chatarra | Restos y Escombros | Landspeeder |
+| **Tatooine** | Cañones Arenosos | Cuevas Estrechas | Podracer |
+| **Ando Prime** | Tundra Helada | Hielo Resbaladizo | Skim Speeder |
+| **Lantaana** | Jungla Exuberante | Vegetación Densa | Speeder Bike |
+| **Sentinel I** | Volcánico | Fosos de Lava | Landspeeder |
+
+<Checklist
+  id="track-mastery"
+  title="Objetivos de Maestría de Pista:"
+  items={[
+    "Dominar el Circuito de Mos Espa en Tatooine",
+    "Sobrevivir al espectáculo del Derven Acos Arena",
+    "Encontrar todos los atajos en los depósitos de chatarra de Jakku",
+    "Lograr un puesto entre los tres primeros en Ando Prime"
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia Pro">
+En Ando Prime, el hielo reduce significativamente la tracción. Evita usar Speeder Bikes aquí hasta que hayas mejorado tus estadísticas de "Batería" y "Giro" al menos al Nivel 3, o te encontrarás chocando constantemente contra los límites de la pista.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Plantel de Star Wars Galactic Racer">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos jugadores pueden competir en el plantel de Star Wars Galactic Racer en línea?",
+    answer: "El juego admite hasta 12 jugadores en multijugador en línea. Cuenta con soporte multiplataforma en PS5, Xbox Series X|S y PC (Steam/Epic Games Store)."
+  },
+  {
+    question: "¿Hay personajes ocultos en el plantel de Star Wars Galactic Racer?",
+    answer: "Aunque el plantel principal se centra en Shade y Kestar Bool, corredores de vainas legendarios como Sebulba y Ben Quadinaros aparecen como rivales de élite en los modos Escenario y Arcade."
+  },
+  {
+    question: "¿Puedo personalizar los vehículos de mi plantel?",
+    answer: "Sí. Puedes mejorar piezas de rendimiento como Postquemadores, Estatorreactores y Baterías. Visualmente, puedes aplicar diferentes diseños y banners de jugador ganados a través del juego o bonos de reserva."
+  },
+  {
+    question: "¿Es diferente el plantel entre las ediciones Estándar y Deluxe?",
+    answer: "La Edición Deluxe añade tres vehículos de repulsión exclusivos de Kor Sarun (Speeder Bike, Landspeeder y Skim Speeder) y tres eventos de Arcade únicos diseñados específicamente para ellos."
+  }
+]} />
+
+</Section>

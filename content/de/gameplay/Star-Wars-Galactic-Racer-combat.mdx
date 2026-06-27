@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Kampf: Fortgeschrittene Takedown-Taktiken",
+  description: "Meistere den Kampf in Star Wars Galactic Racer mit unserem Leitfaden zu Takedowns, fahrzeugspezifischen Strategien und Repulsorcraft-Builds für die Galaktische Liga.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Galactic+Racer+Combat+Guide",
+  date: "2026-06-28",
+  author: "Star Wars Galactic Racer Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Leitfaden">
+- Der **Kampf in Star Wars Galactic Racer** konzentriert sich auf Hochgeschwindigkeits-Aggression und nutzt **Rammstöße und Rempler** (shunts and slams), um Rivalen auszuschalten.
+- Die **Fahrzeugklassen** unterscheiden sich erheblich: Landspeeder fungieren als schwere Vollstrecker (Enforcer), während Speeder-Bikes als agile Angreifer (Striker) dienen.
+- **Umweltgefahren** auf Planeten wie Tatooine und Ando Prime können in engen Kurven als Waffe gegen Gegner eingesetzt werden.
+- Das **Rufsystem** in der Galaktischen Liga beeinflusst, welche Syndikate deine Kampffunktionen und Waffenmodule sponsern.
+- Die **Burnout-DNA** sorgt dafür, dass aggressives Fahren mit Boost-Energie und taktischen Vorteilen belohnt wird.
+</Callout>
+
+<Section icon={Map} title="Der gesetzlose Outer Rim: Grundlagen der Galaktischen Liga">
+
+Der Zusammenbruch des Imperiums hat ein Machtvakuum im Outer Rim hinterlassen, das durch das nervenaufreibende Adrenalin der Galaktischen Liga gefüllt wurde. Im Gegensatz zu sanktionierten Rennstrecken ist der **Kampf in Star Wars Galactic Racer** keine bloße Option, sondern eine Notwendigkeit zum Überleben. Als Shade müssen die Spieler eine Welt navigieren, in der Syndikate die Fäden ziehen und jedes Rennen ein Kampf um Ruf und Credits ist. Das Spiel, das von Entwicklern mit Wurzeln in der *Burnout*-Serie entwickelt wurde, legt den Fokus auf „Combat-Racing“, bei dem das Ausschalten eines Gegners ebenso befriedigend ist wie der erste Platz beim Überqueren der Ziellinie.
+
+**Video-Highlights:**
+- **Aggressive Mechaniken**: Präsentation der Rammstoß- und Remplersysteme („Slam“ und „Shunt“), die den Kern des Kampfgeschehens definieren.
+- **Fahrzeugvielfalt**: Ein erster Blick darauf, wie Podrenner (Podracers) und Landspeeder bei Hochgeschwindigkeitskollisionen interagieren.
+- **Underground-Ästhetik**: Das düstere, unsanktionierte Gefühl der verschiedenen Rennstrecken der Galaktischen Liga.
+- **Strategische Tiefe**: Nutzung der Umgebung, um massive Crashs und Massenkarambolagen auszulösen.
+
+<YouTubeEmbed videoId="465BtpAN4LQ" title="STAR WARS GALACTIC RACER Erstes Gameplay-Reveal" />
+
+In dieser Untergrund-Rennserie gibt es keine Jedi-Prophezeiungen oder machtgeleiteten Pfade. Der Erfolg hängt von deiner Fähigkeit ab, die Strecke zu lesen, und von deiner Bereitschaft, mit den gefährlichsten Piloten der Galaxis Lack auszutauschen. Die Galaktische Liga arbeitet nach dem Prinzip „Hohes Risiko, hohe Belohnung“, bei dem die aggressivsten Piloten oft die besten Sponsoringverträge von lokalen Verbrechersyndikaten erhalten.
+
+<Callout type="warning" title="Kampfbewusstsein">
+Konzentriere dich niemals nur auf die Ideallinie. In der Galaktischen Liga opfert ein Gegner oft seine eigene Geschwindigkeit, nur um dich in eine Schluchtwand zu rammen. Behalte die Repulsorfahrzeuge in deiner Nähe immer im Auge.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfklassen und Meta der Repulsorfahrzeuge">
+
+Die Wahl des richtigen Fahrzeugs ist der erste Schritt zur Meisterschaft im **Kampf von Star Wars Galactic Racer**. Jede Fahrzeugklasse verfügt über eine eigene Physik, Gewichtsverteilung und Kampffähigkeiten. Während ein Podrenner auf langen Geraden dominieren kann, ist er unglaublich anfällig, wenn er von der seitlichen Rammattacke eines schweren Landspeeders erwischt wird.
+
+| Fahrzeugtyp | Kampfrolle | Haltbarkeit | Wendigkeit | Primäre Strategie |
+|:---|:---|:---|:---|:---|
+| **Speeder-Bike** | Agiler Angreifer | Niedrig | ★★★★★ | Hit-and-Run-Taktiken, Vermeidung von schwerem Kontakt |
+| **Landspeeder** | Schwerer Vollstrecker | ★★★★★ | Niedrig | Kontinuierliches Abdrängen, Blockieren und schwere Rammstöße |
+| **Skim-Speeder** | Tarnung/Nutzen | ★★★ | ★★★★ | Strategische Positionierung und Windschattenfahren |
+| **Podrenner** | Geschwindigkeitsdämon | ★★ | ★★★★ | Gefahren entkommen, präzises Ausweichen |
+
+<CardGrid cols={2}>
+  <Card title="Der Vollstrecker-Spielstil">
+    - **Fokus**: Maximierung von Masse und Panzerung.
+    - **Ziel**: Gegner von der Strecke oder in Hindernisse drängen.
+    - **Ideal für**: Spieler, die aggressives, physisches Gameplay und defensives Fahren bevorzugen.
+  </Card>
+  <Card title="Der Angreifer-Spielstil">
+    - **Fokus**: Hohe Beschleunigung und präzises Handling.
+    - **Ziel**: Geschwindigkeit nutzen, um Gegner zu unüberlegten Rammstößen zu verleiten.
+    - **Ideal für**: Fortgeschrittene Piloten, die sich durch den Verkehr schlängeln und perfekte Ausweichmanöver ausführen können.
+  </Card>
+</CardGrid>
+
+Das Zusammenspiel zwischen dem Gewicht deines Fahrzeugs und seiner Repulsorstärke bestimmt, wie viel „Schubkraft“ du bei einem Rammstoß hast. Schwere Landspeeder können kleinere Fahrzeuge effektiv „schikanieren“ und sie in die „Todeszonen“ drängen, die auf Strecken wie Jakku zu finden sind. Umgekehrt können Speeder-Bikes ihr schmales Profil nutzen, um durch Lücken zu schlüpfen, in denen größere Fahrzeuge in einem Kampf stecken bleiben würden.
+
+<Callout type="tip" title="Fahrzeug-Synergie">
+Stelle bei teambasierten PvP-Rivalenkämpfen sicher, dass dein Team eine Mischung aus Vollstreckern zum Schutz der Speeder hat. Ein gut platzierter Landspeeder kann als Schild dienen und die Angriffe von Rivalen abfangen, während deine Podrenner die Führung übernehmen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Taktische Kampfmanöver: Schritt für Schritt">
+
+Ein erfolgreicher Takedown erfordert mehr als nur pure Geschwindigkeit. Du musst das Timing deiner Seitwärtsbewegungen meistern und die Physik von Repulsorfahrzeugen verstehen. Die folgenden Schritte beschreiben den effektivsten Weg, einen Rivalen im **Kampf von Star Wars Galactic Racer** auszuschalten.
+
+<Steps>
+  <Step num="1" title="Die Annäherung und der Windschatten">
+    Positioniere dich direkt hinter dem Ziel, um in dessen Windschatten zu gelangen. Dies verleiht dir einen Geschwindigkeitsschub und verbirgt deine Absichten. Warte, bis sich das Ziel einer Kurve oder einem engen Abschnitt der Strecke nähert.
+  </Step>
+  <Step num="2" title="Die seitliche Ausrichtung">
+    Bewege dich neben den Gegner. In *Star Wars: Galactic Racer* solltest du dich leicht vor seinem Schwerpunkt befinden. Dadurch kannst du bei einem Rammstoß seine Front erwischen, was dazu führt, dass er leichter die Kontrolle verliert.
+  </Step>
+  <Step num="3" title="Die Ausführung des Rammstoßes">
+    Führe einen harten seitlichen Stoß in Richtung des Gegners aus. Bei richtigem Timing verkoppeln sich deine Repulsoren kurzzeitig mit seinen, wodurch dein Impuls übertragen wird und er in Richtung der Streckenbegrenzung taumelt.
+  </Step>
+  <Step num="4" title="Die Takedown-Bestätigung">
+    Sobald der Gegner aus dem Gleichgewicht gebracht wurde, setze mit einem zweiten Rempler nach, um sicherzustellen, dass er gegen ein hartes Hindernis prallt oder in eine Gefahr stürzt. Ein erfolgreicher „Takedown“ füllt deine Boost-Anzeige sofort wieder auf.
+  </Step>
+</Steps>
+
+| Manöver | Risikostufe | Belohnung | Bester Anwendungsfall |
+|:---|:---|:---|:---|
+| **Seitlicher Rammstoß** | Mittel | Hoher Boost | Volle Geraden |
+| **Heck-Anschubser** | Niedrig | Stört die Lenkung | Vor scharfen Kurven |
+| **Abdrängen** | Hoch | Garantierter Takedown | Lange Mauern oder Leitplanken |
+| **Luft-Rempler** | Sehr hoch | Massiver Ruf | Bei Sprüngen oder vertikalen Stürzen |
+
+<Callout type="info" title="Boost-Management">
+Kampfmanöver verbrauchen einen kleinen Teil deiner Energie, aber ein erfolgreicher Takedown füllt die Anzeige komplett auf. Die Beherrschung dieser „Ökonomie der Gewalt“ ist der Schlüssel zur Aufrechterhaltung der Höchstgeschwindigkeit während des gesamten Rennens.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Planetare Gefahren und Kampf mit der Umgebung">
+
+Die Strecken in der Galaktischen Liga sind ebenso gefährlich wie die Piloten selbst. Von den eisigen Weiten von Ando Prime bis hin zu den sengenden Wüsten von Tatooine spielt die Umgebung eine gewaltige Rolle im **Kampf von Star Wars Galactic Racer**. Erfahrene Piloten bekämpfen nicht nur andere Rennfahrer; sie nutzen den Planeten selbst als Waffe.
+
+| Planet | Gefahrentyp | Kampfauswirkung | Taktischer Ratschlag |
+|:---|:---|:---|:---|
+| **Tatooine** | Sandwehen | Verringert die Bodenhaftung erheblich | Ramme Rivalen in tiefen Sand, um sie auszubremsen |
+| **Ando Prime** | Eisflächen | Verursacht unkontrollierbares Rutschen | Nutze schwere Rempler, um Rivalen auf dem Eis ins Schleudern zu bringen |
+| **Lantaana** | Ätzender Nebel | Trübt die Sicht und beschädigt die Hülle | Dränge Rivalen in den Nebel, um ihre Schilde zu schwächen |
+| **Sentinel I** | Gravitationsquellen | Zieht Fahrzeuge in Richtung Zentrum | Locke Rivalen in die Quelle und booste dich weg |
+| **Jakku** | Schrottsammler-Trümmer | Große physische Hindernisse | Nutze Rempler, um Rivalen in abgestürzte Sternenzerstörer zu drängen |
+
+Auf Ando Prime beispielsweise sorgt die fehlende Reibung dafür, dass ein einziger gut platzierter Rammstoß einen Gegner hunderte von Metern weit schlittern lassen kann. Das Meistern des „Eis-Drifts“ ermöglicht es dir, deine Kampfeffektivität aufrechtzuerhalten, selbst wenn dein Fahrzeug technisch gesehen außer Kontrolle gerät. Auf Tatooine hingegen bieten die Strecken des „Boonta-Eve-Classic“ enge Schluchten, in denen ein einziger Crash ein Nadelöhr erzeugen kann, was es dir ermöglicht, mehrere Rivalen auf einmal auszuschalten.
+
+<Callout type="success" title="Meisterung von Gefahren">
+Achte auf die „Gefahrenwarnung“-Symbole auf deinem HUD. Diese weisen auf bevorstehende Umweltfallen hin, die durch physischen Kontakt oder Annäherung ausgelöst werden können. Wenn du diese im richtigen Moment auslöst, kannst du eine ganze Gruppe von Verfolgern eliminieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritt und Kampf-Upgrades">
+
+Um in den höheren Klassen der Galaktischen Liga zu überleben, benötigt dein Basis-Repulsorfahrzeug erhebliche Modifikationen. Das Fortschrittssystem ermöglicht es dir, dich auf verschiedene Kampfmodule zu spezialisieren, von verstärkter Hüllenpanzerung bis hin zu fortschrittlichen Repulsor-Stabilisatoren.
+
+<Checklist
+  id="combat-progression"
+  title="Wichtige Kampf-Meilensteine:"
+  items={[
+    "Schalte das Modul 'Schwerer Rammstoß' für erhöhte Aufprallkraft frei",
+    "Erreiche Rufstufe 10 beim Hutt-Kartell für Panzerungs-Upgrades",
+    "Schließe das 'Tatooine-Gauntlet' ab, ohne ausgeschaltet zu werden",
+    "Erhalte den 'Reflex-Stabilisator', um Remplern von Rivalen zu widerstehen",
+    "Meistere die Kombi 'Windschatten-zu-Rempler' auf der Trainingsstrecke"
+  ]}
+/>
+
+Ein Fahrzeug zu bauen, das deinen Stil widerspiegelt, ist nicht nur eine Frage der Ästhetik, sondern verschafft dir auch einen Wettbewerbsvorteil. Wenn du einen defensiven Spielstil bevorzugst, konzentriere dich auf „Kinetische Dämpfer“, die den Rückprall bei Treffern verringern. Für offensiv ausgerichtete Piloten können „Aufprallstacheln“ den Schaden an den Hüllen der Rivalen während eines seitlichen Abdrängens erhöhen.
+
+<Callout type="tip" title="Syndikats-Belohnungen">
+Verschiedene Syndikate bieten einzigartige Kampfteile an. Das Pyke-Syndikat konzentriert sich auf Wendigkeits- und Tarnmodule, während Black Sun die schwerste Panzerung und die aggressivste Rammstoß-Technologie bietet. Wähle deine Allianzen basierend auf deinem bevorzugten Kampfstil.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Star Wars Galactic Racer Kampf-FAQ">
+
+<FAQ items={[
+  {
+    question: "Wie verteidige ich mich gegen einen schweren Rammstoß von einem Landspeeder?",
+    answer: "Die beste Verteidigung ist ein gut getimter Gegen-Rammstoß. Wenn du die Rammstoß-Taste kurz vor dem Aufprall in Richtung des Angreifers drückst, kannst du seinen Impuls neutralisieren und ihn manchmal sogar zurücktaumeln lassen."
+  },
+  {
+    question: "Gibt es im Kampf von Star Wars Galactic Racer Waffen wie Blaster?",
+    answer: "Der Kern des Kampfes konzentriert sich auf physischen Kontakt zwischen Repulsorfahrzeugen (Rammstöße, Rempler und Abdrängen). Während einige spezielle Arcade-Events nützliche Gegenstände enthalten können, geht es in der Hauptstrecke der Galaktischen Liga um fahrerisches Können und physische Aggression."
+  },
+  {
+    question: "Kann ich mehrere Gegner auf einmal ausschalten?",
+    answer: "Ja. Indem du in engen Abschnitten der Strecke eine Kettenreaktion von Crashs auslöst, kannst du mehrere Rivalen ausschalten. Dies ist besonders effektiv auf Strecken mit großen Höhenunterschieden oder engen Schluchtenpässen."
+  },
+  {
+    question: "Was passiert mit meinem Fahrzeug nach einem Takedown?",
+    answer: "In den meisten Modi respawnt dein Fahrzeug schnell, aber du verlierst viel Zeit und Boost-Energie. In 'Hardcore'-Story-Missionen kann ein Takedown zum sofortigen Scheitern der Mission oder zum Verlust von Ruf führen."
+  }
+]} />
+
+<Callout type="info" title="Schlussbemerkung">
+Die Galaktische Liga entwickelt sich ständig weiter. Halte Ausschau nach den neuesten Nachrichten über neue Repulsorfahrzeug-Veröffentlichungen und saisonale Kampfevents, die selbst die erfahrensten Piloten herausfordern.
+</Callout>
+
+</Section>

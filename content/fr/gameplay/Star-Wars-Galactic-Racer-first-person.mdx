@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Eye } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer à la première personne : Guide d'immersion et mécaniques de POV",
+  description: "Maîtrisez la perspective à la première personne de Star Wars Galactic Racer. Apprenez la navigation dans le cockpit, les astuces de course de combat et les paramètres de caméra pour la Ligue Souterraine 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=First+Person+Racing+Guide",
+  date: "2026-06-28",
+  author: "L'équipe du Wiki Star Wars Galactic Racer"
+}
+
+<Callout type="info" title="Guide rapide">
+- Le mode **première personne de Star Wars Galactic Racer** offre une vue cockpit à l'échelle 1:1 conçue par les créateurs originaux de Burnout.
+- Les mécaniques de **course de combat** sont plus intenses en vue subjective (POV), nécessitant un timing précis pour les dérapages et le déploiement des armes.
+- La **personnalisation** permet aux joueurs de retirer les freins pour atteindre des vitesses de pointe plus élevées, bien que cela augmente le risque d'annihilation.
+- La **fidélité visuelle** en 2026 se concentre sur le flou de mouvement à haute vitesse et l'instrumentation intérieure détaillée du speeder.
+- La progression dans la **Ligue Souterraine** nécessite de maîtriser la vue à la première personne pour rivaliser avec des légendes comme Sebulba.
+</Callout>
+
+<Section icon={Eye} title="L'expérience à la première personne de Star Wars Galactic Racer">
+
+L'introduction de la perspective **à la première personne de Star Wars Galactic Racer** marque une évolution significative dans le genre des jeux de course de combat. Développé par l'équipe chevronnée derrière la série Burnout, ce mode met l'accent sur la vitesse brute et la tension claustrophobe du cockpit. Contrairement aux vues traditionnelles à la troisième personne, le mode à la première personne oblige les pilotes à se fier aux jauges internes et à la vision périphérique pour survivre dans la Ligue Galactique Souterraine.
+
+**Points forts de la vidéo :**
+- **Révélation du gameplay** : Premier aperçu des mécaniques de course de combat souterraines.
+- **Personnalisation du speeder** : Aperçu de la suppression des freins pour une vitesse maximale.
+- **Rivalités légendaires** : Rencontres avec Kast Orb Ull et l'héritage de la Boonta Eve Classic.
+- **Effets visuels** : Rendu à haute vitesse et modélisation des dégâts du cockpit.
+
+<YouTubeEmbed videoId="465BtpAN4LQ" title="Premier aperçu du gameplay de STAR WARS GALACTIC RACER" />
+
+Dans cette édition 2026, la vue à la première personne n'est pas seulement une option de caméra, mais un style de jeu dédié. Des pilotes comme Shade et Evie démontrent que la vue cockpit offre une connexion plus viscérale avec le speeder, permettant des manœuvres plus serrées à travers les canyons étroits de Gathlion. La sensation d'échelle est décuplée, rendant chaque pilote rival et chaque obstacle environnemental nettement plus menaçant.
+
+| Caractéristique | POV Première personne | POV Troisième personne |
+| :--- | :--- | :--- |
+| **Niveau d'immersion** | Maximum / Échelle 1:1 | Modéré / Tactique |
+| **Champ de vision (FOV)** | Restreint / Réaliste | Large / Stratégique |
+| **Détails du HUD** | Jauges intégrées au cockpit | Interface flottante |
+| **Difficulté** | Élevée (Requiert de la précision) | Standard |
+| **Conscience du combat** | Dépend des sons et rétroviseurs | Visuels à 360 degrés |
+
+<Callout type="tip" title="Conseil de pro">
+Lorsque vous courez à la première personne, écoutez attentivement le vrombissement du moteur. Dans Star Wars Galactic Racer, les indices sonores signalent souvent une surchauffe du moteur avant même que les jauges numériques ne reflètent le danger.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Configuration du speeder et paramètres de POV">
+
+Pour exceller dans le mode **à la première personne de Star Wars Galactic Racer**, les joueurs doivent optimiser la configuration de leur speeder. La nature « souterraine » de la ligue encourage à « faire preuve de créativité » avec les pièces. Comme le suggère Evie, retirer les limiteurs standard et les freins peut augmenter considérablement votre vitesse, mais cela nécessite un pilote doté de réflexes exceptionnels pour gérer les vibrations du cockpit et la stabilité réduite.
+
+<CardGrid cols={3}>
+  <Card title="Optimisation de la vitesse">
+    - **Retirer les freins** : Augmente la vitesse de pointe de 15 %.
+    - **Réduction de poids** : Retrait des panneaux intérieurs non essentiels.
+    - **Risque élevé** : Augmente la létalité des crashs.
+  </Card>
+  <Card title="Réglage de la stabilité">
+    - **Gyro-stabilisateurs** : Réduit les secousses du cockpit à haute vitesse.
+    - **Verre renforcé** : Évite les distorsions visuelles dues aux débris.
+    - **Équilibré** : Idéal pour les pilotes débutants.
+  </Card>
+  <Card title="Préparation au combat">
+    - **Capteurs étendus** : Ajoute des alertes de proximité au HUD.
+    - **Overclocking de bouclier** : Sacrifie la vitesse pour la protection du cockpit.
+    - **Agressif** : Idéal pour les « Bulls » qui vous collent aux basques.
+  </Card>
+</CardGrid>
+
+Les paramètres techniques de l'édition 2026 permettent une personnalisation approfondie du FOV (champ de vision). L'ajustement de ces paramètres est essentiel pour réduire la cinétose (mal des transports) et améliorer la conscience spatiale lors des séquences de podracing à haute vitesse.
+
+| Paramètre | Valeur recommandée | Impact sur le gameplay |
+| :--- | :--- | :--- |
+| **Champ de vision (FOV)** | 95 - 105 degrés | Meilleure vision périphérique dans les virages serrés |
+| **Secousses du cockpit** | 25 % - 40 % | Équilibre le réalisme et la clarté visuelle |
+| **Flou de mouvement** | Faible / Moyen | Maintient la mise au point sur les obstacles lointains |
+| **Opacité du HUD** | 80 % | Garantit la lisibilité des jauges sous une forte luminosité |
+| **Zone morte** | 0,05 | Fournit une réponse de direction instantanée |
+
+<Callout type="warning" title="Important">
+Désactiver les freins comme le suggère Evie est uniquement recommandé pour les joueurs avancés. À la première personne, l'absence de décélération rend les circuits de la Boonta Eve Classic extrêmement dangereux.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtriser la course de combat à la première personne">
+
+Le combat dans **Star Wars Galactic Racer à la première personne** est une affaire chaotique. Vous ne faites pas que courir ; vous survivez. La ligue « souterraine » implique des tactiques agressives où l'intimidation est courante. Des légendes comme Sebulba et Kast Var utilisent leur taille et leur vitesse pour anéantir les nouveaux venus. Pour riposter, vous devez maîtriser l'art des manœuvres « Stealth Out » (Dissimulation) et « Bomb Bomb » mentionnées par les pilotes vétérans.
+
+<Steps>
+  <Step num="1" title="Conscience de l'intérieur">
+    Surveillez les rétroviseurs et les capteurs de proximité de votre cockpit. À la première personne, vous ne pouvez pas voir les concurrents directement derrière vous sans ces outils.
+  </Step>
+  <Step num="2" title="La manœuvre furtive">
+    Utilisez les ombres de l'environnement et les modes basse consommation pour échapper aux capteurs de vos rivaux. Cela permet des frappes d'« annihilation » surprises.
+  </Step>
+  <Step num="3" title="Gestion de l'énergie">
+    Répartissez la puissance entre les propulseurs et les boucliers. Dans le cockpit, cela se gère souvent via un levier physique ou une touche dédiée.
+  </Step>
+  <Step num="4" title="Frappe de précision">
+    Attendez que le réticule de verrouillage devienne rouge fixe. La course de combat en vue subjective exige plus de patience que les modes à la troisième personne.
+  </Step>
+</Steps>
+
+| Manœuvre | Description | Niveau de risque |
+| :--- | :--- | :--- |
+| **Dérapage sans freins** | Utiliser l'élan pour glisser dans les virages | Élevé |
+| **Coup de bouclier** | Collision physique pour projeter les rivaux contre les murs | Moyen |
+| **Boost à l'eau verte** | Utilisation d'un carburant spécialisé pour une vitesse temporaire | Faible |
+| **Frappe d'annulation** | Tir d'arme ciblé pour désactiver les moteurs | Moyen |
+
+<Callout type="success" title="Condition de victoire">
+Gagner dans la Ligue Galactique ne consiste pas seulement à franchir la ligne d'arrivée en premier ; il s'agit de s'assurer que vos rivaux ne la franchissent pas du tout. Utilisez l'affichage tactique du cockpit pour suivre l'état de santé des speeders à proximité.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Circuits emblématiques et défis de POV">
+
+Les circuits de Star Wars Galactic Racer sont conçus pour exploiter les limites et les forces de la vue à la première personne. Des plaines poussiéreuses de Tatooine aux circuits souterrains illuminés de néons, chaque environnement propose des défis visuels uniques qui nécessitent des ajustements de caméra différents.
+
+- **Boonta Eve Classic** : L'éblouissement intense et les tempêtes de sable nécessitent des paramètres de HUD à contraste élevé.
+- **Canyons de Gathlion** : La verticalité abrupte rend la fonction « Regard Cockpit » essentielle pour suivre les changements d'altitude.
+- **Le Hub de la Ligue Souterraine** : Course en basse lumière où l'éclairage du cockpit et les capteurs de vision nocturne sont obligatoires.
+- **Le Domaine de Kast Var** : Des obstacles dangereux plus difficiles à repérer en POV en raison d'une visibilité latérale limitée.
+
+| Nom du circuit | Danger principal | Conseil de POV |
+| :--- | :--- | :--- |
+| **Circuit de Tatooine** | Cécité par le sable | Utiliser le réglage de visière polarisée |
+| **Course de Gathlion** | Passages étroits | Centrer votre FOV pour une meilleure profondeur |
+| **Le Vide** | Absence d'horizon | Se fier à la jauge d'horizon artificiel |
+| **L'Allée des Bulls** | Attaques par l'arrière | Garder un œil sur le moniteur de recul |
+
+<Callout type="info" title="Note de lore">
+La Boonta Eve Classic reste le summum de la course. À la première personne, l'échelle des tribunes et le rugissement des moteurs créent une atmosphère qui rend hommage à l'expérience originale de podracing sur N64.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de progression et de maîtrise">
+
+Pour devenir une légende dans le mode **à la première personne de Star Wars Galactic Racer**, vous devez franchir des étapes spécifiques qui prouvent votre capacité à gérer l'intensité du cockpit. Suivre le parcours de Shade, le « nouveau pilote », implique de gravir les échelons de la Ligue Galactique.
+
+<Checklist
+  id="pov-mastery"
+  title="Étapes de pilote à la première personne :"
+  items={[
+    "Gagner une course sur Gathlion sans utiliser de caméras externes",
+    "Réussir une manœuvre de Stealth Out dans la Ligue Souterraine",
+    "Atteindre 900 km/h avec la modification « Sans freins » active",
+    "Vaincre Kast Orb Ull dans un match d'exhibition en face-à-face",
+    "Terminer la Boonta Eve Classic avec 0 % de dégâts au cockpit",
+    "Débloquer l'apparence de cockpit légendaire de Sebulba"
+  ]}
+/>
+
+<Callout type="tip" title="Conseil final">
+N'ayez pas peur d'échouer. Comme le disent les pilotes vétérans, « un contretemps temporaire » fait simplement partie de la courbe d'apprentissage dans la Ligue Galactique. Gardez les yeux sur la piste et les mains sur les propulseurs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ de Star Wars Galactic Racer">
+
+<FAQ items={[
+  {
+    question: "Le mode première personne de Star Wars Galactic Racer est-il plus difficile que le mode troisième personne ?",
+    answer: "Oui, il est généralement considéré comme plus difficile en raison du champ de vision restreint et de la nécessité de gérer les jauges spécifiques au cockpit. Cependant, il offre un niveau d'immersion et de précision bien plus élevé pour les pilotes expérimentés."
+  },
+  {
+    question: "Puis-je basculer entre la première personne et la troisième personne pendant une course ?",
+    answer: "Bien que le jeu permette de changer de caméra, certains défis spécifiques de la « Ligue Souterraine » sont verrouillés en perspective à la première personne afin de maintenir la difficulté et l'atmosphère prévues."
+  },
+  {
+    question: "Quels sont les avantages de retirer les freins en mode première personne ?",
+    answer: "Retirer les freins permet à votre speeder d'atteindre sa vitesse maximale absolue plus rapidement. À la première personne, cela crée une sensation de vitesse « hurlante », bien que cela rende les virages et l'évitement d'obstacles nettement plus dangereux."
+  },
+  {
+    question: "Qui sont les principaux rivaux dans la campagne à la première personne de Star Wars Galactic Racer ?",
+    answer: "Vous affronterez des légendes comme Sebulba et de nouveaux antagonistes comme Kast Orb Ull et Kast Var. Chacun possède un style de course unique que vous devez apprendre à contrer depuis votre cockpit."
+  }
+]} />
+
+</Section>
