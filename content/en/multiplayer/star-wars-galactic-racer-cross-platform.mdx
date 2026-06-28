@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Cross Platform: Setup Guide",
+  description: "Master cross-platform multiplayer in Star Wars: Galactic Racer. Learn lobby setup, platform compatibility, system requirements, and vehicle classes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0c111d/fff?text=Galactic+Racer+Cross+Platform",
+  date: "2026-06-28",
+  author: "Star Wars Galactic Racer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cross-Platform Play**: The highly anticipated **star wars galactic racer cross platform** feature is fully supported, allowing seamless matchmaking across PC and consoles.
+- **Official Release**: Developed by Fuse Games and published by Secret Mode, the game is scheduled to launch on October 6, 2026 [1].
+- **High-Stakes Racing**: Experience a runs-based, lawless racing circuit set in the Outer Rim where syndicates bankroll chaos [1].
+- **Lobby Setup**: Connect with friends across different ecosystems using the unique in-game Galactic League ID system.
+- **Controller Recommendation**: Developers strongly recommend playing with a controller for optimal handling and responsiveness [1].
+</Callout>
+
+<Section icon={Map} title="Star Wars Galactic Racer Cross Platform: Multiplayer Overview">
+
+The lawless Outer Rim is calling, and with the Empire's grip finally broken, speed has become the ultimate currency. In *Star Wars: Galactic Racer*, players step into the high-stakes, unsanctioned racing circuit known as The Galactic League [1]. To ensure the competitive fires burn as brightly as possible, the developers have integrated robust multiplayer systems designed to unite the galaxy's fastest pilots, regardless of their preferred gaming hardware.
+
+The **star wars galactic racer cross platform** multiplayer network bridges the gap between PC and console communities. Whether you are aiming to slam, shunt, or take down rivals, the cross-play architecture ensures matchmaking queues remain highly populated and competitive from day one.
+
+**Video Highlights:**
+- **Visual Evolution**: A direct comparison highlighting the massive jump in graphical fidelity, lighting, and speed compared to classic titles like *Star Wars Racer Revenge*.
+- **Sense of Speed**: Demonstration of the high-velocity motion blur and particle effects during Outer Rim circuit runs.
+- **Environmental Detail**: Showcase of the lawless, industrial, and dusty aesthetic characteristic of the post-Empire era.
+
+<YouTubeEmbed videoId="eJCdFN3-81Y" title="Star Wars Galactic Racer vs Star Wars Racer Revenge Early Graphics Comparison" />
+
+This cross-platform implementation is vital for sustaining the competitive ecosystem of a runs-based racing game. By allowing players across different ecosystems to compete simultaneously, the game ensures that leaderboards reflect the absolute best pilots in the galaxy rather than just the top players on a single platform.
+
+<Callout type="success" title="Matchmaking Pool Boost">
+Cross-play is enabled by default. This merges the player pools of PC and consoles, significantly reducing queue times for matchmaking in PvP grudge matches.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Crossplay Mechanics & Network Architecture">
+
+Understanding how the cross-platform system operates is key to optimizing your multiplayer experience. The network infrastructure utilizes centralized game accounts to manage player profiles, progression, and friends lists across different storefronts and consoles. 
+
+On PC, the game features Denuvo Anti-Tamper technology to maintain competitive integrity and prevent cheating in online PvP environments [1]. This anti-cheat framework operates alongside the cross-play network to ensure console players experience fair matchmaking when paired with PC racers.
+
+| Platform | Crossplay Support | Controller Support | Input Type |
+| --- | --- | --- | --- |
+| PC (Steam) | Yes, fully supported | Yes, highly recommended | Keyboard or Controller |
+| PlayStation | Yes, fully supported | Yes, native support | Controller |
+| Xbox | Yes, fully supported | Yes, native support | Controller |
+
+While keyboard and mouse inputs are fully functional on PC, the physics engine is heavily optimized for analog input. Utilizing a controller provides much finer throttle management and steering adjustments, which are critical when navigating tight corridors at breakneck speeds [1].
+
+<Callout type="warning" title="Denuvo Activation Limit">
+The PC version on Steam incorporates 3rd-party DRM (Denuvo Anti-Tamper) with a 5-machine activation limit [1]. Keep this in mind if you frequently switch hardware or play across multiple PC builds.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Set Up Cross-Platform Lobbies">
+
+Connecting with friends on other platforms is a straightforward process. By utilizing the in-game social menu, you can bypass platform-specific limitations and jump straight into the action.
+
+<Steps>
+  <Step num="1" title="Access the Social Menu">
+    Launch the game and navigate to the main menu. Select the Social tab to open your friends list and managing options.
+  </Step>
+  <Step num="2" title="Locate Your Galactic League ID">
+    Your unique Galactic League ID is displayed at the top of the Social panel. This ID consists of your profile name followed by a unique string of numbers.
+  </Step>
+  <Step num="3" title="Add Cross-Platform Friends">
+    Select 'Add Friend' and input your friend's Galactic League ID. Once they accept the pending request, they will appear in your cross-platform friends list.
+  </Step>
+  <Step num="4" title="Create and Invite to Lobby">
+    Create a custom multiplayer lobby, select your desired game mode, and invite your friends directly from your in-game friends list, regardless of their platform.
+  </Step>
+</Steps>
+
+Once your lobby is assembled, the host can configure custom rules, select tracks from various Outer Rim planets, and toggle AI filler racers on or off to customize the competitive environment.
+
+<Callout type="tip" title="Voice Chat Settings">
+Ensure in-game voice chat is enabled in your audio settings if you are playing with friends on different platforms, as system-level party chats (like Discord or console parties) may require external setup.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Vehicle Classes & Game Modes">
+
+Success in the Galactic League requires more than just raw speed; it demands strategic vehicle selection. Players can pilot, customize, and upgrade several distinct classes of repulsorcraft, each offering unique handling characteristics and physical properties [1]. 
+
+<CardGrid cols={3}>
+  <Card title="Speeder Bikes">
+    Extremely agile and fast, but highly vulnerable to physical attacks and environmental hazards [1].
+  </Card>
+  <Card title="Landspeeders">
+    Well-balanced craft providing decent armor and reliable handling, making them ideal for beginners [1].
+  </Card>
+  <Card title="Skim Speeders">
+    Excellent for drifting and off-road traction, allowing pilots to take risky shortcuts [1].
+  </Card>
+</CardGrid>
+
+Whether you prefer the raw acceleration of speeder bikes or the heavy-duty nature of podracers, choosing the right craft for the track layout is essential for securing victory [1]. 
+
+| Vehicle Class | Top Speed | Durability | Handling | Drifting Capability |
+| --- | --- | --- | --- | --- |
+| Speeder Bikes | Very High | Low | Excellent | Moderate |
+| Landspeeders | Moderate | High | Good | Moderate |
+| Skim Speeders | High | Moderate | Moderate | Excellent |
+| Podracers | Extreme | Very Low | Hard | Low |
+
+Multiplayer modes range from standard PvP lobbies to high-stakes strategic grudge matches where your reputation and hard-earned currency are on the line [1]. Managing your syndicate sponsorships and upgrading your craft between runs is crucial to staying ahead of the cross-platform competition.
+
+<Callout type="tip" title="Syndicate Sponsorships">
+In the campaign and online PvP modes, syndicates bankroll your runs [1]. Aligning with specific syndicates can unlock unique upgrade paths and cosmetic rewards for your vehicles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Game Editions & System Requirements">
+
+Preparing your hardware for launch is just as important as mastering the tracks. *Star Wars: Galactic Racer* is available for pre-purchase in multiple editions, each offering various digital bonuses to kickstart your racing career [1].
+
+| Feature / Bonus | Standard Edition ($59.99) | Deluxe Edition ($79.99) |
+| --- | --- | --- |
+| Base Game | Included [1] | Included [1] |
+| Pre-Order Bonus Livery | Yes (If pre-ordered) [1] | Yes (If pre-ordered) [1] |
+| Pre-Order Player Banner | Yes (If pre-ordered) [1] | Yes (If pre-ordered) [1] |
+| Kor Sarun Vehicles | No | 3 Exclusive Vehicles [1] |
+| Exclusive Arcade Trials | No | 3 Arcade Events [1] |
+| Digital Art Book | No | Included [1] |
+
+To ensure smooth performance during intense cross-platform races, PC players should verify that their systems meet or exceed the following hardware specifications.
+
+| Component | Minimum Specification | Recommended Specification |
+| --- | --- | --- |
+| Operating System | Windows 10 (64-bit) [1] | Windows 11 (64-bit) |
+| Processor | Intel i5-8400 / Ryzen 5 2600 [1] | Intel i7-10700K / Ryzen 7 5800X |
+| Memory | 12 GB RAM [1] | 16 GB RAM |
+| Graphics Card | Nvidia RTX 2060 / AMD RX 5600 XT [1] | Nvidia RTX 3070 / AMD RX 6800 XT |
+| Storage | 50 GB available space (SSD Required) [1] | 50 GB available space (SSD Required) |
+
+<Callout type="warning" title="SSD is Mandatory">
+The game requires an Solid State Drive (SSD) for installation [1]. Traditional Hard Disk Drives (HDDs) may cause severe texture streaming issues and long loading times, which can negatively impact your multiplayer matchmaking experience.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Multiplayer Preparation Checklist & FAQ">
+
+Before you line up on the starting grid, make sure you and your squad are fully prepared to tackle the lawless tracks of the Outer Rim [1].
+
+<Checklist
+  id="multiplayer-prep"
+  title="Launch Day Checklist:"
+  items={[
+    "Pre-order the game to secure the exclusive Naboo N-1 inspired livery [1].",
+    "Install the game on a high-speed SSD to avoid loading bottlenecks [1].",
+    "Connect a compatible controller to your PC or console for superior handling [1].",
+    "Exchange Galactic League IDs with your cross-platform friends.",
+    "Choose your starting vehicle class based on your preferred racing style [1]."
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Does Star Wars: Galactic Racer support cross-platform play?",
+    answer: "Yes, the game fully supports cross-platform multiplayer, allowing PC and console players to compete together in online PvP modes from day one."
+  },
+  {
+    question: "Is a controller required to play on PC?",
+    answer: "While keyboard and mouse inputs are supported, the development team strongly recommends using a controller to navigate the complex physics and high-speed turns of the repulsorcraft."
+  },
+  {
+    question: "Can I disable crossplay if I only want to play on my platform?",
+    answer: "Yes, players can toggle cross-platform matchmaking on or off via the in-game network settings menu, though disabling it may result in longer matchmaking times."
+  },
+  {
+    question: "Are there exclusive multiplayer rewards in the Deluxe Edition?",
+    answer: "Yes, the Deluxe Edition includes a Deluxe Player Banner with an exclusive Insignia and Background for multiplayer modes, alongside three exclusive Kor Sarun vehicles."
+  }
+]} />
+
+<Callout type="success" title="See You on the Track">
+With your cross-platform squad assembled and your repulsorcraft tuned, you are ready to claim your spot at the top of the Galactic League. Speed, strategy, and survival are the only rules that matter.
+</Callout>
+
+</Section>

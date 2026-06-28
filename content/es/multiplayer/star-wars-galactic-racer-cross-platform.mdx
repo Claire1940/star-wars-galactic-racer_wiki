@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Cross Platform: Guía de Configuración",
+  description: "Domina el multijugador multiplataforma en Star Wars: Galactic Racer. Aprende a configurar salas, la compatibilidad de plataformas, los requisitos del sistema y las clases de vehículos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0c111d/fff?text=Galactic+Racer+Cross+Platform",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de Star Wars Galactic Racer"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Juego multiplataforma**: La función altamente anticipada de **star wars galactic racer cross platform** es totalmente compatible, lo que permite un emparejamiento fluido entre PC y consolas.
+- **Lanzamiento oficial**: Desarrollado por Fuse Games y publicado por Secret Mode, el lanzamiento del juego está programado para el 6 de octubre de 2026 [1].
+- **Carreras de alto riesgo**: Experimenta un circuito de carreras clandestino y sin ley basado en intentos en el Borde Exterior, donde los sindicatos financian el caos [1].
+- **Configuración de salas**: Conéctate con amigos de diferentes ecosistemas utilizando el sistema único de ID de la Liga Galáctica dentro del juego.
+- **Recomendación de mando**: Los desarrolladores recomiendan encarecidamente jugar con un mando para un manejo y una capacidad de respuesta óptimos [1].
+</Callout>
+
+<Section icon={Map} title="Star Wars Galactic Racer Cross Platform: Resumen del Multijugador">
+
+El Borde Exterior sin ley está llamando, y con el dominio del Imperio finalmente roto, la velocidad se ha convertido en la moneda de cambio definitiva. En *Star Wars: Galactic Racer*, los jugadores se adentran en el circuito de carreras clandestino y de alto riesgo conocido como La Liga Galáctica [1]. Para asegurar que las llamas de la competencia ardan con la mayor fuerza posible, los desarrolladores han integrado sistemas multijugador robustos diseñados para unir a los pilotos más rápidos de la galaxia, sin importar su hardware de juego preferido.
+
+La red multijugador de **star wars galactic racer cross platform** cierra la brecha entre las comunidades de PC y consolas. Ya sea que tu objetivo sea embestir, desviar o derribar a tus rivales, la arquitectura de juego cruzado garantiza que las colas de emparejamiento permanezcan muy pobladas y competitivas desde el primer día.
+
+**Puntos destacados del video:**
+- **Evolución visual**: Una comparación directa que destaca el enorme salto en fidelidad gráfica, iluminación y velocidad en comparación con títulos clásicos como *Star Wars Racer Revenge*.
+- **Sensación de velocidad**: Demostración del desenfoque de movimiento a alta velocidad y los efectos de partículas durante las carreras en los circuitos del Borde Exterior.
+- **Detalle ambiental**: Muestra de la estética clandestina, industrial y polvorienta característica de la era posterior al Imperio.
+
+<YouTubeEmbed videoId="eJCdFN3-81Y" title="Comparación gráfica temprana de Star Wars Galactic Racer vs Star Wars Racer Revenge" />
+
+Esta implementación multiplataforma es vital para mantener el ecosistema competitivo de un juego de carreras basado en intentos. Al permitir que los jugadores de diferentes ecosistemas compitan simultáneamente, el juego asegura que las tablas de clasificación reflejen a los mejores pilotos absolutos de la galaxia, en lugar de solo a los mejores jugadores de una sola plataforma.
+
+<Callout type="success" title="Aumento del grupo de emparejamiento">
+El juego cruzado está habilitado por defecto. Esto fusiona los grupos de jugadores de PC y consolas, reduciendo significativamente los tiempos de espera en las colas para el emparejamiento en partidas de rivalidad PvP.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Juego Cruzado y Arquitectura de Red">
+
+Entender cómo funciona el sistema multiplataforma es clave para optimizar tu experiencia multijugador. La infraestructura de red utiliza cuentas de juego centralizadas para gestionar los perfiles de los jugadores, la progresión y las listas de amigos en diferentes tiendas y consolas.
+
+En PC, el juego cuenta con la tecnología Denuvo Anti-Tamper para mantener la integridad competitiva y evitar trampas en entornos PvP en línea [1]. Este marco antitrampas funciona junto con la red de juego cruzado para garantizar que los jugadores de consola experimenten un emparejamiento justo cuando se agrupen con corredores de PC.
+
+| Plataforma | Soporte de Juego Cruzado | Soporte de Mando | Tipo de Entrada |
+| --- | --- | --- | --- |
+| PC (Steam) | Sí, totalmente compatible | Sí, muy recomendado | Teclado o Mando |
+| PlayStation | Sí, totalmente compatible | Sí, soporte nativo | Mando |
+| Xbox | Sí, totalmente compatible | Sí, soporte nativo | Mando |
+
+Aunque las entradas de teclado y ratón son totalmente funcionales en PC, el motor de física está fuertemente optimizado para la entrada analógica. Utilizar un mando proporciona un control del acelerador y ajustes de dirección mucho más precisos, lo cual es fundamental al navegar por pasillos estrechos a velocidades de vértigo [1].
+
+<Callout type="warning" title="Límite de Activación de Denuvo">
+La versión de PC en Steam incorpora DRM de terceros (Denuvo Anti-Tamper) con un límite de activación en 5 máquinas [1]. Ten esto en cuenta si cambias de hardware con frecuencia o juegas en varias configuraciones de PC.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Configurar Salas Multiplataforma">
+
+Conectarse con amigos en otras plataformas es un proceso sencillo. Al utilizar el menú social del juego, puedes evitar las limitaciones específicas de cada plataforma y saltar directamente a la acción.
+
+<Steps>
+  <Step num="1" title="Accede al Menú Social">
+    Inicia el juego y navega hasta el menú principal. Selecciona la pestaña Social para abrir tu lista de amigos y las opciones de gestión.
+  </Step>
+  <Step num="2" title="Localiza tu ID de la Liga Galáctica">
+    Tu ID único de la Liga Galáctica se muestra en la parte superior del panel Social. Este ID consiste en tu nombre de perfil seguido de una cadena única de números.
+  </Step>
+  <Step num="3" title="Añade Amigos Multiplataforma">
+    Selecciona 'Añadir amigo' e introduce el ID de la Liga Galáctica de tu amigo. Una vez que acepte la solicitud pendiente, aparecerá en tu lista de amigos multiplataforma.
+  </Step>
+  <Step num="4" title="Crea e Invita a la Sala">
+    Crea una sala multijugador personalizada, selecciona el modo de juego deseado e invita a tus amigos directamente desde tu lista de amigos del juego, sin importar su plataforma.
+  </Step>
+</Steps>
+
+Una vez ensamblada tu sala, el anfitrión puede configurar reglas personalizadas, seleccionar pistas de varios planetas del Borde Exterior y activar o desactivar corredores de relleno de IA para personalizar el entorno competitivo.
+
+<Callout type="tip" title="Ajustes de Chat de Voz">
+Asegúrate de que el chat de voz del juego esté habilitado en tus ajustes de audio si juegas con amigos en diferentes plataformas, ya que los chats de grupo a nivel de sistema (como Discord o los grupos de consola) pueden requerir una configuración externa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Clases de Vehículos y Modos de Juego">
+
+El éxito en la Liga Galáctica requiere más que solo velocidad pura; exige una selección estratégica de vehículos. Los jugadores pueden pilotar, personalizar y mejorar varias clases distintas de vehículos de repulsión, cada una con características de manejo y propiedades físicas únicas [1].
+
+<CardGrid cols={3}>
+  <Card title="Motos Jet (Speeder Bikes)">
+    Extremadamente ágiles y rápidas, pero muy vulnerables a los ataques físicos y a los peligros ambientales [1].
+  </Card>
+  <Card title="Landspeeders">
+    Vehículos bien equilibrados que proporcionan un blindaje decente y un manejo fiable, lo que los hace ideales para principiantes [1].
+  </Card>
+  <Card title="Skim Speeders">
+    Excelentes para derrapar y para la tracción todoterreno, lo que permite a los pilotos tomar atajos arriesgados [1].
+  </Card>
+</CardGrid>
+
+Ya sea que prefieras la aceleración pura de las motos jet o la naturaleza resistente de los podracers, elegir el vehículo adecuado para el diseño de la pista es esencial para asegurar la victoria [1].
+
+| Clase de Vehículo | Velocidad Máxima | Durabilidad | Manejo | Capacidad de Derrape |
+| --- | --- | --- | --- | --- |
+| Motos Jet | Muy Alta | Baja | Excelente | Moderada |
+| Landspeeders | Moderada | Alta | Bueno | Moderada |
+| Skim Speeders | Alta | Moderada | Moderado | Excelente |
+| Podracers | Extrema | Muy Baja | Difícil | Baja |
+
+Los modos multijugador van desde salas PvP estándar hasta partidas de rivalidad estratégicas de alto riesgo donde tu reputación y tu dinero duramente ganado están en juego [1]. Gestionar los patrocinios de tus sindicatos y mejorar tu vehículo entre carreras es crucial para mantenerte por delante de la competencia multiplataforma.
+
+<Callout type="tip" title="Patrocinios de Sindicatos">
+En la campaña y los modos PvP en línea, los sindicatos financian tus carreras [1]. Alinearte con sindicatos específicos puede desbloquear rutas de mejora únicas y recompensas cosméticas para tus vehículos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Ediciones del Juego y Requisitos del Sistema">
+
+Preparar tu hardware para el lanzamiento es tan importante como dominar las pistas. *Star Wars: Galactic Racer* está disponible para precompra en varias ediciones, cada una ofreciendo diversos bonos digitales para iniciar tu carrera como piloto [1].
+
+| Característica / Bono | Edición Estándar ($59.99) | Edición Deluxe ($79.99) |
+| --- | --- | --- |
+| Juego Base | Incluido [1] | Incluido [1] |
+| Diseño de bonificación por reserva | Sí (si se reserva) [1] | Sí (si se reserva) [1] |
+| Banner de jugador por reserva | Sí (si se reserva) [1] | Sí (si se reserva) [1] |
+| Vehículos de Kor Sarun | No | 3 vehículos exclusivos [1] |
+| Pruebas de arcade exclusivas | No | 3 eventos de arcade [1] |
+| Libro de arte digital | No | Incluido [1] |
+
+Para garantizar un rendimiento fluido durante las intensas carreras multiplataforma, los jugadores de PC deben verificar que sus sistemas cumplan o superen las siguientes especificaciones de hardware.
+
+| Componente | Especificación Mínima | Especificación Recomendada |
+| --- | --- | --- |
+| Sistema Operativo | Windows 10 (64 bits) [1] | Windows 11 (64 bits) |
+| Procesador | Intel i5-8400 / Ryzen 5 2600 [1] | Intel i7-10700K / Ryzen 7 5800X |
+| Memoria | 12 GB de RAM [1] | 16 GB de RAM |
+| Tarjeta Gráfica | Nvidia RTX 2060 / AMD RX 5600 XT [1] | Nvidia RTX 3070 / AMD RX 6800 XT |
+| Almacenamiento | 50 GB de espacio disponible (Se requiere SSD) [1] | 50 GB de espacio disponible (Se requiere SSD) |
+
+<Callout type="warning" title="El uso de SSD es obligatorio">
+El juego requiere una unidad de estado sólido (SSD) para su instalación [1]. Los discos duros tradicionales (HDD) pueden causar problemas graves de transmisión de texturas y tiempos de carga prolongados, lo que puede afectar negativamente tu experiencia de emparejamiento multijugador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Preparación Multijugador y Preguntas Frecuentes">
+
+Antes de alinearte en la parrilla de salida, asegúrate de que tú y tu escuadrón estén completamente preparados para enfrentarse a las pistas sin ley del Borde Exterior [1].
+
+<Checklist
+  id="multiplayer-prep"
+  title="Lista de control para el día de lanzamiento:"
+  items={[
+    "Reserva el juego para asegurar el diseño exclusivo inspirado en el Naboo N-1 [1].",
+    "Instala el juego en un SSD de alta velocidad para evitar cuellos de botella en la carga [1].",
+    "Conecta un mando compatible a tu PC o consola para un manejo superior [1].",
+    "Intercambia las ID de la Liga Galáctica con tus amigos multiplataforma.",
+    "Elige tu clase de vehículo inicial según tu estilo de carrera preferido [1]."
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Soporta Star Wars: Galactic Racer el juego multiplataforma?",
+    answer: "Sí, el juego es totalmente compatible con el multijugador multiplataforma, lo que permite a los jugadores de PC y consolas competir juntos en modos PvP en línea desde el primer día."
+  },
+  {
+    question: "¿Se requiere un mando para jugar en PC?",
+    answer: "Aunque se admiten las entradas de teclado y ratón, el equipo de desarrollo recomienda encarecidamente utilizar un mando para navegar por las complejas físicas y los giros a alta velocidad de los vehículos de repulsión."
+  },
+  {
+    question: "¿Puedo desactivar el juego cruzado si solo quiero jugar en mi plataforma?",
+    answer: "Sí, los jugadores pueden activar o desactivar el emparejamiento multiplataforma a través del menú de ajustes de red del juego, aunque desactivarlo puede resultar en tiempos de emparejamiento más largos."
+  },
+  {
+    question: "¿Hay recompensas multijugador exclusivas en la Edición Deluxe?",
+    answer: "Sí, la Edición Deluxe incluye un banner de jugador Deluxe con una insignia y un fondo exclusivos para los modos multijugador, además de tres vehículos exclusivos de Kor Sarun."
+  }
+]} />
+
+<Callout type="success" title="Nos vemos en la pista">
+Con tu escuadrón multiplataforma reunido y tu vehículo de repulsión afinado, estás listo para reclamar tu lugar en la cima de la Liga Galáctica. Velocidad, estrategia y supervivencia son las únicas reglas que importan.
+</Callout>
+
+</Section>
