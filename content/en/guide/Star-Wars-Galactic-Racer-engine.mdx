@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Rocket, Settings, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Star Wars Galactic Racer Engine: Physics, Tech & Vehicle Classes",
+  description: "Explore the advanced engine tech behind Star Wars Galactic Racer. Learn about vehicle physics, skimspeeder mechanics, and the racing adventure foundation.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Galactic+Racer+Engine+Tech",
+  date: "2026-07-01",
+  author: "Star Wars Galactic Racer Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Star Wars Galactic Racer engine** is built by Fuse Games, a studio founded by veterans from Criterion Games (*Need for Speed*, *Burnout*).
+- **Core Technology** supports a unique "racing adventure" hybrid, allowing for both high-speed track racing and off-track character-controlled exploration.
+- **Vehicle Classes** include traditional Podracers and Speeder Bikes, alongside the brand-new **Skimspeeder** class designed specifically for this engine.
+- **Physics System** removes the "single ideal racing line," forcing players to adapt to dynamic terrain across five distinct planets.
+- **Multiplayer Capacity** supports up to 12 players with a dedicated ranking system integrated into the netcode.
+</Callout>
+
+<Section icon={Cpu} title="Technical Foundation and Developer Pedigree">
+
+The **Star Wars Galactic Racer engine** represents a significant technological leap for the racing genre, primarily due to the expertise of its creators. Developed by Guildford-based **Fuse Games**, the technical architecture is overseen by industry veterans from Criterion Games. This lineage is crucial, as the engine incorporates decades of experience from the *Need for Speed* and *Burnout* franchises, adapted specifically for the high-velocity requirements of the *Star Wars* universe.
+
+With approximately 75 internal developers and a total of 150 people involved in the project, the engine is designed to handle the dual requirements of a "racing adventure." Unlike traditional racing sims that focus solely on track physics, this engine manages complex character-based movement for segments where players step out of their vehicles.
+
+| Feature | Star Wars Galactic Racer Engine | Traditional Racing Engines |
+| :--- | :--- | :--- |
+| **Developer Roots** | Criterion Games / Fuse Games | Varies by Studio |
+| **Genre Hybrid** | Racing + Adventure Elements | Pure Racing / Simulation |
+| **On/Off Track** | Full character control off-track | Locked to vehicle |
+| **Creative Input** | Direct Lucasfilm Games collaboration | Licensed IP only |
+| **Release Target** | October 6, 2026 | Various |
+
+<Callout type="tip" title="Industry Insight">
+The engine's architecture was built from the ground up starting in 2023. By leveraging the experience of Matt Webster and other senior Criterion staff, Fuse Games has implemented a physics model that prioritizes "weight" and "impact," reminiscent of the *Burnout* series but tuned for repulsorlift technology.
+</Callout>
+
+</Section>
+
+<Section icon={Rocket} title="Vehicle Classes and Physics Implementation">
+
+A core component of the **Star Wars Galactic Racer engine** is its ability to simulate four distinct classes of vehicles, each with radically different handling profiles. The engine must simultaneously calculate the erratic, high-tension physics of a Podracer's energy binders while managing the sleek, low-altitude gliding of the new Skimspeeder class.
+
+The engine's physics engine is designed to eliminate the concept of a "single ideal racing line." This means the environment is fully interactive, and the "best" path changes based on the vehicle class and current speed.
+
+<CardGrid cols={2}>
+  <Card title="Podracers">
+    - **High Speed**: Extreme straight-line velocity.
+    - **Fragility**: High risk of engine flameouts.
+    - **Handling**: Difficult to turn at peak speeds.
+  </Card>
+  <Card title="Skimspeeders">
+    - **Versatility**: New class for the New Republic era.
+    - **Terrain Mastery**: Best for off-track adventure.
+    - **Agility**: Balanced speed and turning.
+  </Card>
+  <Card title="Landspeeders">
+    - **Durability**: Can withstand heavy collisions.
+    - **Stability**: Reliable handling on flat surfaces.
+    - **Capacity**: Often used in multiplayer objectives.
+  </Card>
+  <Card title="Speeder Bikes">
+    - **Acceleration**: Fastest off-the-line starts.
+    - **Size**: Smallest hitbox for narrow gaps.
+    - **Risk**: Highly susceptible to environmental hazards.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Engine Limitation">
+While the engine supports high-speed racing, the "adventure" segments are limited to specific zones. You cannot fly a Podracer into every character-exploration area, as the physics engine switches modes to accommodate character movement.
+</Callout>
+
+| Vehicle Class | Speed Rating | Handling | Terrain Type |
+| :--- | :--- | :--- | :--- |
+| **Podracer** | 10/10 | 3/10 | Open Flats |
+| **Skimspeeder** | 7/10 | 8/10 | All-Terrain |
+| **Landspeeder** | 6/10 | 6/10 | Urban/Desert |
+| **Speeder Bike** | 8/10 | 9/10 | Forest/Canyons |
+
+</Section>
+
+<Section icon={Map} title="Environmental Rendering and Planet Tech">
+
+The **Star Wars Galactic Racer engine** utilizes advanced procedural and handcrafted techniques to render five iconic and new planets. Set in the New Republic era after *Return of the Jedi*, the engine must render the wear and tear of a galaxy in transition. Locations like Tatooine and Jakku feature dynamic sand physics, while Ando Prime requires the engine to calculate slippery ice surfaces and cold-weather engine performance.
+
+<Steps>
+  <Step num="1" title="Terrain Analysis">
+    The engine scans the terrain ahead to adjust repulsorlift height automatically, ensuring vehicles don't clip into small rocks.
+  </Step>
+  <Step num="2" title="Dynamic Physics Calculation">
+    As you enter different biomes (e.g., from the canyons of Tatooine to the open wastes), the engine adjusts friction and drag coefficients.
+  </Step>
+  <Step num="3" title="Visual Layering">
+    The engine applies New Republic-era weathering effects to vehicles, showing real-time damage and dust accumulation.
+  </Step>
+</Steps>
+
+| Planet | Environment Type | Primary Engine Challenge |
+| :--- | :--- | :--- |
+| **Tatooine** | Desert / Canyons | Particle sand effects and heat haze |
+| **Jakku** | Scavenger Wastes | Massive scale ship graveyard rendering |
+| **Ando Prime** | Ice / Snow | Surface friction and reflection tech |
+| **Lantaana** | Urban / Industrial | High-density lighting and AI traffic |
+| **Sentinel One** | Space Station / Tech | Zero-G physics and metallic shaders |
+
+<Callout type="success" title="Performance Milestone">
+The engine is optimized to maintain a steady 60 FPS on PlayStation 5 and Xbox Series X, even during 12-player multiplayer races with maximum particle effects.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Vehicle Building and Customization Systems">
+
+One of the most touted features of the **Star Wars Galactic Racer engine** is the comprehensive vehicle building system. This isn't just cosmetic; every part added to a vehicle changes its center of mass, top speed, and cooling efficiency. The engine uses a modular attachment system that allows players to mix and match components from different eras, though using parts from racers like Sebulba or Ben Quadinaros requires specific legacy unlocks.
+
+**Core Building Components:**
+- **Engines**: Determines base speed and acceleration.
+- **Cooling Units**: Prevents overheating during extended "boost" periods.
+- **Repulsorlift Disks**: Affects how high the vehicle floats and its stability over rough terrain.
+- **Cockpit/Chassis**: Determines the hit points and character visibility.
+
+<Checklist
+  id="engine-building"
+  title="Vehicle Build Checklist:"
+  items={[
+    "Balance weight-to-power ratio for optimal acceleration",
+    "Install compatible cooling vents for your specific engine class",
+    "Calibrate repulsorlift disks for the target planet's gravity",
+    "Test handling in the Arcade Mode time trials",
+    "Apply New Republic or Imperial aesthetic coatings"
+  ]}
+/>
+
+<Callout type="info" title="Customization Note">
+The building system is integrated directly into the single-player campaign, where finding rare scrap on planets like Jakku allows for engine upgrades that aren't available in the standard shop.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Multiplayer Architecture and Ranking">
+
+The **Star Wars Galactic Racer engine** includes a robust netcode designed to support 12-player races without "ghosting" or synchronization issues common in high-speed racers. By using a hybrid client-side prediction model, the engine ensures that collisions feel impactful and fair, which is vital for a game developed by the *Burnout* veterans.
+
+**Multiplayer Features:**
+- **12-Player Races**: Full grid support for all vehicle classes.
+- **Ranking System**: A persistent competitive ladder that tracks skill across different tracks.
+- **Arcade Mode**: Quick-play races with specific objectives like "Time Trials" or "Elimination."
+- **Social Hubs**: Areas where players can show off their custom-built vehicles before a race.
+
+| Mode | Player Count | Objective |
+| :--- | :--- | :--- |
+| **Ranked Circuit** | 12 Players | Earn points for seasonal leaderboard |
+| **Time Trials** | Solo | Beat developer and community ghosts |
+| **Objective Race** | 8-12 Players | Complete mid-race tasks (e.g., cargo delivery) |
+| **Campaign Co-op** | 1-2 Players | Progress through the racing adventure story |
+
+<Callout type="tip" title="Pro Strategy">
+In multiplayer, the engine rewards players who take risks. Drafting behind opponents or performing "near-miss" maneuvers fills your boost meter faster, a mechanic directly inspired by the *Burnout* legacy of the developers.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What engine does Star Wars Galactic Racer use?",
+    answer: "While the specific brand (like Unreal or Frostbite) hasn't been officially named, the Star Wars Galactic Racer engine is a proprietary framework built by Fuse Games, utilizing technical expertise from former Criterion Games developers."
+  },
+  {
+    question: "Does the engine support cross-play?",
+    answer: "Yes, the engine architecture is designed for PlayStation 5, Windows, and Xbox Series X/S, with cross-platform multiplayer support planned for the October 2026 launch."
+  },
+  {
+    question: "How does the 'racing adventure' aspect work in the engine?",
+    answer: "The engine seamlessly transitions between high-speed vehicle physics and third-person character control, allowing players to explore planets on foot and interact with the environment between races."
+  },
+  {
+    question: "Can I build my own Podracer in the engine?",
+    answer: "Absolutely. The vehicle building system is a core engine feature, allowing you to customize everything from the engines to the energy binders using parts found throughout the galaxy."
+  }
+]} />
+
+</Section>

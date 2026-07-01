@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Rocket, Settings, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Moteur de Star Wars Galactic Racer : Physique, Technologie et Classes de Véhicules",
+  description: "Explorez la technologie de pointe du moteur de Star Wars Galactic Racer. Découvrez la physique des véhicules, la mécanique des skimspeeders et les bases de l'aventure de course.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Galactic+Racer+Engine+Tech",
+  date: "2026-07-01",
+  author: "Équipe du Wiki Star Wars Galactic Racer",
+  keywords: "Star Wars Galactic Racer, moteur de jeu, physique, skimspeeder, personnalisation de véhicule, multijoueur"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Le moteur de Star Wars Galactic Racer** est conçu par Fuse Games, un studio fondé par des vétérans de Criterion Games (*Need for Speed*, *Burnout*).
+- **La technologie de base** prend en charge un hybride unique d'« aventure de course », permettant à la fois des courses sur piste à haute vitesse et de l'exploration contrôlée par le personnage hors piste.
+- **Les classes de véhicules** comprennent les Podracers traditionnels et les Moto-jets, aux côtés de la toute nouvelle classe **Skimspeeder** conçue spécifiquement pour ce moteur.
+- **Le système de physique** supprime le concept de « ligne de course idéale unique », forçant les joueurs à s'adapter à un terrain dynamique sur cinq planètes distinctes.
+- **La capacité multijoueur** permet d'accueillir jusqu'à 12 joueurs avec un système de classement dédié intégré au netcode.
+</Callout>
+
+<Section icon={Cpu} title="Fondations Techniques et Héritage des Développeurs">
+
+Le **moteur de Star Wars Galactic Racer** représente un bond technologique significatif pour le genre de la course, principalement grâce à l'expertise de ses créateurs. Développée par **Fuse Games**, basé à Guildford, l'architecture technique est supervisée par des vétérans de l'industrie issus de Criterion Games. Cet héritage est crucial, car le moteur intègre des décennies d'expérience provenant des franchises *Need for Speed* et *Burnout*, adaptées spécifiquement aux exigences de haute vélocité de l'univers *Star Wars*.
+
+Avec environ 75 développeurs internes et un total de 150 personnes impliquées dans le projet, le moteur est conçu pour gérer les doubles exigences d'une « aventure de course ». Contrairement aux simulations de course traditionnelles qui se concentrent uniquement sur la physique de la piste, ce moteur gère des mouvements complexes basés sur les personnages pour les segments où les joueurs sortent de leurs véhicules.
+
+| Caractéristique | Moteur Star Wars Galactic Racer | Moteurs de Course Traditionnels |
+| :--- | :--- | :--- |
+| **Origines des Développeurs** | Criterion Games / Fuse Games | Varie selon le studio |
+| **Hybride de Genres** | Course + Éléments d'Aventure | Pure Course / Simulation |
+| **Sur/Hors Piste** | Contrôle total du personnage hors véhicule | Verrouillé au véhicule |
+| **Apport Créatif** | Collaboration directe avec Lucasfilm Games | Licence de PI uniquement |
+| **Cible de Sortie** | 6 Octobre 2026 | Divers |
+
+<Callout type="tip" title="Aperçu de l'Industrie">
+L'architecture du moteur a été construite de zéro à partir de 2023. En s'appuyant sur l'expérience de Matt Webster et d'autres cadres supérieurs de Criterion, Fuse Games a implémenté un modèle physique qui donne la priorité au « poids » et à l'« impact », rappelant la série *Burnout* mais ajusté pour la technologie des répulseurs.
+</Callout>
+
+</Section>
+
+<Section icon={Rocket} title="Classes de Véhicules et Implémentation de la Physique">
+
+Un composant central du **moteur de Star Wars Galactic Racer** est sa capacité à simuler quatre classes distinctes de véhicules, chacune ayant des profils de maniabilité radicalement différents. Le moteur doit calculer simultanément la physique erratique et à haute tension des liens énergétiques d'un Podracer tout en gérant le glissement fluide et à basse altitude de la nouvelle classe Skimspeeder.
+
+Le moteur physique est conçu pour éliminer le concept de « ligne de course idéale unique ». Cela signifie que l'environnement est entièrement interactif et que le « meilleur » chemin change en fonction de la classe du véhicule et de la vitesse actuelle.
+
+<CardGrid cols={2}>
+  <Card title="Podracers">
+    - **Haute Vitesse** : Vélocité extrême en ligne droite.
+    - **Fragilité** : Risque élevé de panne moteur.
+    - **Maniabilité** : Difficile à faire tourner à vitesse de pointe.
+  </Card>
+  <Card title="Skimspeeders">
+    - **Polyvalence** : Nouvelle classe pour l'ère de la Nouvelle République.
+    - **Maîtrise du Terrain** : Idéal pour l'aventure hors piste.
+    - **Agilité** : Équilibre entre vitesse et virage.
+  </Card>
+  <Card title="Landspeeders">
+    - **Durabilité** : Peut résister à de lourdes collisions.
+    - **Stabilité** : Maniabilité fiable sur les surfaces planes.
+    - **Capacité** : Souvent utilisé pour les objectifs multijoueurs.
+  </Card>
+  <Card title="Moto-jets">
+    - **Accélération** : Départs les plus rapides.
+    - **Taille** : Plus petite hitbox pour les passages étroits.
+    - **Risque** : Très sensible aux dangers environnementaux.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Limitation du Moteur">
+Bien que le moteur prenne en charge les courses à haute vitesse, les segments d'« aventure » sont limités à des zones spécifiques. Vous ne pouvez pas piloter un Podracer dans toutes les zones d'exploration de personnages, car le moteur physique change de mode pour s'adapter aux mouvements du personnage.
+</Callout>
+
+| Classe de Véhicule | Note de Vitesse | Maniabilité | Type de Terrain |
+| :--- | :--- | :--- | :--- |
+| **Podracer** | 10/10 | 3/10 | Plaines Ouvertes |
+| **Skimspeeder** | 7/10 | 8/10 | Tout-Terrain |
+| **Landspeeder** | 6/10 | 6/10 | Urbain / Désert |
+| **Moto-jet** | 8/10 | 9/10 | Forêt / Canyons |
+
+</Section>
+
+<Section icon={Map} title="Rendu Environnemental et Technologie Planétaire">
+
+Le **moteur de Star Wars Galactic Racer** utilise des techniques procédurales et artisanales avancées pour rendre cinq planètes emblématiques et nouvelles. Se déroulant dans l'ère de la Nouvelle République après *Le Retour du Jedi*, le moteur doit rendre l'usure d'une galaxie en transition. Des lieux comme Tatooine et Jakku présentent une physique du sable dynamique, tandis qu'Ando Prime exige que le moteur calcule les surfaces de glace glissantes et les performances du moteur par temps froid.
+
+<Steps>
+  <Step num="1" title="Analyse du Terrain">
+    Le moteur scanne le terrain devant lui pour ajuster automatiquement la hauteur des répulseurs, garantissant que les véhicules ne heurtent pas de petits rochers.
+  </Step>
+  <Step num="2" title="Calcul Dynamique de la Physique">
+    Lorsque vous entrez dans différents biomes (par exemple, des canyons de Tatooine aux étendues ouvertes), le moteur ajuste les coefficients de friction et de traînée.
+  </Step>
+  <Step num="3" title="Superposition Visuelle">
+    Le moteur applique des effets de vieillissement de l'ère de la Nouvelle République aux véhicules, affichant les dommages en temps réel et l'accumulation de poussière.
+  </Step>
+</Steps>
+
+| Planète | Type d'Environnement | Défi Principal du Moteur |
+| :--- | :--- | :--- |
+| **Tatooine** | Désert / Canyons | Effets de particules de sable et brume de chaleur |
+| **Jakku** | Déserts de Récupérateurs | Rendu à grande échelle de cimetières de vaisseaux |
+| **Ando Prime** | Glace / Neige | Friction de surface et technologie de réflexion |
+| **Lantaana** | Urbain / Industriel | Éclairage haute densité et trafic IA |
+| **Sentinel One** | Station Spatiale / Tech | Physique en zéro-G et shaders métalliques |
+
+<Callout type="success" title="Jalon de Performance">
+Le moteur est optimisé pour maintenir un taux constant de 60 FPS sur PlayStation 5 et Xbox Series X, même lors de courses multijoueurs à 12 joueurs avec un maximum d'effets de particules.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Systèmes de Construction et de Personnalisation de Véhicules">
+
+L'une des caractéristiques les plus vantées du **moteur de Star Wars Galactic Racer** est son système complet de construction de véhicules. Ce n'est pas seulement cosmétique ; chaque pièce ajoutée à un véhicule modifie son centre de masse, sa vitesse de pointe et son efficacité de refroidissement. Le moteur utilise un système de fixation modulaire qui permet aux joueurs de mélanger et d'associer des composants de différentes époques, bien que l'utilisation de pièces de pilotes comme Sebulba ou Ben Quadinaros nécessite des déblocages d'héritage spécifiques.
+
+**Composants de Base de la Construction :**
+- **Moteurs** : Déterminent la vitesse de base et l'accélération.
+- **Unités de Refroidissement** : Empêchent la surchauffe pendant les périodes de « boost » prolongées.
+- **Disques de Répulsion** : Affectent la hauteur de flottaison du véhicule et sa stabilité sur terrain accidenté.
+- **Cockpit/Châssis** : Déterminent les points de vie et la visibilité du personnage.
+
+<Checklist
+  id="engine-building"
+  title="Liste de Contrôle de Construction de Véhicule :"
+  items={[
+    "Équilibrer le rapport poids-puissance pour une accélération optimale",
+    "Installer des évents de refroidissement compatibles avec votre classe de moteur",
+    "Calibrer les disques de répulseurs pour la gravité de la planète cible",
+    "Tester la maniabilité dans les contre-la-montre du Mode Arcade",
+    "Appliquer des revêtements esthétiques de la Nouvelle République ou de l'Empire"
+  ]}
+/>
+
+<Callout type="info" title="Note sur la Personnalisation">
+Le système de construction est directement intégré à la campagne solo, où la découverte de ferraille rare sur des planètes comme Jakku permet des améliorations de moteur non disponibles dans la boutique standard.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Architecture Multijoueur et Classement">
+
+Le **moteur de Star Wars Galactic Racer** comprend un netcode robuste conçu pour prendre en charge des courses à 12 joueurs sans les problèmes de « ghosting » ou de synchronisation courants dans les jeux de course à haute vitesse. En utilisant un modèle hybride de prédiction côté client, le moteur garantit que les collisions semblent percutantes et équitables, ce qui est vital pour un jeu développé par des vétérans de *Burnout*.
+
+**Caractéristiques Multijoueur :**
+- **Courses à 12 Joueurs** : Prise en charge complète de la grille pour toutes les classes de véhicules.
+- **Système de Classement** : Une échelle compétitive persistante qui suit les compétences sur différentes pistes.
+- **Mode Arcade** : Courses rapides avec des objectifs spécifiques comme « Contre-la-montre » ou « Élimination ».
+- **Hubs Sociaux** : Zones où les joueurs peuvent exposer leurs véhicules personnalisés avant une course.
+
+| Mode | Nombre de Joueurs | Objectif |
+| :--- | :--- | :--- |
+| **Circuit Classé** | 12 Joueurs | Gagner des points pour le classement saisonnier |
+| **Contre-la-montre** | Solo | Battre les fantômes des développeurs et de la communauté |
+| **Course à Objectifs** | 8-12 Joueurs | Accomplir des tâches en pleine course (ex : livraison de cargaison) |
+| **Coop de Campagne** | 1-2 Joueurs | Progresser dans l'histoire de l'aventure de course |
+
+<Callout type="tip" title="Stratégie de Pro">
+En multijoueur, le moteur récompense les joueurs qui prennent des risques. L'aspiration derrière les adversaires ou la réalisation de manœuvres « frôlées » remplit votre jauge de boost plus rapidement, une mécanique directement inspirée de l'héritage *Burnout* des développeurs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Quel moteur utilise Star Wars Galactic Racer ?",
+    answer: "Bien que la marque spécifique (comme Unreal ou Frostbite) n'ait pas été officiellement nommée, le moteur de Star Wars Galactic Racer est un framework propriétaire construit par Fuse Games, utilisant l'expertise technique d'anciens développeurs de Criterion Games."
+  },
+  {
+    question: "Le moteur prend-il en charge le cross-play ?",
+    answer: "Oui, l'architecture du moteur est conçue pour la PlayStation 5, Windows et la Xbox Series X/S, avec un support multijoueur cross-plateforme prévu pour le lancement en octobre 2026."
+  },
+  {
+    question: "Comment l'aspect « aventure de course » fonctionne-t-il dans le moteur ?",
+    answer: "Le moteur passe de manière fluide de la physique des véhicules à haute vitesse au contrôle du personnage à la troisième personne, permettant aux joueurs d'explorer les planètes à pied et d'interagir avec l'environnement entre les courses."
+  },
+  {
+    question: "Puis-je construire mon propre Podracer dans le moteur ?",
+    answer: "Absolument. Le système de construction de véhicules est une fonctionnalité centrale du moteur, vous permettant de tout personnaliser, des moteurs aux liens énergétiques, en utilisant des pièces trouvées dans toute la galaxie."
+  }
+]} />
+
+</Section>
